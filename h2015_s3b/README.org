@@ -1,0 +1,66 @@
+* H2015_S3B
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+Name                                  | h2015_s3b
+Alternate name                        | 
+Data source                           | Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 
+Drill year(s)                         | 
+Data year(s)                          | 2011-2013
+Longitude [°E]                        | 
+Latitude [°N]                         | 
+Approximate location name             | 
+Location source                       | 
+Ice thickness [m]                     | 466
+ice thickness year                    | 
+Ice thickness source                  | See data source
+Surface velocity [m yr^-1]            | 
+Surface velocity year                 | 
+Surface velocity source               | 
+Measured from: Top, Bottom, Relative  | T
+Depth of top measurement [m]          | 27.0
+Depth of bottom measurement [m]       | 460.0
+#+end_example
+
+** Temperature
+
++ From [[citet:harrington_2015][Harrington (2015)]] Figure 2
++ See S3A for digitization file
+
+[[./harrington_2015_fig2_S1_S2_S3.png]]
+
+** Thickness
+
++ From [[citet:harrington_2015][Harrington (2015)]] Table 1
+ 
+** Location
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k2
+#+END_SRC
+
+#+RESULTS:
+|                    t |                  d |
+|   -5.552147239263803 | 27.177700348432353 |
+|   -2.116564417177912 |  45.99303135888536 |
+|  -1.6717791411042917 |  86.75958188153348 |
+|   -2.822085889570552 | 106.62020905923367 |
+|  -3.3128834355828225 |  147.3867595818818 |
+|  -3.2208588957055184 | 167.24738675958218 |
+|   -2.116564417177912 | 248.78048780487836 |
+|  -0.4907975460122671 |  325.0871080139376 |
+| -0.24539877300613355 |  365.8536585365856 |
+|  -0.3374233128834341 |  459.9303135888505 |
+

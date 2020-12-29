@@ -1,0 +1,80 @@
+* H2015_S4B
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+Name                                  | h2015_s4b
+Alternate name                        | 
+Data source                           | Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 
+Drill year(s)                         | 
+Data year(s)                          | 2011-2013
+Longitude [°E]                        | 
+Latitude [°N]                         | 
+Approximate location name             | 
+Location source                       | 
+Ice thickness [m]                     | 692
+ice thickness year                    | 
+Ice thickness source                  | See data source
+Surface velocity [m yr^-1]            | 
+Surface velocity year                 | 
+Surface velocity source               | 
+Measured from: Top, Bottom, Relative  | T
+Depth of top measurement [m]          | 18.0
+Depth of bottom measurement [m]       | 690.0
+#+end_example
+
+** Temperature
+
++ From [[citet:harrington_2015][Harrington (2015)]] Figure 2
+
+[[./harrington_2015_fig2_S4_S5.png]]
+
+** Thickness
+
++ From [[citet:harrington_2015][Harrington (2015)]] Table 1
+ 
+** Location
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k2
+#+END_SRC
+
+#+RESULTS:
+|                    t |                  d |
+|   -7.058171745152355 | 18.481848184818574 |
+|   -5.002770083102493 | 39.603960396039696 |
+|   -4.614958448753463 |  75.24752475247536 |
+|   -4.867036011080332 |  99.00990099009911 |
+|   -4.925207756232687 | 116.17161716171628 |
+|   -5.196675900277008 | 137.29372937293738 |
+|   -5.274238227146815 | 158.41584158415856 |
+|   -5.565096952908587 |   176.897689768977 |
+|   -5.409972299168975 |  198.0198019801981 |
+|   -5.836565096952909 | 237.62376237623772 |
+|   -5.545706371191136 | 279.86798679867996 |
+|   -5.584487534626039 |  295.7095709570958 |
+|  -5.3324099722991685 |  332.6732673267328 |
+|   -5.002770083102493 | 359.07590759075913 |
+|   -4.614958448753463 | 390.75907590759084 |
+|  -3.6454293628808863 |   444.884488448845 |
+|  -3.1800554016620506 |  463.3663366336634 |
+|   -2.792243767313023 |  483.1683168316832 |
+|  -1.7451523545706369 |  517.4917491749173 |
+|   -1.124653739612194 |  550.4950495049507 |
+|  -0.9307479224376767 |  570.2970297029705 |
+|  -0.6011080332409993 |  594.0594059405942 |
+|  -0.4459833795013797 |  625.7425742574259 |
+|  -0.6786703601108055 |  665.3465346534651 |
+| -0.48476454293628457 |  690.4290429042906 |
+

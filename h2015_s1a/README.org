@@ -1,0 +1,61 @@
+* H2015_S1A
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+Name                                  | h2015_s1a
+Alternate name                        | 
+Data source                           | Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 
+Drill year(s)                         | 
+Data year(s)                          | 2011-2013
+Longitude [°E]                        | 
+Latitude [°N]                         | 
+Approximate location name             | 
+Location source                       | 
+Ice thickness [m]                     | 92
+ice thickness year                    | 
+Ice thickness source                  | See data source
+Surface velocity [m yr^-1]            | 
+Surface velocity year                 | 
+Surface velocity source               | 
+Measured from: Top, Bottom, Relative  | T
+Depth of top measurement [m]          | 11.0
+Depth of bottom measurement [m]       | 81.0
+#+end_example
+
+** Temperature
+
++ From [[citet:harrington_2015][Harrington (2015)]] Figure 2
+
+[[./harrington_2015_fig2_S1_S2_S3.png]]
+
+** Thickness
+
++ From [[citet:harrington_2015][Harrington (2015)]] Table 1
+ 
+** Location
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k2
+#+END_SRC
+
+#+RESULTS:
+|                      t |                  d |
+|  0.0076335877862585555 | 11.498257839721262 |
+| -0.0019874214750514874 | 27.148147472499403 |
+|   0.019986847411810782 |  39.84513762319915 |
+|   -0.03252177262009015 |  59.42615678281621 |
+|  -0.028241731491001953 |   71.2114854880785 |
+|  -0.015971047130327154 |   80.9879513458529 |
+
