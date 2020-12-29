@@ -1,0 +1,92 @@
+* NEEM
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+Name                                  | neem
+Alternate name                        | NEEM
+Data source                           | MacGregor, Joseph A., Li, Jilu, Paden, John D., Catania, Ginny A., Clow, Gary D., Fahnestock, Mark A., Gogineni, S. Prasad, Grimm, Robert E., Morlighem, Mathieu, Nandi, Soumyaroop, et al.: Radar attenuation and temperature within the Greenland Ice Sheet , Journal of Geophysical Research: Earth Surface 120(6), American Geophysical Union (AGU), 983–1008, 6 2015 
+Drill year(s)                         | 2008 through 2012
+Data year(s)                          | 
+Longitude [°E]                        | -51.06
+Latitude [°N]                         | 77.45
+Approximate location name             | Northwest Greenland
+Location source                       | Dahl-Jensen, D., Albert, Mary R., Aldahan, A., Azuma, N., Balslev-Clausen, D., Baumgartner, M., Berggren, A. -M., Bigler, M., Binder, T., Blunier, T., Bourgeois, J. C., Brook, E. J., Buchardt, S. L., Buizert, C., Capron, E., Chappellaz, J., Chung, J., Clausen, H. B., Cvijanovic, I., Davies, S. M., Ditlevsen, P., Eicher, O., Fischer, H., Fisher, D. A., Fleet, L. G., Gfeller, G., Gkinis, V., Gogineni, S., Goto-Azuma, K., Grinsted, A., Gudlaugsdottir, H., Guillevic, M., Hansen, S. B., Hansson, M., Hirabayashi, M., Hong, S., Hur, S. D., Huybrechts, Philippe, Hvidberg, C. S., Iizuka, Y., Jenk, T., Johnsen, S. J., Jones, T. R., Jouzel, J., Karlsson, N. B., Kawamura, K., Keegan, K., Kettner, E., Kipfstuhl, S., Kjær, H. A., Koutnik, M., Kuramoto, T., Koehler, P., Laepple, T., Landais, A., Langen, P. L., Larsen, L. B., Leuenberger, D., Leuenberger, M., Leuschen, C., Li, J., Lipenkov, V., Martinerie, P., Maselli, O. J., Masson-Delmotte, V., McConnell, J. R., Miller, H., Mini, O., Miyamoto, A., Montagnat-Rentier, M., Mulvaney, R., Muscheler, Raimund, Orsi, A. J., Paden, J., Panton, C., Pattyn, F., Petit, J. -R., Pol, K., Popp, T., Possnert, G., Prie, F., Prokopiou, M., Quiquet, A., Rasmussen, S. O., Raynaud, D., Ren, J., Reutenauer, C., Ritz, C., Rockmann, T., Rosen, J. L., Rubino, M., Rybak, O., Samyn, D., Sapart, C. J., Schilt, A., Schmidt, A. M. Z., Schwander, J., Schuepbach, S., Seierstad, I., Severinghaus, J. P., Sheldon, S., Simonsen, S. B., Sjolte, Jesper, Solgaard, A. M., Sowers, T., Sperlich, P., Steen-Larsen, H. C., Steffen, K., Steffensen, J. P., Steinhage, D., Stocker, T. F., Stowasser, C., Sturevik, A. S., Sturges, W. T., Sveinbjornsdottir, A., Svensson, A., Tison, J. -L., Uetake, J., Vallelonga, P., van de Wal, R. S. W., van der Wel, G., Vaughn, B. H., Vinther, B., Waddington, E., Wegner, A., Weikusat, I., White, J. W. C., Wilhelms, F., Winstrup, M., Witrant, E., Wolff, E. W., Xiao, C., Zheng, J.: Eemian interglacial reconstructed from a Greenland folded ice core , Nature 493(7433), Nature Publishing Group, 489–494, 2013 
+Ice thickness [m]                     | 2538
+ice thickness year                    | 
+Ice thickness source                  | MacGregor, Joseph A., Fahnestock, Mark A., Catania, Ginny A., Aschwanden, Andy, Clow, Gary D., Colgan, William T., Gogineni, Prasad S., Morlighem, Mathieu, Nowicki, Sophie M. J., Paden, John D., Price, Stephen F., Seroussi, Hélène: A synthesis of the basal thermal state of the Greenland Ice Sheet , Journal of Geophysical Research: Earth Surface 121(7), 1328–1350, 2016 
+Surface velocity [m yr^-1]            | 
+Surface velocity year                 | 
+Surface velocity source               | 
+Measured from: Top, Bottom, Relative  | R
+Depth of top measurement [m]          | 91.0
+Depth of bottom measurement [m]       | 2509.0
+#+end_example
+
+** Temperature
+
++ Digitized from [[citet:macgregor_2015][MacGregor (2015)]] Figure 6.
++ Data is only provided on relative scale.
++ According to Table 1 of [[citet:macgregor_2016][MacGregor (2016)]], bottom temperature is -3.54 or -3.56. Our digitized temperature at 0.987 thickness is -3.61.
+
+[[./macgregor_2015_fig6.png]]
+
+** Thickness
+
++ Reported as 2540 in [[citet:dahl-jensen_2013][Dahl-Jensen (2013)]].
++ Reported as 2538 in [[citet:macgregor_2016][MacGregor (2016)]], with some extra details in Table 1.
+
+** Location
+
++ From [[citet:dahl-jensen_2013][Dahl-Jensen (2013)]].
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k2
+#+END_SRC
+
+#+RESULTS:
+|                   t |                    d |
+| -29.035369774919616 | 0.035878564857405676 |
+| -29.118019647595293 |   0.0686220832937005 |
+|  -29.06324418642933 |  0.13235804513737012 |
+|  -28.99575299320698 |   0.1772954337799184 |
+|  -28.97325592879953 |  0.21106614210971947 |
+| -29.003252014676132 |  0.24029904560359105 |
+|  -29.06324418642933 |   0.3092136041520796 |
+|  -29.06324418642933 |  0.37752058642444863 |
+| -28.928261799984632 |   0.4198909859305286 |
+| -28.704132509538386 |  0.45784548595303054 |
+| -28.217565606589226 |   0.5002616468529162 |
+| -27.726479593516437 |   0.5328051199956718 |
+|  -26.95414439823096 |   0.5725572034621976 |
+|  -25.72233605754232 |   0.6126948193647095 |
+| -24.631322498161822 |   0.6458203349096655 |
+|  -23.12401918286272 |   0.6828222939367716 |
+| -21.890346015824765 |   0.7059624070515981 |
+|  -20.42437145396881 |   0.7320233884211426 |
+|  -19.12601648321499 |   0.7618594596789071 |
+| -18.062179691186635 |   0.7779484096273308 |
+| -16.779847019962027 |   0.7952195056787368 |
+| -15.806552970334483 |   0.8107668008558622 |
+| -14.688301759293712 |   0.8275288425980054 |
+| -13.585894889325399 |     0.84493059838046 |
+| -12.639479305194868 |   0.8610835283554518 |
+|  -11.42475648416298 |   0.8785815792094472 |
+| -10.089324702695485 |   0.8958585667040724 |
+|  -9.025430305348653 |    0.910902580636577 |
+|  -7.871009514612112 |   0.9269693750398175 |
+|  -6.476191521350259 |    0.945242584425136 |
+|  -5.117104159794351 |   0.9657478343413581 |
+| -3.6086677521476105 |   0.9876597432342413 |
+
