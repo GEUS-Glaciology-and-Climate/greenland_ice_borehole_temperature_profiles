@@ -1,0 +1,352 @@
+#+TITLE: Greenland Ice Sheet borehole temperature profiles
+#+AUTHOR: Ken Mankoff
+#+EMAIL: kdm@geus.dk
+#+DATE: {{{time(%Y-%m-%d)}}}
+#+DESCRIPTION:
+#+KEYWORDS:
+#+OPTIONS:   H:4 num:4 toc:2 \n:nil ::t |:t ^:{} -:t f:t *:t <:t
+#+EXCLUDE_TAGS: noexport
+#+ARCHIVE: ::* Archive
+
+#+PROPERTY: header-args:jupyter-python+ :session boreholes :kernel ds
+
+* Notes                                                 :noexport:
+
++ citet:rogozhina_2016 -- list of existing boreholes
++ citet:rysgaard_2018 -- uses above
++ 3x Pakitsoq profiles -- Thomsen, H. H., and L. Thorning (1992), Ice temperature profiles for western Greenland, technical report, Groenl. Geol. Unders.
++ Peripheral caps: Fade Isblink, Hans Tausen profiles. (see citet:rogozhina_2016 and citet:rysgaard_2018)
++ citet:hofstede_2018 and more likely citet:doyle_2018
+  
+* Introduction and Methods
+:PROPERTIES:
+:clearpage: t
+:END:
+
+This is a collection of all Greenland ice borehole temperature profiles we have been able to find. Secondary data, useful to use the temperature profile, is also included when available. The secondary data includes ice thickness, the location of the borehole, and the surface velocity. Tertiary data includes the source of all secondary data (ice thickness and location are occasionally reported in different locations than the temperature profile), the date the borehole was drilled, the date the temperature profile was collected, and the dates of thickness and velocity data.
+
+This collection exists in digital form, because few existing temperature profiles are shared digitally. Most profiles are shared only graphically in publications. We digitize these using the desktop version of WebPlotDigitizer citep:WPD. Some profiles are provided in tabular form in historical technical reports, and some are provided via personal communication.
+
+Each profile is presented below in the Source Material section. First, for each profile the metadata is presented in a standard format. Then, subsections for the temperature, thickness, location, and velocity document where each of those data come from. When the source is personal communication via email, the body of the email (sanitized) is included as documentation, otherwise the reference graphic is included.
+
+Uncertainty estimates are not provided, but can be determined from the reference publications, by repeat and multiple digitization of the graphic, or digitizing the data from separate publications when they exist.
+
+After digitizing the profiles from the graphic or tables, we linearly interpolate between the points. We then convert the vertical scales (from the graphic) to each of three scales: Depth below surface, distance above bed, and normalized distance above bed.
+
+
+
+** COMMENT Missing data                                 :noexport:
+
+*** Camp VI / Station Centrale
++ See citet:heuberger_1956  https://link.springer.com/article/10.1007/BF02122819
+  + References other documents by page #, but no reference to those docs
+  + Note - found citet:wegener_1955, but not 1930/31 (unless that expedition data was published in `55).
++ Lüthi mentions: Heuberger (1950) p. 47, 31.1 (can't find it) with T from 4 to 125 m. at Camp VI July 1950.
+
+*** Other
+
++ Missing depths for TD41, TD42, TD51, TD52, TD6, TD7, and TD8.
+  + WARNING: TD41, TD42, TD51, TD52 depth set to 600, but it is actually just ">600". These should be discarded unless you're doing "from_surf" work.
++ Missing location for Meighan - do not know velocity.
++ DYE-2 ?
++ [[https://www.cambridge.org/core/services/aop-cambridge-core/content/view/6B1860D4353543174F94E198CE4A174A/S0260305500005942a.pdf/stratigraphic_noise_in_time_series_derived_from_ice_cores.pdf][link to paper with]] several "shallow" cores from GISP project but elsewhere in Greenland.
++ citet:wegener_1955 (in German) has temperature profiles, but it looks like they go ~150 m deep and ice thickness is ~1600 m.
+
+* Source Material
+:PROPERTIES:
+:clearpage: t
+:END:
+
+#+INCLUDE: agassiz77/README.org :minlevel 2
+#+INCLUDE: agassiz79a/README.org :minlevel 2
+#+INCLUDE: agassiz79b/README.org :minlevel 2
+#+INCLUDE: agassiz84/README.org :minlevel 2
+#+INCLUDE: camp_century/README.org :minlevel 2
+#+INCLUDE: devon_00/README.org :minlevel 2
+#+INCLUDE: devon_71/README.org :minlevel 2
+#+INCLUDE: devon_72/README.org :minlevel 2
+#+INCLUDE: dye_3/README.org :minlevel 2
+#+INCLUDE: flade_isblink/README.org :minlevel 2
+#+INCLUDE: foxx1/README.org :minlevel 2
+#+INCLUDE: foxx2/README.org :minlevel 2
+#+INCLUDE: gisp2/README.org :minlevel 2
+#+INCLUDE: grip/README.org :minlevel 2
+#+INCLUDE: gull/README.org :minlevel 2
+#+INCLUDE: h2015_s1a/README.org :minlevel 2
+#+INCLUDE: h2015_s1b/README.org :minlevel 2
+#+INCLUDE: h2015_s2a/README.org :minlevel 2
+#+INCLUDE: h2015_s3a/README.org :minlevel 2
+#+INCLUDE: h2015_s3b/README.org :minlevel 2
+#+INCLUDE: h2015_s3c/README.org :minlevel 2
+#+INCLUDE: h2015_s4a/README.org :minlevel 2
+#+INCLUDE: h2015_s4b/README.org :minlevel 2
+#+INCLUDE: h2015_s4c/README.org :minlevel 2
+#+INCLUDE: h2015_s5a/README.org :minlevel 2
+#+INCLUDE: h2015_s5b/README.org :minlevel 2
+# #+INCLUDE: hanstausen_dome/README.org :minlevel 2
+# #+INCLUDE: hanstausen_hare/README.org :minlevel 2
+# #+INCLUDE: isua_10/README.org :minlevel 2
+# #+INCLUDE: isua_11/README.org :minlevel 2
+# #+INCLUDE: isua_12/README.org :minlevel 2
+# #+INCLUDE: isua_13/README.org :minlevel 2
+# #+INCLUDE: isua_14/README.org :minlevel 2
+# #+INCLUDE: isua_14s/README.org :minlevel 2
+# #+INCLUDE: jakobshavn_center/README.org :minlevel 2
+# #+INCLUDE: jakobshavn_left/README.org :minlevel 2
+# #+INCLUDE: jakobshavn_sheet/README.org :minlevel 2
+# #+INCLUDE: m2020_14n/README.org :minlevel 2
+# #+INCLUDE: m2020_14sa/README.org :minlevel 2
+# #+INCLUDE: m2020_14sb/README.org :minlevel 2
+# #+INCLUDE: m2020_14w/README.org :minlevel 2
+# #+INCLUDE: m2020_15ca/README.org :minlevel 2
+# #+INCLUDE: m2020_15cb/README.org :minlevel 2
+# #+INCLUDE: m2020_15e/README.org :minlevel 2
+# #+INCLUDE: m2020_15n/README.org :minlevel 2
+# #+INCLUDE: m2020_15s/README.org :minlevel 2
+# #+INCLUDE: meighan/README.org :minlevel 2
+#+INCLUDE: neem/README.org :minlevel 2
+# #+INCLUDE: ngrip/README.org :minlevel 2
+# #+INCLUDE: penny/README.org :minlevel 2
+# #+INCLUDE: pow/README.org :minlevel 2
+# #+INCLUDE: renland/README.org :minlevel 2
+#+INCLUDE: site_ii/README.org :minlevel 2
+# #+INCLUDE: td1/README.org :minlevel 2
+# #+INCLUDE: td2/README.org :minlevel 2
+# #+INCLUDE: td3/README.org :minlevel 2
+# #+INCLUDE: td41/README.org :minlevel 2
+# #+INCLUDE: td42/README.org :minlevel 2
+# #+INCLUDE: td51/README.org :minlevel 2
+# #+INCLUDE: td52/README.org :minlevel 2
+# #+INCLUDE: td6/README.org :minlevel 2
+# #+INCLUDE: td7/README.org :minlevel 2
+# #+INCLUDE: td8/README.org :minlevel 2
+# #+INCLUDE: tuto_ramp/README.org :minlevel 2
+
+* About This Document
+:PROPERTIES:
+:clearpage: t
+:END:
+
+This document is an Emacs Org Mode plain-text file with code and text embedded. If you are viewing:
++ A DOC or PDF file, then it was generated by exporting from Org. Not all of the Org parts (code, results, comments, etc.) were exported. The Org source file is available upon request, and may be embedded in the PDF. Most non-Apple PDF viewers provide easy access to embedded or attached files.
++ A file with an =org= extension in something other than Emacs (e.g., in your browser on GitHub)l, then you are seeing the canonical version and the full source, but without any syntax highlighting, document structure, or the ability to execute the code blocks.
++ An =Org= file within Emacs, then this is the canonical version. You should be able to fully interact and reproduce the contents of this document, although it may require 3rd-party applications (Python, etc.) and a similar Emacs configuration. This is available upon request.
+
+* References
+:PROPERTIES:
+:clearpage: t
+:END:
+\printbibliography[heading=none]
+* Code                                                  :noexport:
+#+NAME: init
+#+BEGIN_SRC jupyter-python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+import matplotlib
+from matplotlib import rc
+rc('font', size=12)
+rc('text', usetex=False)
+# matplotlib.pyplot.xkcd()
+#+END_SRC
+
+#+NAME: fig_setup
+#+BEGIN_SRC jupyter-python
+# plt.close(1)
+fig = plt.figure(1, figsize=(5,4)) # w,h
+# get_current_fig_manager().window.move(0,0)
+fig.clf()
+fig.set_tight_layout(True)
+# import matplotlib.gridspec as gridspec
+# gs = gridspec.GridSpec(1, 1) #w,h
+# ax = plt.subplot(gs[:,:])
+ax = fig.add_subplot(111)
+
+# ax.plot(np.sin(np.arange(0,2*pi,0.1)))
+# plt.savefig('.png', transparent=True, bbox_inches='tight', dpi=300)
+#+END_SRC
+
+#+name: extract_site_from_overview
+#+BEGIN_SRC jupyter-python :noweb-ref extract_site_from_overview
+import pandas as pd
+df = pd.read_csv('../borehole_temperature.csv', sep='|', index_col=1)
+df = pd.DataFrame(df.loc[site])
+df.loc['Data source'] = df.loc['Data source'].values.astype('<U30')
+df.loc['Coverage [% of thickness]'] = np.round((df.loc['Depth of bottom measurement [m]'].astype(np.float) - df.loc['Depth of top measurement [m]'].astype(np.float)) / df.loc['Ice thickness [m]'].astype(np.float) * 100).astype(np.int)
+df
+#+END_SRC
+
+* LaTeX Header                                            :ignore:
+# #+LaTeX_CLASS_OPTIONS: [article,a4paper,times,11pt,twoside,twocolumn]
+#+LaTeX_CLASS_OPTIONS: [article,a4paper,times,11pt,twoside]
+** References                                             :ignore:
+
+#+LATEX_HEADER_EXTRA:%\usepackage[bibstyle=authoryear,firstinits=true,maxbibnames=99]{biblatex}
+#+LATEX_HEADER_EXTRA: \usepackage[hyperref=true,
+#+LATEX_HEADER_EXTRA:             %sorting=none, 
+#+LATEX_HEADER_EXTRA:             sorting=nyt,
+#+LATEX_HEADER_EXTRA:             %style=numeric, 
+#+LATEX_HEADER_EXTRA:             date=year,
+#+LATEX_HEADER_EXTRA:             style=authoryear,
+#+LATEX_HEADER_EXTRA:             %defernumbers=true, 
+#+LATEX_HEADER_EXTRA:             firstinits=true, 
+#+LATEX_HEADER_EXTRA:             uniquename=false,
+#+LATEX_HEADER_EXTRA:             uniquelist=false,
+#+LATEX_HEADER_EXTRA:             %uniquelist=minyear,
+#+LATEX_HEADER_EXTRA:             maxnames=99, 
+#+LATEX_HEADER_EXTRA:             maxcitenames=1]{biblatex}
+#+LATEX_HEADER_EXTRA:\addbibresource{/home/kdm/Documents/Papers/library.bib}
+#+LATEX_HEADER_EXTRA:\addbibresource{/home/kdm/Documents/Papers/software.bib}
+#+LATEX_HEADER_EXTRA:\addbibresource{/home/kdm/Documents/Papers/data.bib}
+#+LATEX_HEADER_EXTRA: \renewbibmacro{in:}{}
+
+# biber <texfile><.NOEXT> --output_format bibtex
+# biber --output_format=bibtex --output_resolve ${fn}.bcf
+
+# http://tex.stackexchange.com/a/5779/360
+#+LATEX_HEADER_EXTRA: % Don't print URL if DOI field exists
+#+LATEX_HEADER_EXTRA: \DeclareFieldFormat{url}{%
+#+LATEX_HEADER_EXTRA:   \iffieldundef{doi}{%
+#+LATEX_HEADER_EXTRA:     \mkbibacro{URL}\addcolon\space\url{#1}%
+#+LATEX_HEADER_EXTRA:   }{%
+#+LATEX_HEADER_EXTRA:   }%
+#+LATEX_HEADER_EXTRA: }
+#+LATEX_HEADER_EXTRA: % Don't print URL if DOI field exists
+#+LATEX_HEADER_EXTRA: \DeclareFieldFormat{urldate}{%
+#+LATEX_HEADER_EXTRA:   \iffieldundef{doi}{%
+#+LATEX_HEADER_EXTRA:     \mkbibparens{\bibstring{urlseen}\space#1}%
+#+LATEX_HEADER_EXTRA:   }{%
+#+LATEX_HEADER_EXTRA:   }%
+#+LATEX_HEADER_EXTRA: }
+
+#+LATEX_HEADER_EXTRA: \renewbibmacro*{journal+issuetitle}{%
+#+LATEX_HEADER_EXTRA: \usebibmacro{journal}%
+#+LATEX_HEADER_EXTRA: \setunit*{\addspace}%
+#+LATEX_HEADER_EXTRA: \iffieldundef{series}
+#+LATEX_HEADER_EXTRA: {}
+#+LATEX_HEADER_EXTRA: {\newunit
+#+LATEX_HEADER_EXTRA: \printfield{series}%
+#+LATEX_HEADER_EXTRA: \setunit{\addspace}}%
+#+LATEX_HEADER_EXTRA: \usebibmacro{issue+date}%
+#+LATEX_HEADER_EXTRA: \setunit{\addcomma\space}%
+#+LATEX_HEADER_EXTRA: \usebibmacro{volume+number+eid}%
+#+LATEX_HEADER_EXTRA: \setunit{\addcolon\space}%
+#+LATEX_HEADER_EXTRA: \usebibmacro{issue}%
+#+LATEX_HEADER_EXTRA: \newunit}
+
+#+LATEX_HEADER_EXTRA: \newbibmacro*{issue+date}{%
+#+LATEX_HEADER_EXTRA: \iffieldundef{issue}
+#+LATEX_HEADER_EXTRA: {. \usebibmacro{date}}
+#+LATEX_HEADER_EXTRA: {\printfield{issue}%
+#+LATEX_HEADER_EXTRA: \setunit*{\addspace}%
+#+LATEX_HEADER_EXTRA: \usebibmacro{date}}%
+#+LATEX_HEADER_EXTRA: \newunit}
+
+#+LATEX_HEADER_EXTRA: \renewbibmacro*{volume+number+eid}{%
+#+LATEX_HEADER_EXTRA: \printfield{volume}%
+#+LATEX_HEADER_EXTRA: \setunit*{\addnbspace}% NEW (optional); there's also #+LATEX_HEADER_EXTRA: \addnbthinspace
+#+LATEX_HEADER_EXTRA: \printfield{number}%
+#+LATEX_HEADER_EXTRA: \setunit{\addcomma\space}%
+#+LATEX_HEADER_EXTRA: \printfield{eid}}
+#+LATEX_HEADER_EXTRA: \DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+
+#+LATEX_HEADER_EXTRA: \DeclareFieldFormat{pages}{#1}
+
+** Page and Fonts                                         :ignore:
+
+#+LATEX_HEADER_EXTRA: \pdfpagewidth 8.5in
+#+LATEX_HEADER_EXTRA: \pdfpageheight 11in
+#+LATEX_HEADER_EXTRA:  \usepackage{setspace}
+#+LATEX_HEADER_EXTRA:  \usepackage{hyperref} % links (citations, references, URLs, etc.)
+#+LATEX_HEADER_EXTRA:  \usepackage{fixltx2e} % fix some bugs. Require proper coding of equations...
+#+LATEX_HEADER_EXTRA:  \usepackage{enumitem}\setlist{nosep} % shrink space between bullets
+#+LATEX_HEADER_EXTRA:  \usepackage{lmodern}  % better i18n Postscript version of Knuth's cm fonts
+#+LATEX_HEADER_EXTRA:  \usepackage[final,protrusion=true,expansion=true]{microtype} % nice font tweaks
+#+LATEX_HEADER_EXTRA:  \usepackage[small,compact, sf]{titlesec} % reduce space
+#+LATEX_HEADER_EXTRA:  \usepackage[margin=1in]{geometry} % set page margins automatically 
+#+LATEX_HEADER_EXTRA:  \usepackage[parfill]{parskip}  % paragraphs have vert space not indent
+#+LATEX_HEADER_EXTRA:  %\usepackage{paralist} %\begin{compactitem} http://www.howtotex.com/packages/compact-lists-with-paralist
+#+LATEX_HEADER_EXTRA:  \usepackage[T1]{fontenc}
+#+LATEX_HEADER_EXTRA:  \usepackage[sc]{mathpazo} % Palatino font
+#+LATEX_HEADER_EXTRA:  \usepackage{fancyref} % \fref{fig:foo} makes everything pretty...
+#+LATEX_HEADER_EXTRA:  \usepackage{flafter} % make sure figures do not appear before their text:    
+#+LATEX_HEADER_EXTRA:  \usepackage[all]{hypcap} % links from go to top of table/image, not bottom.
+#+LATEX_HEADER_EXTRA:  \usepackage[section]{placeins} % floats get placed in the section
+#+LATEX_HEADER_EXTRA:  \usepackage{siunitx}
+#+LATEX_HEADER_EXTRA:  \usepackage{commath} % \dif, \od, \pd, \md, etc.
+#+LATEX_HEADER_EXTRA:  \usepackage{amsmath} % provides \eqref which adds []'s. 
+#+LATEX_HEADER_EXTRA:  %\numberwithin{equation}{section} % reference equations as [3.42] rather than 42.
+#+LATEX_HEADER_EXTRA:  \usepackage{amsfonts} % I hear these are also good to load
+#+LATEX_HEADER_EXTRA:  \usepackage{amssymb} % I hear these are also good to load
+#+LATEX_HEADER_EXTRA:  \usepackage[all]{onlyamsmath} % don't allow $$, eqnarray, etc.
+#+LATEX_HEADER_EXTRA:  %\usepackage{tocbibind} % add bib to toc
+
+** Code                                                   :ignore:
+# #+LATEX_HEADER_EXTRA:  \usepackage[gobble=auto]{pythontex}
+# #+LATEX_HEADER_EXTRA:  \setpythontexworkingdir{./}
+# #+LATEX_HEADER_EXTRA:  \usepackage{minted}
+# #+LATEX_HEADER_EXTRA:  \usemintedstyle{emacs}
+# #+LATEX_HEADER_EXTRA:  \newminted{common-lisp}{fontsize=\footnotesize}
+#+LATEX_HEADER_EXTRA: \BeforeBeginEnvironment{minted}{\begin{mdframed}}
+#+LATEX_HEADER_EXTRA: \AfterEndEnvironment{minted}{\end{mdframed}}
+** Hyperref                                               :ignore:
+#+LATEX_HEADER_EXTRA:  %\usepackage{datetime}\renewcommand{\dateseparator}{-}
+#+LATEX_HEADER_EXTRA:  \usepackage{xspace} % smart spaces
+#+LATEX_HEADER_EXTRA:  \hypersetup{
+#+LATEX_HEADER_EXTRA:    colorlinks=true,       % links are colored
+#+LATEX_HEADER_EXTRA:    urlcolor=blue,    % color of external links
+#+LATEX_HEADER_EXTRA:    linkcolor=blue,   % color of internal links
+#+LATEX_HEADER_EXTRA:    citecolor=blue,   % color of links to bibliography
+#+LATEX_HEADER_EXTRA:    draft=false, % link even in draft mode
+#+LATEX_HEADER_EXTRA:    bookmarksopen=true, % ?
+#+LATEX_HEADER_EXTRA:    pdfdisplaydoctitle=true}
+#+LATEX_HEADER_EXTRA:  \renewcommand{\textfraction}{0.05}
+#+LATEX_HEADER_EXTRA:  \renewcommand{\topfraction}{0.8}
+#+LATEX_HEADER_EXTRA:  \renewcommand{\bottomfraction}{0.8}
+#+LATEX_HEADER_EXTRA:  \renewcommand{\floatpagefraction}{0.75}
+
+** Figures                                                :ignore:
+#+LATEX_HEADER_EXTRA:  \usepackage{pdfpages}
+#+LATEX_HEADER_EXTRA:  \usepackage[final]{graphicx} % [final] means show figs in draft mode
+#+LATEX_HEADER_EXTRA:  \setkeys{Gin}{draft=false}
+#+LATEX_HEADER_EXTRA:  %\usepackage{wrapfig}
+#+LATEX_HEADER_EXTRA:  %\usepackage[Export]{adjustbox} % http://latex-alive.tumblr.com/post/81481408449
+#+LATEX_HEADER_EXTRA:  %\adjustboxset{max size={\textwidth}{0.7\textheight}}
+#+LATEX_HEADER_EXTRA:  \usepackage{mdframed}
+
+** Draft Mode                                             :ignore:
+# DRAFT
+#+LATEX_HEADER_EXTRA:  \usepackage{ifdraft} % used for conditional stuff
+#+LATEX_HEADER_EXTRA:  % \ifdraft{
+#+LATEX_HEADER_EXTRA:  %   \usepackage{draftwatermark}
+#+LATEX_HEADER_EXTRA:  %   \SetWatermarkText{DRAFT}
+#+LATEX_HEADER_EXTRA:  %   \SetWatermarkLightness{0.95}
+#+LATEX_HEADER_EXTRA:  %   \SetWatermarkScale{2}}{}
+#+LATEX_HEADER_EXTRA:  \ifdraft{\usepackage{lineno}\linenumbers\modulolinenumbers[5]}{}
+#+LATEX_HEADER_EXTRA:  \ifdraft{\doublespacing}{}
+#+LATEX_HEADER_EXTRA:  %\ifdraft{\usepackage{showlabels}}{}
+
+** Header/Footer                                          :ignore:
+# Header/footer
+#+LATEX_HEADER_EXTRA:  \usepackage{lastpage} % used in the footer of fancyheader
+#+LATEX_HEADER_EXTRA:  \usepackage{fancyhdr}
+#+LATEX_HEADER_EXTRA:  \pagestyle{fancyplain}
+#+LATEX_HEADER_EXTRA:  \lhead{}\chead{}\rhead{}
+#+LATEX_HEADER_EXTRA:  \lfoot{}\cfoot{}\rfoot{}
+#+LATEX_HEADER_EXTRA:  \lfoot{K. D. Mankoff} 
+#+LATEX_HEADER_EXTRA:  \rfoot{p. \thepage\ of \pageref*{LastPage}} % * means no link
+#+LATEX_HEADER_EXTRA:  \ifdraft{\chead{DRAFT -- DO NOT DISTRIBUTE}}{}
+#+LATEX_HEADER_EXTRA:  \renewcommand{\headrulewidth}{0.0pt} % no bars but thanks anyway.
+#+LATEX_HEADER_EXTRA:  \renewcommand{\footrulewidth}{0.0pt} 
+** GitInfo                                                :ignore:
+# GitInfo
+#+LATEX_HEADER_EXTRA: \usepackage[mark,missing={master}]{gitinfo2}
+#+LATEX_HEADER_EXTRA: \renewcommand{\gitMark}{\gitBranch\,@\,\gitAbbrevHash{}\gitDirty\,[\gitAuthorDate]}
+
+** COMMENT Embedded file                                          :ignore:
+#+LATEX_HEADER_EXTRA: \usepackage{embedfile}
+#+LATEX_HEADER_EXTRA: \embedfile{\jobname.org}
+
+# #+LATEX_HEADER_EXTRA: \usepackage[main,include]{embedall}
+# #+LATEX_HEADER_EXTRA: \IfFileExists{./\jobname.org}{\embedfile[desc=The original file]{\jobname.org}}{}
