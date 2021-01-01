@@ -1,0 +1,99 @@
+* Isua 13
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+Name                                  | isua_13
+Alternate name                        | Isua
+Data source                           | Colbeck, S. C., Gow, A. J.: The Margin of the Greenland Ice Sheet at Isua , Journal of Glaciology 24(90), Cambridge University Press (CUP), 155–165, 1979 
+Drill year(s)                         | 
+Data year(s)                          | 1972-1973
+Longitude [°E]                        | -49.7456
+Latitude [°N]                         | 65.2069
+Approximate location name             | 
+Location source                       | 
+Ice thickness [m]                     | 265
+Ice thickness year                    | 
+Ice thickness source                  | See data source
+Surface velocity [m yr^-1]            | 
+Surface velocity year                 | 
+Surface velocity source               | 
+Measured from: Top, Bottom, Relative  | T
+Depth of top measurement [m]          | 6.0
+Depth of bottom measurement [m]       | 247.0
+#+end_example
+
+** Temperature
+
++ Temperature profiles from [[citet:colbeck_1979][Colbeck (1979)]] Figure 8.
+
+[[./isua_13.png]]
+
+** Thickness
+
++ Thickness from [[citet:colbeck_1979][Colbeck (1979)]] Table 1.
+ 
+** Location
+
++ Locations of boreholes from email from WIC: [[mu4e:msgid:AM0PR04MB6129F131ECD9123E72752945A2CC0@AM0PR04MB6129.eurprd04.prod.outlook.com][Isua Site -- SW Greenland]]
+
+#+BEGIN_example
+From: William Colgan
+To: Ken Mankoff
+Subject: Isua Site -- SW Greenland
+Date: Wed 09 Dec 2020 06:58:05 AM PST
+Attachments: [1]image002.jpg(147.6K),
+ [2]Colbeck1979_fig3_rectif.tfw(122),
+ [3]Colbeck1979_fig3_rectif.tif(6.4M),
+ [4]Colbeck1979_fig3_rectif.tif.aux.xml(7.9K),
+ [5]Colbeck1979_fig3_rectif.tif.ovr(2.1M),
+ [6]Colbert1979_core_sites_10-14.cpg(9),
+ [7]Colbert1979_core_sites_10-14.dbf(766),
+ [8]Colbert1979_core_sites_10-14.prj(568),
+ [9]Colbert1979_core_sites_10-14.sbn(256),
+ [10]Colbert1979_core_sites_10-14.sbx(171),
+ [11]Colbert1979_core_sites_10-14.shp(325),
+ [12]Colbert1979_core_sites_10-14.shx(191)
+#+END_example
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k2
+#+END_SRC
+
+#+RESULTS:
+|                    t |                 d |
+|   -4.712426277576106 | 5.514594004914104 |
+|   -4.706259250315709 | 16.51625206524158 |
+|  -3.9843763118289757 |  28.5312936726605 |
+|  -3.7724772981161965 |  36.9365227949054 |
+|  -3.3768889298463587 |  50.1377364402825 |
+|  -2.8073080058088684 |  61.0852720616349 |
+|   -2.629829932475943 | 71.68503214982503 |
+|   -2.357342567386847 | 82.82643536644534 |
+|   -2.056971817775774 | 91.13141965621742 |
+|  -2.0282228760965895 |  104.424287395649 |
+|   -1.551389633174841 | 115.3368428981207 |
+|  -1.4261017204479618 |  126.583998553059 |
+|  -1.2019963548245816 |   136.81117674687 |
+|  -1.1261442879544505 |   148.66863161381 |
+|  -0.9149567813072279 |  160.472020951842 |
+|  -0.7897024514020616 |  170.815530040073 |
+|  -0.8097307675393752 |  181.592596072678 |
+|   -0.591227975066194 | 191.3667392855205 |
+| -0.38148726719829984 |   203.63887655528 |
+|  -0.5738598430549784 |  214.692625166651 |
+|  -0.2777994999997615 |  225.100146373127 |
+| -0.18138790262605653 |   236.26040455217 |
+|  -0.3761887102908341 |  247.050390485444 |
+

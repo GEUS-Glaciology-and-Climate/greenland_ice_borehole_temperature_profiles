@@ -85,12 +85,11 @@ After digitizing the profiles from the graphic or tables, we linearly interpolat
 #+INCLUDE: h2015_s5b/README.org :minlevel 2
 #+INCLUDE: hanstausen_dome/README.org :minlevel 2
 #+INCLUDE: hanstausen_hare/README.org :minlevel 2
-# #+INCLUDE: isua_10/README.org :minlevel 2
-# #+INCLUDE: isua_11/README.org :minlevel 2
-# #+INCLUDE: isua_12/README.org :minlevel 2
-# #+INCLUDE: isua_13/README.org :minlevel 2
-# #+INCLUDE: isua_14/README.org :minlevel 2
-# #+INCLUDE: isua_14s/README.org :minlevel 2
+#+INCLUDE: isua_10/README.org :minlevel 2
+#+INCLUDE: isua_11/README.org :minlevel 2
+#+INCLUDE: isua_12/README.org :minlevel 2
+#+INCLUDE: isua_13/README.org :minlevel 2
+#+INCLUDE: isua_14/README.org :minlevel 2
 # #+INCLUDE: jakobshavn_center/README.org :minlevel 2
 # #+INCLUDE: jakobshavn_left/README.org :minlevel 2
 # #+INCLUDE: jakobshavn_sheet/README.org :minlevel 2
