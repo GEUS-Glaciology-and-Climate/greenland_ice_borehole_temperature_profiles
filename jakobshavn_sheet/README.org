@@ -1,0 +1,75 @@
+* Jakobshavn sheet
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+Name                                  | jakobshavn_sheet
+Alternate name                        | 
+Data source                           | Lüthi, Martin, Funk, Martin, Iken, Almut, Gogineni, Shivaprasad, Truffer, Martin: Mechanisms of fast flow in Jakobshavns Isbræ, West Greenland: Part III. Measurements of ice deformation, temperature and cross-borehole conductivity in boreholes to the bedrock , Journal of Glaciology 48(162), 369–385, 2002 
+Drill year(s)                         | 
+Data year(s)                          | 
+Longitude [°E]                        | 
+Latitude [°N]                         | 
+Approximate location name             | 
+Location source                       | 
+Ice thickness [m]                     | 828
+Ice thickness year                    | 
+Ice thickness source                  | See data source
+Surface velocity [m yr^-1]            | 
+Surface velocity year                 | 
+Surface velocity source               | 
+Measured from: Top, Bottom, Relative  | T
+Depth of top measurement [m]          | 19.0
+Depth of bottom measurement [m]       | 798.0
+#+end_example
+
+** Temperature
+
++ From [[citet:luthi_2002][Lüthi (2002)]] Figure 7 (a)
++ Additional profiles (margin, centre) are from [[citet:iken_1993][Iken (1993)]] and named "jakobshavn_center" and "jakobshavn_left".
+[[./luthi_2002_fig7.png]]
+
+
+** Thickness
+
++ From [[citet:luthi_2002][Lüthi (2002)]].
+ 
+** Location
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k2
+#+END_SRC
+
+#+RESULTS:
+|                   t |                  d |
+|  -6.153846153846171 |  19.18976545842206 |
+| -14.547511312217196 | 100.74626865671641 |
+| -17.828054298642535 | 198.29424307036226 |
+| -18.235294117647058 |  259.0618336886992 |
+|  -19.72850678733031 |  299.0405117270788 |
+| -19.728506787330318 |  345.4157782515989 |
+|  -20.83710407239819 |  450.9594882729207 |
+|  -22.39819004524887 |  524.5202558635392 |
+| -21.628959276018097 |  543.7100213219617 |
+| -21.221719457013577 |   558.102345415778 |
+|  -20.06787330316742 |  599.6801705756927 |
+|  -19.81900452488688 |  609.2750533049038 |
+| -17.963800904977376 |  644.4562899786782 |
+| -16.357466063348415 |  650.8528784648187 |
+|   -16.6289592760181 |  658.8486140724943 |
+|  -5.746606334841623 |  745.2025586353943 |
+|   -3.39366515837105 |  759.5948827292108 |
+|  -1.040723981900456 |  786.7803837953088 |
+| -0.5429864253393681 |   797.974413646055 |
+

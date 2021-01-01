@@ -90,9 +90,9 @@ After digitizing the profiles from the graphic or tables, we linearly interpolat
 #+INCLUDE: isua_12/README.org :minlevel 2
 #+INCLUDE: isua_13/README.org :minlevel 2
 #+INCLUDE: isua_14/README.org :minlevel 2
-# #+INCLUDE: jakobshavn_center/README.org :minlevel 2
-# #+INCLUDE: jakobshavn_left/README.org :minlevel 2
-# #+INCLUDE: jakobshavn_sheet/README.org :minlevel 2
+#+INCLUDE: jakobshavn_center/README.org :minlevel 2
+#+INCLUDE: jakobshavn_left/README.org :minlevel 2
+#+INCLUDE: jakobshavn_sheet/README.org :minlevel 2
 # #+INCLUDE: m2020_14n/README.org :minlevel 2
 # #+INCLUDE: m2020_14sa/README.org :minlevel 2
 # #+INCLUDE: m2020_14sb/README.org :minlevel 2
