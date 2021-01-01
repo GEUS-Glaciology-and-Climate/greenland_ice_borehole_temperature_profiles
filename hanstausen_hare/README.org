@@ -1,0 +1,91 @@
+* Hans Tausen Hare
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+Name                                  | hanstausen_hare
+Alternate name                        | Hans Tausen Hare
+Data source                           | Zekollari, Harry, Huybrechts, Philippe, Noël, Brice, van de Berg, Willem Jan, van den Broeke, Michiel R.: Sensitivity, stability and future evolution of the world’s northernmost ice cap, Hans Tausen Iskappe (Greenland) , The Cryosphere 11(2), Copernicus GmbH, 805–825, 3 2017 
+Drill year(s)                         | 
+Data year(s)                          | 
+Longitude [°E]                        | 
+Latitude [°N]                         | 
+Approximate location name             | 
+Location source                       | 
+Ice thickness [m]                     | 289
+Ice thickness year                    | 
+Ice thickness source                  | See data source
+Surface velocity [m yr^-1]            | 
+Surface velocity year                 | 
+Surface velocity source               | 
+Measured from: Top, Bottom, Relative  | B
+Depth of top measurement [m]          | 10.0
+Depth of bottom measurement [m]       | 288.0
+#+end_example
+
+** Temperature
+
++ From [[citet:zekollari_2017][Zekollari (2017)]] Figure 6
++ See Hans Tausen Dome folder for digitization file.
+[[./zekollari_2017_fig6.png]]
+
+** Thickness
+
++ From [[citet:zekollari_2017][Zekollari (2017)]] text.
+ 
+** Location
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+BEGIN_SRC jupyter-python
+import pandas as pd
+df_bot = pd.read_csv("meta.bsv", sep="|", index_col=0, header=None, squeeze=True)
+thick = np.float(df_bot['Ice thickness [m]'])
+df = pd.read_csv('data_bottom.csv')
+df['d'] = thick - df['d']
+df.to_csv('data.csv', index=False)
+#+END_SRC
+
+#+RESULTS:
+
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k2
+#+END_SRC
+
+#+RESULTS:
+|                   t |                  d |
+| -18.538792035032635 |  9.891514500536971 |
+|  -17.84263883402936 |  13.93341286796317 |
+|  -16.55590419349931 |  22.23203758918703 |
+| -15.539959210751883 | 32.019686378762344 |
+|  -14.81712926524702 | 43.053169626755306 |
+| -14.269930594727752 | 54.768714749446104 |
+| -13.867682912202813 |  63.73982323834281 |
+| -13.351601374735036 |  75.62817428389104 |
+| -12.814802053913198 |  88.60820607131959 |
+|  -12.27796348529326 | 101.91273865343376 |
+| -11.802910041138592 | 114.98671824527051 |
+| -11.142547104816883 | 128.37301080851836 |
+| -10.399976307950354 |   140.642086238263 |
+|  -9.842648668944216 | 153.14730074395263 |
+|  -9.429327896016039 | 166.42441072369905 |
+|  -8.974795276725846 | 180.03516236558713 |
+|   -8.46898126332464 | 192.13310044351783 |
+|  -7.839374574175007 | 206.53116943233425 |
+|  -7.360751642121812 | 217.29110670347603 |
+|  -6.458405565221247 |  232.1320129527826 |
+|  -5.326064209802532 | 244.51484139975662 |
+| -4.1884926761171215 | 256.08825499514234 |
+| -3.4270800044879586 |  263.9509372874916 |
+|  -2.302423760869754 | 278.81137609442686 |
+|  -1.544909055696749 | 288.28646735446944 |
+
