@@ -117,46 +117,6 @@ This document is an Emacs Org Mode plain-text file with code and text embedded. 
 :clearpage: t
 :END:
 \printbibliography[heading=none]
-* Code                                                  :noexport:
-#+NAME: init
-#+BEGIN_SRC jupyter-python
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-
-import matplotlib
-from matplotlib import rc
-rc('font', size=12)
-rc('text', usetex=False)
-# matplotlib.pyplot.xkcd()
-#+END_SRC
-
-#+NAME: fig_setup
-#+BEGIN_SRC jupyter-python
-# plt.close(1)
-fig = plt.figure(1, figsize=(5,4)) # w,h
-# get_current_fig_manager().window.move(0,0)
-fig.clf()
-fig.set_tight_layout(True)
-# import matplotlib.gridspec as gridspec
-# gs = gridspec.GridSpec(1, 1) #w,h
-# ax = plt.subplot(gs[:,:])
-ax = fig.add_subplot(111)
-
-# ax.plot(np.sin(np.arange(0,2*pi,0.1)))
-# plt.savefig('.png', transparent=True, bbox_inches='tight', dpi=300)
-#+END_SRC
-
-#+name: extract_site_from_overview
-#+BEGIN_SRC jupyter-python :noweb-ref extract_site_from_overview
-import pandas as pd
-df = pd.read_csv('../borehole_temperature.csv', sep='|', index_col=1)
-df = pd.DataFrame(df.loc[site])
-df.loc['Data source'] = df.loc['Data source'].values.astype('<U30')
-df.loc['Coverage [% of thickness]'] = np.round((df.loc['Depth of bottom measurement [m]'].astype(np.float) - df.loc['Depth of top measurement [m]'].astype(np.float)) / df.loc['Ice thickness [m]'].astype(np.float) * 100).astype(np.int)
-df
-#+END_SRC
-
 * LaTeX Header                                            :ignore:
 # #+LaTeX_CLASS_OPTIONS: [article,a4paper,times,11pt,twoside,twocolumn]
 #+LaTeX_CLASS_OPTIONS: [article,a4paper,times,11pt,twoside]
