@@ -1,12 +1,12 @@
 Name|ngrip
 Alternate name|NGRIP
 Data source|Dahl-Jensen, Dorthe, Gundestrup, Niels, Gogineni, S Prasad, Miller, Heinz: Basal melt at NorthGRIP modeled from borehole, ice-core and radio-echo sounder observations , Annals of Glaciology 37, International Glaciological Society, 207–212, 2003 
-Drill year(s)|
+Drill year(s)|1996-2004 (Vinther, 2008)
 Data year(s)|
-Longitude [°E]|
-Latitude [°N]|
+Longitude [°E]|-42.32
+Latitude [°N]|75.10
 Approximate location name|
-Location source|
+Location source|Vinther (2008)
 Ice thickness [m]|3080
 Ice thickness year|
 Ice thickness source|See data source

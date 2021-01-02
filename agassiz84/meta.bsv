@@ -1,12 +1,12 @@
 Name|agassiz84
 Alternate name|Agassiz 1984 borehole
 Data source|WIC Email
-Drill year(s)|nan
+Drill year(s)|184 (Vinther, 2008)
 Data year(s)|1984
 Longitude [°E]|-73.1
 Latitude [°N]|80.7
 Approximate location name|Agassiz Ice Cap
-Location source|See data source
+Location source|Vinther, 2008
 Ice thickness [m]|127.6
 Ice thickness year|nan
 Ice thickness source|See data source
