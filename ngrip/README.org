@@ -1,0 +1,90 @@
+* Template
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+Name                                  | ngrip
+Alternate name                        | NGRIP
+Data source                           | Dahl-Jensen, Dorthe, Gundestrup, Niels, Gogineni, S Prasad, Miller, Heinz: Basal melt at NorthGRIP modeled from borehole, ice-core and radio-echo sounder observations , Annals of Glaciology 37, International Glaciological Society, 207–212, 2003 
+Drill year(s)                         | 
+Data year(s)                          | 
+Longitude [°E]                        | 
+Latitude [°N]                         | 
+Approximate location name             | 
+Location source                       | 
+Ice thickness [m]                     | 3080
+Ice thickness year                    | 
+Ice thickness source                  | See data source
+Surface velocity [m yr^-1]            | 
+Surface velocity year                 | 
+Surface velocity source               | 
+Measured from: Top, Bottom, Relative  | T
+Depth of top measurement [m]          | 204.0
+Depth of bottom measurement [m]       | 2888.0
+#+end_example
+
+** Temperature
+
++ From [[citet:dahl-jensen_2003][Dahl-Jensen (2003)]] Figure 1. Black line digitized as NGRIP. Gray line is GRIP temperature profile.
+[[./dahl-jensen_2003_fig1.png]]
+
+** Thickness
+
++ From [[citet:dahl-jensen_2003][Dahl-Jensen (2003)]] (abstract)
+
+** Location
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k2
+#+END_SRC
+
+#+RESULTS:
+|                   t |                  d |
+| -31.438842029218954 | 203.56979636301912 |
+| -31.332651183450725 | 350.98436675733046 |
+| -31.439732851069227 | 503.30663257807794 |
+|  -31.48170886477568 |  595.4865960018221 |
+|  -31.55966431880195 |  716.1340578285744 |
+|  -31.68232150171042 |  830.5217627250931 |
+| -31.874484421600354 |  956.3025168692161 |
+|  -32.06937305666603 | 1083.5726899942085 |
+|  -32.20804381623199 | 1230.3191669517628 |
+|  -32.03666447455711 | 1474.7566054487047 |
+|  -31.49969858493559 | 1628.0079266180928 |
+| -30.870058379338786 | 1734.9823494889179 |
+| -30.030538105209722 | 1840.4853398481434 |
+|  -29.10106923028111 |  1933.487039982152 |
+| -28.171600355352496 | 2009.1944454970926 |
+| -27.242131480423886 |  2075.815223213663 |
+| -26.312662605495273 |  2135.579220444346 |
+|  -25.38319373056666 |  2190.326061221943 |
+|  -24.45372485563805 |  2241.003430654257 |
+| -23.524255980709437 |  2289.116475677215 |
+| -22.594787105780828 | 2334.4979577423815 |
+| -21.665318230852215 |   2377.53810012944 |
+|   -20.7358493559236 |  2418.738618483699 |
+| -19.806380480994992 |  2458.824213181717 |
+|  -18.87691160606638 | 2497.1816762125604 |
+|  -17.94744273113777 |  2534.312723221538 |
+| -17.017973856209156 | 2571.3322778648912 |
+| -16.088504981280543 | 2607.2369088520027 |
+| -15.159036106351934 |  2641.747885268812 |
+|  -14.22956723142332 | 2676.4261002340577 |
+| -13.300098356494708 | 2709.1531988008805 |
+| -12.370629481566098 | 2742.6049977442603 |
+| -11.441160606637485 |  2775.387842493895 |
+| -10.511691731708876 |  2808.895387620087 |
+|  -9.582222856780263 | 2841.9569632837824 |
+|  -8.490941684117018 |  2888.198594221162 |
+
