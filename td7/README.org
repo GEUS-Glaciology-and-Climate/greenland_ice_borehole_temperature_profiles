@@ -1,0 +1,59 @@
+* TD7
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+Name                                  | td7
+Alternate name                        | 
+Data source                           | Tech Report
+Drill year(s)                         | 
+Data year(s)                          | 
+Longitude [°E]                        | 
+Latitude [°N]                         | 
+Approximate location name             | 
+Location source                       | 
+Ice thickness [m]                     | 
+Ice thickness year                    | 
+Ice thickness source                  | 
+Surface velocity [m yr^-1]            | 
+Surface velocity year                 | 
+Surface velocity source               | 
+Measured from: Top, Bottom, Relative  | T
+Depth of top measurement [m]          | 
+Depth of bottom measurement [m]       | 
+#+end_example
+
+** Temperature
+
++ See td6 thomsen.pdf
+
+** Thickness
+
+** Location
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+CAPTION: TD7
+| Depth | T 18/888 | T 14/889 |
+|-------+----------+----------|
+|    20 |     -1.9 |     -2.1 |
+|    25 |     -1.4 |     -1.5 |
+|    30 |     -1.0 |     -1.1 |
+|    50 |      0.0 |     -0.1 |
+|   100 |          |          |
+|   150 |     -0.1 |     -0.1 |
+|   200 |     -0.4 |     -0.2 |
+|   250 |     -0.1 |     -0.1 |
+|   300 |     -0.3 |     -0.3 |
+|   340 |          |          |
+|   345 |     -0.6 |     -0.2 |
+|   350 |     -0.1 |     -0.3 |

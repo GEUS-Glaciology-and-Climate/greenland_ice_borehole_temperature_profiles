@@ -1,0 +1,66 @@
+* TD42
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+Name                                  | td42
+Alternate name                        | 
+Data source                           | Unknown PDF: See td1
+Drill year(s)                         | 
+Data year(s)                          | 1991-08-28
+Longitude [°E]                        | -49.683
+Latitude [°N]                         | 69.533
+Approximate location name             | Paakitsoq
+Location source                       | Unknown PDF: See td1
+Ice thickness [m]                     | >600
+Ice thickness year                    | 
+Ice thickness source                  | Unknown PDF: See td1
+Surface velocity [m yr^-1]            | 
+Surface velocity year                 | 
+Surface velocity source               | 
+Measured from: Top, Bottom, Relative  | T
+Depth of top measurement [m]          | 3.0
+Depth of bottom measurement [m]       | 493.0
+#+end_example
+
+** Temperature
+
++ See td1 Shallow88II.pdf
+
+** Thickness
+
++ From PDF
+ 
+** Location
+
++ From PDF. Same location as td41. Unknown if same borehole.
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+BEGIN_SRC bash :exports results
+cat data.csv
+#+END_SRC
+
+#+RESULTS:
+|   d |     t |
+|   3 | -12.7 |
+|   8 |   -11 |
+|  13 |  -8.1 |
+|  33 |  -6.5 |
+| 108 |  -6.3 |
+| 183 |  -5.9 |
+| 298 |    -5 |
+| 373 |  -4.3 |
+| 448 |  -3.8 |
+| 488 |  -2.4 |
+| 493 |  -5.5 |
+

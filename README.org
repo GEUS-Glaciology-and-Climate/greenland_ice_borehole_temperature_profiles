@@ -90,16 +90,16 @@ After digitizing the profiles from the graphic or tables, we linearly interpolat
 #+INCLUDE: pow/README.org :minlevel 2
 #+INCLUDE: renland/README.org :minlevel 2
 #+INCLUDE: site_ii/README.org :minlevel 2
-# #+INCLUDE: td1/README.org :minlevel 2
-# #+INCLUDE: td2/README.org :minlevel 2
-# #+INCLUDE: td3/README.org :minlevel 2
-# #+INCLUDE: td41/README.org :minlevel 2
-# #+INCLUDE: td42/README.org :minlevel 2
-# #+INCLUDE: td51/README.org :minlevel 2
-# #+INCLUDE: td52/README.org :minlevel 2
-# #+INCLUDE: td6/README.org :minlevel 2
-# #+INCLUDE: td7/README.org :minlevel 2
-# #+INCLUDE: td8/README.org :minlevel 2
+#+INCLUDE: td1/README.org :minlevel 2
+#+INCLUDE: td2/README.org :minlevel 2
+#+INCLUDE: td3/README.org :minlevel 2
+#+INCLUDE: td41/README.org :minlevel 2
+#+INCLUDE: td42/README.org :minlevel 2
+#+INCLUDE: td51/README.org :minlevel 2
+#+INCLUDE: td52/README.org :minlevel 2
+#+INCLUDE: td6/README.org :minlevel 2
+#+INCLUDE: td7/README.org :minlevel 2
+#+INCLUDE: td8/README.org :minlevel 2
 #+INCLUDE: tuto_ramp/README.org :minlevel 2
 
 * About This Document

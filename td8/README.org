@@ -1,0 +1,59 @@
+* TD8
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+Name                                  | td8
+Alternate name                        | 
+Data source                           | Tech Report
+Drill year(s)                         | 
+Data year(s)                          | 
+Longitude [°E]                        | 
+Latitude [°N]                         | 
+Approximate location name             | 
+Location source                       | 
+Ice thickness [m]                     | 
+Ice thickness year                    | 
+Ice thickness source                  | 
+Surface velocity [m yr^-1]            | 
+Surface velocity year                 | 
+Surface velocity source               | 
+Measured from: Top, Bottom, Relative  | T
+Depth of top measurement [m]          | 
+Depth of bottom measurement [m]       | 
+#+end_example
+
+** Temperature
+
++ See td6 thomsen.pdf
+
+** Thickness
+
+** Location
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+CAPTION: TD8
+| Depth | T 8/87 | T 11/887 | T 13/887 | T 15/887 | T 19/887 | T 19/588 | T 6/888 |
+|-------+--------+----------+----------+----------+----------+----------+---------|
+|    50 |   -0.1 |     -0.1 |     -0.1 |     -0.2 |     -0.6 |     -0.7 |    -0.7 |
+|    75 |   -0.2 |     -0.4 |     -0.4 |     -0.5 |     -1.0 |     -1.1 |    -1.2 |
+|   100 |   -0.3 |     -0.7 |     -1.3 |     -1.4 |     -1.5 |     -1.5 |    -1.5 |
+|   125 |   -0.2 |     -1.5 |     -1.6 |     -1.7 |     -1.8 |     -1.8 |    -1.8 |
+|   150 |   -0.6 |     -1.9 |     -2.1 |     -2.1 |     -2.1 |     -2.1 |    -2.1 |
+|   175 |   -0.6 |     -1.9 |     -2.0 |     -2.0 |     -2.0 |     -2.0 |    -2.1 |
+|   200 |   -0.6 |     -1.9 |     -1.9 |     -1.9 |     -1.9 |     -2.0 |    -2.0 |
+|   225 |   -0.2 |     -1.2 |     -1.4 |     -1.5 |     -1.6 |     -1.7 |    -1.7 |
+|   250 |   -0.1 |     -0.1 |     -1.0 |     -1.0 |     -1.1 |     -1.2 |    -1.2 |
+|   275 |   -0.1 |     -0.1 |     -0.1 |     -0.1 |     -0.6 |     -1.1 |    -1.1 |
+|   290 |   -0.3 |     -0.4 |     -0.5 |     -0.8 |     -0.9 |     -1.0 |    -1.1 |
+|   300 |   -0.3 |     -0.3 |     -0.3 |     -0.3 |     -0.9 |     -1.0 |    -1.0 |
