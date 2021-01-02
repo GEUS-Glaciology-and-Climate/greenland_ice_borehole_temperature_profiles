@@ -9,14 +9,6 @@
 #+ARCHIVE: ::* Archive
 
 #+PROPERTY: header-args:jupyter-python+ :session boreholes :kernel ds
-
-* Notes                                                 :noexport:
-
-+ citet:rogozhina_2016 -- list of existing boreholes
-+ citet:rysgaard_2018 -- uses above
-+ 3x Pakitsoq profiles -- Thomsen, H. H., and L. Thorning (1992), Ice temperature profiles for western Greenland, technical report, Groenl. Geol. Unders.
-+ Peripheral caps: Fade Isblink, Hans Tausen profiles. (see citet:rogozhina_2016 and citet:rysgaard_2018)
-+ citet:hofstede_2018 and more likely citet:doyle_2018
   
 * Introduction and Methods
 :PROPERTIES:
