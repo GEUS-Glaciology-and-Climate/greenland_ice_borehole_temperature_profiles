@@ -33,25 +33,6 @@ Uncertainty estimates are not provided, but can be determined from the reference
 
 After digitizing the profiles from the graphic or tables, we linearly interpolate between the points. We then convert the vertical scales (from the graphic) to each of three scales: Depth below surface, distance above bed, and normalized distance above bed.
 
-
-
-** COMMENT Missing data                                 :noexport:
-
-*** Camp VI / Station Centrale
-+ See citet:heuberger_1956  https://link.springer.com/article/10.1007/BF02122819
-  + References other documents by page #, but no reference to those docs
-  + Note - found citet:wegener_1955, but not 1930/31 (unless that expedition data was published in `55).
-+ Lüthi mentions: Heuberger (1950) p. 47, 31.1 (can't find it) with T from 4 to 125 m. at Camp VI July 1950.
-
-*** Other
-
-+ Missing depths for TD41, TD42, TD51, TD52, TD6, TD7, and TD8.
-  + WARNING: TD41, TD42, TD51, TD52 depth set to 600, but it is actually just ">600". These should be discarded unless you're doing "from_surf" work.
-+ Missing location for Meighan - do not know velocity.
-+ DYE-2 ?
-+ [[https://www.cambridge.org/core/services/aop-cambridge-core/content/view/6B1860D4353543174F94E198CE4A174A/S0260305500005942a.pdf/stratigraphic_noise_in_time_series_derived_from_ice_cores.pdf][link to paper with]] several "shallow" cores from GISP project but elsewhere in Greenland.
-+ citet:wegener_1955 (in German) has temperature profiles, but it looks like they go ~150 m deep and ice thickness is ~1600 m.
-
 * Source Material
 :PROPERTIES:
 :clearpage: t
