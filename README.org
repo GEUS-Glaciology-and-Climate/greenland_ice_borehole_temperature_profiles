@@ -106,7 +106,7 @@ After digitizing the profiles from the graphic or tables, we linearly interpolat
 #+INCLUDE: neem/README.org :minlevel 2
 #+INCLUDE: ngrip/README.org :minlevel 2
 #+INCLUDE: penny/README.org :minlevel 2
-# #+INCLUDE: pow/README.org :minlevel 2
+#+INCLUDE: pow/README.org :minlevel 2
 # #+INCLUDE: renland/README.org :minlevel 2
 #+INCLUDE: site_ii/README.org :minlevel 2
 # #+INCLUDE: td1/README.org :minlevel 2
