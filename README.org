@@ -102,7 +102,7 @@ After digitizing the profiles from the graphic or tables, we linearly interpolat
 #+INCLUDE: m2020_15e/README.org :minlevel 2
 #+INCLUDE: m2020_15n/README.org :minlevel 2
 #+INCLUDE: m2020_15s/README.org :minlevel 2
-# #+INCLUDE: meighan/README.org :minlevel 2
+#+INCLUDE: meighan/README.org :minlevel 2
 #+INCLUDE: neem/README.org :minlevel 2
 # #+INCLUDE: ngrip/README.org :minlevel 2
 # #+INCLUDE: penny/README.org :minlevel 2
