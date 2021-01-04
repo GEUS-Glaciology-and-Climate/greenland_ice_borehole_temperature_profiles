@@ -153,6 +153,29 @@ df.to_csv("overview.bsv", sep="|")
 
 #+RESULTS:
 
+** Location KML
+
+#+BEGIN_SRC jupyter-python
+import pandas as pd
+import simplekml
+import cgi
+
+df = pd.read_csv('overview.bsv', sep='|', index_col=0)
+
+kml = simplekml.Kml()
+for site in df.index:
+    coords=df.loc[site]['Longitude [°E]'], df.loc[site]['Latitude [°N]']
+    if np.all(np.isfinite(coords)):
+        p = kml.newpoint(name=site, coords=[coords])
+        for n in df.loc[site].index:
+            p.extendeddata.newdata(n, cgi.html.escape(str(df.loc[site, n])))
+                                    
+kml.save("boreholes.kml")
+#+END_SRC
+
+#+RESULTS:
+
+
 ** Combine all temperature profiles
 
 + Combine each =<site>/data.csv= file to three files:

@@ -1,0 +1,1741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="5821">
+        <Placemark id="5823">
+            <name>agassiz77</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>Agassiz 77 borehole </value>
+                </Data>
+                <Data name="Data source">
+                    <value>WIC Email</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1977</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>11.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>341.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>1977 (Vinther, 2008)</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-73.1</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>80.7</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>Agassiz Ice Cap </value>
+                </Data>
+                <Data name="Location source">
+                    <value>Vinther, 2008</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>340.9 </value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source </value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T </value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>97</value>
+                </Data>
+            </ExtendedData>
+            <Point id="5822">
+                <coordinates>-73.1,80.7,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="5844">
+            <name>agassiz79a</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>Agassiz ice cap 1979A borehole </value>
+                </Data>
+                <Data name="Data source">
+                    <value>WIC Email </value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1979 </value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>12.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>142.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>1979 (Vinther, 2008)</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-73.1</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>80.7</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>Agassiz Ice Cap </value>
+                </Data>
+                <Data name="Location source">
+                    <value>Vinther, 2008</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>141.9 </value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan </value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source </value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan </value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan </value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan </value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T </value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>92</value>
+                </Data>
+            </ExtendedData>
+            <Point id="5843">
+                <coordinates>-73.1,80.7,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="5865">
+            <name>agassiz79b</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>Agassiz ice cap 1979B borehole</value>
+                </Data>
+                <Data name="Data source">
+                    <value>WIC Email</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1979</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>11.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>141.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>1979 (Vinther, 2008)</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-73.1</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>80.7</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>Agassiz Ice Cap</value>
+                </Data>
+                <Data name="Location source">
+                    <value>Vinther (2008)</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>141.2</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>92</value>
+                </Data>
+            </ExtendedData>
+            <Point id="5864">
+                <coordinates>-73.1,80.7,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="5886">
+            <name>agassiz84</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>Agassiz 1984 borehole</value>
+                </Data>
+                <Data name="Data source">
+                    <value>WIC Email</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1984</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>3.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>128.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>184 (Vinther, 2008)</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-73.1</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>80.7</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>Agassiz Ice Cap</value>
+                </Data>
+                <Data name="Location source">
+                    <value>Vinther, 2008</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>127.6</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>98</value>
+                </Data>
+            </ExtendedData>
+            <Point id="5885">
+                <coordinates>-73.1,80.7,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="5907">
+            <name>devon_00</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>Devon borehole</value>
+                </Data>
+                <Data name="Data source">
+                    <value>WIC Email</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>2000-04-15</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>13.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>218.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>1998-04-15 to 1998-05-07</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-82.14</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>75.34</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>Devon Ice Cap</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>300.55</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>68</value>
+                </Data>
+            </ExtendedData>
+            <Point id="5906">
+                <coordinates>-82.14,75.34,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="5928">
+            <name>devon_72</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>Devon borehole</value>
+                </Data>
+                <Data name="Data source">
+                    <value>Paterson, W. S. B., Clarke, G. K. C.: Comparison of theoretical and observed temperature profiles in Devon Island ice cap, Canada , Geophysical Journal International 55(3), Oxford University Press (OUP), 615–632, 12 1978 </value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>9.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>299.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-82.14</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>75.34</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>Devon Ice Cap</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>299</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>drill year</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>97</value>
+                </Data>
+            </ExtendedData>
+            <Point id="5927">
+                <coordinates>-82.14,75.34,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="5949">
+            <name>dye_3</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>DYE-3</value>
+                </Data>
+                <Data name="Data source">
+                    <value>Gundestrup, N. S., Hansen, B. Lyle: Bore-Hole Survey at Dye 3, South Greenland , Journal of Glaciology 30(106), Cambridge University Press (CUP), 282–288, 1984 </value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1983</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>152.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>2030.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>1979 to 1981</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-43.816666999999995</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>65.18333299999999</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>South Greenland</value>
+                </Data>
+                <Data name="Location source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>2038</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>1983</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>92</value>
+                </Data>
+            </ExtendedData>
+            <Point id="5948">
+                <coordinates>-43.816666999999995,65.18333299999999,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="5970">
+            <name>flade_isblink</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>Flade Isblink</value>
+                </Data>
+                <Data name="Data source">
+                    <value>Dorthe Dalh-Jensen (personal comm.)</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>80.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>420.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-15.7029</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>81.2926</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>540</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See WIC email</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>63</value>
+                </Data>
+            </ExtendedData>
+            <Point id="5969">
+                <coordinates>-15.7029,81.2926,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="5991">
+            <name>grip</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>GRIP</value>
+                </Data>
+                <Data name="Data source">
+                    <value>Johnsen, Sigfus J., Dahl-Jensen, Dorthe, Dansgaard, Willi, Gundestrup, Niels: Greenland palaeotemperatures derived from GRIP bore hole temperature and ice core isotope profiles , Tellus B: Chemical and Physical Meteorology 47(5), Informa UK Limited, 624–629, 1 1995 </value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>107.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>3023.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>1989-1992 (Vinther, 2008)</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-37.64</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>72.58</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>Vinther (2008)</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>3027</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Montagnat, M., Azuma, N., Dahl-Jensen, D., Eichler, J., Fujita, S., Gillet-Chaulet, F., Kipfstuhl, S., Samyn, D., Svensson, A., Weikusat, I.: Fabric along the NEEM ice core, Greenland, and its comparison with GRIP and NGRIP ice cores , The Cryosphere 8(4), Copernicus GmbH, 1129–1138, 7 2014 </value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>96</value>
+                </Data>
+            </ExtendedData>
+            <Point id="5990">
+                <coordinates>-37.64,72.58,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="6012">
+            <name>isua_10</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>Isua</value>
+                </Data>
+                <Data name="Data source">
+                    <value>Colbeck, S. C., Gow, A. J.: The Margin of the Greenland Ice Sheet at Isua , Journal of Glaciology 24(90), Cambridge University Press (CUP), 155–165, 1979 </value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1972-1973</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>5.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>95.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.75</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>65.2093</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>97</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>93</value>
+                </Data>
+            </ExtendedData>
+            <Point id="6011">
+                <coordinates>-49.75,65.2093,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="6033">
+            <name>isua_11</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>Isua</value>
+                </Data>
+                <Data name="Data source">
+                    <value>Colbeck, S. C., Gow, A. J.: The Margin of the Greenland Ice Sheet at Isua , Journal of Glaciology 24(90), Cambridge University Press (CUP), 155–165, 1979 </value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1972-1973</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>25.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>116.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.751</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>65.2072</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>120</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>76</value>
+                </Data>
+            </ExtendedData>
+            <Point id="6032">
+                <coordinates>-49.751,65.2072,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="6054">
+            <name>isua_12</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>Isua</value>
+                </Data>
+                <Data name="Data source">
+                    <value>Colbeck, S. C., Gow, A. J.: The Margin of the Greenland Ice Sheet at Isua , Journal of Glaciology 24(90), Cambridge University Press (CUP), 155–165, 1979 </value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1972-1973</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>25.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>95.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.753</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>65.2039</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>100</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>70</value>
+                </Data>
+            </ExtendedData>
+            <Point id="6053">
+                <coordinates>-49.753,65.2039,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="6075">
+            <name>isua_13</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>Isua</value>
+                </Data>
+                <Data name="Data source">
+                    <value>Colbeck, S. C., Gow, A. J.: The Margin of the Greenland Ice Sheet at Isua , Journal of Glaciology 24(90), Cambridge University Press (CUP), 155–165, 1979 </value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1972-1973</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>6.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>247.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.7456</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>65.2069</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>265</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>91</value>
+                </Data>
+            </ExtendedData>
+            <Point id="6074">
+                <coordinates>-49.7456,65.2069,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="6096">
+            <name>isua_14</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>Isua</value>
+                </Data>
+                <Data name="Data source">
+                    <value>Colbeck, S. C., Gow, A. J.: The Margin of the Greenland Ice Sheet at Isua , Journal of Glaciology 24(90), Cambridge University Press (CUP), 155–165, 1979 </value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1972-1973</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>6.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>237.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.7443</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>65.2058</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>299</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>77</value>
+                </Data>
+            </ExtendedData>
+            <Point id="6095">
+                <coordinates>-49.7443,65.2058,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="6117">
+            <name>neem</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>NEEM</value>
+                </Data>
+                <Data name="Data source">
+                    <value>MacGregor, Joseph A., Li, Jilu, Paden, John D., Catania, Ginny A., Clow, Gary D., Fahnestock, Mark A., Gogineni, S. Prasad, Grimm, Robert E., Morlighem, Mathieu, Nandi, Soumyaroop, et al.: Radar attenuation and temperature within the Greenland Ice Sheet , Journal of Geophysical Research: Earth Surface 120(6), American Geophysical Union (AGU), 983–1008, 6 2015 </value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>91.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>2509.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>2008 through 2012</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-51.06</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>77.45</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>Northwest Greenland</value>
+                </Data>
+                <Data name="Location source">
+                    <value>Dahl-Jensen, D., Albert, Mary R., Aldahan, A., Azuma, N., Balslev-Clausen, D., Baumgartner, M., Berggren, A. -M., Bigler, M., Binder, T., Blunier, T., Bourgeois, J. C., Brook, E. J., Buchardt, S. L., Buizert, C., Capron, E., Chappellaz, J., Chung, J., Clausen, H. B., Cvijanovic, I., Davies, S. M., Ditlevsen, P., Eicher, O., Fischer, H., Fisher, D. A., Fleet, L. G., Gfeller, G., Gkinis, V., Gogineni, S., Goto-Azuma, K., Grinsted, A., Gudlaugsdottir, H., Guillevic, M., Hansen, S. B., Hansson, M., Hirabayashi, M., Hong, S., Hur, S. D., Huybrechts, Philippe, Hvidberg, C. S., Iizuka, Y., Jenk, T., Johnsen, S. J., Jones, T. R., Jouzel, J., Karlsson, N. B., Kawamura, K., Keegan, K., Kettner, E., Kipfstuhl, S., Kjær, H. A., Koutnik, M., Kuramoto, T., Koehler, P., Laepple, T., Landais, A., Langen, P. L., Larsen, L. B., Leuenberger, D., Leuenberger, M., Leuschen, C., Li, J., Lipenkov, V., Martinerie, P., Maselli, O. J., Masson-Delmotte, V., McConnell, J. R., Miller, H., Mini, O., Miyamoto, A., Montagnat-Rentier, M., Mulvaney, R., Muscheler, Raimund, Orsi, A. J., Paden, J., Panton, C., Pattyn, F., Petit, J. -R., Pol, K., Popp, T., Possnert, G., Prie, F., Prokopiou, M., Quiquet, A., Rasmussen, S. O., Raynaud, D., Ren, J., Reutenauer, C., Ritz, C., Rockmann, T., Rosen, J. L., Rubino, M., Rybak, O., Samyn, D., Sapart, C. J., Schilt, A., Schmidt, A. M. Z., Schwander, J., Schuepbach, S., Seierstad, I., Severinghaus, J. P., Sheldon, S., Simonsen, S. B., Sjolte, Jesper, Solgaard, A. M., Sowers, T., Sperlich, P., Steen-Larsen, H. C., Steffen, K., Steffensen, J. P., Steinhage, D., Stocker, T. F., Stowasser, C., Sturevik, A. S., Sturges, W. T., Sveinbjornsdottir, A., Svensson, A., Tison, J. -L., Uetake, J., Vallelonga, P., van de Wal, R. S. W., van der Wel, G., Vaughn, B. H., Vinther, B., Waddington, E., Wegner, A., Weikusat, I., White, J. W. C., Wilhelms, F., Winstrup, M., Witrant, E., Wolff, E. W., Xiao, C., Zheng, J.: Eemian interglacial reconstructed from a Greenland folded ice core , Nature 493(7433), Nature Publishing Group, 489–494, 2013 </value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>2538</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>MacGregor, Joseph A., Fahnestock, Mark A., Catania, Ginny A., Aschwanden, Andy, Clow, Gary D., Colgan, William T., Gogineni, Prasad S., Morlighem, Mathieu, Nowicki, Sophie M. J., Paden, John D., Price, Stephen F., Seroussi, Hélène: A synthesis of the basal thermal state of the Greenland Ice Sheet , Journal of Geophysical Research: Earth Surface 121(7), 1328–1350, 2016 </value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>R</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>95</value>
+                </Data>
+            </ExtendedData>
+            <Point id="6116">
+                <coordinates>-51.06,77.45,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="6138">
+            <name>ngrip</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>NGRIP</value>
+                </Data>
+                <Data name="Data source">
+                    <value>Dahl-Jensen, Dorthe, Gundestrup, Niels, Gogineni, S Prasad, Miller, Heinz: Basal melt at NorthGRIP modeled from borehole, ice-core and radio-echo sounder observations , Annals of Glaciology 37, International Glaciological Society, 207–212, 2003 </value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>204.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>2888.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>1996-2004 (Vinther, 2008)</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-42.32</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>75.1</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>Vinther (2008)</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>3080</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>87</value>
+                </Data>
+            </ExtendedData>
+            <Point id="6137">
+                <coordinates>-42.32,75.1,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="6159">
+            <name>penny</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>Penny Ice Cap</value>
+                </Data>
+                <Data name="Data source">
+                    <value>WIC</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1996</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>10.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>176.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-65.2</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.3</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>176</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Data file + WIC email (see also Fisher 1998)</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>94</value>
+                </Data>
+            </ExtendedData>
+            <Point id="6158">
+                <coordinates>-65.2,67.3,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="6180">
+            <name>pow</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>Prince of Wales</value>
+                </Data>
+                <Data name="Data source">
+                    <value>WIC</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>2005-05-15</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>10.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>176.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-80.395</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>78.3897</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>176</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>WIC</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>94</value>
+                </Data>
+            </ExtendedData>
+            <Point id="6179">
+                <coordinates>-80.395,78.3897,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="6201">
+            <name>renland</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>Renland</value>
+                </Data>
+                <Data name="Data source">
+                    <value>BMV</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1988</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>15.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>300.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>1988 (Vinther, 2008)</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-26.768</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>71.306</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>Email and Vinther (2008)</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>324.4</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Vinther, B. M., Clausen, H. B., Fisher, D. A., Koerner, R. M., Johnsen, S. J., Andersen, K. K., Dahl-Jensen, D., Rasmussen, S. O., Steffensen, J. P., Svensson, A. M.: Synchronizing ice cores from the Renland and Agassiz ice caps to the Greenland Ice Core Chronology , Journal of Geophysical Research 113(D8), American Geophysical Union (AGU), 4 2008 </value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>88</value>
+                </Data>
+            </ExtendedData>
+            <Point id="6200">
+                <coordinates>-26.768,71.306,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="6222">
+            <name>site_ii</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>Site II</value>
+                </Data>
+                <Data name="Data source">
+                    <value>Hansen, B. L., Landauer, J. K.: Some results of ice cap drill hole measurements, Union Geodesique et Geophysique Internationale. Association Internationale d'Hydrologie Scientifique 47, 313–317, 1958 </value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1958 (late June)</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>1957 (Summer)</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-56.066667</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>76.983333</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>WIC Email</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>1851</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>BedMachine</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <Point id="6221">
+                <coordinates>-56.066667,76.983333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="6243">
+            <name>td1</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Data source">
+                    <value>Unknown PDF: Shallow88II.pdf</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1988-05-19</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>50.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>300.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-50.13</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.45</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>Paakitsoq</value>
+                </Data>
+                <Data name="Location source">
+                    <value>Unknown PDF: Shallow88II.pdf</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>300</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Unknown PDF: Shallow88II.pdf</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>83</value>
+                </Data>
+            </ExtendedData>
+            <Point id="6242">
+                <coordinates>-50.13,69.45,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="6264">
+            <name>td2</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Data source">
+                    <value>Unknown PDF: See td1</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1988-05-19</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>27.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>202.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-50.13</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.45</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>Paakitsoq</value>
+                </Data>
+                <Data name="Location source">
+                    <value>Unknown PDF: See td1</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>470</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Unknown PDF: See td1</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>37</value>
+                </Data>
+            </ExtendedData>
+            <Point id="6263">
+                <coordinates>-50.13,69.45,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="6285">
+            <name>td3</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Data source">
+                    <value>Unknown PDF: See td1. Also Phillips (2010)</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1988-08-18</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>20.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>350.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-50.0</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.483</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>Paakitsoq</value>
+                </Data>
+                <Data name="Location source">
+                    <value>Unknown PDF: See td1. Also Phillips (2010)</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>350</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Unknown PDF: See td1. Also Phillips (2010)</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>94</value>
+                </Data>
+            </ExtendedData>
+            <Point id="6284">
+                <coordinates>-50.0,69.483,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="6306">
+            <name>td41</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Data source">
+                    <value>Unknown PDF: See td1</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1991-11-05</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>5.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>495.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.683</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.533</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>Paakitsoq</value>
+                </Data>
+                <Data name="Location source">
+                    <value>Unknown PDF: See td1</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>&gt;600</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Unknown PDF: See td1</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <Point id="6305">
+                <coordinates>-49.683,69.533,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="6327">
+            <name>td42</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Data source">
+                    <value>Unknown PDF: See td1</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1991-08-28</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>3.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>493.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.683</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.533</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>Paakitsoq</value>
+                </Data>
+                <Data name="Location source">
+                    <value>Unknown PDF: See td1</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>&gt;600</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Unknown PDF: See td1</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <Point id="6326">
+                <coordinates>-49.683,69.533,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="6348">
+            <name>td51</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Data source">
+                    <value>Unknown PDF: See td1 and Lüthi (2015)</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1990-06-09</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>5.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>600.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.3</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.566</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>Paakitsoq / Swiss Camp</value>
+                </Data>
+                <Data name="Location source">
+                    <value>Unknown PDF: See td1 and Lüthi (2015)</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>&gt;600</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Unknown PDF: See td1 and Lüthi (2015)</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <Point id="6347">
+                <coordinates>-49.3,69.566,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="6369">
+            <name>td52</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Data source">
+                    <value>Unknown PDF: See td1 and Lüthi (2015)</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1991-05-25</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>5.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>600.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.3</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.566</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>Paakitsoq / Swiss Camp</value>
+                </Data>
+                <Data name="Location source">
+                    <value>Unknown PDF: See td1 and Lüthi (2015)</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>&gt;600</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Unknown PDF: See td1 and Lüthi (2015)</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <Point id="6368">
+                <coordinates>-49.3,69.566,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="6390">
+            <name>tuto_ramp</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>Tuto Ramp</value>
+                </Data>
+                <Data name="Data source">
+                    <value>Davis, RM: Approach roads, Greenland 1960–1964 , Technical Report 133. Corps of Engineers, Cold Regions Research &amp; Engineering Laboratory , 1967 </value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>1962 (August)</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>nan</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-68.287295</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>76.41133</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>Thule Approach Road(?)</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>48</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>1.0</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>WIC Email</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>T(ish)</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <Point id="6389">
+                <coordinates>-68.287295,76.41133,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
