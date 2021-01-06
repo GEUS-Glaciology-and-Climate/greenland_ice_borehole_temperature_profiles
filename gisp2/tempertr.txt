@@ -1,0 +1,87 @@
+GISP2-D Temperature
+
+REFERENCES:
+
+Clow, G.D., R.W. Saltus, and E.D. Waddington. 1996. A new high-precision
+borehole-temperature logging system used at GISP2, Greenland, and Taylor
+Dome, Antarctica. Journal of Glaciology 42:576-584.
+
+Clow, G.D., R.W. Saltus, and E.D. Waddington. 1995. High-precision
+temperature logging at GISP2, Greenland, May 1992. U.S. Geological Survey
+Open File Report 95-490.
+
+Cuffey, K.M., G.D. Clow, R.B. Alley, M. Stuiver, E.D. Waddington, and R.W.
+Saltus. 1995. Large Arctic temperature change at the Wisconsin-Holocene
+glacial transition. Science 270:455-458.
+
+Gundestrup, N.S., H.B. Clausen, and B.L. Hansen. 1994. The UCPH borehole
+logger. Mem. National Institute Polar Research, Special Issue 49:224-233.
+
+Saltus, R.W., and G.D. Clow. 1994. Deconvolution of continuous borehole
+temperature logs: Example from the Greenland GISP2 icecore hole. U.S.
+Geological Survey Open File Report 94-254.
+
+DATA DESCRIPTION:
+
+Several temperature logs and fixed-depth temperature experiments were
+conducted in the 3-km borehole (GISP-D) at the GISP2 site during 1994,
+1995, and 1996.  These experiments were conducted using the U.S.
+Geological Survey's temperature logging system (Clow et al., 1996; Clow
+and Gundestrup, 1997).  The sample spacing for the primary temperature
+logs is about 20 cm while the accuracy of the temperature measurements is
+estimated to be 4.5 mK. 
+ 
+However, the temperature logs must be deconvolved to account for the
+finite response time of the temperature probe, corrected for the thermal
+disturbance caused by the drilling process, and corrected for the effects
+of fluid convection within the borehole.  As of this time (SEP 1996), we
+are still developing the fluid convection and drilling disturbance
+corrections. 
+
+The following "uncorrected" data were obtained on 14 June, 1995.  Although
+the quality is insufficient for borehole thermometry studies, it is
+probably adequate for many other studies (e.g. constraining ice dynamics
+models).  The fully processed data will become available at a later date. 
+
+=============================================================		
+	parameter	units	
+------------------------------------------------------------------		
+TVD	true vertical depth	m	
+T 	temperature	deg C	
+=============================================================		
+
+DATA:
+
+
+TVD	T	
+100	-31.4	
+200	-31.4	
+300	-31.2	
+400	-31.1
+500	-31
+600	-31
+700	-31
+800	-31.1
+900	-31.2
+1000	-31.4
+1100	-31.6
+1200	-31.7
+1300	-31.9
+1400	-32
+1500	-32.1
+1600	-32
+1700	-31.8
+1800	-31.4
+1900	-30.8
+2000	-30
+2100	-28.9
+2200	-27.5
+2300	-25.9
+2400	-24.1
+2500	-22.1
+2600	-19.9
+2700	-17.6
+2800	-15.2
+2900	-12.8
+3000	-10.3
+3048	-9.2
