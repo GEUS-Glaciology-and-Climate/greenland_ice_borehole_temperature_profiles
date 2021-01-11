@@ -14,13 +14,13 @@ Name                                  | neem
 Alternate name                        | NEEM
 Data source                           | MacGregor, Joseph A., Li, Jilu, Paden, John D., Catania, Ginny A., Clow, Gary D., Fahnestock, Mark A., Gogineni, S. Prasad, Grimm, Robert E., Morlighem, Mathieu, Nandi, Soumyaroop, et al.: Radar attenuation and temperature within the Greenland Ice Sheet , Journal of Geophysical Research: Earth Surface 120(6), American Geophysical Union (AGU), 983–1008, 6 2015 
 Drill year(s)                         | 2008 through 2012
-Data year(s)                          | 
+Data year(s)                          | 2011
 Longitude [°E]                        | -51.06
 Latitude [°N]                         | 77.45
 Approximate location name             | Northwest Greenland
 Location source                       | Dahl-Jensen, D., Albert, Mary R., Aldahan, A., Azuma, N., Balslev-Clausen, D., Baumgartner, M., Berggren, A. -M., Bigler, M., Binder, T., Blunier, T., Bourgeois, J. C., Brook, E. J., Buchardt, S. L., Buizert, C., Capron, E., Chappellaz, J., Chung, J., Clausen, H. B., Cvijanovic, I., Davies, S. M., Ditlevsen, P., Eicher, O., Fischer, H., Fisher, D. A., Fleet, L. G., Gfeller, G., Gkinis, V., Gogineni, S., Goto-Azuma, K., Grinsted, A., Gudlaugsdottir, H., Guillevic, M., Hansen, S. B., Hansson, M., Hirabayashi, M., Hong, S., Hur, S. D., Huybrechts, Philippe, Hvidberg, C. S., Iizuka, Y., Jenk, T., Johnsen, S. J., Jones, T. R., Jouzel, J., Karlsson, N. B., Kawamura, K., Keegan, K., Kettner, E., Kipfstuhl, S., Kjær, H. A., Koutnik, M., Kuramoto, T., Koehler, P., Laepple, T., Landais, A., Langen, P. L., Larsen, L. B., Leuenberger, D., Leuenberger, M., Leuschen, C., Li, J., Lipenkov, V., Martinerie, P., Maselli, O. J., Masson-Delmotte, V., McConnell, J. R., Miller, H., Mini, O., Miyamoto, A., Montagnat-Rentier, M., Mulvaney, R., Muscheler, Raimund, Orsi, A. J., Paden, J., Panton, C., Pattyn, F., Petit, J. -R., Pol, K., Popp, T., Possnert, G., Prie, F., Prokopiou, M., Quiquet, A., Rasmussen, S. O., Raynaud, D., Ren, J., Reutenauer, C., Ritz, C., Rockmann, T., Rosen, J. L., Rubino, M., Rybak, O., Samyn, D., Sapart, C. J., Schilt, A., Schmidt, A. M. Z., Schwander, J., Schuepbach, S., Seierstad, I., Severinghaus, J. P., Sheldon, S., Simonsen, S. B., Sjolte, Jesper, Solgaard, A. M., Sowers, T., Sperlich, P., Steen-Larsen, H. C., Steffen, K., Steffensen, J. P., Steinhage, D., Stocker, T. F., Stowasser, C., Sturevik, A. S., Sturges, W. T., Sveinbjornsdottir, A., Svensson, A., Tison, J. -L., Uetake, J., Vallelonga, P., van de Wal, R. S. W., van der Wel, G., Vaughn, B. H., Vinther, B., Waddington, E., Wegner, A., Weikusat, I., White, J. W. C., Wilhelms, F., Winstrup, M., Witrant, E., Wolff, E. W., Xiao, C., Zheng, J.: Eemian interglacial reconstructed from a Greenland folded ice core , Nature 493(7433), Nature Publishing Group, 489–494, 2013 
 Ice thickness [m]                     | 2538
-ice thickness year                    | 
+Ice thickness year                    | 
 Ice thickness source                  | MacGregor, Joseph A., Fahnestock, Mark A., Catania, Ginny A., Aschwanden, Andy, Clow, Gary D., Colgan, William T., Gogineni, Prasad S., Morlighem, Mathieu, Nowicki, Sophie M. J., Paden, John D., Price, Stephen F., Seroussi, Hélène: A synthesis of the basal thermal state of the Greenland Ice Sheet , Journal of Geophysical Research: Earth Surface 121(7), 1328–1350, 2016 
 Surface velocity [m yr^-1]            | 
 Surface velocity year                 | 
@@ -32,11 +32,21 @@ Depth of bottom measurement [m]       | 2509.0
 
 ** Temperature
 
-+ Digitized from [[citet:macgregor_2015][MacGregor (2015)]] Figure 6.
-+ Data is only provided on relative scale.
-+ According to Table 1 of [[citet:macgregor_2016][MacGregor (2016)]], bottom temperature is -3.54 or -3.56. Our digitized temperature at 0.987 thickness is -3.61.
++ Data provided by 3rd party in MAT format, converted to CSV
+  + Email 1: [[mu4e:msgid:C1563C1B-084B-428B-9799-26BE88858CD7@nasa.gov][Re: [EXTERNAL] Re: GISP2 temperature profile]]
+  + Email 2: [[mu4e:msgid:CACoJM5tpXAdV=eayGpZpJ_oydjTAxc064rNmXHFE5zDKEq_yYA@mail.gmail.com][Fwd: NEEM temperature profile]]
++ See also [[citet:macgregor_2015][MacGregor (2015)]] Figure 6.
 
-[[./macgregor_2015_fig6.png]]
+#+BEGIN_example
+From: MacGregor, Joseph (GSFC-6150)
+To: Ken Mankoff
+Subject: Re: [EXTERNAL] Re: GISP2 temperature profile
+Date: Wed 06 Jan 2021 03:27:40 PM PST
+Attachments: [1]neem_temp.mat(5.0K), [2]NEEM_Tz.pdf(99.3K),
+ [3]NEEM-D_11MAY30b_50m.txt(1.9K)
+
+See attached for NEEM [...] includes a mild linear interpolation to handle the convection cells because it was year 1 for that measurement. The original data and a plot from Gary [Clow] also attached. [...] he presumably re-measured in 2015, so it may be technically true that the "final" NEEM temperature profile is not published.
+#+END_example
 
 ** Thickness
 
@@ -51,52 +61,72 @@ Depth of bottom measurement [m]       | 2509.0
 
 ** Data                                                 :noexport:
 
-#+BEGIN_SRC python :exports none :results none
+#+BEGIN_SRC jupyter-python :exports none :results none :kernel ds :session borehole
 import numpy as np
 import pandas as pd
-df_bot = pd.read_csv("meta.bsv", sep="|", index_col=0, header=None, squeeze=True)
-thick = np.float(df_bot['Ice thickness [m]'])
-df = pd.read_csv('data_norm.csv')
-df['d'] = df['d'] * thick
-df.to_csv('data.csv', index=False)
+import h5py
+f = h5py.File('neem_temp.mat', 'r')
+
+df = pd.DataFrame(index=f['depth'][0], data=f['temp'][0]-273.15, columns=['t'])
+df.index.name = 'd'
+df.to_csv('data.csv')
 #+END_SRC
 
 #+BEGIN_SRC bash :exports results
-cat data.csv | sort -t, -n -k2
+cat data.csv | sort -t, -n -k1
 #+END_SRC
 
 #+RESULTS:
-|                   t |                  d |
-| -29.035369774919616 |  91.05979760809562 |
-|  -29.11801964759529 | 174.16284739941185 |
-|  -29.06324418642933 |  335.9247185586454 |
-|  -28.99575299320698 |  449.9758109334329 |
-| -28.973255928799528 |   535.685868674468 |
-|  -29.00325201467613 |  609.8789777419141 |
-|  -29.06324418642933 |   784.784127337978 |
-|  -29.06324418642933 |  958.1472483452507 |
-| -28.928261799984625 | 1065.6833222916816 |
-|  -28.70413250953839 | 1162.0118433487917 |
-| -28.217565606589226 | 1269.6640597127014 |
-|  -27.72647959351644 |  1352.259394549015 |
-| -26.954144398230962 | 1453.1501823870576 |
-| -25.722336057542318 | 1555.0194515476326 |
-| -24.631322498161826 |  1639.092010000731 |
-|  -23.12401918286272 | 1733.0029820115265 |
-| -21.890346015824765 |  1791.732589096956 |
-|  -20.42437145396881 | 1857.8753598128599 |
-|  -19.12601648321499 | 1933.5993086650662 |
-|  -18.06217969118664 | 1974.4330636341656 |
-| -16.779847019962027 |  2018.267105412634 |
-| -15.806552970334485 | 2057.7261405721783 |
-| -14.688301759293713 |  2100.268202513738 |
-| -13.585894889325399 | 2144.4338586896074 |
-| -12.639479305194866 | 2185.4299949661367 |
-| -11.424756484162982 |  2229.840048033577 |
-| -10.089324702695484 |  2273.689042294936 |
-|  -9.025430305348653 | 2311.8707496556326 |
-|  -7.871009514612112 |  2352.648273851057 |
-|  -6.476191521350259 |  2399.025679270995 |
-|  -5.117104159794351 |  2451.068003558367 |
-| -3.6086677521476105 |  2506.680428328504 |
+|      d |                   t |
+|  80.64 |  -29.05680000000001 |
+|  100.0 |  -29.09049999999999 |
+|  150.0 | -29.170500000000004 |
+|  200.0 | -29.179900000000004 |
+|  250.0 | -29.149200000000008 |
+|  300.0 |  -29.10419999999999 |
+|  350.0 | -29.064599999999984 |
+|  400.0 |  -29.03649999999999 |
+|  450.0 |            -29.0197 |
+|  500.0 |  -29.01310000000001 |
+|  550.0 |            -29.0154 |
+|  600.0 | -29.024699999999996 |
+|  650.0 | -29.039199999999994 |
+|  700.0 |  -29.05539999999999 |
+|  750.0 | -29.073199999999986 |
+|  800.0 | -29.087800000000016 |
+|  850.0 |  -29.09559999999999 |
+|  900.0 | -29.093999999999994 |
+|  950.0 | -29.076699999999988 |
+| 1000.0 | -29.041300000000007 |
+| 1050.0 | -28.981600000000014 |
+| 1100.0 |  -28.89269999999999 |
+| 1150.0 | -28.770399999999995 |
+| 1200.0 | -28.607699999999994 |
+| 1250.0 | -28.398300000000006 |
+| 1300.0 | -28.140500000000003 |
+| 1350.0 | -27.845799999999997 |
+| 1400.0 |            -27.5026 |
+| 1450.0 | -27.120100000000008 |
+| 1500.0 | -26.611799999999988 |
+| 1550.0 |  -25.97200000000001 |
+| 1600.0 |  -25.39670000000001 |
+| 1650.0 | -24.686399999999992 |
+| 1700.0 | -23.925099999999986 |
+| 1750.0 |  -23.16380000000001 |
+| 1800.0 |  -22.04679999999999 |
+| 1850.0 | -20.988499999999988 |
+| 1900.0 | -19.887900000000002 |
+| 1950.0 | -19.136899999999997 |
+| 2000.0 |  -17.83099999999999 |
+| 2050.0 | -16.385800000000017 |
+| 2100.0 | -15.096499999999992 |
+| 2150.0 | -13.904750000000035 |
+| 2200.0 | -12.713000000000022 |
+| 2250.0 | -11.425099999999986 |
+| 2300.0 |  -9.919899999999984 |
+| 2350.0 |  -8.543700000000001 |
+| 2400.0 |  -7.089800000000025 |
+| 2450.0 |  -5.649000000000001 |
+| 2500.0 |  -4.389792682926782 |
+| 2532.0 | -3.5838999999999714 |
 

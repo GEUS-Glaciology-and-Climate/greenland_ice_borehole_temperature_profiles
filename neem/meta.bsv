@@ -2,7 +2,7 @@ Name|neem
 Alternate name|NEEM
 Data source|MacGregor, Joseph A., Li, Jilu, Paden, John D., Catania, Ginny A., Clow, Gary D., Fahnestock, Mark A., Gogineni, S. Prasad, Grimm, Robert E., Morlighem, Mathieu, Nandi, Soumyaroop, et al.: Radar attenuation and temperature within the Greenland Ice Sheet , Journal of Geophysical Research: Earth Surface 120(6), American Geophysical Union (AGU), 983–1008, 6 2015 
 Drill year(s)|2008 through 2012
-Data year(s)|
+Data year(s)|2011
 Longitude [°E]|-51.06
 Latitude [°N]|77.45
 Approximate location name|Northwest Greenland
