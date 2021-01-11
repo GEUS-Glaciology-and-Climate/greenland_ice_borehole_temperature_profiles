@@ -60,7 +60,7 @@ in 1997, is more trustworthy. See attached paper (JGR 2012) for borehole locatio
 
 David Fisher deserves the credit for all these data, I did not generate them. You can use
 his Univ. of Ottawa affiliation: Department of Earth and Environmental Sciences, University
-of Ottawa, Ottawa, Canada, K1N 6N5 (dafisher2@sympatico.ca<mailto:dafisher2@sympatico.ca>).
+of Ottawa, Ottawa, Canada, K1N 6N5.
 #+END_example
 
 
