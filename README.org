@@ -172,7 +172,7 @@ plt.savefig('./fig/neem_diff.png', transparent=False, bbox_inches='tight', dpi=1
 
 ** Agassiz
 
-The Agassiz boreholes were provided as data. By digitizing graphics from papers (e.g. [[citet:clarke_1987][Clarke (1987))]], we can find a measure of the digitization error.
+The Agassiz boreholes were provided as data. By digitizing graphics from papers (e.g. [[citet:clarke_1987_wind][Clarke (1987))]], we can find a measure of the digitization error.
 
 #+BEGIN_SRC jupyter-python :kernel ds :session borehole
 import pandas as pd
@@ -233,7 +233,7 @@ plt.savefig('./fig/agassiz_diff.png', transparent=False, bbox_inches='tight', dp
 
 #+NAME: fig:err_agassiz
 #+ATTR_LATEX: :width 0.5\textwidth :placement [!h]
-#+CAPTION: Digitization error for Agassiz borehole temperature profiles. Black is A77 data, graphic, and difference (noisy line, top x-axis). Gray and orange are the difference between the [[citet:clarke_1987][Clarke (1987)]] A79 profile from the graphic and the A79A and A79B data profiles, respectively.
+#+CAPTION: Digitization error for Agassiz borehole temperature profiles. Black is A77 data, graphic, and difference (noisy line, top x-axis). Gray and orange are the difference between the [[citet:clarke_1987_wind][Clarke (1987)]] A79 profile from the graphic and the A79A and A79B data profiles, respectively.
 [[./fig/agassiz_diff.png]]
 
 * About This Document
