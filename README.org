@@ -271,7 +271,7 @@ for data,meta in zip(datas,metas):
   d = d.iloc[~d.index.duplicated()]
   df_surf = df_surf.merge(d, left_index=True, right_index=True, how='outer')
 
-df_surf = df_surf.interpolate(limit_area='inside')
+df_surf = df_surf.interpolate(limit_area='inside', method='index')
 df_surf.index.name = "from_surface"
 df_surf.dropna(how='all').to_csv("T_surf.csv", float_format='%.4f')
 
