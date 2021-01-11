@@ -23,7 +23,7 @@ Each profile is presented below in the Source Material section. First, for each 
 
 Uncertainty estimates are not provided, but can be determined from the reference publications, by repeat and multiple digitization of the graphic, or digitizing the data from separate publications when they exist.
 
-After digitizing the profiles from the graphic or tables, we linearly interpolate between the points. We then convert the vertical scales (from the graphic) to each of three scales: Depth below surface, distance above bed, and normalized distance above bed.
+After digitizing the profiles from the graphic or tables, we linearly interpolate between the points. We then convert the vertical scales (from the graphic) to scales depth below surface and distance above bed.
 
 * Results
 
@@ -36,13 +36,6 @@ After digitizing the profiles from the graphic or tables, we linearly interpolat
 #+ATTR_LATEX: :width: 0.5\textwidth :placement [!h]
 #+CAPTION: Temperature profiles from the bed
 [[./T_bed.png]]
-
-#+NAME: fig:T_norm
-#+ATTR_LATEX: :width: 0.5\textwidth :placement [!h]
-#+CAPTION: Temperature profiles on a normalized depth axis
-[[./T_norm.png]]
-
-
 
 * Source Material
 :PROPERTIES:
@@ -301,10 +294,9 @@ kml.save("boreholes.kml")
 
 ** Combine all temperature profiles
 
-+ Combine each =<site>/data.csv= file to three files:
++ Combine each =<site>/data.csv= file to two files:
   + [[./T_surf.csv]] with index column depth from the surface
   + [[./T_bed.csv]] with index column as distance above the bed
-  + [[./T_norm.csv]] with index column as normalized depth from surface
 
 #+BEGIN_SRC jupyter-python
 import os
@@ -316,9 +308,6 @@ df_surf.index.name = 'd'
 
 df_bed = pd.DataFrame(index=np.arange(4000))
 df_bed.index.name = 'd'
-
-df_norm = pd.DataFrame(index=np.arange(0,1.001,0.01))
-df_norm.index.name = 'd'
 
 metas = sort(glob.glob("*/meta.bsv"))
 datas = [_.replace('meta.bsv','data.csv') for _ in metas]
@@ -339,23 +328,16 @@ df_surf = df_surf.interpolate(limit_area='inside', method='index')
 df_surf.index.name = "from_surface"
 df_surf.dropna(how='all').to_csv("T_surf.csv", float_format='%.4f')
 
-# bottom and norm
+# bottom
 for c in df_surf:
   m = pd.read_csv(c + '/meta.bsv', sep="|", index_col=0).squeeze() # re-read the metadata for each column
   max_depth = pd.to_numeric(m['Ice thickness [m]'], errors='coerce')
   if not np.isfinite(max_depth): continue
   max_depth = max_depth.round().astype(np.int)
-
   df_bed.loc[:max_depth, c] = df_surf.loc[:max_depth, c][::-1].values
-
-  idx=np.linspace(0,max_depth,num=101).round().astype(np.int)
-  df_norm[c] = df_surf.loc[:max_depth,c].values[idx][::-1]
   
 df_bed.index.name = "from_bed"
 df_bed.dropna(how='all').to_csv("T_bed.csv", float_format='%.4f')
-
-df_norm.index.name = "normalized"
-df_norm.dropna(how='all').to_csv("T_norm.csv", float_format='%.4f')
 #+END_SRC
 
 #+RESULTS:
@@ -427,28 +409,6 @@ plt.savefig('T_bed.png', transparent=False, bbox_inches='tight', dpi=300)
 #+RESULTS:
 
 [[./T_bed.png]]
-
-*** Normalized
-
-#+BEGIN_SRC jupyter-python
-<<setup>>
-
-df = pd.read_csv("T_norm.csv", index_col=0)
-for c in df.columns:
-    ax.plot(df[c], df.index, label=c)
-    if size(df[c].dropna()) != 0:
-        ax.text(df[c].dropna().values[-1],
-                df[c].dropna().index[-1],
-                c, rotation=90)
-
-ax.set_xlabel("T [°C]")
-ax.set_ylabel("Normalized depth [-]")
-plt.savefig('T_norm.png', transparent=False, bbox_inches='tight', dpi=300)
-#+END_SRC
-
-#+RESULTS:
-
-[[./T_norm.png]]
 
 * References
 :PROPERTIES:
