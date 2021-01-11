@@ -44,65 +44,6 @@ After digitizing the profiles from the graphic or tables, we linearly interpolat
 
 
 
-* Uncertainty
-
-Most of sources are digitized from graphics and the reported uncertainty is much less than the line-width relative to graph temperature scale. Therefore, we can ignore reported uncertainties. Instead, uncertainty can be estimated from the cases when the same data is presented multiple times, ideally in fundamentally different graphics in different publications, or comparing a digitized graphic to the original non-digitized source if it is available.
-
-** NEEM
-
-We have two sources for the NEEM data: 1) [[citet:macgregor_2015][MacGregor (2015)]] relative depth profile graphic and 2) Data provided via email.
-
-#+BEGIN_SRC jupyter-python :kernel ds :session borehole
-import pandas as pd
-df = pd.read_csv('./neem/data.csv').set_index('d')
-
-g = pd.read_csv('./neem/data_norm.csv')
-thick = pd.read_csv('./neem/meta.bsv', sep='|', index_col=0, header=None, squeeze=True)['Ice thickness [m]']
-g['d'] = g['d'] * np.int(thick)
-g = g.set_index('d').sort_index()
-
-m = df.merge(g, left_index=True, right_index=True, how='outer', suffixes=['_dat','_graph'])
-m = m.interpolate(limit_area='inside', method='index')
-
-from matplotlib import rc
-rc('font', size=12)
-rc('text', usetex=False)
-
-fig = plt.figure(1, figsize=(5,8)) # w,h
-fig.clf()
-fig.set_tight_layout(True)
-ax = fig.add_subplot(111)
-
-# ax.plot(df['t'], df.index, label='data')
-# ax.plot(g['t'], g.index, label='graphic')
-# ax.plot(m['t_dat'], m.index, label='interp')
-ax.plot(m['t_dat'], m.index, label='data')
-ax.plot(m['t_graph'], m.index, label='graphic')
-ax.set_ylim(ax.get_ylim()[::-1])
-ax.legend(loc=3)
-
-ax2 = ax.twiny()
-ax2.plot(m['t_dat'] - m['t_graph'], m.index, label='diff')
-# ax2.set_xlim([-0.5, 1.1])
-ax2.legend()
-
-ax.set_ylabel('Depth [m]')
-ax.set_xlabel('Temperature [°C]')
-ax2.set_xlabel('Δ Temperature [°C]')
-
-plt.savefig('./fig/neem_diff.png', transparent=False, bbox_inches='tight', dpi=150)
-#+END_SRC
-
-#+RESULTS:
-
-[[./fig/neem_diff.png]]
-
-
-** Agassiz
-
-There is only one Agassiz borehole, but it has been measured several times. 
-
-
 * Source Material
 :PROPERTIES:
 :clearpage: t
@@ -171,6 +112,129 @@ There is only one Agassiz borehole, but it has been measured several times.
 #+INCLUDE: td7/README.org :minlevel 2
 #+INCLUDE: td8/README.org :minlevel 2
 #+INCLUDE: tuto_ramp/README.org :minlevel 2
+
+* Uncertainty
+:PROPERTIES:
+:clearpage: t
+:END:
+
+Most of sources are digitized from graphics and the reported uncertainty is much less than the line-width relative to graph temperature scale. Therefore, we can ignore reported uncertainties. Instead, uncertainty can be estimated from the cases when the same data is presented multiple times, ideally in fundamentally different graphics in different publications, or comparing a digitized graphic to the original non-digitized source if it is available.
+
+** NEEM
+
+We have two sources for the NEEM data: 1) [[citet:macgregor_2015][MacGregor (2015)]] relative depth profile graphic and 2) Data provided via email.
+
+#+BEGIN_SRC jupyter-python :kernel ds :session borehole
+import pandas as pd
+
+from matplotlib import rc
+rc('font', size=12)
+rc('text', usetex=False)
+fig = plt.figure(1, figsize=(5,8)) # w,h
+fig.clf()
+fig.set_tight_layout(True)
+ax = fig.add_subplot(111)
+
+df = pd.read_csv('./neem/data.csv').set_index('d')
+
+g = pd.read_csv('./neem/data_norm.csv')
+thick = pd.read_csv('./neem/meta.bsv', sep='|', index_col=0, header=None, squeeze=True)['Ice thickness [m]']
+g['d'] = g['d'] * np.int(thick)
+g = g.set_index('d').sort_index()
+
+m = df.merge(g, left_index=True, right_index=True, how='outer', suffixes=['_d','_g'])
+m = m.interpolate(limit_area='inside', method='index')
+
+ax.plot(m['t_d'], m.index, label='data')
+ax.plot(m['t_g'], m.index, label='graphic')
+ax.set_ylim(ax.get_ylim()[::-1])
+ax.legend(loc=3)
+
+ax2 = ax.twiny()
+ax2.plot(m['t_d'] - m['t_g'], m.index, label='diff')
+# ax2.set_xlim([-0.5, 1.1])
+ax2.legend()
+
+ax.set_ylabel('Depth [m]')
+ax.set_xlabel('Temperature [°C]')
+ax2.set_xlabel('Δ Temperature [°C]')
+
+plt.savefig('./fig/neem_diff.png', transparent=False, bbox_inches='tight', dpi=150)
+#+END_SRC
+
+#+RESULTS:
+
+#+NAME: fig:err_NEEM
+#+ATTR_LATEX: :width 0.5\textwidth :placement [!h]
+#+CAPTION: Digitization error for the NEEM borehole temperature profile. This is likely a worst-case scenario for digitization error because the graphic used a wide line (uncertain temperature), only spanned ~1/3 of the page, but spanned ~30 ° of temperature (low resolution temperature), and had a highly compressed y-axis (uncertain depth)
+[[./fig/neem_diff.png]]
+
+
+** Agassiz
+
+The Agassiz boreholes were provided as data. By digitizing graphics from papers (e.g. [[citet:clarke_1987][Clarke (1987))]], we can find a measure of the digitization error.
+
+#+BEGIN_SRC jupyter-python :kernel ds :session borehole
+import pandas as pd
+
+from matplotlib import rc
+rc('font', size=12)
+rc('text', usetex=False)
+fig = plt.figure(1, figsize=(5,8)) # w,h
+fig.clf()
+fig.set_tight_layout(True)
+ax = fig.add_subplot(111)
+
+
+
+d77 = pd.read_csv('./agassiz77/data.csv').set_index('d') # data
+g77 = pd.read_csv('./agassiz77/clarke_1987_fig2.csv', usecols=(0,1), skiprows=2, header=None, names=['t','d']).set_index('d') # graphic
+m = d77.merge(g77, left_index=True, right_index=True, how='outer', suffixes=['_d','_g']) # merged
+m = m.interpolate(limit_area='inside', method='index')
+
+ax.plot(m['t_d'], m.index, label='data', color='k')
+ax.plot(m['t_g'], m.index, label='graphic', color='k', linestyle='--')
+ax.set_ylim(ax.get_ylim()[::-1])
+ax.legend(loc=3)
+
+ax2 = ax.twiny()
+ax2.plot(m['t_d'] - m['t_g'], m.index, color='k')
+# ax2.legend()
+
+
+
+d79a = pd.read_csv('./agassiz79a/data.csv').set_index('d') # data
+g79 = pd.read_csv('./agassiz77/clarke_1987_fig2.csv', usecols=(2,3), skiprows=2, header=None, names=['t','d']).set_index('d') # graphic
+m = d79a.merge(g79, left_index=True, right_index=True, how='outer', suffixes=['_d','_g']) # merged
+m = m.loc[m.index.dropna()]
+m = m.interpolate(limit_area='inside', method='index')
+ax.plot(m['t_d'], m.index, label='data', color='gray')
+ax.plot(m['t_g'], m.index, label='graphic', color='gray', linestyle='--')
+ax2.plot(m['t_d'] - m['t_g'], m.index, color='gray')
+
+
+d79b = pd.read_csv('./agassiz79b/data.csv').set_index('d') # data
+g79 = pd.read_csv('./agassiz77/clarke_1987_fig2.csv', usecols=(2,3), skiprows=2, header=None, names=['t','d']).set_index('d') # graphic
+m = d79b.merge(g79, left_index=True, right_index=True, how='outer', suffixes=['_d','_g']) # merged
+m = m.loc[m.index.dropna()]
+m = m.interpolate(limit_area='inside', method='index')
+ax.plot(m['t_d'], m.index, label='data', color='orange')
+ax.plot(m['t_g'], m.index, label='graphic', color='orange', linestyle='--')
+ax2.plot(m['t_d'] - m['t_g'], m.index, color='orange')
+
+ax.set_ylabel('Depth [m]')
+ax.set_xlabel('Temperature [°C]')
+ax2.set_xlabel('Δ Temperature [°C]')
+
+plt.savefig('./fig/agassiz_diff.png', transparent=False, bbox_inches='tight', dpi=150)
+#+END_SRC
+
+#+RESULTS:
+
+#+NAME: fig:err_agassiz
+#+ATTR_LATEX: :width 0.5\textwidth :placement [!h]
+#+CAPTION: Digitization error for Agassiz borehole temperature profiles. Black is A77 data, graphic, and difference (noisy line, top x-axis). Gray and orange are the difference between the [[citet:clarke_1987][Clarke (1987)]] A79 profile from the graphic and the A79A and A79B data profiles, respectively.
+[[./fig/agassiz_diff.png]]
 
 * About This Document
 :PROPERTIES:
