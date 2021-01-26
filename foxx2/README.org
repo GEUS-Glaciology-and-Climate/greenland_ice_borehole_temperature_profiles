@@ -15,13 +15,13 @@ Alternate name                        | FOXX2
 Data source                           | Lüthi, Martin P., Ryser, Claudia, Andrews, Lauren C., Catania, Ginny A., Funk, Martin, Hawley, Robert L., Hoffman, Matthew J., Neumann, Thomas A.: Heat sources within the Greenland Ice Sheet: dissipation, temperate paleo-firn and cryo-hydrologic warming , The Cryosphere 9(1), 245–253, 2015 
 Drill year(s)                         | 
 Data year(s)                          | 2011-2013
-Longitude [°E]                        | 
-Latitude [°N]                         | 
+Longitude [°E]                        | -49° 53.107'
+Latitude [°N]                         | 69° 26.755'
 Approximate location name             | Paakitsoq
-Location source                       | 
-Ice thickness [m]                     | 
+Location source                       | Ryser (2014) doi:10.1002/2013JF003067
+Ice thickness [m]                     | 620
 ice thickness year                    | 
-Ice thickness source                  | 
+Ice thickness source                  | Ryser (2014) doi:10.1002/2013JF003067 
 Surface velocity [m yr^-1]            | 
 Surface velocity year                 | 
 Surface velocity source               | 
@@ -37,13 +37,25 @@ Depth of bottom measurement [m]       | 285.9
 
 [[./luthi_2015_fig2_all.png]]
 
+
 ** Thickness
 
-Unknown
++ From [[citet:ryser_2014_caterpillar][Ryser (2014)]].
 
 ** Location
 
++ From [[citet:ryser_2014_caterpillar][Ryser (2014)]].
+
 ** Velocity
+
++ From [[citet:ryser_2014_caterpillar][Ryser (2014)]].
+
+#+BEGIN_QUOTE
+Measured surface velocities of about 100 m a−1 are
+modulated by seasonal velocity variations; winter
+velocities of 70 to 80 m a−1 eventually double during
+speedup events in summer. 
+#+END_QUOTE
 
 ** Data                                                 :noexport:
 
