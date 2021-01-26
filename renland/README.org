@@ -15,10 +15,10 @@ Alternate name                        | Renland
 Data source                           | BMV
 Drill year(s)                         | 
 Data year(s)                          | 1988
-Longitude [°E]                        | -26.768
-Latitude [°N]                         | 71.306
+Longitude [°E]                        | -26.73
+Latitude [°N]                         | 71.27
 Approximate location name             | 
-Location source                       | 
+Location source                       | Vinther (2008)
 Ice thickness [m]                     | 324.4
 Ice thickness year                    | 
 Ice thickness source                  | Vinther, B. M., Clausen, H. B., Fisher, D. A., Koerner, R. M., Johnsen, S. J., Andersen, K. K., Dahl-Jensen, D., Rasmussen, S. O., Steffensen, J. P., Svensson, A. M.: Synchronizing ice cores from the Renland and Agassiz ice caps to the Greenland Ice Core Chronology , Journal of Geophysical Research 113(D8), American Geophysical Union (AGU), 4 2008 
@@ -47,19 +47,11 @@ Depth of bottom measurement [m]       | 300.0
  
 ** Location
 
-+ From [[citet:vinther_2008][Vinther (2008)]] and email
-
-#+BEGIN_EXAMPLE
-I'm afraid I don't have a surface velocity (but it is likely small, as
-the drilling was near the dome of the ice cap). The position of the
-1988 site is: 71.306N, 26.768W. In 1988 the drill got stuck at 324.4m
-depth - radar measurements suggested a depth of some 321+/-5m (see
-attached paper). I think they had to use glycol to free the drill - if
-so, this explains the lack of measurements near the bottom (as
-temperatures would anyway be disturbed by glycol induced melting).
-#+END_EXAMPLE
++ From [[citet:vinther_2008][Vinther (2008)]]
 
 ** Velocity
+
++ Likely small because drilling location near ice cap dome.
 
 ** Data                                                 :noexport:
 
