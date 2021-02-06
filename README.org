@@ -37,6 +37,11 @@ After digitizing the profiles from the graphic or tables, we linearly interpolat
 #+CAPTION: Temperature profiles from the bed
 [[./T_bed.png]]
 
+#+NAME: fig:T_norm
+#+ATTR_LATEX: :width: 0.5\textwidth :placement [!h]
+#+CAPTION: Temperature profiles from the surface (normalized depth)
+[[./T_norm.png]]
+
 * Source Material
 :PROPERTIES:
 :clearpage: t
@@ -237,7 +242,6 @@ This document is an Emacs Org Mode plain-text file with code and text embedded. 
 + An =Org= file within Emacs, then this is the canonical version. You should be able to fully interact and reproduce the contents of this document, although it may require 3rd-party applications (Python, etc.) and a similar Emacs configuration. This is available upon request.
 
 * Code                                                  :noexport:
-
 ** overview.bsv from meta.bsvs
 
 #+BEGIN_SRC jupyter-python
@@ -335,13 +339,27 @@ for c in df_surf:
   
 df_bed.index.name = "from_bed"
 df_bed.dropna(how='all').to_csv("T_bed.csv", float_format='%.4f')
+
+
+# T_norm
+meta = pd.read_csv('overview.bsv', index_col=0, sep='|')
+T = pd.read_csv('T_surf.csv', index_col=0)
+T_norm = pd.DataFrame(index = np.linspace(0,1,101))
+for site in T.columns:
+    s = T[site].copy(deep=True)
+    thick = pd.to_numeric(meta.loc[site]['Ice thickness [m]'], errors='coerce')
+    s.index = s.index / thick
+    s = s[(s.index >= 0) & (s.index <= 1)]
+
+    s1 = s.reindex(s.index.union(T_norm.index))
+    s1 = s1.interpolate('index', limit_area='inside')
+    T_norm[site] = s1[T_norm.index]
+
+T_norm.index.name = "normalized"
+T_norm.dropna(how='all').to_csv("T_norm.csv", float_format='%.4f')
 #+END_SRC
 
 #+RESULTS:
-
-
-
-
 
 ** Graphics
 
@@ -406,6 +424,29 @@ plt.savefig('T_bed.png', transparent=False, bbox_inches='tight', dpi=300)
 #+RESULTS:
 
 [[./T_bed.png]]
+
+*** Normalized
+
+#+BEGIN_SRC jupyter-python
+<<setup>>
+
+df = pd.read_csv("T_norm.csv", index_col=0)
+for c in df.columns:
+    ax.plot(df[c], df.index, label=c)
+    if size(df[c].dropna()) != 0:
+        ax.text(df[c].dropna().values[0],
+                df[c].dropna().index[0],
+                c)
+
+ax.set_xlabel("T [°C]")
+ax.set_ylabel("Normalized depth below surface [-]")
+ax.set_ylim([1,0])
+plt.savefig('T_norm.png', transparent=False, bbox_inches='tight', dpi=300)
+#+END_SRC
+
+#+RESULTS:
+
+[[./T_norm.png]]
 
 * References
 :PROPERTIES:
