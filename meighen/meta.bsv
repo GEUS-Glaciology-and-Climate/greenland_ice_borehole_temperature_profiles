@@ -1,5 +1,5 @@
-Name|meighan
-Alternate name|Meighan Ice Cap
+Name|meighen
+Alternate name|Meighen Ice Cap
 Data source|Paterson, W. S. B.: A temperature profile through the Meighen ice cap, Arctic Canada , International Association of Scientific Hydrology 79, 440–449, 1968 
 Drill year(s)|
 Data year(s)|1965
