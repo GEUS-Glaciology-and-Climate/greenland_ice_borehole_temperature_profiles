@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
-    <Document id="5821">
-        <Placemark id="5823">
+    <Document id="780">
+        <Placemark id="782">
             <name>agassiz77</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -59,11 +59,11 @@
                     <value>97</value>
                 </Data>
             </ExtendedData>
-            <Point id="5822">
+            <Point id="781">
                 <coordinates>-73.1,80.7,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="5844">
+        <Placemark id="803">
             <name>agassiz79a</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -121,11 +121,11 @@
                     <value>92</value>
                 </Data>
             </ExtendedData>
-            <Point id="5843">
+            <Point id="802">
                 <coordinates>-73.1,80.7,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="5865">
+        <Placemark id="824">
             <name>agassiz79b</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -183,11 +183,11 @@
                     <value>92</value>
                 </Data>
             </ExtendedData>
-            <Point id="5864">
+            <Point id="823">
                 <coordinates>-73.1,80.7,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="5886">
+        <Placemark id="845">
             <name>agassiz84</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -245,11 +245,11 @@
                     <value>98</value>
                 </Data>
             </ExtendedData>
-            <Point id="5885">
+            <Point id="844">
                 <coordinates>-73.1,80.7,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="5907">
+        <Placemark id="866">
             <name>devon_00</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -307,11 +307,11 @@
                     <value>68</value>
                 </Data>
             </ExtendedData>
-            <Point id="5906">
+            <Point id="865">
                 <coordinates>-82.14,75.34,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="5928">
+        <Placemark id="887">
             <name>devon_72</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -369,11 +369,11 @@
                     <value>97</value>
                 </Data>
             </ExtendedData>
-            <Point id="5927">
+            <Point id="886">
                 <coordinates>-82.14,75.34,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="5949">
+        <Placemark id="908">
             <name>dye_3</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -431,11 +431,11 @@
                     <value>92</value>
                 </Data>
             </ExtendedData>
-            <Point id="5948">
+            <Point id="907">
                 <coordinates>-43.816666999999995,65.18333299999999,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="5970">
+        <Placemark id="929">
             <name>flade_isblink</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -493,11 +493,11 @@
                     <value>63</value>
                 </Data>
             </ExtendedData>
-            <Point id="5969">
+            <Point id="928">
                 <coordinates>-15.7029,81.2926,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="5991">
+        <Placemark id="950">
             <name>grip</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -555,11 +555,11 @@
                     <value>96</value>
                 </Data>
             </ExtendedData>
-            <Point id="5990">
+            <Point id="949">
                 <coordinates>-37.64,72.58,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="6012">
+        <Placemark id="971">
             <name>isua_10</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -617,11 +617,11 @@
                     <value>93</value>
                 </Data>
             </ExtendedData>
-            <Point id="6011">
+            <Point id="970">
                 <coordinates>-49.75,65.2093,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="6033">
+        <Placemark id="992">
             <name>isua_11</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -679,11 +679,11 @@
                     <value>76</value>
                 </Data>
             </ExtendedData>
-            <Point id="6032">
+            <Point id="991">
                 <coordinates>-49.751,65.2072,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="6054">
+        <Placemark id="1013">
             <name>isua_12</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -741,11 +741,11 @@
                     <value>70</value>
                 </Data>
             </ExtendedData>
-            <Point id="6053">
+            <Point id="1012">
                 <coordinates>-49.753,65.2039,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="6075">
+        <Placemark id="1034">
             <name>isua_13</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -803,11 +803,11 @@
                     <value>91</value>
                 </Data>
             </ExtendedData>
-            <Point id="6074">
+            <Point id="1033">
                 <coordinates>-49.7456,65.2069,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="6096">
+        <Placemark id="1055">
             <name>isua_14</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -865,11 +865,569 @@
                     <value>77</value>
                 </Data>
             </ExtendedData>
-            <Point id="6095">
+            <Point id="1054">
                 <coordinates>-49.7443,65.2058,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="6117">
+        <Placemark id="1076">
+            <name>mcdowell_2021_14n</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Data source">
+                    <value> McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>August 2015</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>18.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>623.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>2014</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.57231502</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.18300296</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>641</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>2014</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See raw data file `Greenland_AblationZone_TProfiles.xlsx` in 14n folder</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>B</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>94</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1075">
+                <coordinates>-49.57231502,67.18300296,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1097">
+            <name>mcdowell_2021_14sa</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Data source">
+                    <value> McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>August 2015</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>72.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>672.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>2014</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.57241703</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.18099699999999</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>674</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>2014</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See raw data file `Greenland_AblationZone_TProfiles.xlsx` in 14n folder</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>B</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>89</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1096">
+                <coordinates>-49.57241703,67.18099699999999,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1118">
+            <name>mcdowell_2021_14sb</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Data source">
+                    <value> McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>August 2015</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>496.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>676.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>2014</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.57216096</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.18095903</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>677</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>2014</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See raw data file `Greenland_AblationZone_TProfiles.xlsx` in 14n folder</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>B</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>27</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1117">
+                <coordinates>-49.57216096,67.18095903,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1139">
+            <name>mcdowell_2021_14w</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Data source">
+                    <value> McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>August 2015</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>40.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>660.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>2014</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.57478802</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.18201398</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>661</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>2014</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See raw data file `Greenland_AblationZone_TProfiles.xlsx` in 14n folder</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>B</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>94</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1138">
+                <coordinates>-49.57478802,67.18201398,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1160">
+            <name>mcdowell_2021_15ca</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Data source">
+                    <value> McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>August 2016</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>46.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>666.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>2015</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.56950398</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.18210400000001</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>671</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>2015</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See raw data file `Greenland_AblationZone_TProfiles.xlsx` in 14n folder</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>B</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>92</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1159">
+                <coordinates>-49.56950398,67.18210400000001,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1181">
+            <name>mcdowell_2021_15cb</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Data source">
+                    <value> McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>August 2016</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>370.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>670.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>2015</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.569493</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.18201297</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>675</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>2015</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See raw data file `Greenland_AblationZone_TProfiles.xlsx` in 14n folder</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>B</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>44</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1180">
+                <coordinates>-49.569493,67.18201297,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1202">
+            <name>mcdowell_2021_15e</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Data source">
+                    <value> McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>August 2016</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>40.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>660.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>2015</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.56402498</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.18186604</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>665</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>2015</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See raw data file `Greenland_AblationZone_TProfiles.xlsx` in 14n folder</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>B</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>93</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1201">
+                <coordinates>-49.56402498,67.18186604,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1223">
+            <name>mcdowell_2021_15n</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Data source">
+                    <value> McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>August 2016</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>15.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>635.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>2015</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.56691397</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.18312399999999</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>640</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>2015</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See raw data file `Greenland_AblationZone_TProfiles.xlsx` in 14n folder</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>B</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>97</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1222">
+                <coordinates>-49.56691397,67.18312399999999,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1244">
+            <name>mcdowell_2021_15s</name>
+            <ExtendedData>
+                <Data name="Alternate name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Data source">
+                    <value> McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
+                </Data>
+                <Data name="Data year(s)">
+                    <value>August 2016</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>52.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>672.0</value>
+                </Data>
+                <Data name="Drill year(s)">
+                    <value>2015</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.56666302</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.180939</value>
+                </Data>
+                <Data name="Approximate location name">
+                    <value>nan</value>
+                </Data>
+                <Data name="Location source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>677</value>
+                </Data>
+                <Data name="Ice thickness year">
+                    <value>2015</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See raw data file `Greenland_AblationZone_TProfiles.xlsx` in 14n folder</value>
+                </Data>
+                <Data name="Surface velocity [m yr^-1]">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity year">
+                    <value>nan</value>
+                </Data>
+                <Data name="Surface velocity source">
+                    <value>nan</value>
+                </Data>
+                <Data name="Measured from: Top, Bottom, Relative">
+                    <value>B</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>92</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1243">
+                <coordinates>-49.56666302,67.180939,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1265">
             <name>neem</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -879,7 +1437,7 @@
                     <value>MacGregor, Joseph A., Li, Jilu, Paden, John D., Catania, Ginny A., Clow, Gary D., Fahnestock, Mark A., Gogineni, S. Prasad, Grimm, Robert E., Morlighem, Mathieu, Nandi, Soumyaroop, et al.: Radar attenuation and temperature within the Greenland Ice Sheet , Journal of Geophysical Research: Earth Surface 120(6), American Geophysical Union (AGU), 983–1008, 6 2015 </value>
                 </Data>
                 <Data name="Data year(s)">
-                    <value>nan</value>
+                    <value>2011</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>91.0</value>
@@ -927,11 +1485,11 @@
                     <value>95</value>
                 </Data>
             </ExtendedData>
-            <Point id="6116">
+            <Point id="1264">
                 <coordinates>-51.06,77.45,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="6138">
+        <Placemark id="1286">
             <name>ngrip</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -989,11 +1547,11 @@
                     <value>87</value>
                 </Data>
             </ExtendedData>
-            <Point id="6137">
+            <Point id="1285">
                 <coordinates>-42.32,75.1,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="6159">
+        <Placemark id="1307">
             <name>penny</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1051,11 +1609,11 @@
                     <value>94</value>
                 </Data>
             </ExtendedData>
-            <Point id="6158">
+            <Point id="1306">
                 <coordinates>-65.2,67.3,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="6180">
+        <Placemark id="1328">
             <name>pow</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1113,11 +1671,11 @@
                     <value>94</value>
                 </Data>
             </ExtendedData>
-            <Point id="6179">
+            <Point id="1327">
                 <coordinates>-80.395,78.3897,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="6201">
+        <Placemark id="1349">
             <name>renland</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1175,11 +1733,11 @@
                     <value>88</value>
                 </Data>
             </ExtendedData>
-            <Point id="6200">
+            <Point id="1348">
                 <coordinates>-26.768,71.306,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="6222">
+        <Placemark id="1370">
             <name>site_ii</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1237,11 +1795,11 @@
                     <value>0</value>
                 </Data>
             </ExtendedData>
-            <Point id="6221">
+            <Point id="1369">
                 <coordinates>-56.066667,76.983333,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="6243">
+        <Placemark id="1391">
             <name>td1</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1299,11 +1857,11 @@
                     <value>83</value>
                 </Data>
             </ExtendedData>
-            <Point id="6242">
+            <Point id="1390">
                 <coordinates>-50.13,69.45,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="6264">
+        <Placemark id="1412">
             <name>td2</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1361,11 +1919,11 @@
                     <value>37</value>
                 </Data>
             </ExtendedData>
-            <Point id="6263">
+            <Point id="1411">
                 <coordinates>-50.13,69.45,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="6285">
+        <Placemark id="1433">
             <name>td3</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1423,11 +1981,11 @@
                     <value>94</value>
                 </Data>
             </ExtendedData>
-            <Point id="6284">
+            <Point id="1432">
                 <coordinates>-50.0,69.483,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="6306">
+        <Placemark id="1454">
             <name>td41</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1485,11 +2043,11 @@
                     <value>0</value>
                 </Data>
             </ExtendedData>
-            <Point id="6305">
+            <Point id="1453">
                 <coordinates>-49.683,69.533,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="6327">
+        <Placemark id="1475">
             <name>td42</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1547,11 +2105,11 @@
                     <value>0</value>
                 </Data>
             </ExtendedData>
-            <Point id="6326">
+            <Point id="1474">
                 <coordinates>-49.683,69.533,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="6348">
+        <Placemark id="1496">
             <name>td51</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1609,11 +2167,11 @@
                     <value>0</value>
                 </Data>
             </ExtendedData>
-            <Point id="6347">
+            <Point id="1495">
                 <coordinates>-49.3,69.566,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="6369">
+        <Placemark id="1517">
             <name>td52</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1671,11 +2229,11 @@
                     <value>0</value>
                 </Data>
             </ExtendedData>
-            <Point id="6368">
+            <Point id="1516">
                 <coordinates>-49.3,69.566,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="6390">
+        <Placemark id="1538">
             <name>tuto_ramp</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1733,7 +2291,7 @@
                     <value>0</value>
                 </Data>
             </ExtendedData>
-            <Point id="6389">
+            <Point id="1537">
                 <coordinates>-68.287295,76.41133,0.0</coordinates>
             </Point>
         </Placemark>

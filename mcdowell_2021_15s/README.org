@@ -1,0 +1,109 @@
+* McDowell (2020) 15s
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+Name                                  | mcdowell_2021_15s
+Alternate name                        | 
+Data source                           |  McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.
+Drill year(s)                         | 2015
+Data year(s)                          | August 2016
+Longitude [°E]                        | -49.56666302
+Latitude [°N]                         | 67.180939
+Approximate location name             | 
+Location source                       | 
+Ice thickness [m]                     | 677
+Ice thickness year                    | 2015
+Ice thickness source                  | See raw data file `Greenland_AblationZone_TProfiles.xlsx` in 14n folder
+Surface velocity [m yr^-1]            | 
+Surface velocity year                 | 
+Surface velocity source               | 
+Measured from: Top, Bottom, Relative  | B
+Depth of top measurement [m]          | 52
+Depth of bottom measurement [m]       | 672
+#+end_example
+
+** Temperature
+
++ Provided by Ian McDowell (see raw data file `Greenland_AblationZone_TProfiles.xlsx` in 14n folder)
+
+** Thickness
+
++ Provided by Ian McDowell (see raw data file `Greenland_AblationZone_TProfiles.xlsx` in 14n folder)
+ 
+** Location
+
++ Provided by Ian McDowell (see raw data file `Greenland_AblationZone_TProfiles.xlsx` in 14n folder)
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+BEGIN_SRC python :exports none
+import numpy as np
+import pandas as pd
+
+df_bot = pd.read_csv("meta.bsv", sep="|", index_col=0, header=None, squeeze=True)
+thick = np.float(df_bot['Ice thickness [m]'])
+df = pd.read_csv('data_bottom.csv')
+df = df[df.columns[::-1]]  # swap from d,t to t,d
+df['d'] = thick - df['d']
+df.to_csv('data.csv', index=False)
+#+END_SRC
+
+#+RESULTS:
+: None
+
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k2
+#+END_SRC
+
+#+RESULTS:
+|                   t |     d |
+|      -8.97211572296 |  52.0 |
+|      -9.29792946256 |  72.0 |
+|     -10.12374320216 |  92.0 |
+| -10.387056941760001 | 112.0 |
+|     -10.46287068136 | 132.0 |
+| -10.413684420960001 | 152.0 |
+|     -10.73949816056 | 172.0 |
+| -10.815311900160001 | 192.0 |
+|     -10.89112563976 | 212.0 |
+| -10.904439379360001 | 232.0 |
+| -10.917753118960002 | 252.0 |
+|     -10.99356685856 | 272.0 |
+|     -10.94438059816 | 292.0 |
+|     -10.89519433776 | 312.0 |
+|     -10.59600807736 | 332.0 |
+| -10.671821816960001 | 352.0 |
+|     -10.31013555656 | 372.0 |
+|     -10.01094929616 | 392.0 |
+|      -9.83676303576 | 412.0 |
+|      -9.41257677536 | 432.0 |
+|      -8.86339051496 | 452.0 |
+|  -8.501704254560002 | 472.0 |
+|      -7.89001799416 | 492.0 |
+|  -7.215831733760001 | 512.0 |
+|      -6.60414547336 | 532.0 |
+|      -6.23580234316 | 542.0 |
+|      -5.86745921296 | 552.0 |
+| -5.4366160827600005 | 562.0 |
+|      -5.06827295256 | 572.0 |
+|      -4.63742982236 | 582.0 |
+|  -4.206586692159999 | 592.0 |
+| -3.7757435619599997 | 602.0 |
+|      -3.28240043176 | 612.0 |
+| -2.8515573015599998 | 622.0 |
+| -2.4207141713599998 | 632.0 |
+|      -1.98987104116 | 642.0 |
+| -1.5590279109600003 | 652.0 |
+|      -1.19068478076 | 662.0 |
+| -0.8223416505600001 | 672.0 |
+

@@ -83,16 +83,16 @@ After digitizing the profiles from the graphic or tables, we linearly interpolat
 #+INCLUDE: jakobshavn_center/README.org :minlevel 2
 #+INCLUDE: jakobshavn_left/README.org :minlevel 2
 #+INCLUDE: jakobshavn_sheet/README.org :minlevel 2
-#+INCLUDE: m2020_14n/README.org :minlevel 2
-#+INCLUDE: m2020_14sa/README.org :minlevel 2
-#+INCLUDE: m2020_14sb/README.org :minlevel 2
-#+INCLUDE: m2020_14w/README.org :minlevel 2
-#+INCLUDE: m2020_15ca/README.org :minlevel 2
-#+INCLUDE: m2020_15cb/README.org :minlevel 2
-#+INCLUDE: m2020_15e/README.org :minlevel 2
-#+INCLUDE: m2020_15n/README.org :minlevel 2
-#+INCLUDE: m2020_15s/README.org :minlevel 2
-#+INCLUDE: meighan/README.org :minlevel 2
+#+INCLUDE: mcdowell_2021_14n/README.org :minlevel 2
+#+INCLUDE: mcdowell_2021_14sa/README.org :minlevel 2
+#+INCLUDE: mcdowell_2021_14sb/README.org :minlevel 2
+#+INCLUDE: mcdowell_2021_14w/README.org :minlevel 2
+#+INCLUDE: mcdowell_2021_15ca/README.org :minlevel 2
+#+INCLUDE: mcdowell_2021_15cb/README.org :minlevel 2
+#+INCLUDE: mcdowell_2021_15e/README.org :minlevel 2
+#+INCLUDE: mcdowell_2021_15n/README.org :minlevel 2
+#+INCLUDE: mcdowell_2021_15s/README.org :minlevel 2
+#+INCLUDE: meighen/README.org :minlevel 2
 #+INCLUDE: neem/README.org :minlevel 2
 #+INCLUDE: ngrip/README.org :minlevel 2
 #+INCLUDE: penny/README.org :minlevel 2
@@ -364,7 +364,7 @@ T_norm.dropna(how='all').to_csv("T_norm.csv", float_format='%.4f')
 ** Graphics
 
 #+NAME: setup
-#+BEGIN_SRC jupyter-python
+#+BEGIN_SRC jupyter-python :results none
 import matplotlib.pyplot as plt
 import matplotlib
 from matplotlib import rc
