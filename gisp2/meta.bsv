@@ -1,8 +1,8 @@
 Name|gisp2
 Alternate name|GISP2; GISP II
-Data source|Joe MacGregor email
+Data source|Gary Clow email
 Drill year(s)|
-Data year(s)|1989,1990
+Data year(s)|1996-06-02
 Longitude [°E]|
 Latitude [°N]|
 Approximate location name|
@@ -14,5 +14,5 @@ Surface velocity [m yr^-1]|
 Surface velocity year|
 Surface velocity source|
 Measured from: Top, Bottom, Relative|T
-Depth of top measurement [m]|100
-Depth of bottom measurement [m]|3048
+Depth of top measurement [m]|72.61
+Depth of bottom measurement [m]|3053.15
