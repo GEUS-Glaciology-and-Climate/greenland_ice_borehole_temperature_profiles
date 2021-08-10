@@ -9,6 +9,8 @@
 #+ARCHIVE: ::* Archive
 
 #+PROPERTY: header-args:jupyter-python+ :session boreholes :kernel ds
+
+# Note, when exporting LaTeX also: =biber README --output_format bibtex -O library.bib=
   
 * Introduction and Methods
 :PROPERTIES:
@@ -472,12 +474,13 @@ plt.savefig('T_norm.png', transparent=False, bbox_inches='tight', dpi=300)
 #+LATEX_HEADER_EXTRA:             %uniquelist=minyear,
 #+LATEX_HEADER_EXTRA:             maxnames=99, 
 #+LATEX_HEADER_EXTRA:             maxcitenames=1]{biblatex}
-#+LATEX_HEADER_EXTRA:\addbibresource{/home/kdm/Documents/Papers/library.bib}
-#+LATEX_HEADER_EXTRA:\addbibresource{/home/kdm/Documents/Papers/software.bib}
-#+LATEX_HEADER_EXTRA:\addbibresource{/home/kdm/Documents/Papers/data.bib}
+#+LATEX_HEADER_EXTRA:\addbibresource{library.bib}
+# #+LATEX_HEADER_EXTRA:\addbibresource{/home/kdm/Documents/Papers/library.bib}
+# #+LATEX_HEADER_EXTRA:\addbibresource{/home/kdm/Documents/Papers/data.bib}
+# #+LATEX_HEADER_EXTRA:\addbibresource{/home/kdm/Documents/Papers/software.bib}
 #+LATEX_HEADER_EXTRA: \renewbibmacro{in:}{}
 
-# biber <texfile><.NOEXT> --output_format bibtex
+# biber <texfile><.NOEXT> --output_format bibtex -O library.bib
 # biber --output_format=bibtex --output_resolve ${fn}.bcf
 
 # http://tex.stackexchange.com/a/5779/360

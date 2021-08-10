@@ -32,7 +32,7 @@ Depth of bottom measurement [m]       | 600.0
 
 ** Temperature
 
-+ See td1 Shallow88II.pdf. Also shown in [[citet:lüthi_2015][Lüthi (2015)]].
++ See td1 Shallow88II.pdf. Also shown in [[citet:luthi_2015][Lüthi (2015)]].
 
 ** Thickness
 

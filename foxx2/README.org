@@ -32,7 +32,7 @@ Depth of bottom measurement [m]       | 285.9
 
 ** Temperature
 
-+ Digitized from [[citet:lüthi_2015][Lüthi (2015)]] Figure 2:
++ Digitized from [[citet:luthi_2015][Lüthi (2015)]] Figure 2:
 + See [[../foxx1]] folder for digitization.
 
 [[./luthi_2015_fig2_all.png]]
