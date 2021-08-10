@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
-    <Document id="780">
-        <Placemark id="782">
+    <Document id="1">
+        <Placemark id="3">
             <name>agassiz77</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -59,11 +59,11 @@
                     <value>97</value>
                 </Data>
             </ExtendedData>
-            <Point id="781">
+            <Point id="2">
                 <coordinates>-73.1,80.7,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="803">
+        <Placemark id="24">
             <name>agassiz79a</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -121,11 +121,11 @@
                     <value>92</value>
                 </Data>
             </ExtendedData>
-            <Point id="802">
+            <Point id="23">
                 <coordinates>-73.1,80.7,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="824">
+        <Placemark id="45">
             <name>agassiz79b</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -183,11 +183,11 @@
                     <value>92</value>
                 </Data>
             </ExtendedData>
-            <Point id="823">
+            <Point id="44">
                 <coordinates>-73.1,80.7,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="845">
+        <Placemark id="66">
             <name>agassiz84</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -245,11 +245,11 @@
                     <value>98</value>
                 </Data>
             </ExtendedData>
-            <Point id="844">
+            <Point id="65">
                 <coordinates>-73.1,80.7,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="866">
+        <Placemark id="87">
             <name>devon_00</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -307,11 +307,11 @@
                     <value>68</value>
                 </Data>
             </ExtendedData>
-            <Point id="865">
+            <Point id="86">
                 <coordinates>-82.14,75.34,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="887">
+        <Placemark id="108">
             <name>devon_72</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -369,11 +369,11 @@
                     <value>97</value>
                 </Data>
             </ExtendedData>
-            <Point id="886">
+            <Point id="107">
                 <coordinates>-82.14,75.34,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="908">
+        <Placemark id="129">
             <name>dye_3</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -431,11 +431,11 @@
                     <value>92</value>
                 </Data>
             </ExtendedData>
-            <Point id="907">
+            <Point id="128">
                 <coordinates>-43.816666999999995,65.18333299999999,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="929">
+        <Placemark id="150">
             <name>flade_isblink</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -493,27 +493,27 @@
                     <value>63</value>
                 </Data>
             </ExtendedData>
-            <Point id="928">
+            <Point id="149">
                 <coordinates>-15.7029,81.2926,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="950">
+        <Placemark id="171">
             <name>grip</name>
             <ExtendedData>
                 <Data name="Alternate name">
                     <value>GRIP</value>
                 </Data>
                 <Data name="Data source">
-                    <value>Johnsen, Sigfus J., Dahl-Jensen, Dorthe, Dansgaard, Willi, Gundestrup, Niels: Greenland palaeotemperatures derived from GRIP bore hole temperature and ice core isotope profiles , Tellus B: Chemical and Physical Meteorology 47(5), Informa UK Limited, 624–629, 1 1995 </value>
+                    <value>Gary Clow email</value>
                 </Data>
                 <Data name="Data year(s)">
                     <value>nan</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
-                    <value>107.0</value>
+                    <value>40.93</value>
                 </Data>
                 <Data name="Depth of bottom measurement [m]">
-                    <value>3023.0</value>
+                    <value>3028.57</value>
                 </Data>
                 <Data name="Drill year(s)">
                     <value>1989-1992 (Vinther, 2008)</value>
@@ -531,13 +531,13 @@
                     <value>Vinther (2008)</value>
                 </Data>
                 <Data name="Ice thickness [m]">
-                    <value>3027</value>
+                    <value>3028.57</value>
                 </Data>
                 <Data name="Ice thickness year">
                     <value>nan</value>
                 </Data>
                 <Data name="Ice thickness source">
-                    <value>Montagnat, M., Azuma, N., Dahl-Jensen, D., Eichler, J., Fujita, S., Gillet-Chaulet, F., Kipfstuhl, S., Samyn, D., Svensson, A., Weikusat, I.: Fabric along the NEEM ice core, Greenland, and its comparison with GRIP and NGRIP ice cores , The Cryosphere 8(4), Copernicus GmbH, 1129–1138, 7 2014 </value>
+                    <value>Data from Gary Clow</value>
                 </Data>
                 <Data name="Surface velocity [m yr^-1]">
                     <value>nan</value>
@@ -552,14 +552,14 @@
                     <value>T</value>
                 </Data>
                 <Data name="Coverage [% of thickness]">
-                    <value>96</value>
+                    <value>99</value>
                 </Data>
             </ExtendedData>
-            <Point id="949">
+            <Point id="170">
                 <coordinates>-37.64,72.58,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="971">
+        <Placemark id="192">
             <name>isua_10</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -617,11 +617,11 @@
                     <value>93</value>
                 </Data>
             </ExtendedData>
-            <Point id="970">
+            <Point id="191">
                 <coordinates>-49.75,65.2093,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="992">
+        <Placemark id="213">
             <name>isua_11</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -679,11 +679,11 @@
                     <value>76</value>
                 </Data>
             </ExtendedData>
-            <Point id="991">
+            <Point id="212">
                 <coordinates>-49.751,65.2072,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1013">
+        <Placemark id="234">
             <name>isua_12</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -741,11 +741,11 @@
                     <value>70</value>
                 </Data>
             </ExtendedData>
-            <Point id="1012">
+            <Point id="233">
                 <coordinates>-49.753,65.2039,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1034">
+        <Placemark id="255">
             <name>isua_13</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -803,11 +803,11 @@
                     <value>91</value>
                 </Data>
             </ExtendedData>
-            <Point id="1033">
+            <Point id="254">
                 <coordinates>-49.7456,65.2069,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1055">
+        <Placemark id="276">
             <name>isua_14</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -865,11 +865,11 @@
                     <value>77</value>
                 </Data>
             </ExtendedData>
-            <Point id="1054">
+            <Point id="275">
                 <coordinates>-49.7443,65.2058,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1076">
+        <Placemark id="297">
             <name>mcdowell_2021_14n</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -927,11 +927,11 @@
                     <value>94</value>
                 </Data>
             </ExtendedData>
-            <Point id="1075">
+            <Point id="296">
                 <coordinates>-49.57231502,67.18300296,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1097">
+        <Placemark id="318">
             <name>mcdowell_2021_14sa</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -989,11 +989,11 @@
                     <value>89</value>
                 </Data>
             </ExtendedData>
-            <Point id="1096">
+            <Point id="317">
                 <coordinates>-49.57241703,67.18099699999999,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1118">
+        <Placemark id="339">
             <name>mcdowell_2021_14sb</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1051,11 +1051,11 @@
                     <value>27</value>
                 </Data>
             </ExtendedData>
-            <Point id="1117">
+            <Point id="338">
                 <coordinates>-49.57216096,67.18095903,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1139">
+        <Placemark id="360">
             <name>mcdowell_2021_14w</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1113,11 +1113,11 @@
                     <value>94</value>
                 </Data>
             </ExtendedData>
-            <Point id="1138">
+            <Point id="359">
                 <coordinates>-49.57478802,67.18201398,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1160">
+        <Placemark id="381">
             <name>mcdowell_2021_15ca</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1175,11 +1175,11 @@
                     <value>92</value>
                 </Data>
             </ExtendedData>
-            <Point id="1159">
+            <Point id="380">
                 <coordinates>-49.56950398,67.18210400000001,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1181">
+        <Placemark id="402">
             <name>mcdowell_2021_15cb</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1237,11 +1237,11 @@
                     <value>44</value>
                 </Data>
             </ExtendedData>
-            <Point id="1180">
+            <Point id="401">
                 <coordinates>-49.569493,67.18201297,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1202">
+        <Placemark id="423">
             <name>mcdowell_2021_15e</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1299,11 +1299,11 @@
                     <value>93</value>
                 </Data>
             </ExtendedData>
-            <Point id="1201">
+            <Point id="422">
                 <coordinates>-49.56402498,67.18186604,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1223">
+        <Placemark id="444">
             <name>mcdowell_2021_15n</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1361,11 +1361,11 @@
                     <value>97</value>
                 </Data>
             </ExtendedData>
-            <Point id="1222">
+            <Point id="443">
                 <coordinates>-49.56691397,67.18312399999999,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1244">
+        <Placemark id="465">
             <name>mcdowell_2021_15s</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1423,27 +1423,27 @@
                     <value>92</value>
                 </Data>
             </ExtendedData>
-            <Point id="1243">
+            <Point id="464">
                 <coordinates>-49.56666302,67.180939,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1265">
+        <Placemark id="486">
             <name>neem</name>
             <ExtendedData>
                 <Data name="Alternate name">
                     <value>NEEM</value>
                 </Data>
                 <Data name="Data source">
-                    <value>MacGregor, Joseph A., Li, Jilu, Paden, John D., Catania, Ginny A., Clow, Gary D., Fahnestock, Mark A., Gogineni, S. Prasad, Grimm, Robert E., Morlighem, Mathieu, Nandi, Soumyaroop, et al.: Radar attenuation and temperature within the Greenland Ice Sheet , Journal of Geophysical Research: Earth Surface 120(6), American Geophysical Union (AGU), 983–1008, 6 2015 </value>
+                    <value>Email from Gary Clow</value>
                 </Data>
                 <Data name="Data year(s)">
-                    <value>2011</value>
+                    <value>2011-05-27</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
-                    <value>91.0</value>
+                    <value>81.29</value>
                 </Data>
                 <Data name="Depth of bottom measurement [m]">
-                    <value>2509.0</value>
+                    <value>2534.5</value>
                 </Data>
                 <Data name="Drill year(s)">
                     <value>2008 through 2012</value>
@@ -1461,13 +1461,13 @@
                     <value>Dahl-Jensen, D., Albert, Mary R., Aldahan, A., Azuma, N., Balslev-Clausen, D., Baumgartner, M., Berggren, A. -M., Bigler, M., Binder, T., Blunier, T., Bourgeois, J. C., Brook, E. J., Buchardt, S. L., Buizert, C., Capron, E., Chappellaz, J., Chung, J., Clausen, H. B., Cvijanovic, I., Davies, S. M., Ditlevsen, P., Eicher, O., Fischer, H., Fisher, D. A., Fleet, L. G., Gfeller, G., Gkinis, V., Gogineni, S., Goto-Azuma, K., Grinsted, A., Gudlaugsdottir, H., Guillevic, M., Hansen, S. B., Hansson, M., Hirabayashi, M., Hong, S., Hur, S. D., Huybrechts, Philippe, Hvidberg, C. S., Iizuka, Y., Jenk, T., Johnsen, S. J., Jones, T. R., Jouzel, J., Karlsson, N. B., Kawamura, K., Keegan, K., Kettner, E., Kipfstuhl, S., Kjær, H. A., Koutnik, M., Kuramoto, T., Koehler, P., Laepple, T., Landais, A., Langen, P. L., Larsen, L. B., Leuenberger, D., Leuenberger, M., Leuschen, C., Li, J., Lipenkov, V., Martinerie, P., Maselli, O. J., Masson-Delmotte, V., McConnell, J. R., Miller, H., Mini, O., Miyamoto, A., Montagnat-Rentier, M., Mulvaney, R., Muscheler, Raimund, Orsi, A. J., Paden, J., Panton, C., Pattyn, F., Petit, J. -R., Pol, K., Popp, T., Possnert, G., Prie, F., Prokopiou, M., Quiquet, A., Rasmussen, S. O., Raynaud, D., Ren, J., Reutenauer, C., Ritz, C., Rockmann, T., Rosen, J. L., Rubino, M., Rybak, O., Samyn, D., Sapart, C. J., Schilt, A., Schmidt, A. M. Z., Schwander, J., Schuepbach, S., Seierstad, I., Severinghaus, J. P., Sheldon, S., Simonsen, S. B., Sjolte, Jesper, Solgaard, A. M., Sowers, T., Sperlich, P., Steen-Larsen, H. C., Steffen, K., Steffensen, J. P., Steinhage, D., Stocker, T. F., Stowasser, C., Sturevik, A. S., Sturges, W. T., Sveinbjornsdottir, A., Svensson, A., Tison, J. -L., Uetake, J., Vallelonga, P., van de Wal, R. S. W., van der Wel, G., Vaughn, B. H., Vinther, B., Waddington, E., Wegner, A., Weikusat, I., White, J. W. C., Wilhelms, F., Winstrup, M., Witrant, E., Wolff, E. W., Xiao, C., Zheng, J.: Eemian interglacial reconstructed from a Greenland folded ice core , Nature 493(7433), Nature Publishing Group, 489–494, 2013 </value>
                 </Data>
                 <Data name="Ice thickness [m]">
-                    <value>2538</value>
+                    <value>2534.5</value>
                 </Data>
                 <Data name="Ice thickness year">
-                    <value>nan</value>
+                    <value>2011-05-27</value>
                 </Data>
                 <Data name="Ice thickness source">
-                    <value>MacGregor, Joseph A., Fahnestock, Mark A., Catania, Ginny A., Aschwanden, Andy, Clow, Gary D., Colgan, William T., Gogineni, Prasad S., Morlighem, Mathieu, Nowicki, Sophie M. J., Paden, John D., Price, Stephen F., Seroussi, Hélène: A synthesis of the basal thermal state of the Greenland Ice Sheet , Journal of Geophysical Research: Earth Surface 121(7), 1328–1350, 2016 </value>
+                    <value>Email from Gary Clow</value>
                 </Data>
                 <Data name="Surface velocity [m yr^-1]">
                     <value>nan</value>
@@ -1482,30 +1482,30 @@
                     <value>R</value>
                 </Data>
                 <Data name="Coverage [% of thickness]">
-                    <value>95</value>
+                    <value>97</value>
                 </Data>
             </ExtendedData>
-            <Point id="1264">
+            <Point id="485">
                 <coordinates>-51.06,77.45,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1286">
+        <Placemark id="507">
             <name>ngrip</name>
             <ExtendedData>
                 <Data name="Alternate name">
                     <value>NGRIP</value>
                 </Data>
                 <Data name="Data source">
-                    <value>Dahl-Jensen, Dorthe, Gundestrup, Niels, Gogineni, S Prasad, Miller, Heinz: Basal melt at NorthGRIP modeled from borehole, ice-core and radio-echo sounder observations , Annals of Glaciology 37, International Glaciological Society, 207–212, 2003 </value>
+                    <value>G. Clow email</value>
                 </Data>
                 <Data name="Data year(s)">
                     <value>nan</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
-                    <value>204.0</value>
+                    <value>81.89</value>
                 </Data>
                 <Data name="Depth of bottom measurement [m]">
-                    <value>2888.0</value>
+                    <value>2992.47</value>
                 </Data>
                 <Data name="Drill year(s)">
                     <value>1996-2004 (Vinther, 2008)</value>
@@ -1523,13 +1523,13 @@
                     <value>Vinther (2008)</value>
                 </Data>
                 <Data name="Ice thickness [m]">
-                    <value>3080</value>
+                    <value>3085</value>
                 </Data>
                 <Data name="Ice thickness year">
                     <value>nan</value>
                 </Data>
                 <Data name="Ice thickness source">
-                    <value>See data source</value>
+                    <value>See data source email</value>
                 </Data>
                 <Data name="Surface velocity [m yr^-1]">
                     <value>nan</value>
@@ -1544,14 +1544,14 @@
                     <value>T</value>
                 </Data>
                 <Data name="Coverage [% of thickness]">
-                    <value>87</value>
+                    <value>94</value>
                 </Data>
             </ExtendedData>
-            <Point id="1285">
+            <Point id="506">
                 <coordinates>-42.32,75.1,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1307">
+        <Placemark id="528">
             <name>penny</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1609,11 +1609,11 @@
                     <value>94</value>
                 </Data>
             </ExtendedData>
-            <Point id="1306">
+            <Point id="527">
                 <coordinates>-65.2,67.3,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1328">
+        <Placemark id="549">
             <name>pow</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1671,11 +1671,11 @@
                     <value>94</value>
                 </Data>
             </ExtendedData>
-            <Point id="1327">
+            <Point id="548">
                 <coordinates>-80.395,78.3897,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1349">
+        <Placemark id="570">
             <name>renland</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1733,11 +1733,11 @@
                     <value>88</value>
                 </Data>
             </ExtendedData>
-            <Point id="1348">
+            <Point id="569">
                 <coordinates>-26.768,71.306,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1370">
+        <Placemark id="591">
             <name>site_ii</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1795,11 +1795,11 @@
                     <value>0</value>
                 </Data>
             </ExtendedData>
-            <Point id="1369">
+            <Point id="590">
                 <coordinates>-56.066667,76.983333,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1391">
+        <Placemark id="612">
             <name>td1</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1857,11 +1857,11 @@
                     <value>83</value>
                 </Data>
             </ExtendedData>
-            <Point id="1390">
+            <Point id="611">
                 <coordinates>-50.13,69.45,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1412">
+        <Placemark id="633">
             <name>td2</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1919,11 +1919,11 @@
                     <value>37</value>
                 </Data>
             </ExtendedData>
-            <Point id="1411">
+            <Point id="632">
                 <coordinates>-50.13,69.45,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1433">
+        <Placemark id="654">
             <name>td3</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -1981,11 +1981,11 @@
                     <value>94</value>
                 </Data>
             </ExtendedData>
-            <Point id="1432">
+            <Point id="653">
                 <coordinates>-50.0,69.483,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1454">
+        <Placemark id="675">
             <name>td41</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -2043,11 +2043,11 @@
                     <value>0</value>
                 </Data>
             </ExtendedData>
-            <Point id="1453">
+            <Point id="674">
                 <coordinates>-49.683,69.533,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1475">
+        <Placemark id="696">
             <name>td42</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -2105,11 +2105,11 @@
                     <value>0</value>
                 </Data>
             </ExtendedData>
-            <Point id="1474">
+            <Point id="695">
                 <coordinates>-49.683,69.533,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1496">
+        <Placemark id="717">
             <name>td51</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -2167,11 +2167,11 @@
                     <value>0</value>
                 </Data>
             </ExtendedData>
-            <Point id="1495">
+            <Point id="716">
                 <coordinates>-49.3,69.566,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1517">
+        <Placemark id="738">
             <name>td52</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -2229,11 +2229,11 @@
                     <value>0</value>
                 </Data>
             </ExtendedData>
-            <Point id="1516">
+            <Point id="737">
                 <coordinates>-49.3,69.566,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1538">
+        <Placemark id="759">
             <name>tuto_ramp</name>
             <ExtendedData>
                 <Data name="Alternate name">
@@ -2291,7 +2291,7 @@
                     <value>0</value>
                 </Data>
             </ExtendedData>
-            <Point id="1537">
+            <Point id="758">
                 <coordinates>-68.287295,76.41133,0.0</coordinates>
             </Point>
         </Placemark>
