@@ -36,7 +36,7 @@ Coverage [% of thickness]             | 92
 
 + Data provided by 3rd party in XLSX format, converted to CSV.
 + WIC Email: [[mu4e:msgid:AM0PR04MB6129DE88C9253A951702EE06A2F30@AM0PR04MB6129.eurprd04.prod.outlook.com][Agassiz x4]]
-+ See also [[citet:clarke_1987_wind][Clark (1987)]] Figure 2.
++ See also [[citet:clarke_1987_wind][Clarke (1987)]] Figure 2. [The Physical Basis of Ice Sheet Modelling (Proceedings of the Vancouver Symposium, August 1987). IAHS Publ. no. 170].
 
 #+BEGIN_example
 From: William Colgan
