@@ -44,6 +44,29 @@ Depth of bottom measurement [m]       | 623
 
 ** Velocity
 
+
+** Notes
+
+#+BEGIN_EXAMPLE
+From: Joel Harper
+To: Ken Mankoff, Benjamin Hills
+Cc: William Colgan, Anja Løkkegaard, Toby Meierbachtol
+Subject: RE: Ice borehole temperatures
+Date: Tue 10 Aug 2021 08:29:11 AM PDT
+Attachments:
+ [1]Wright_et_al-2016-Journal_of_Geophysical_Research__Earth_Surface.pdf(4.6M)
+
+[W]e abandoned the 'Site' naming convention used in the original
+Harrington [2015] paper in favor of a 'km from terminus/yr'... e.g.,
+46km-11 = 46km from the Isunnguata Sermia terminus, site established
+in 2011 (see figure 2 [ed: Wright (2016)]). If the hole was drilled in
+2011 for example, a particular dataset may have been collected in any
+subsequent year since the instrumentation typically runs for up to a
+few years. Site 33 km was established with several boreholes in 2014,
+but we returned and drilled additional holes at this site in 2015
+and 2016.
+#+END_EXAMPLE
+
 ** Data                                                 :noexport:
 
 #+BEGIN_SRC python :exports none

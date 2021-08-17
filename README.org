@@ -27,6 +27,10 @@ Uncertainty estimates are not provided, but can be determined from the reference
 
 After digitizing the profiles from the graphic or tables, we linearly interpolate between the points. We then convert the vertical scales (from the graphic) to scales depth below surface and distance above bed.
 
+* Notes
+
++ When a site has multiple boreholes (multiple similarly named folders) additional data (either as data files on disk, or information in the README.org file) may be available in the first (alphabetically) folder.
+
 * Results
 
 #+NAME: fig:T_surf
