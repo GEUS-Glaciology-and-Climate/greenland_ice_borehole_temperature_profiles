@@ -46,6 +46,7 @@ According to text and graphic (see black horizontal bar), temperature profile go
 
 ** Data                                                 :noexport:
 
+#+NAME: ingest_data
 #+BEGIN_SRC bash :exports results
 cat data.csv | sort -t, -n -r -k2
 #+END_SRC

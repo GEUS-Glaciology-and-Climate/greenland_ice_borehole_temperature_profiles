@@ -1,0 +1,82 @@
+* Hills (2017) 15CB
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                           | hills_2017_15cb
+Descriptive Name                      | 33km_15CB
+Area                                  | Isunnguata Sermia
+Data reference                        | Joel Harper. 2017. Ice temperatures measured in a grid of boreholes, Western Greenland, 2014-2016. Arctic Data Center. doi:10.18739/A24746S04.
+Data DOI                              | 10.18739/A24746S04
+Science reference                     | "Hills, Benjamin H., Joel T. Harper, Neil F. Humphrey, and Toby W. Meierbachtol. ""Measured horizontal temperature gradients constrain heat transfer mechanisms in Greenland ice."" Geophysical Research Letters 44, no. 19 (2017): 9778-9785."
+Science DOI                           | 10.1002/2017GL074917
+Date                                  | 2016
+Longitude [°E]                        | -49.569493
+Latitude [°N]                         | 67.182013
+Location source                       | 10.18739/A24746S04
+Depth of top measurement [m]          | 370.0
+Depth of bottom measurement [m]       | 670.0
+Ice thickness [m]                     | 675
+Coverage [% of thickness]             | 44
+Ice thickness source                  | 10.18739/A24746S04
+Measured from: Top, Bottom, Relative  | B
+General_Note                          | See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.
+Temperature_note                      | 
+Thickness_note                        | 
+Location_note                         | 
+#+end_example
+
+** Temperature
+
+** Thickness
+
+** Location
+
+** Velocity
+
+** Notes
+
+See 14n for more information
+
+** Data                                                 :noexport:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k1
+#+END_SRC
+
+#+RESULTS: ingest_data
+|   d |      t |
+| 370 | -10.25 |
+| 390 |  -10.0 |
+| 410 |  -9.38 |
+| 430 |  -8.81 |
+| 450 |  -8.38 |
+| 470 |  -7.56 |
+| 490 |  -6.81 |
+| 510 |  -6.06 |
+| 530 |  -5.31 |
+| 540 |  -4.94 |
+| 550 |  -4.56 |
+| 560 |  -4.13 |
+| 570 |  -3.69 |
+| 580 |  -3.25 |
+| 590 |  -2.81 |
+| 600 |  -2.44 |
+| 620 |  -1.56 |
+| 630 |  -1.19 |
+| 640 |  -0.81 |
+| 650 |  -0.44 |
+| 660 |  -0.25 |
+| 670 |  -0.06 |
+
+
+

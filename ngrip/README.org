@@ -4,30 +4,34 @@
 :clearpage: t
 :END:
 
+#+NAME: ingest_meta
 #+BEGIN_SRC bash :results verbatim :exports results
 cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 #+END_SRC
 
-#+RESULTS:
+#+RESULTS: ingest_meta
 #+begin_example
-Name                                  | ngrip
-Alternate name                        | NGRIP
-Data source                           | G. Clow email
-Drill year(s)                         | 1996-2004 (Vinther, 2008)
-Data year(s)                          | 
+Borehole ID                           | ngrip
+Descriptive Name                      | NGRIP
+Area                                  | 
+Data reference                        | G. Clow email
+Data DOI                              | 
+Science reference                     | 
+Science DOI                           | 
+Date                                  | 
 Longitude [°E]                        | -42.32
-Latitude [°N]                         | 75.10
-Approximate location name             | 
+Latitude [°N]                         | 75.1
 Location source                       | Vinther (2008)
-Ice thickness [m]                     | 3085
-Ice thickness year                    | 
-Ice thickness source                  | See data source email
-Surface velocity [m yr^-1]            | 
-Surface velocity year                 | 
-Surface velocity source               | 
-Measured from: Top, Bottom, Relative  | T
 Depth of top measurement [m]          | 81.89
 Depth of bottom measurement [m]       | 2992.47
+Ice thickness [m]                     | 3085
+Coverage [% of thickness]             | 94
+Ice thickness source                  | See data source email
+Measured from: Top, Bottom, Relative  | T
+General_Note                          | 
+Temperature_note                      | 
+Thickness_note                        | 
+Location_note                         | 
 #+end_example
 
 ** Temperature
@@ -72,11 +76,12 @@ df.index.name = 'd'
 df.to_csv('data.csv')
 #+END_SRC
 
+#+NAME: ingest_data
 #+BEGIN_SRC bash :exports results
 cat data.csv | sort -t, -n -k1
 #+END_SRC
 
-#+RESULTS:
+#+RESULTS: ingest_data
 |       d |        t |
 |   81.89 | -31.6259 |
 |    85.0 | -31.6276 |

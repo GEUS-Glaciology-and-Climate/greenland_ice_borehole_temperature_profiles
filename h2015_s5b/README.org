@@ -4,30 +4,34 @@
 :clearpage: t
 :END:
 
+#+NAME: ingest_meta
 #+BEGIN_SRC bash :results verbatim :exports results
 cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 #+END_SRC
 
-#+RESULTS:
+#+RESULTS: ingest_meta
 #+begin_example
-Name                                  | h2015_s5b
-Alternate name                        | 
-Data source                           | Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 
-Drill year(s)                         | 
-Data year(s)                          | 2011-2013
+Borehole ID                           | h2015_s5b
+Descriptive Name                      | 46km_S5B
+Area                                  | 
+Data reference                        | Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 
+Data DOI                              | 
+Science reference                     | 
+Science DOI                           | 
+Date                                  | 2011
 Longitude [°E]                        | 
 Latitude [°N]                         | 
-Approximate location name             | 
 Location source                       | 
-Ice thickness [m]                     | 815
-ice thickness year                    | 
-Ice thickness source                  | See data source
-Surface velocity [m yr^-1]            | 
-Surface velocity year                 | 
-Surface velocity source               | 
-Measured from: Top, Bottom, Relative  | T
 Depth of top measurement [m]          | 114.0
 Depth of bottom measurement [m]       | 728.0
+Ice thickness [m]                     | 815
+Coverage [% of thickness]             | 75
+Ice thickness source                  | See data source
+Measured from: Top, Bottom, Relative  | T
+General_Note                          | 
+Temperature_note                      | 
+Thickness_note                        | 
+Location_note                         | 
 #+end_example
 
 ** Temperature
@@ -46,11 +50,12 @@ Depth of bottom measurement [m]       | 728.0
 
 ** Data                                                 :noexport:
 
+#+NAME: ingest_data
 #+BEGIN_SRC bash :exports results
 cat data.csv | sort -t, -n -k2
 #+END_SRC
 
-#+RESULTS:
+#+RESULTS: ingest_data
 |                   t |                  d |
 | -11.230098301179122 | 113.96828178393017 |
 | -11.443943813889636 | 122.20450363620392 |

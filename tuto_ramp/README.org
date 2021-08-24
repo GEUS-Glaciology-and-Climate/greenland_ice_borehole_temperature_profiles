@@ -4,30 +4,34 @@
 :clearpage: t
 :END:
 
+#+NAME: ingest_meta
 #+BEGIN_SRC bash :results verbatim :exports results
 cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 #+END_SRC
 
-#+RESULTS:
+#+RESULTS: ingest_meta
 #+begin_example
-Name                                   |  tuto_ramp
-Alternate name                         |  Tuto Ramp
-Data source                            |  Davis, RM: Approach roads, Greenland 1960–1964 , Technical Report 133. Corps of Engineers, Cold Regions Research & Engineering Laboratory , 1967 
-Data year(s)                           |  1962 (August)
-Depth of top measurement [m]           |  
-Depth of bottom measurement [m]        |  
-Drill year(s)                          |  
-Longitude [°E]                         |  -68.287295
-Latitude [°N]                          |  76.41133
-Approximate location name              |  Thule Approach Road(?)
-Location source                        |  
-Ice thickness [m]                      |  48
-Ice thickness year                     |  
-Ice thickness source                   |  See data source
-Surface velocity [m yr^-1]             |  1.0
-Surface velocity year                  |  
-Surface velocity source                |  WIC Email
-Measured from: Top, Bottom, Relative   |  T(ish)
+Borehole ID                           | tuto_ramp
+Descriptive Name                      | Tuto Ramp
+Area                                  | Thule Approach Road(?)
+Data reference                        | Davis, RM: Approach roads, Greenland 1960–1964 , Technical Report 133. Corps of Engineers, Cold Regions Research & Engineering Laboratory , 1967 
+Data DOI                              | 
+Science reference                     | 
+Science DOI                           | 
+Date                                  | 1962 (August)
+Longitude [°E]                        | -68.287295
+Latitude [°N]                         | 76.41133
+Location source                       | 
+Depth of top measurement [m]          | 
+Depth of bottom measurement [m]       | 
+Ice thickness [m]                     | 48
+Coverage [% of thickness]             | 0
+Ice thickness source                  | See data source
+Measured from: Top, Bottom, Relative  | T(ish)
+General_Note                          | 
+Temperature_note                      | 
+Thickness_note                        | 
+Location_note                         | 
 #+end_example
 
 ** Temperature
@@ -60,11 +64,12 @@ df['d'] = (df['d'] - 44) * 0.3048 # ft to m
 df.to_csv('data.csv', index=False)
 #+END_SRC
 
+#+NAME: ingest_data
 #+BEGIN_SRC bash :exports results
 cat data.csv
 #+END_SRC
 
-#+RESULTS:
+#+RESULTS: ingest_data
 |                   t |                   d |
 |   3.940685231875971 |  -4.112656789034052 |
 |  1.7194682278483704 | -1.0566157361570736 |

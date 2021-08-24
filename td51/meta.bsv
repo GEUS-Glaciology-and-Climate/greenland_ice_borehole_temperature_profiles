@@ -1,18 +1,21 @@
-Name|td51
-Alternate name|
-Data source|Unknown PDF: See td1 and Lüthi (2015)
-Drill year(s)|
-Data year(s)|1990-06-09
+Borehole ID|td51
+Descriptive Name|
+Area|Paakitsoq / Swiss Camp
+Data reference|Unknown PDF: See td1 and Lüthi (2015)
+Data DOI|
+Science reference|
+Science DOI|
+Date|1990-06-09
 Longitude [°E]|-49.3
 Latitude [°N]|69.566
-Approximate location name|Paakitsoq / Swiss Camp
 Location source|Unknown PDF: See td1 and Lüthi (2015)
-Ice thickness [m]|>600
-Ice thickness year|
-Ice thickness source|Unknown PDF: See td1 and Lüthi (2015)
-Surface velocity [m yr^-1]|
-Surface velocity year|
-Surface velocity source|
-Measured from: Top, Bottom, Relative|T
 Depth of top measurement [m]|5.0
 Depth of bottom measurement [m]|600.0
+Ice thickness [m]|>600
+Coverage [% of thickness]|#VALUE!
+Ice thickness source|Unknown PDF: See td1 and Lüthi (2015)
+Measured from: Top, Bottom, Relative|T
+General_Note|
+Temperature_note|
+Thickness_note|
+Location_note|

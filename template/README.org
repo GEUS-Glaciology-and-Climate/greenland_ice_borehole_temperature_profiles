@@ -4,31 +4,13 @@
 :clearpage: t
 :END:
 
+#+NAME: ingest_meta
 #+BEGIN_SRC bash :results verbatim :exports results
 cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 #+END_SRC
 
-#+RESULTS:
-#+begin_example
-Name                                   |  template
-Alternate name                         |  Template Borehole
-Data source                            |  Reference
-Data year(s)                           |  YYYY
-Depth of top measurement [m]           |  float
-Depth of bottom measurement [m]        |  float
-Drill year(s)                          |  YYYY
-Longitude [°E]                         |  decimal degree
-Latitude [°N]                          |  decimal degree
-Approximate location name              |  Location Name
-Location source                        |  Reference
-Ice thickness [m]                      |  float
-Ice thickness year                     |  YYYY
-Ice thickness source                   |  Reference
-Surface velocity [m yr^-1]             |  float
-Surface velocity year                  |  YYYY
-Surface velocity source                |  Reference
-Measured from: Top, Bottom, Relative   |  T/B/R
-#+end_example
+#+RESULTS: ingest_meta
+
 
 ** Temperature
 
@@ -57,10 +39,12 @@ Email?
 
 ** Data                                                 :noexport:
 
+#+NAME: ingest_data
 #+BEGIN_SRC bash :exports results
 cat data.csv | sort -t, -n -k1
 #+END_SRC
 
-#+RESULTS:
+#+RESULTS: ingest_data
 | t | b OR b | t |
+
 

@@ -1,18 +1,21 @@
-Name|devon_00
-Alternate name|Devon borehole
-Data source|WIC Email
-Drill year(s)|1998-04-15 to 1998-05-07
-Data year(s)|2000-04-15
+Borehole ID|devon_00
+Descriptive Name|Devon borehole
+Area|Devon Ice Cap
+Data reference|W. Colgan email
+Data DOI|
+Science reference|
+Science DOI|
+Date|2000-04-15
 Longitude [°E]|-82.14
 Latitude [°N]|75.34
-Approximate location name|Devon Ice Cap
 Location source|
+Depth of top measurement [m]|13.0
+Depth of bottom measurement [m]|218.0
 Ice thickness [m]|300.55
-Ice thickness year|
+Coverage [% of thickness]|68
 Ice thickness source|See data source
-Surface velocity [m yr^-1]|
-Surface velocity year|
-Surface velocity source|
 Measured from: Top, Bottom, Relative|T
-Depth of top measurement [m]|13
-Depth of bottom measurement [m]|218
+General_Note|
+Temperature_note|
+Thickness_note|
+Location_note|

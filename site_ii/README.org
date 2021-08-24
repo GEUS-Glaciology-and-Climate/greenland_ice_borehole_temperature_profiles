@@ -4,30 +4,34 @@
 :clearpage: t
 :END:
 
+#+NAME: ingest_meta
 #+BEGIN_SRC bash :results verbatim :exports results
 cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 #+END_SRC
 
-#+RESULTS:
+#+RESULTS: ingest_meta
 #+begin_example
-Name                                  | site_ii
-Alternate name                        | Site II
-Data source                           | Hansen, B. L., Landauer, J. K.: Some results of ice cap drill hole measurements, Union Geodesique et Geophysique Internationale. Association Internationale d'Hydrologie Scientifique 47, 313–317, 1958 
-Drill year(s)                         | 1957 (Summer)
-Data year(s)                          | 1958 (late June)
+Borehole ID                           | site_ii
+Descriptive Name                      | Site II
+Area                                  | 
+Data reference                        | Hansen, B. L., Landauer, J. K.: Some results of ice cap drill hole measurements, Union Geodesique et Geophysique Internationale. Association Internationale d'Hydrologie Scientifique 47, 313–317, 1958 
+Data DOI                              | 
+Science reference                     | 
+Science DOI                           | 
+Date                                  | 1958 (late June)
 Longitude [°E]                        | -56.066667
 Latitude [°N]                         | 76.983333
-Approximate location name             | 
 Location source                       | WIC Email
-Ice thickness [m]                     | 1851
-ice thickness year                    | 
-Ice thickness source                  | BedMachine
-Surface velocity [m yr^-1]            | 
-Surface velocity year                 | 
-Surface velocity source               | 
-Measured from: Top, Bottom, Relative  | T
 Depth of top measurement [m]          | 
 Depth of bottom measurement [m]       | 
+Ice thickness [m]                     | 1851
+Coverage [% of thickness]             | 0
+Ice thickness source                  | BedMachine
+Measured from: Top, Bottom, Relative  | T
+General_Note                          | 
+Temperature_note                      | 
+Thickness_note                        | 
+Location_note                         | 
 #+end_example
 
 ** Temperature
@@ -81,11 +85,12 @@ Email from WIC (see above)
 
 ** Data                                                 :noexport:
 
+#+NAME: ingest_data
 #+BEGIN_SRC bash :exports results
 cat data.csv| sort -t, -n -k2
 #+END_SRC
 
-#+RESULTS:
+#+RESULTS: ingest_data
 |                   t |                  d |
 | -23.998054647442498 | 16.218139247289688 |
 | -24.029533844695226 | 18.077285194709674 |

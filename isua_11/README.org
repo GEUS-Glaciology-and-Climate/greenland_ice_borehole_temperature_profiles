@@ -4,30 +4,34 @@
 :clearpage: t
 :END:
 
+#+NAME: ingest_meta
 #+BEGIN_SRC bash :results verbatim :exports results
 cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 #+END_SRC
 
-#+RESULTS:
+#+RESULTS: ingest_meta
 #+begin_example
-Name                                  | isua_11
-Alternate name                        | Isua
-Data source                           | Colbeck, S. C., Gow, A. J.: The Margin of the Greenland Ice Sheet at Isua , Journal of Glaciology 24(90), Cambridge University Press (CUP), 155–165, 1979 
-Drill year(s)                         | 
-Data year(s)                          | 1972-1973
-Longitude [°E]                        | -49.7510
+Borehole ID                           | isua_11
+Descriptive Name                      | Isua
+Area                                  | 
+Data reference                        | Colbeck, S. C., Gow, A. J.: The Margin of the Greenland Ice Sheet at Isua , Journal of Glaciology 24(90), Cambridge University Press (CUP), 155–165, 1979 
+Data DOI                              | 
+Science reference                     | 
+Science DOI                           | 
+Date                                  | 1972-1973
+Longitude [°E]                        | -49.75100000000001
 Latitude [°N]                         | 65.2072
-Approximate location name             | 
 Location source                       | 
-Ice thickness [m]                     | 120
-Ice thickness year                    | 
-Ice thickness source                  | See data source
-Surface velocity [m yr^-1]            | 
-Surface velocity year                 | 
-Surface velocity source               | 
-Measured from: Top, Bottom, Relative  | T
 Depth of top measurement [m]          | 25.0
 Depth of bottom measurement [m]       | 116.0
+Ice thickness [m]                     | 120
+Coverage [% of thickness]             | 76
+Ice thickness source                  | See data source
+Measured from: Top, Bottom, Relative  | T
+General_Note                          | 
+Temperature_note                      | 
+Thickness_note                        | 
+Location_note                         | 
 #+end_example
 
 ** Temperature
@@ -67,11 +71,12 @@ Attachments: [1]image002.jpg(147.6K),
 
 ** Data                                                 :noexport:
 
+#+NAME: ingest_data
 #+BEGIN_SRC bash :exports results
 cat data.csv | sort -t, -n -k2
 #+END_SRC
 
-#+RESULTS:
+#+RESULTS: ingest_data
 |                   t |                  d |
 | -3.7882432990692814 |  24.93305144467935 |
 |  -3.177286092683044 |  35.15151515151515 |

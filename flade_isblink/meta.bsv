@@ -1,18 +1,21 @@
-Name|flade_isblink
-Alternate name|Flade Isblink
-Data source|Dorthe Dalh-Jensen (personal comm.)
-Drill year(s)|
-Data year(s)|
+Borehole ID|flade_isblink
+Descriptive Name|Flade Isblink
+Area|
+Data reference|Dorthe Dalh-Jensen (personal comm.)
+Data DOI|
+Science reference|
+Science DOI|
+Date|
 Longitude [°E]|-15.7029
 Latitude [°N]|81.2926
-Approximate location name|
 Location source|
-Ice thickness [m]|540
-Ice thickness year|
-Ice thickness source|See WIC email
-Surface velocity [m yr^-1]|
-Surface velocity year|
-Surface velocity source|
-Measured from: Top, Bottom, Relative|T
 Depth of top measurement [m]|80.0
 Depth of bottom measurement [m]|420.0
+Ice thickness [m]|540
+Coverage [% of thickness]|63
+Ice thickness source|See WIC email
+Measured from: Top, Bottom, Relative|T
+General_Note|
+Temperature_note|
+Thickness_note|
+Location_note|
