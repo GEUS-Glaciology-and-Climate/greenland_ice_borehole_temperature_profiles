@@ -1,0 +1,77 @@
+* Harrington 2015 27km-11C
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                           | harrington_2015_27km-11C
+Descriptive Name                      | 27km-11C
+Area                                  | 
+Data reference                        | T. Meierbachtol email
+Data DOI                              | 
+Science reference                     | Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 
+Science DOI                           | 10.3189/2015AoG70A944
+Date                                  | 2011
+Longitude [°E]                        | -49.718917
+Latitude [°N]                         | 67.19505
+Location source                       | T. Meierbachtol email
+Depth of top measurement [m]          | 20.0
+Depth of bottom measurement [m]       | 459.0
+Ice thickness [m]                     | 460
+Coverage [% of thickness]             | 95
+Ice thickness source                  | T. Meierbachtol email
+Measured from: Top, Bottom, Relative  | T
+General_Note                          | See data in M1-10 folder
+Temperature_note                      | 
+Thickness_note                        | 
+Location_note                         | Harrington 2015 name: S3-C
+#+end_example
+
+** Temperature
+
+** Thickness
+
+** Location
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -g -k1
+#+END_SRC
+
+#+RESULTS: ingest_data
+|     d |           t |
+|  19.5 |  -5.8377692 |
+|  39.5 |  -2.7902308 |
+|  59.5 |  -2.1196154 |
+|  79.5 |  -2.7182308 |
+|  99.5 |  -3.4553077 |
+| 119.5 |  -3.6385385 |
+| 139.5 |  -3.7679231 |
+| 159.5 |  -3.7357692 |
+| 179.5 |      -3.619 |
+| 199.5 |      -3.433 |
+| 219.5 |  -3.1777692 |
+| 239.5 |  -2.7225385 |
+| 259.5 |  -2.2826923 |
+| 279.5 |  -1.7659231 |
+| 299.5 |  -1.2260769 |
+| 319.5 | -0.74007692 |
+| 339.5 |      -0.231 |
+| 359.5 | -0.41423077 |
+| 379.5 |      -0.259 |
+| 399.5 |      -0.273 |
+| 419.5 |      -0.287 |
+| 439.5 |      -0.301 |
+| 459.5 |      -0.315 |
+
