@@ -18,7 +18,7 @@ Data reference                        | G. Clow email
 Data DOI                              | 
 Science reference                     | 
 Science DOI                           | 
-Date                                  | 
+Date                                  | 2003
 Longitude [°E]                        | -42.32
 Latitude [°N]                         | 75.1
 Location source                       | Vinther (2008)

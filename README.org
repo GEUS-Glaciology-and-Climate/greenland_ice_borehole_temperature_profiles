@@ -153,8 +153,10 @@ print(df.index)
 #+begin_example
 Index(['agassiz77', 'agassiz79a', 'agassiz79b', 'agassiz84', 'camp_century', 'camp_vi', 'devon_00',
        'devon_71', 'devon_72', 'doyle_2018', 'dye_3', 'flade_isblink', 'foxx1', 'foxx2', 'gisp2',
-       'grip', 'gull', 'h2015_s1a', 'h2015_s1b', 'h2015_s2a', 'h2015_s3a', 'h2015_s3b',
-       'h2015_s3c', 'h2015_s4a', 'h2015_s4b', 'h2015_s4c', 'h2015_s5a', 'h2015_s5b',
+       'grip', 'gull', 'harrington_2015_M1-10', 'harrington_2015_M2-10B',
+       'harrington_2015_13km-10', 'harrington_2015_27km-11A', 'harrington_2015_27km-11B',
+       'harrington_2015_27km-11C', 'harrington_2015_27km-12A', 'harrington_2015_27km-12B',
+       'harrington_2015_27km-12C', 'harrington_2015_46km-11A', 'harrington_2015_46km-11B',
        'hanstausen_dome', 'hanstausen_hare', 'hills_2017_14n', 'hills_2017_14sa',
        'hills_2017_14sb', 'hills_2017_14w', 'hills_2017_15ca', 'hills_2017_15cb', 'hills_2017_15e',
        'hills_2017_15n', 'hills_2017_15s', 'isua_10', 'isua_11', 'isua_12', 'isua_13', 'isua_14',

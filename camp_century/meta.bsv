@@ -6,8 +6,8 @@ Data DOI|10.1029/jb073i008p02691
 Science reference|Weertman, J.: Comparison between measured and theoretical temperature profiles of the Camp Century, Greenland, Borehole , Journal of Geophysical Research 73(8), American Geophysical Union (AGU), 2691–2700, 4 1968
 Science DOI|10.1029/jb073i008p02691
 Date|?
-Longitude [°E]|
-Latitude [°N]|
+Longitude [°E]|-61.1097
+Latitude [°N]|77.1797
 Location source|?
 Depth of top measurement [m]|9.0
 Depth of bottom measurement [m]|1387.0

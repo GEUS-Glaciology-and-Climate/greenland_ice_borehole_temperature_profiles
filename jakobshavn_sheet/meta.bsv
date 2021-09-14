@@ -5,10 +5,10 @@ Data reference|Lüthi, Martin, Funk, Martin, Iken, Almut, Gogineni, Shivaprasad,
 Data DOI|
 Science reference|
 Science DOI|
-Date|
-Longitude [°E]|
-Latitude [°N]|
-Location source|
+Date|1995
+Longitude [°E]|-48.68713
+Latitude [°N]|69.235046
+Location source|See data source
 Depth of top measurement [m]|19.0
 Depth of bottom measurement [m]|798.0
 Ice thickness [m]|828
@@ -18,4 +18,4 @@ Measured from: Top, Bottom, Relative|T
 General_Note|
 Temperature_note|
 Thickness_note|
-Location_note|
+Location_note|Location from Geothermal Database

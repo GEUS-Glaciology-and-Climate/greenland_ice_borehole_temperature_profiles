@@ -6,8 +6,8 @@ Data DOI|
 Science reference|
 Science DOI|
 Date|2011-2013
-Longitude [°E]|
-Latitude [°N]|
+Longitude [°E]|-49.7142167
+Latitude [°N]|69.4526
 Location source|
 Depth of top measurement [m]|4.0
 Depth of bottom measurement [m]|704.0
@@ -18,4 +18,4 @@ Measured from: Top, Bottom, Relative|T
 General_Note|
 Temperature_note|
 Thickness_note|
-Location_note|
+Location_note|Location from Geothermal Database

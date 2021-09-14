@@ -6,9 +6,9 @@ Data DOI|
 Science reference|
 Science DOI|
 Date|1965
-Longitude [°E]|
-Latitude [°N]|
-Location source|
+Longitude [°E]|-99.1
+Latitude [°N]|79.9
+Location source|See data source
 Depth of top measurement [m]|1.0
 Depth of bottom measurement [m]|121.0
 Ice thickness [m]|121.2
@@ -18,4 +18,4 @@ Measured from: Top, Bottom, Relative|T
 General_Note|
 Temperature_note|
 Thickness_note|
-Location_note|
+Location_note|Location from Geothermal Database

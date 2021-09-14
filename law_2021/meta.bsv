@@ -11,9 +11,9 @@ Latitude [°N]|70.57
 Location source|Law (2021)
 Depth of top measurement [m]|
 Depth of bottom measurement [m]|
-Ice thickness [m]|
-Coverage [% of thickness]|#DIV/0!
-Ice thickness source|
+Ice thickness [m]|1043
+Coverage [% of thickness]|0
+Ice thickness source|Law (2021)
 Measured from: Top, Bottom, Relative|
 General_Note|
 Temperature_note|
