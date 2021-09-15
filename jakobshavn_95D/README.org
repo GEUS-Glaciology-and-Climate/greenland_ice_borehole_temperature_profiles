@@ -1,4 +1,4 @@
-* Jakobshavn sheet
+* Jakobshavn 95D
 :PROPERTIES:
 :header-args:jupyter-python+: :session ds :kernel ds
 :clearpage: t
@@ -36,45 +36,58 @@ Location_note                         | Location from Geothermal Database
 
 ** Temperature
 
-+ From [[citet:luthi_2002][Lüthi (2002)]] Figure 7 (a)
-+ Additional profiles (margin, centre) are from [[citet:iken_1993][Iken (1993)]] and named "jakobshavn_center" and "jakobshavn_left".
-[[./luthi_2002_fig7.png]]
-
-
 ** Thickness
 
-+ From [[citet:luthi_2002][Lüthi (2002)]].
- 
 ** Location
 
 ** Velocity
 
 ** Data                                                 :noexport:
 
+#+BEGIN_SRC jupyter-python
+import pandas as pd
+df = pd.read_csv('temp_depth95.txt', sep='\s+', comment='%', index_col=0, names=['d','t'], usecols=(0,1))
+df0 = df.iloc[1:10]
+df1 = df.iloc[10:18]
+df2 = df.iloc[18:22]
+df3 = df.iloc[22:25]
+
+# drop df4 - outlier
+# pd.concat((df0,df1,df2,df3,df4)).sort_index().plot()
+pd.concat((df0,df1,df2,df3)).sort_index().to_csv('data.csv', float_format='%.3f')
+#+END_SRC
+
+#+RESULTS:
+
 #+NAME: ingest_data
 #+BEGIN_SRC bash :exports results
-cat data.csv | sort -t, -n -k2
+cat data.csv | sort -t, -g -k1
 #+END_SRC
 
 #+RESULTS: ingest_data
-|                   t |                  d |
-|  -6.153846153846171 |  19.18976545842206 |
-| -14.547511312217196 | 100.74626865671641 |
-| -17.828054298642535 | 198.29424307036226 |
-| -18.235294117647058 |  259.0618336886992 |
-|  -19.72850678733031 |  299.0405117270788 |
-| -19.728506787330318 |  345.4157782515989 |
-|  -20.83710407239819 |  450.9594882729207 |
-|  -22.39819004524887 |  524.5202558635392 |
-| -21.628959276018097 |  543.7100213219617 |
-| -21.221719457013577 |   558.102345415778 |
-|  -20.06787330316742 |  599.6801705756927 |
-|  -19.81900452488688 |  609.2750533049038 |
-| -17.963800904977376 |  644.4562899786782 |
-| -16.357466063348415 |  650.8528784648187 |
-|   -16.6289592760181 |  658.8486140724943 |
-|  -5.746606334841623 |  745.2025586353943 |
-|   -3.39366515837105 |  759.5948827292108 |
-|  -1.040723981900456 |  786.7803837953088 |
-| -0.5429864253393681 |   797.974413646055 |
+|      d |       t |
+|   20.0 |   -6.17 |
+|  100.0 | -14.546 |
+|  200.0 | -17.819 |
+| 258.05 | -18.221 |
+|  300.0 |  -19.71 |
+| 344.08 | -19.737 |
+|  450.0 | -20.834 |
+|  525.0 | -22.387 |
+| 544.88 | -21.606 |
+| 559.28 | -21.224 |
+|  600.0 | -20.059 |
+| 609.49 | -19.807 |
+| 645.17 | -17.964 |
+| 659.64 | -16.617 |
+| 745.44 |  -5.737 |
+| 759.85 |  -3.395 |
+| 795.55 |  -0.733 |
+| 820.58 |  -0.597 |
+| 827.58 |   -0.58 |
+| 828.48 |  -0.586 |
+| 829.38 |  -0.595 |
+| 829.95 |  -0.592 |
+|  831.9 |  -0.586 |
+|  832.8 |  -0.583 |
 

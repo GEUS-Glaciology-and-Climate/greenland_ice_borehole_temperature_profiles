@@ -1,0 +1,44 @@
+%  Depth of sensors and temperatures (Tiefen aus sens_depth) ; poly 4. Grad
+%  Korrigiert mit der Bohrlochtiefe und der Kabeldehnung file gewicht_tiefe.sdc
+%  Kette 10   Inklino/Thermistor
+%  Kette 20   Inklino/Thermistor
+%  Kette 30   lange Thermistorenkette
+%  Kette 40   mittlere Thermistorenkette	      
+%  Kette 50   kurze Thermistorenkette	      
+%  Tiefe im Bohrloch entsprechen den Kabell"angen.
+%  Ann: 95003,95004 (33,34) sind auf 786 m verhaengt
+%  tiefe-korr  temperature sensor
+4	29
+344.08 	-19.7366	19	19
+544.88	-21.606		18	18
+645.17	-17.964 	17	17
+745.44	-5.737  	16	16
+795.55	-0.7326		15	15
+820.58	-0.5972 	14	14
+827.58	-0.5802 	13	13
+828.48	-0.5855		12	12
+829.38	-0.5949		11	11
+
+258.05	-18.2209	29	29
+559.28	-21.22386	27	27
+609.49	-19.80732	26	26
+659.64	-16.6170	25	25
+759.85	-3.3947 	24	24
+829.95	-0.5922		23	23
+831.9	-0.5859		22	22
+832.8	-0.5827		21	21
+
+20.00	-6.17		95024	34
+100.00	-14.5465	95016	33
+200.00  -17.8192	95015	32
+300.00	-19.7099	95014	31
+
+450.00	-20.8335	95013	43
+525.00	-22.3872	95012	42
+600.00	-20.0589	95011	41
+
+650.00  -16.354		95005	55
+789.00	-1.0486		95004	54
+789.10	-1.0479 	95003	53
+799.10	-0.565		95002	52
+809.10	-0.595		95001	51
