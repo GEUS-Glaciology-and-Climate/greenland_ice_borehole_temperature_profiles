@@ -1,0 +1,92 @@
+* Renland88
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                           | Renland88
+Place Name                            | Renland Ice Cap
+Geographic Location                   | Central East Greenland
+Ice Type                              | 
+Data Reference                        | B. M. Vinther email
+Data DOI                              | 
+Science Reference                     | Hansson, M. 1994. The Renland ice core. A Northern Hemisphere record of aerosol composition over 120,000 years. Tellus B. 46: 390-418.
+Science DOI                           | 10.3402/tellusb.v46i5.15813
+Date                                  | 1988
+Longitude [°E]                        | -26.768
+Latitude [°N]                         | 71.306
+Location source                       | Email and Vinther (2008)
+Depth of top measurement [m]          | 15.0
+Depth of bottom measurement [m]       | 300.0
+Ice thickness [m]                     | 324.0
+Coverage [% of thickness]             | 88
+Ice thickness source                  | Vinther, B. M., Clausen, H. B., Fisher, D. A., Koerner, R. M., Johnsen, S. J., Andersen, K. K., Dahl-Jensen, D., Rasmussen, S. O., Steffensen, J. P., Svensson, A. M.: Synchronizing ice cores from the Renland and Agassiz ice caps to the Greenland Ice Core Chronology , Journal of Geophysical Research 113(D8), American Geophysical Union (AGU), 4 2008 
+Measured from: Top, Bottom, Relative  | T
+General_Note                          | 
+Temperature_note                      | 
+Thickness_note                        | 
+Location_note                         | 
+#+end_example
+
+** Temperature
+
++ Mentioned in [[citet:vinther_2008][Vinther (2008)]]
++ As per email from Bo Vinther ([[mu4e:msgid:2033620922.1391238.1606871518421@titapp04][SV: SV: Renland ice temperature profile?]]),
+  + Surface velocity small
+  + The position of the 1988 site is: 71.306N, 26.768W.
+  + In 1988 the drill got stuck at 324.4m depth - radar measurements suggested a depth of some 321+/-5m [[citep:johnsen_1992][Johnsen (1992)]]
+  + Temperature provided as XLS attachment in email: [[mu4e:msgid:9d866df4f1bc4dd8aaa1216ad90406dc@nbi.ku.dk][SV: Renland ice temperature profile?]]
++ From [[citet:johnsen_1992][Johnsen (1992)]]
+  + Basal temperature inferred to be -13 °C (p. 7)
+
+** Thickness
+
++ Ice core length is 325 from [[citet:vinther_2008][Vinther (2008)]].
+ 
+** Location
+
++ From [[citet:vinther_2008][Vinther (2008)]]
+
+** Velocity
+
++ Likely small because drilling location near ice cap dome.
+
+** Data                                                 :noexport:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k1
+#+END_SRC
+
+#+RESULTS: ingest_data
+|     d |       t |
+|  15.0 | -18.444 |
+|  20.0 | -18.588 |
+|  25.0 | -18.665 |
+|  30.0 | -18.649 |
+|  35.0 | -18.619 |
+|  40.0 |  -18.59 |
+|  45.0 | -18.558 |
+|  50.0 |  -18.53 |
+|  57.0 |   -18.5 |
+|  60.0 | -18.487 |
+|  70.0 |  -18.45 |
+|  80.0 | -18.419 |
+|  90.0 | -18.376 |
+|  97.5 | -18.328 |
+| 125.0 | -18.027 |
+| 150.0 | -17.719 |
+| 175.0 | -17.307 |
+| 200.0 | -16.829 |
+| 225.0 | -16.307 |
+| 250.0 | -15.753 |
+| 275.0 |  -15.18 |
+| 300.0 | -14.593 |
+

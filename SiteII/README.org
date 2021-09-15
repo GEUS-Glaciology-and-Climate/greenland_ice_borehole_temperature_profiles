@@ -1,0 +1,113 @@
+* SiteII
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                           | SiteII
+Place Name                            | Site II
+Geographic Location                   | Northwest Greenland
+Ice Type                              | 
+Data Reference                        | Hansen, B. L., Landauer, J. K.: Some results of ice cap drill hole measurements, Union Geodesique et Geophysique Internationale. Association Internationale d'Hydrologie Scientifique 47, 313–317, 1958 
+Data DOI                              | 
+Science Reference                     | Hansen, B. and J. Landauer. 1958. Some results of ice cap drill hole measurements. IASH Publication. 47: 313-317.
+Science DOI                           | 
+Date                                  | 1958-06-25
+Longitude [°E]                        | -56.07
+Latitude [°N]                         | 76.98
+Location source                       | Colgan2021
+Depth of top measurement [m]          | 16.0
+Depth of bottom measurement [m]       | 410.0
+Ice thickness [m]                     | 1851.0
+Coverage [% of thickness]             | 21
+Ice thickness source                  | BedMachine_V3
+Measured from: Top, Bottom, Relative  | T
+General_Note                          | 
+Temperature_note                      | 
+Thickness_note                        | 
+Location_note                         | 
+#+end_example
+
+** Temperature
+
++ Digitized from [[citet:hansen_1958][Hansen (1958)]] Figure 3:
++ WARNING: Depth reported in [ft] not [m].
++ WARNING: From text,
+
+#+begin_quote
+Final values will not be assigned to the 1958 data until the equipment
+has been returned from Greenland and recalibrated.
+#+end_quote
+
+[[./hansen_1958_fig3.png]]
+
+#+BEGIN_SRC jupyter-python :kernel ds :session ds
+import pandas as pd
+df = pd.read_csv("site_ii_ft.csv")
+df['d'] = df['d'] * 0.3048 # ft to m
+df.to_csv("site_ii.csv", index=False)
+#+END_SRC
+
+** Thickness
+
+Link to email: [[mu4e:msgid:AM0PR04MB612902A1264CB3D0BA62E550A2C00@AM0PR04MB6129.eurprd04.prod.outlook.com][Site II - temperature]]
+
+#+begin_example
+From: William Colgan
+To: Ken Mankoff
+Subject: Site II - temperature
+Date: Sun 20 Dec 2020 11:37:39 PM PST
+
+Here’s a temperature record for ”Site II” Greenland. This temperature
+record only goes to 1346 ft, and total ice thickness is estimated in a
+similar record at “6800 ft” (might be better to just interpolate from
+BedMachine). This will be too shallow to extrapolate a basal
+temperature, but I think it is a very useful ice temperature record in
+general, similar to Camp VI.
+
+Coordinates: 76°59′N 56°04′W
+
+BedMachine has Site II as 1851 m total ice thickness. So lets go with
+that, instead of “6800 ft”.
+#+end_example
+
+** Location
+
+Email from WIC (see above)
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv| sort -t, -n -k2
+#+END_SRC
+
+#+RESULTS: ingest_data
+|                   t |                  d |
+| -23.998054647442498 | 16.218139247289688 |
+| -24.029533844695226 | 18.077285194709674 |
+|  -24.09553314075347 |  20.44925233141073 |
+|  -24.15852958616469 |  22.81580710727502 |
+|  -24.36389508096916 |   34.9016088557141 |
+| -24.723425405955602 |  64.38815069427055 |
+|  -24.86409009186123 |  81.31395612096378 |
+|  -24.97327558051413 |  96.38061560023712 |
+|  -25.03293940076165 | 110.45681304638724 |
+|  -25.10304978009747 | 126.80484895375857 |
+|  -25.14015416958655 | 142.19219081260874 |
+|  -25.16674858181103 | 157.56058940853038 |
+| -25.206424578348397 | 188.27303097660828 |
+| -25.237168124756238 |  216.2657612242243 |
+| -25.257604632063604 | 237.03028357437518 |
+|  -25.42991498793469 |  409.9213850529699 |
+
+

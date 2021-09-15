@@ -1,0 +1,94 @@
+* Isunnguata_46km-11A
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                           | Isunnguata_46km-11A
+Place Name                            | Isunnguata Sermia
+Geographic Location                   | Central West Greenland
+Ice Type                              | 
+Data Reference                        | T. Meierbachtol email
+Data DOI                              | 
+Science Reference                     | Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 
+Science DOI                           | 10.3189/2015AoG70A948
+Date                                  | 2011
+Longitude [°E]                        | -49.2888
+Latitude [°N]                         | 67.20143
+Location source                       | T. Meierbachtol email
+Depth of top measurement [m]          | 1.0
+Depth of bottom measurement [m]       | 799.0
+Ice thickness [m]                     | 821.0
+Coverage [% of thickness]             | 97
+Ice thickness source                  | T. Meierbachtol email
+Measured from: Top, Bottom, Relative  | T
+General_Note                          | See data in M1-10 folder
+Temperature_note                      | 
+Thickness_note                        | 
+Location_note                         | Harrington 2015 name: S5-A
+#+end_example
+
+** Temperature
+
+** Thickness
+
+** Location
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -g -k1
+#+END_SRC
+
+#+RESULTS: ingest_data
+|     d |          t |
+|   1.0 | -9.6111923 |
+|  21.0 | -9.4867308 |
+|  41.0 | -9.5238077 |
+|  61.0 | -9.6993462 |
+|  81.0 | -10.074885 |
+| 101.0 |   -10.5735 |
+| 121.0 | -11.279808 |
+| 141.0 |   -11.3015 |
+| 161.0 | -11.577038 |
+| 181.0 | -12.152577 |
+| 201.0 |   -12.0435 |
+| 221.0 | -12.095962 |
+| 241.0 | -12.963808 |
+| 261.0 | -13.131654 |
+| 281.0 | -13.168731 |
+| 301.0 | -13.782731 |
+| 321.0 | -13.565962 |
+| 341.0 | -13.472269 |
+| 361.0 | -13.863192 |
+| 381.0 | -13.261808 |
+| 401.0 | -13.429654 |
+| 421.0 |   -12.9975 |
+| 441.0 | -13.834577 |
+| 461.0 | -13.817808 |
+| 481.0 | -12.654885 |
+| 501.0 | -12.630423 |
+| 521.0 | -12.652115 |
+| 541.0 | -12.012269 |
+| 561.0 | -11.572423 |
+| 581.0 | -10.947962 |
+| 601.0 | -9.9696538 |
+| 621.0 | -9.3298077 |
+| 641.0 | -8.3976538 |
+| 661.0 | -7.3731923 |
+| 681.0 | -6.4179615 |
+| 701.0 | -5.3550385 |
+| 721.0 | -4.3305769 |
+| 741.0 | -3.3368846 |
+| 801.0 | -1.4404231 |
+

@@ -151,18 +151,18 @@ print(df.index)
 
 #+RESULTS: sheet2csv
 #+begin_example
-Index(['agassiz77', 'agassiz79a', 'agassiz79b', 'agassiz84', 'camp_century', 'camp_vi', 'devon_00',
-       'devon_71', 'devon_72', 'doyle_2018', 'dye_3', 'flade_isblink', 'foxx1', 'foxx2', 'gisp2',
-       'grip', 'gull', 'harrington_2015_M1-10', 'harrington_2015_M2-10B',
-       'harrington_2015_13km-10', 'harrington_2015_27km-11A', 'harrington_2015_27km-11B',
-       'harrington_2015_27km-11C', 'harrington_2015_27km-12A', 'harrington_2015_27km-12B',
-       'harrington_2015_27km-12C', 'harrington_2015_46km-11A', 'harrington_2015_46km-11B',
-       'hanstausen_dome', 'hanstausen_hare', 'hills_2017_14n', 'hills_2017_14sa',
-       'hills_2017_14sb', 'hills_2017_14w', 'hills_2017_15ca', 'hills_2017_15cb', 'hills_2017_15e',
-       'hills_2017_15n', 'hills_2017_15s', 'isua_10', 'isua_11', 'isua_12', 'isua_13', 'isua_14',
-       'jakobshavn_center', 'jakobshavn_left', 'jakobshavn_sheet', 'law_2021', 'meighen', 'neem',
-       'ngrip', 'penny', 'pow', 'renland', 'site_ii', 'td1', 'td2', 'td3', 'td41', 'td42', 'td51',
-       'td52', 'tuto_ramp'],
+Index(['Agassiz77', 'Agassiz79a', 'Agassiz79b', 'Agassiz84', 'CampCentury', 'CampVI', 'Devon98',
+       'Devon72', 'Devon73', 'Store_S30', 'DYE-3', 'FladeIsblink06', 'FOXX1', 'FOXX2', 'GISP2',
+       'GRIP', 'GULL', 'Isunnguata_M1-10', 'Isunnguata_M2-10B', 'Isunnguata_13km-10',
+       'Isunnguata_27km-11A', 'Isunnguata_27km-11B', 'Isunnguata_27km-11C', 'Isunnguata_27km-12A',
+       'Isunnguata_27km-12B', 'Isunnguata_27km-12C', 'Isunnguata_46km-11A', 'Isunnguata_46km-11B',
+       'HansTausen_Dome', 'HansTausen_Hare', 'Isunnguata_33km_14N', 'Isunnguata_33km_14SA',
+       'Isunnguata_33km_14SB', 'Isunnguata_33km_14W', 'Isunnguata_33km_15CA',
+       'Isunnguata_33km_15CB', 'Isunnguata_33km_15E', 'Isunnguata_33km_15N', 'Isunnguata_33km_15S',
+       'Isua_10', 'Isua_11', 'Isua_12', 'Isua_13', 'Isua_14', 'Jakobshavn89A', 'Jakobshavn89B',
+       'JakobshavnC', 'Jakobshavn95D', 'Store_R30_BH19c', 'Meighen67', 'NEEM', 'NGRIP', 'Penny96',
+       'PrinceWales05', 'Renland88', 'SiteII', 'TD1_88', 'TD2_88', 'TD3_88', 'TD4_91a', 'TD4_91b',
+       'TD5_90', 'TD5_91', 'Tuto_D-11'],
       dtype='object', name='Borehole ID')
 #+end_example
 
@@ -178,7 +178,10 @@ df = pd.read_csv('database.csv', index_col=0)
 for r in df.index:
     row = df.loc[r]
     row.index.name = 'Borehole ID'
-    row.to_csv(row.name + '/meta.bsv', sep='|')
+    try:
+        row.to_csv(row.name + '/meta.bsv', sep='|')
+    except:
+        pass
 #+END_SRC
 
 #+RESULTS: csv2bsv
