@@ -37,28 +37,8 @@ Location_note                         |
 
 ** Temperature
 
-+ Lüthi Pers. comm.
-
-#+BEGIN_example
-From: Martin Luethi
-To: Ken Mankoff
-Subject: Re: TD5 from Thomsen 1991
-Date: Thu 01 Oct 2020 02:27:19 PM PDT
-Attachments: [1]thompson_profiles.zip(2.9M)
-
-Ken Mankoff writes:
->> I'm looking for the source of the TD5 temperature profile you show in
->> your 2015 "Heat sources" paper in The Cryosphere. Your Figure 2 shows
->> TD5 and your text references Thomsen et al. 1991, and Thomsen &
->> Thorning, 1992.
-
-Good questions. I probably don't have these papers, but I have some of
-the profiles. I got them as paper copies from Heinz Blatter, and later
-also some of them from Thomas Phillips. It's been a while, so I don't
-have any details.
-
-I also added some data from profiles I found in EGIG publications. 
-#+END_example
++ From Heuberger (1954), Table 31.1
+  + https://github.com/GEUS-Glaciology-and-Climate/greenland_ice_borehole_temperature_profiles/files/7082104/heuberger_1954.pdf
 
 ** Thickness
 
@@ -105,4 +85,4 @@ cat data.csv | sort -t, -n -k1
 | 115 | -16.22 |
 | 120 | -16.32 |
 | 123 |  -16.4 |
-| 125 | -15.42 |
+| 125 | -16.42 |
