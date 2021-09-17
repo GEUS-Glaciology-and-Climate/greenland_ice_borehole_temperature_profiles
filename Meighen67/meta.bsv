@@ -1,7 +1,7 @@
 Borehole ID|Meighen67
 Place Name|Meighen Ice Cap
 Geographic Location|Canadian Arctic North
-Ice Type|
+Ice Type|Ice sheet
 Data Reference|Paterson, W. S. B.: A temperature profile through the Meighen ice cap, Arctic Canada , International Association of Scientific Hydrology 79, 440–449, 1968 
 Data DOI|
 Science Reference|Paterson, W. S. B.: A temperature profile through the Meighen ice cap, Arctic Canada , International Association of Scientific Hydrology 79, 440–449, 1968 

@@ -1,7 +1,7 @@
 Borehole ID|Store_R30_BH19c
 Place Name|Store Glacier
 Geographic Location|Central West Greenland
-Ice Type|
+Ice Type|Ice sheet
 Data Reference|R. Law email
 Data DOI|
 Science Reference|"Law, Robert, Poul Christoffersen, Bryn Hubbard, Samuel H. Doyle, Thomas R. Chudley, Charlotte M. Schoonman, Marion Bougamont et al. ""Thermodynamics of a fast-moving Greenlandic outlet glacier revealed by fiber-optic distributed temperature sensing."" Science Advances 7, no. 20 (2021): eabe7136."
@@ -12,7 +12,7 @@ Latitude [°N]|70.57
 Location source|Law (2021)
 Depth of top measurement [m]|0.09
 Depth of bottom measurement [m]|1044.0
-Ice thickness [m]|1044.0
+Ice thickness [m]|1044
 Coverage [% of thickness]|100
 Ice thickness source|Law (2021)
 Measured from: Top, Bottom, Relative|T

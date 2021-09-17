@@ -1,7 +1,7 @@
 Borehole ID|Isunnguata_33km_14W
 Place Name|Isunnguata Sermia
 Geographic Location|Central West Greenland
-Ice Type|
+Ice Type|Ice sheet
 Data Reference|Joel Harper. 2017. Ice temperatures measured in a grid of boreholes, Western Greenland, 2014-2016. Arctic Data Center. doi:10.18739/A24746S04.
 Data DOI|10.18739/A24746S04
 Science Reference|"Hills, Benjamin H., Joel T. Harper, Neil F. Humphrey, and Toby W. Meierbachtol. ""Measured horizontal temperature gradients constrain heat transfer mechanisms in Greenland ice."" Geophysical Research Letters 44, no. 19 (2017): 9778-9785."
@@ -12,7 +12,7 @@ Latitude [°N]|67.18209
 Location source|10.18739/A24746S04
 Depth of top measurement [m]|40.0
 Depth of bottom measurement [m]|660.0
-Ice thickness [m]|661.0
+Ice thickness [m]|661
 Coverage [% of thickness]|94
 Ice thickness source|10.18739/A24746S04
 Measured from: Top, Bottom, Relative|B
