@@ -11,11 +11,10 @@ Longitude [°E]|-48.77
 Latitude [°N]|69.186
 Location source|Estimated here.
 Depth of top measurement [m]|2.0
-Depth of bottom measurement [m]|1560.0
+Depth of bottom measurement [m]|1560
 Ice thickness [m]|2520
 Coverage [% of thickness]|62
 Ice thickness source|Iken, 1993
-Measured from: Top, Bottom, Relative|T
 General_Note|
 Temperature_note|
 Thickness_note|

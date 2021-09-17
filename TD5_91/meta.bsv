@@ -11,12 +11,11 @@ Longitude [°E]|-49.3
 Latitude [°N]|69.57
 Location source|Colgan, 2021
 Depth of top measurement [m]|5.0
-Depth of bottom measurement [m]|600.0
+Depth of bottom measurement [m]|600
 Ice thickness [m]|1223
 Coverage [% of thickness]|49
 Ice thickness source|BedMachine_V3
-Measured from: Top, Bottom, Relative|T
 General_Note|
-Temperature_note|
+Temperature_note|See https://github.com/GEUS-Glaciology-and-Climate/greenland_ice_borehole_temperature_profiles/blob/main/TD1_88/Shallow88II.pdf and https://github.com/GEUS-Glaciology-and-Climate/greenland_ice_borehole_temperature_profiles/blob/main/TD1_88/Thomsen_TD1_TD2_TD3_records.pdf
 Thickness_note|
 Location_note|

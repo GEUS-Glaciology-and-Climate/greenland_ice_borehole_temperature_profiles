@@ -11,11 +11,10 @@ Longitude [°E]|-37.47
 Latitude [°N]|82.51
 Location source|Colgan, 2021
 Depth of top measurement [m]|10.0
-Depth of bottom measurement [m]|345.0
+Depth of bottom measurement [m]|345
 Ice thickness [m]|345
 Coverage [% of thickness]|97
 Ice thickness source|See data source
-Measured from: Top, Bottom, Relative|T
 General_Note|Only two data points - 10 m and 345 m. Drill date: 10.34194/bullggu.v172.6749 
 Temperature_note|
 Thickness_note|

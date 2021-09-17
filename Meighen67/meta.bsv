@@ -11,11 +11,10 @@ Longitude [°E]|-99.1
 Latitude [°N]|79.9
 Location source|See data source
 Depth of top measurement [m]|1.0
-Depth of bottom measurement [m]|121.0
+Depth of bottom measurement [m]|121
 Ice thickness [m]|121.2
 Coverage [% of thickness]|99
 Ice thickness source|See data source
-Measured from: Top, Bottom, Relative|T
 General_Note|
 Temperature_note|
 Thickness_note|

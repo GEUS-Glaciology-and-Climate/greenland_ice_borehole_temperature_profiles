@@ -11,11 +11,10 @@ Longitude [°E]|-42.32
 Latitude [°N]|75.1
 Location source|Vinther (2008)
 Depth of top measurement [m]|82.0
-Depth of bottom measurement [m]|2992.0
+Depth of bottom measurement [m]|2992
 Ice thickness [m]|3085
 Coverage [% of thickness]|94
 Ice thickness source|See data source email
-Measured from: Top, Bottom, Relative|T
 General_Note|
 Temperature_note|
 Thickness_note|

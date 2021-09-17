@@ -11,11 +11,10 @@ Longitude [°E]|-49.71892
 Latitude [°N]|67.19505
 Location source|T. Meierbachtol email
 Depth of top measurement [m]|20.0
-Depth of bottom measurement [m]|459.0
+Depth of bottom measurement [m]|459
 Ice thickness [m]|460
 Coverage [% of thickness]|95
 Ice thickness source|T. Meierbachtol email
-Measured from: Top, Bottom, Relative|T
 General_Note|See data in M1-10 folder
 Temperature_note|
 Thickness_note|

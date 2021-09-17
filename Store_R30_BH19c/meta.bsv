@@ -11,11 +11,10 @@ Longitude [°E]|-50.09
 Latitude [°N]|70.57
 Location source|Law (2021)
 Depth of top measurement [m]|0.09
-Depth of bottom measurement [m]|1044.0
+Depth of bottom measurement [m]|1044
 Ice thickness [m]|1044
 Coverage [% of thickness]|100
 Ice thickness source|Law (2021)
-Measured from: Top, Bottom, Relative|T
 General_Note|See also: 10.5285/ecf81955-b829-4f91-ae90-b9bc947f8c60
 Temperature_note|
 Thickness_note|

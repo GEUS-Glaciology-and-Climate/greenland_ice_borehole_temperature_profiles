@@ -44,7 +44,7 @@ database.csv: README.org
 	@echo Converting Google Sheet to local file
 	$(call org-babel,README.org,sheet2csv)
 	@echo Building meta.bsv files in subfolders
-	$(call org-babel,README.org,csv2bsv)
+	$(call org-babel,README.org,csv2metabsv)
 
 boreholes.kml: database.csv
 	@echo Converting Google Sheet to local file

@@ -11,11 +11,10 @@ Longitude [°E]|-37.64
 Latitude [°N]|72.58
 Location source|Vinther, 2008
 Depth of top measurement [m]|41.0
-Depth of bottom measurement [m]|3029.0
+Depth of bottom measurement [m]|3029
 Ice thickness [m]|3029
 Coverage [% of thickness]|99
 Ice thickness source|Data from Gary Clow
-Measured from: Top, Bottom, Relative|T
 General_Note|
 Temperature_note|
 Thickness_note|
