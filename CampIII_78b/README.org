@@ -1,0 +1,83 @@
+* CampIII_78b
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                           | CampIII_78b
+Place Name                            | Nunap Kigdlinga
+Geographic Location                   | 
+Ice Type                              | 
+Data Reference                        | Digitization from published graphic from Stauffer, 1979
+Data DOI                              | 
+Science Reference                     | 
+Science DOI                           | 
+Date                                  | 1978
+Longitude [°E]                        | -50.0917
+Latitude [°N]                         | 69.7176
+Location source                       | M. Lüthi email
+Depth of top measurement [m]          | 10.0
+Depth of bottom measurement [m]       | 90.0
+Ice thickness [m]                     | 
+Coverage [% of thickness]             | 
+Ice thickness source                  | 
+Measured from: Top, Bottom, Relative  | T
+General_Note                          | 
+Temperature_note                      | https://github.com/GEUS-Glaciology-and-Climate/greenland_ice_borehole_temperature_profiles/files/7185440/stauffer_1979.pdf
+Thickness_note                        | 
+Location_note                         | 
+#+end_example
+
+
+** Temperature
+
+** Thickness
+
+** Location
+
+#+BEGIN_QUOTE
+From: Martin Luethi
+To: Ken Mankoff
+Cc: William Colgan
+Subject: Re: VS: SV: SV: database entry details
+Date: Fri 22 Jan 2021 05:53:55 AM PST
+Attachments: [1]Stauffer&Oeschger1979.pdf(2.0M)
+
+Attached is the Stauffer Paper. The site is Nunap Kigdlinga (Camp III of
+the EGIG route), close to the ice margin. I do not know the exact
+coordinate, but they are very close  (within 50 m, with matching their
+map to drone air photo) of 
+
+Borehole  I     -50.0998925   69.7197675
+Borehole  II    -50.0916577,69.7175758
+#+END_QUOTE
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -g -k1
+#+END_SRC
+
+#+RESULTS: ingest_data
+|  d |    t |
+| 10 | -4.4 |
+| 15 | -2.8 |
+| 20 | -1.8 |
+| 30 | -0.6 |
+| 40 |  0.0 |
+| 50 |  0.0 |
+| 60 |  0.7 |
+| 70 |  0.7 |
+| 80 |  0.8 |
+| 90 |  1.0 |
+
