@@ -1,4 +1,4 @@
-* Jakobshavn95D
+* Jakobshavn95D_T3
 :PROPERTIES:
 :header-args:jupyter-python+: :session ds :kernel ds
 :clearpage: t
@@ -11,7 +11,7 @@ cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 
 #+RESULTS: ingest_meta
 #+begin_example
-Borehole ID                           | Jakobshavn95D
+Borehole ID                           | Jakobshavn95D_T3
 Place Name                            | Jakobshavn Isbræ
 Geographic Location                   | Central West Greenland
 Ice Type                              | Ice sheet
@@ -24,9 +24,9 @@ Longitude [°E]                        | -48.6871
 Latitude [°N]                         | 69.235
 Location source                       | Colgan, 2021
 Depth of top measurement [m]          | 20.0
-Depth of bottom measurement [m]       | 832.0
+Depth of bottom measurement [m]       | 300.0
 Ice thickness [m]                     | 832
-Coverage [% of thickness]             | 98
+Coverage [% of thickness]             | 34
 Ice thickness source                  | See science reference
 Measured from: Top, Bottom, Relative  | T
 General_Note                          | 
@@ -47,15 +47,8 @@ Location_note                         | Location from Geothermal Database
 
 #+BEGIN_SRC jupyter-python
 import pandas as pd
-df = pd.read_csv('temp_depth95.txt', sep='\s+', comment='%', index_col=0, names=['d','t'], usecols=(0,1))
-df0 = df.iloc[1:10]
-df1 = df.iloc[10:18]
-df2 = df.iloc[18:22]
-df3 = df.iloc[22:25]
-
-# drop df4 - outlier
-# pd.concat((df0,df1,df2,df3,df4)).sort_index().plot()
-pd.concat((df0,df1,df2,df3)).sort_index().to_csv('data.csv', float_format='%.3f')
+df = pd.read_csv('../Jakobshavn95D_I1/temp_depth95.txt', sep='\s+', comment='%', index_col=0, names=['d','t'], usecols=(0,1))
+df.iloc[18:22].to_csv('data.csv', float_format='%.3f')
 #+END_SRC
 
 #+RESULTS:
@@ -66,29 +59,9 @@ cat data.csv | sort -t, -g -k1
 #+END_SRC
 
 #+RESULTS: ingest_data
-|      d |       t |
-|   20.0 |   -6.17 |
-|  100.0 | -14.546 |
-|  200.0 | -17.819 |
-| 258.05 | -18.221 |
-|  300.0 |  -19.71 |
-| 344.08 | -19.737 |
-|  450.0 | -20.834 |
-|  525.0 | -22.387 |
-| 544.88 | -21.606 |
-| 559.28 | -21.224 |
-|  600.0 | -20.059 |
-| 609.49 | -19.807 |
-| 645.17 | -17.964 |
-| 659.64 | -16.617 |
-| 745.44 |  -5.737 |
-| 759.85 |  -3.395 |
-| 795.55 |  -0.733 |
-| 820.58 |  -0.597 |
-| 827.58 |   -0.58 |
-| 828.48 |  -0.586 |
-| 829.38 |  -0.595 |
-| 829.95 |  -0.592 |
-|  831.9 |  -0.586 |
-|  832.8 |  -0.583 |
+|     d |       t |
+|  20.0 |   -6.17 |
+| 100.0 | -14.546 |
+| 200.0 | -17.819 |
+| 300.0 |  -19.71 |
 

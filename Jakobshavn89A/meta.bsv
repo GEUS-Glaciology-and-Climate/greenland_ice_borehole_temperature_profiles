@@ -14,7 +14,7 @@ Depth of top measurement [m]|2.0
 Depth of bottom measurement [m]|1535.0
 Ice thickness [m]|1540
 Coverage [% of thickness]|100
-Ice thickness source|Iken1993
+Ice thickness source|Iken, 1993
 Measured from: Top, Bottom, Relative|T
 General_Note|
 Temperature_note|
