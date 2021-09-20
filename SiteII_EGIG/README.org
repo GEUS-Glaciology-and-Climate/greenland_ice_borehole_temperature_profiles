@@ -1,0 +1,99 @@
+* CVI_EPF
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                      | SiteII_EGIG
+Place Name                       | Site II
+Geographic Location              | Northwest Greenland
+Ice Type                         | Ice sheet
+Data Reference                   | Brockamp, 1959
+Data DOI                         | 
+Science Reference                | 
+Science DOI                      | 
+Date                             | 1959
+Longitude [°E]                   | -56.07
+Latitude [°N]                    | 76.98
+Location source                  | Colgan, 2021
+Depth of top measurement [m]     | 20.0
+Depth of bottom measurement [m]  | 300
+Ice thickness [m]                | 1851
+Coverage [% of thickness]        | 15
+Ice thickness source             | BedMachine_V3
+General_Note                     | 
+Temperature_note                 | Digitized from https://github.com/GEUS-Glaciology-and-Climate/greenland_ice_borehole_temperature_profiles/files/7185520/Polarforsch1965_1-2_8.pdf
+Thickness_note                   | Assuming same location as SiteII
+Location_note                    | Assuming same location as SiteII
+#+end_example
+
+
+** Temperature
+
++ Digitized from https://github.com/GEUS-Glaciology-and-Climate/greenland_ice_borehole_temperature_profiles/files/7185520/Polarforsch1965_1-2_8.pdf
++ May be duplicate of SiteII from Hansen (1958)
+
+[[../StationCentrale_EGIG/Polarforsch1965_1-2_8-1_Abbildung_8.png]]
+
+** Thickness
+
+** Location
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+BEGIN_SRC jupyter-python :exports none
+pd.read_csv('../StationCentrale_EGIG/EGIG.csv', usecols=(4,5), names=['t','d'], skiprows=2, index_col='d')\
+  .dropna()\
+  .sort_index()\
+  .to_csv('data.csv')
+#+END_SRC
+
+#+RESULTS:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k1
+#+END_SRC
+
+#+RESULTS: ingest_data
+|                  d |                   t |
+| 20.009264225462168 | -23.929921549658545 |
+| 30.273396052758308 | -24.112787522162737 |
+|  40.11591284983025 | -24.309329769749255 |
+| 50.098493344385346 | -24.450668538785262 |
+| 60.221525883089406 | -24.578240418516888 |
+|  69.92242559601486 | -24.664239787669306 |
+|  81.02939913709342 |  -24.77831662076265 |
+|  90.30829547312885 | -24.836555675751253 |
+|  100.0091951860543 |  -24.92255504490366 |
+| 110.41274346639048 | -24.981156556780387 |
+| 120.67532190702326 | -24.998276172299924 |
+| 130.65660791269212 |  -25.00149297718205 |
+| 140.49744187421214 | -25.018476671368536 |
+| 150.19769434269443 | -25.035415058444013 |
+| 160.46053168110447 | -25.080159066794337 |
+| 170.72311012173716 |  -25.09727868231387 |
+| 180.56381463436855 | -25.100450180084987 |
+|  190.9668451191502 | -25.103802906300142 |
+|  200.2452236596312 | -25.106793175627185 |
+| 210.50793154915263 | -25.137724987562127 |
+| 220.77063943867398 |  -25.16865679949705 |
+|  230.6116028490824 |  -25.19945269009893 |
+| 240.45243681060242 | -25.216436384285423 |
+| 250.29314132323367 | -25.219607882056522 |
+|  260.6961718080155 | -25.222960608271688 |
+|  270.5368763206468 |   -25.2261321060428 |
+|  280.3775808332781 | -25.229303603813914 |
+|  290.4995777808732 | -25.246377912222442 |
+| 300.34028229350463 | -25.249549409993538 |
+
+
