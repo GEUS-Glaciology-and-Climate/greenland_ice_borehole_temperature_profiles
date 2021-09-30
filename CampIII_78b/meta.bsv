@@ -1,7 +1,7 @@
 Borehole ID|CampIII_78b
 Place Name|Nunap Kigdlinga
-Geographic Location|
-Ice Type|
+Geographic Location|Central West Greenland
+Ice Type|Ice sheet
 Data Reference|Stauffer, 1979
 Data DOI|
 Science Reference|

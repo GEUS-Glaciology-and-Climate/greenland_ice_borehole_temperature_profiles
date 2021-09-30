@@ -25,7 +25,7 @@ Latitude [°N]                    | 67.19158
 Location source                  | T. Meierbachtol email
 Depth of top measurement [m]     | 4.0
 Depth of bottom measurement [m]  | 559
-Ice thickness [m]                | MEIERBACHTOL
+Ice thickness [m]                | MEIERBACHTOL?
 Coverage [% of thickness]        | #VALUE!
 Ice thickness source             | T. Meierbachtol email
 General_Note                     | See data in M1-10 folder

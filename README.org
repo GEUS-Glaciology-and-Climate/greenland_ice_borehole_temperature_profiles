@@ -140,7 +140,7 @@ url =  "https://docs.google.com/spreadsheets/d/1QNqnjO7Gocl29Y7X693rCRRZI4dTSq0i
 
 df = pd.read_csv(url)\
        .set_index('Borehole ID')\
-       .drop(columns=['Needs?'])\
+       .drop(columns=['Needs?','High Strain','SMB Regime','Basal State'])\
        .replace('\#DIV/0!', np.nan)\
        .replace('\#VALUE!', np.nan)
 
@@ -152,9 +152,9 @@ print(df.index)
 #+RESULTS: sheet2csv
 #+begin_example
 Index(['Agassiz77', 'Agassiz79a', 'Agassiz79b', 'Agassiz84', 'CampCentury', 'CampIII_78b',
-       'CampVI', 'CVI_EPF', 'Devon72', 'Devon73', 'Devon98', 'DYE-3', 'FladeIsblink06', 'FOXX1',
-       'FOXX2', 'GISP2', 'GRIP', 'GULL', 'HansTausen_Dome', 'HansTausen_Hare', 'Isua_10',
-       'Isua_11', 'Isua_12', 'Isua_13', 'Isua_14', 'Isunnguata_13km-10', 'Isunnguata_27km-11A',
+       'CampVI', 'Devon72', 'Devon73', 'Devon98', 'DYE-3', 'FladeIsblink06', 'FOXX1', 'FOXX2',
+       'GISP2', 'GRIP', 'GULL', 'HansTausen_Dome', 'HansTausen_Hare', 'Isua_10', 'Isua_11',
+       'Isua_12', 'Isua_13', 'Isua_14', 'Isunnguata_13km-10', 'Isunnguata_27km-11A',
        'Isunnguata_27km-11B', 'Isunnguata_27km-11C', 'Isunnguata_27km-12A', 'Isunnguata_27km-12B',
        'Isunnguata_27km-12C', 'Isunnguata_33km_14N', 'Isunnguata_33km_14SA',
        'Isunnguata_33km_14SB', 'Isunnguata_33km_14W', 'Isunnguata_33km_15CA',
@@ -162,9 +162,9 @@ Index(['Agassiz77', 'Agassiz79a', 'Agassiz79b', 'Agassiz84', 'CampCentury', 'Cam
        'Isunnguata_46km-11A', 'Isunnguata_46km-11B', 'Isunnguata_M1-10', 'Isunnguata_M2-10B',
        'Jakobshavn89A', 'Jakobshavn89B', 'Jakobshavn89C', 'Jakobshavn95D_I1', 'Jakobshavn95D_I2',
        'Jakobshavn95D_T3', 'Jakobshavn95D_T4', 'Jakobshavn95D_T5', 'Meighen67', 'NEEM', 'NGRIP',
-       'Penny96', 'PrinceWales05', 'Renland88', 'SiteII', 'SiteII_EGIG', 'StationCentrale',
-       'StationCentrale_EGIG', 'Store_R30_BH19c', 'Store_S30', 'TD1_88', 'TD2_88', 'TD3_88',
-       'TD4_91a', 'TD4_91b', 'TD5_90', 'TD5_91', 'Tuto_D-11'],
+       'Penny96', 'PrinceWales05', 'Renland88', 'SiteII', 'StationCentrale', 'Store_R30_BH19c',
+       'Store_S30', 'TD1_88', 'TD2_88', 'TD3_88', 'TD4_91a', 'TD4_91b', 'TD5_90', 'TD5_91',
+       'Tuto_D-11'],
       dtype='object', name='Borehole ID')
 #+end_example
 

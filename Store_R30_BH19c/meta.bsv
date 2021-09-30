@@ -9,7 +9,7 @@ Science DOI|10.1126/sciadv.abe7136
 Date|2019-08-13
 Longitude [°E]|-50.09
 Latitude [°N]|70.57
-Location source|Law (2021)
+Location source|Law, 2021
 Depth of top measurement [m]|0.09
 Depth of bottom measurement [m]|1044
 Ice thickness [m]|1044

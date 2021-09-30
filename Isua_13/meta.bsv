@@ -6,7 +6,7 @@ Data Reference|Colbeck, S. C., Gow, A. J.: The Margin of the Greenland Ice Sheet
 Data DOI|
 Science Reference|Colebeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. 
 Science DOI|10.3189/S0022143000014714
-Date|1972-1973
+Date|1973
 Longitude [°E]|-49.7456
 Latitude [°N]|65.2069
 Location source|Colgan, 2021
@@ -15,7 +15,7 @@ Depth of bottom measurement [m]|247
 Ice thickness [m]|265
 Coverage [% of thickness]|91
 Ice thickness source|See data source
-General_Note|
+General_Note|"Measuremnet date 1972 or 1973. From Colbeck (1979), ""Five holes (see Fig. 3) were drilled in 1972 and 1973 for the purpose of making temperature measurements and taking ice cores."""
 Temperature_note|Digitized from graphic
 Thickness_note|
 Location_note|
