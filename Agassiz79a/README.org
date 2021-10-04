@@ -12,26 +12,23 @@ cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 #+RESULTS: ingest_meta
 #+begin_example
 Borehole ID                      | Agassiz79a
-Place Name                       | Agassiz Ice Cap
-Geographic Location              | Canadian Arctic North
-Ice Type                         | Ice cap
-Data Reference                   | W. Colgan email
+Place name                       | Agassiz Ice Cap
+Geographic location              | Canadian Arctic North
+Ice type                         | Ice cap
+Data Source                      | Zdanowicz email
 Data DOI                         | 
-Science Reference                | Clarke, G. K. C., Fisher, D. A., Waddington, E. D.: Wind pumping: A potentially significant heat source in ice sheets , The Physical Basis of Ice Sheet Modelling in Proceedings of the Vancouver Symposium, IAHS , volume 170, 169–180, 1987
+Science Source                   | Clarke, G., D. Fisher and E. Waddington. Wind pumping: A potentially significant heat source in ice sheets , The Physical Basis of Ice Sheet Modelling in Proceedings of the Vancouver Symposium, IAHS , volume 170, 169–180, 1987
 Science DOI                      | 
 Date                             | 1979
 Longitude [°E]                   | -73.1
 Latitude [°N]                    | 80.7
-Location source                  | Vinther, 2008
+Location Source                  | Vinther, 2008
 Depth of top measurement [m]     | 12.0
 Depth of bottom measurement [m]  | 142
 Ice thickness [m]                | 142
 Coverage [% of thickness]        | 92
 Ice thickness source             | See data source 
-General_Note                     | 
-Temperature_note                 | 
-Thickness_note                   | Ice thickness from data does not match ice thickness from Vinther (2008)
-Location_note                    | Location approximate
+Note                             | Ice thickness from data does not match ice thickness from Vinther (2008); Location approximate
 #+end_example
 
 ** Temperature

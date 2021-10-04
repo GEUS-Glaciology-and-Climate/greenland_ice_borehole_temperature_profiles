@@ -13,26 +13,9 @@ org-babel = emacsclient --eval "(progn			\
 
 # Usage: $(call org-babel,README.org,csv2bs)
 
-# private MSG = test1
-
-# emacs_msg = emacsclient --eval "(progn (message \"$(2) $(1)\" ))"
-
-# # test:
-# # 	@echo
-# # 	@ $(EMACS)
-
-
-# test1:
-# 	$(call emacs_msg,foo,hello)
-
-# test2:
-# 	$(call emacs_msg,bar,goodbye)
-
-
-
 temperature.csv: */README.org README.org
 	@echo Building temperature.csv
-	$(call org-babel,README.org,meta2temperatureCSV)
+	$(call org-babel,code.org,meta2temperatureCSV)
 
 */README.org: database.csv
 	@echo Ingesting meta.bsv: $(@D)
@@ -42,13 +25,13 @@ temperature.csv: */README.org README.org
 
 database.csv: README.org
 	@echo Converting Google Sheet to local file
-	$(call org-babel,README.org,sheet2csv)
+	$(call org-babel,code.org,sheet2csv)
 	@echo Building meta.bsv files in subfolders
-	$(call org-babel,README.org,csv2metabsv)
+	$(call org-babel,code.org,csv2metabsv)
 
 boreholes.kml: database.csv
 	@echo Converting Google Sheet to local file
-	$(call org-babel,README.org,kml)
+	$(call org-babel,code.org,kml)
 
 clean:
 	@echo [clean]

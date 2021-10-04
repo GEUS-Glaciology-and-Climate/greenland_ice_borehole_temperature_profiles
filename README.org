@@ -8,497 +8,85 @@
 #+EXCLUDE_TAGS: noexport
 #+ARCHIVE: ::* Archive
 
-#+PROPERTY: header-args:jupyter-python+ :session boreholes :kernel ds
-#+PROPERTY: header-args:python :python "/home/kdm/local/miniconda3/envs/ds/bin/jupyter-console"
+* Introduction
 
-# Note, when exporting LaTeX also: =biber README --output_format bibtex -O library.bib=
-  
-* Introduction and Methods
-:PROPERTIES:
-:clearpage: t
-:END:
+This is a collection of all Greenland ice borehole temperature profiles we have been able to find. Secondary data, useful to use the temperature profile, is also included when available.
 
-This is a collection of all Greenland ice borehole temperature profiles we have been able to find. Secondary data, useful to use the temperature profile, is also included when available. The secondary data includes ice thickness, the location of the borehole, and the surface velocity. Tertiary data includes the source of all secondary data (ice thickness and location are occasionally reported in different locations than the temperature profile), the date the borehole was drilled, the date the temperature profile was collected, and the dates of thickness and velocity data.
+* Database format
 
-This collection exists in digital form, because few existing temperature profiles are shared digitally. Most profiles are shared only graphically in publications. We digitize these using the desktop version of WebPlotDigitizer citep:WPD. Some profiles are provided in tabular form in historical technical reports, and some are provided via personal communication.
+** Inputs
 
-Each profile is presented below in the Source Material section. First, for each profile the metadata is presented in a standard format. Then, subsections for the temperature, thickness, location, and velocity document where each of those data come from. When the source is personal communication via email, the body of the email (sanitized) is included as documentation, otherwise the reference graphic is included.
+Profiles are provided by archived data, shared via personal communication, tables in publications, or digitized from graphics in publications. When profiles are available only graphically in publications, we digitize these using the desktop version of =WebPlotDigitizer= citep:WPD.
 
-Uncertainty estimates are not provided, but can be determined from the reference publications, by repeat and multiple digitization of the graphic, or digitizing the data from separate publications when they exist.
+Each profile is placed in a folder, where the folder has the same name as the =Borehole ID=. Within each folder the following exist:
 
-After digitizing the profiles from the graphic or tables, we linearly interpolate between the points. We then convert the vertical scales (from the graphic) to scales depth below surface and distance above bed.
++ README.org :: Overview of data.
++ meta.bsv :: Metadata, in bar (|) separated value format.
++ data.csv :: Temperature profile, in CSV format. May be =t,d= or =d,t=.
 
-* Notes
+Other files may exist. These include:
++ =PNG= and =tar= files, where the =PNG= file is a graphic from a publication, and the =tar= file is the =WebPlotDigitizer= archive that contains the digitization process.
++ =TXT=, =CSV=, or other files if the data was provided (online or via email) in a format that needed to be processed into the =data.csv= format described above
++ =Python= or =Bash= script files if processing was done to generate the =data.csv= file. Note - source code is often embedded in each =README.org= rather than in an external script.
 
-+ When a site has multiple boreholes (multiple similarly named folders) additional data (either as data files on disk, or information in the README.org file) may be available in the first (alphabetically) folder.
+** Outputs
 
-* Results
+The output of this work is:
 
-#+NAME: fig:T_surf
-#+ATTR_LATEX: :width: 0.5\textwidth :placement [!h]
-#+CAPTION: Temperature profiles from the surface
-[[./T_surf.png]]
++ [[./database.csv]] :: A database of metadata for each borehole.
++ [[./temperature.csv]] :: A database of temperature profiles on a common scale, all to the depth (first column) of the deepest profile. NaN marks locations without data. -999 marks locations below bedrock (for all but the deepest profile).
++ [[./temperature_dnorm.csv]] :: The same data as [[./temperature.csv]] but the first column is normalized depth, from the ice sheet surface (0) to the bed (1).
 
-#+NAME: fig:T_bed
-#+ATTR_LATEX: :width: 0.5\textwidth :placement [!h]
-#+CAPTION: Temperature profiles from the bed
-[[./T_bed.png]]
+** Metadata
 
-#+NAME: fig:T_norm
-#+ATTR_LATEX: :width: 0.5\textwidth :placement [!h]
-#+CAPTION: Temperature profiles from the surface (normalized depth)
-[[./T_norm.png]]
+Metadata for each profile includes:
 
-* Source Material
-:PROPERTIES:
-:clearpage: t
-:END:
-
-#+INCLUDE: agassiz77/README.org :minlevel 2
-#+INCLUDE: agassiz79a/README.org :minlevel 2
-#+INCLUDE: agassiz79b/README.org :minlevel 2
-#+INCLUDE: agassiz84/README.org :minlevel 2
-#+INCLUDE: camp_century/README.org :minlevel 2
-#+INCLUDE: devon_00/README.org :minlevel 2
-#+INCLUDE: devon_71/README.org :minlevel 2
-#+INCLUDE: devon_72/README.org :minlevel 2
-#+INCLUDE: dye_3/README.org :minlevel 2
-#+INCLUDE: flade_isblink/README.org :minlevel 2
-#+INCLUDE: foxx1/README.org :minlevel 2
-#+INCLUDE: foxx2/README.org :minlevel 2
-#+INCLUDE: gisp2/README.org :minlevel 2
-#+INCLUDE: grip/README.org :minlevel 2
-#+INCLUDE: gull/README.org :minlevel 2
-#+INCLUDE: h2015_s1a/README.org :minlevel 2
-#+INCLUDE: h2015_s1b/README.org :minlevel 2
-#+INCLUDE: h2015_s2a/README.org :minlevel 2
-#+INCLUDE: h2015_s3a/README.org :minlevel 2
-#+INCLUDE: h2015_s3b/README.org :minlevel 2
-#+INCLUDE: h2015_s3c/README.org :minlevel 2
-#+INCLUDE: h2015_s4a/README.org :minlevel 2
-#+INCLUDE: h2015_s4b/README.org :minlevel 2
-#+INCLUDE: h2015_s4c/README.org :minlevel 2
-#+INCLUDE: h2015_s5a/README.org :minlevel 2
-#+INCLUDE: h2015_s5b/README.org :minlevel 2
-#+INCLUDE: hanstausen_dome/README.org :minlevel 2
-#+INCLUDE: hanstausen_hare/README.org :minlevel 2
-#+INCLUDE: isua_10/README.org :minlevel 2
-#+INCLUDE: isua_11/README.org :minlevel 2
-#+INCLUDE: isua_12/README.org :minlevel 2
-#+INCLUDE: isua_13/README.org :minlevel 2
-#+INCLUDE: isua_14/README.org :minlevel 2
-#+INCLUDE: jakobshavn_center/README.org :minlevel 2
-#+INCLUDE: jakobshavn_left/README.org :minlevel 2
-#+INCLUDE: jakobshavn_sheet/README.org :minlevel 2
-#+INCLUDE: mcdowell_2021_14n/README.org :minlevel 2
-#+INCLUDE: mcdowell_2021_14sa/README.org :minlevel 2
-#+INCLUDE: mcdowell_2021_14sb/README.org :minlevel 2
-#+INCLUDE: mcdowell_2021_14w/README.org :minlevel 2
-#+INCLUDE: mcdowell_2021_15ca/README.org :minlevel 2
-#+INCLUDE: mcdowell_2021_15cb/README.org :minlevel 2
-#+INCLUDE: mcdowell_2021_15e/README.org :minlevel 2
-#+INCLUDE: mcdowell_2021_15n/README.org :minlevel 2
-#+INCLUDE: mcdowell_2021_15s/README.org :minlevel 2
-#+INCLUDE: meighen/README.org :minlevel 2
-#+INCLUDE: neem/README.org :minlevel 2
-#+INCLUDE: ngrip/README.org :minlevel 2
-#+INCLUDE: penny/README.org :minlevel 2
-#+INCLUDE: pow/README.org :minlevel 2
-#+INCLUDE: renland/README.org :minlevel 2
-#+INCLUDE: site_ii/README.org :minlevel 2
-#+INCLUDE: td1/README.org :minlevel 2
-#+INCLUDE: td2/README.org :minlevel 2
-#+INCLUDE: td3/README.org :minlevel 2
-#+INCLUDE: td41/README.org :minlevel 2
-#+INCLUDE: td42/README.org :minlevel 2
-#+INCLUDE: td51/README.org :minlevel 2
-#+INCLUDE: td52/README.org :minlevel 2
-#+INCLUDE: tuto_ramp/README.org :minlevel 2
-
-* About This Document
-:PROPERTIES:
-:clearpage: t
-:END:
-
-This document is an Emacs Org Mode plain-text file with code and text embedded. If you are viewing:
-+ A DOC or PDF file, then it was generated by exporting from Org. Not all of the Org parts (code, results, comments, etc.) were exported. The Org source file is available upon request, and may be embedded in the PDF. Most non-Apple PDF viewers provide easy access to embedded or attached files.
-+ A file with an =org= extension in something other than Emacs (e.g., in your browser on GitHub)l, then you are seeing the canonical version and the full source, but without any syntax highlighting, document structure, or the ability to execute the code blocks.
-+ An =Org= file within Emacs, then this is the canonical version. You should be able to fully interact and reproduce the contents of this document, although it may require 3rd-party applications (Python, etc.) and a similar Emacs configuration. This is available upon request.
-
-* Code                                                  :noexport:
-** ODS from Google Sheet
-
-+ We use the Google Sheet spreadsheet to generate a local [[./database.csv]]
-+ https://docs.google.com/spreadsheets/d/1QNqnjO7Gocl29Y7X693rCRRZI4dTSq0i58YghWeHy2Q/edit#gid=765194309
-
-#+NAME: sheet2csv
-#+BEGIN_SRC jupyter-python
-import pandas as pd
-import numpy as np
-
-url =  "https://docs.google.com/spreadsheets/d/1QNqnjO7Gocl29Y7X693rCRRZI4dTSq0i58YghWeHy2Q/export?format=csv&gid=765194309"
-
-df = pd.read_csv(url)\
-       .set_index('Borehole ID')\
-       .drop(columns=['Needs?','High Strain','SMB Regime','Basal State'])\
-       .replace('\#DIV/0!', np.nan)\
-       .replace('\#VALUE!', np.nan)
-
-# df.to_excel('database.ods')
-df.to_csv('database.csv')
-print(df.index)
+#+BEGIN_SRC bash :results verbatim :exports results
+head -n1 database.csv | tr ',' '\n'
 #+END_SRC
 
-#+RESULTS: sheet2csv
+#+RESULTS:
 #+begin_example
-Index(['Agassiz77', 'Agassiz79a', 'Agassiz79b', 'Agassiz84', 'CampCentury', 'CampIII_78b',
-       'CampVI', 'Devon72', 'Devon73', 'Devon98', 'DYE-3', 'FladeIsblink06', 'FOXX1', 'FOXX2',
-       'GISP2', 'GRIP', 'GULL', 'HansTausen_Dome', 'HansTausen_Hare', 'Isua_10', 'Isua_11',
-       'Isua_12', 'Isua_13', 'Isua_14', 'Isunnguata_13km-10', 'Isunnguata_27km-11A',
-       'Isunnguata_27km-11B', 'Isunnguata_27km-11C', 'Isunnguata_27km-12A', 'Isunnguata_27km-12B',
-       'Isunnguata_27km-12C', 'Isunnguata_33km_14N', 'Isunnguata_33km_14SA',
-       'Isunnguata_33km_14SB', 'Isunnguata_33km_14W', 'Isunnguata_33km_15CA',
-       'Isunnguata_33km_15CB', 'Isunnguata_33km_15E', 'Isunnguata_33km_15N', 'Isunnguata_33km_15S',
-       'Isunnguata_46km-11A', 'Isunnguata_46km-11B', 'Isunnguata_M1-10', 'Isunnguata_M2-10B',
-       'Jakobshavn89A', 'Jakobshavn89B', 'Jakobshavn89C', 'Jakobshavn95D_I1', 'Jakobshavn95D_I2',
-       'Jakobshavn95D_T3', 'Jakobshavn95D_T4', 'Jakobshavn95D_T5', 'Meighen67', 'NEEM', 'NGRIP',
-       'Penny96', 'PrinceWales05', 'Renland88', 'SiteII', 'StationCentrale', 'Store_R30_BH19c',
-       'Store_S30', 'TD1_88', 'TD2_88', 'TD3_88', 'TD4_91a', 'TD4_91b', 'TD5_90', 'TD5_91',
-       'Tuto_D-11'],
-      dtype='object', name='Borehole ID')
+Borehole ID
+Place name
+Geographic location
+Ice type
+Data Source
+Data DOI
+Science Source
+Science DOI
+Date
+Longitude [°E]
+Latitude [°N]
+Location Source
+Depth of top measurement [m]
+Depth of bottom measurement [m]
+Ice thickness [m]
+Coverage [% of thickness]
+Ice thickness source
+Note
 #+end_example
 
-** meta.bsv from database
 
-#+NAME: csv2metabsv
-#+BEGIN_SRC jupyter-python
-import pandas as pd
-import numpy as np
+* Graphics
 
-df = pd.read_csv('database.csv', index_col=0)
+#+CAPTION: Temperature profiles from the surface
+[[./temperature.png]]
 
-for r in df.index:
-    row = df.loc[r]
-    row.index.name = 'Borehole ID'
-    row = row.drop(['Measured from: Top, Bottom, Relative'])
-    try:
-        row.to_csv(row.name + '/meta.bsv', sep='|')
-    except:
-        pass
-#+END_SRC
+#+CAPTION: Temperature profiles on a normalized depth scale
+[[./temperature_dnorm.png]]
 
-#+RESULTS: csv2metabsv
+* INPROGRESS Uncertainty
 
-#+RESULTS: csv2bsv
+NOTE: Work in progress
 
-** Location KML
++ Each graphic-digitization will have its own uncertainty, as a function of the x and y axis to pixel ratio.
 
-#+NAME: kml
-#+BEGIN_SRC jupyter-python
-import pandas as pd
-import simplekml
-import cgi
++ Can estimate vertical uncertainty from graphics where points are supposed to be on 10 m marks (see removed duplicate EGIG profiles)
 
-df = pd.read_csv('database.csv', index_col=0)
++ Can estimate T uncertainty by line width, multiple people digitizing same graphic, same person digitizing graphic multiple times, or digitizing graphics when the 'raw' data is also provided.
 
-kml = simplekml.Kml()
-for site in df.index:
-    coords=df.loc[site]['Longitude [°E]'], df.loc[site]['Latitude [°N]']
-    if np.all(np.isfinite(coords)):
-        p = kml.newpoint(name=site, coords=[coords])
-        for n in df.loc[site].index:
-            p.extendeddata.newdata(n, cgi.html.escape(str(df.loc[site, n])))
-                                    
-kml.save("boreholes.kml")
-#+END_SRC
-
-#+RESULTS: kml
-
-** Build temperature.csv
-
-+ Combine each =<site>/data.csv= into a single CSV file for all sites
-+ Use relative temperature scale, 0 to 1, with 101 steps [0.00, 0.01, 0.02, ..., 0.99, 1.00]
-  + [[./T_surf.csv]] with index column depth from the surface
-  + [[./T_bed.csv]] with index column as distance above the bed
-
-#+NAME: meta2temperatureCSV    
-#+BEGIN_SRC jupyter-python
-import os
-import glob
-import pandas as pd
-
-df_surf = pd.DataFrame(index=np.arange(4000))
-df_surf.index.name = 'd'
-
-df_bed = pd.DataFrame(index=np.arange(4000))
-df_bed.index.name = 'd'
-
-metas = sort(glob.glob("*/meta.bsv"))
-datas = [_.replace('meta.bsv','data.csv') for _ in metas]
-
-for data,meta in zip(datas,metas):
-  if 'template' in meta: continue
-  if not os.path.isfile(data): continue # no data files for some profiles
-  m = pd.read_csv(meta, sep="|", index_col=0).squeeze()
-
-  # surf
-  d = pd.read_csv(data).set_index('d').rename(columns={'t':m.name})
-  d.index = np.round(d.index).astype(np.int)
-  d = d[d.index > 0]
-  d = d.iloc[~d.index.duplicated()]
-  df_surf = df_surf.merge(d, left_index=True, right_index=True, how='outer')
-
-df_surf = df_surf.interpolate(limit_area='inside', method='index')
-df_surf.index.name = "depth [m]"
-df_surf.dropna(how='all').to_csv("temperature.csv", float_format='%.4f')
-
-# # bottom
-# for c in df_surf:
-#   m = pd.read_csv(c + '/meta.bsv', sep="|", index_col=0).squeeze() # re-read the metadata for each column
-#   max_depth = pd.to_numeric(m['Ice thickness [m]'], errors='coerce')
-#   if not np.isfinite(max_depth): continue
-#   max_depth = max_depth.round().astype(np.int)
-#   df_bed.loc[:max_depth, c] = df_surf.loc[:max_depth, c][::-1].values
-  
-# df_bed.index.name = "from_bed"
-# df_bed.dropna(how='all').to_csv("T_bed.csv", float_format='%.4f')
-
-
-# # T_norm
-# meta = pd.read_csv('overview.bsv', index_col=0, sep='|')
-# T = pd.read_csv('T_surf.csv', index_col=0)
-# T_norm = pd.DataFrame(index = np.linspace(0,1,101))
-# for site in T.columns:
-#     s = T[site].copy(deep=True)
-#     thick = pd.to_numeric(meta.loc[site]['Ice thickness [m]'], errors='coerce')
-#     s.index = s.index / thick
-#     s = s[(s.index >= 0) & (s.index <= 1)]
-
-#     s1 = s.reindex(s.index.union(T_norm.index))
-#     s1 = s1.interpolate('index', limit_area='inside')
-#     T_norm[site] = s1[T_norm.index]
-
-# T_norm.index.name = "normalized"
-# T_norm.dropna(how='all').to_csv("T_norm.csv", float_format='%.4f')
-#+END_SRC
-
-#+RESULTS: meta2temperatureCSV
-
-** NOTDONE meta.bsv from spreadsheet
-
-+ We use the Google Sheet spreadsheet to generate the individual BSV files for each borehole
-+ https://docs.google.com/spreadsheets/d/1QNqnjO7Gocl29Y7X693rCRRZI4dTSq0i58YghWeHy2Q/edit#gid=765194309
-
-#+BEGIN_SRC jupyter-python
-url =  "https://docs.google.com/spreadsheets/d/1QNqnjO7Gocl29Y7X693rCRRZI4dTSq0i58YghWeHy2Q/export?format=csv&gid=765194309"
-
-df = pd.read_csv(url)\
-    .set_index('Borehole ID')\
-    .drop(columns=['Needs?'])\
-    .replace('#DIV/0!', np.nan)\
-    .replace('#VALUE!', np.nan)
-    
-
-for r in df.index:
-    row = df.loc[r]
-    row.index.name = 'Borehole ID'
-    row.to_csv(row.name + '/meta.bsv', sep='|')
-#+END_SRC
-
-#+RESULTS:
-
-
-** NOTDONE overview.bsv from meta.bsvs
-
-#+BEGIN_SRC jupyter-python
-import glob
-import pandas as pd
-
-ms = sort(glob.glob("*/meta.bsv"))
-df = pd.DataFrame()
-
-for am in ms:
-  if 'template' in am: continue
-  m = pd.read_csv(am, sep="|", index_col=0).squeeze()
-  if df.size == 0:
-    df[m.name] = m
-  else:
-    df = df.merge(m, left_index=True, right_index=True)
-
-df = df.T
-df.index.name = 'Site'
-
-# coverage
-df['Coverage [% of thickness]'] = np.round((df['Depth of bottom measurement [m]'].astype(np.float) - df['Depth of top measurement [m]'].astype(np.float)) / pd.to_numeric(df['Ice thickness [m]'], errors='coerce').astype(np.float) * 100).replace(np.nan,0).astype(np.int)
-
-df.to_csv("overview.bsv", sep="|")
-#+END_SRC
-
-#+RESULTS:
-
-** NOTDONE Combine all temperature profiles
-
-+ Combine each =<site>/data.csv= file to two files:
-  + [[./T_surf.csv]] with index column depth from the surface
-  + [[./T_bed.csv]] with index column as distance above the bed
-
-#+BEGIN_SRC jupyter-python
-import os
-import glob
-import pandas as pd
-
-df_surf = pd.DataFrame(index=np.arange(4000))
-df_surf.index.name = 'd'
-
-df_bed = pd.DataFrame(index=np.arange(4000))
-df_bed.index.name = 'd'
-
-metas = sort(glob.glob("*/meta.bsv"))
-datas = [_.replace('meta.bsv','data.csv') for _ in metas]
-
-for data,meta in zip(datas,metas):
-  if 'template' in meta: continue
-  if not os.path.isfile(data): continue # no data files for some profiles
-  m = pd.read_csv(meta, sep="|", index_col=0).squeeze()
-
-  # surf
-  d = pd.read_csv(data).set_index('d').rename(columns={'t':m.name})
-  d.index = np.round(d.index).astype(np.int)
-  d = d[d.index > 0]
-  d = d.iloc[~d.index.duplicated()]
-  df_surf = df_surf.merge(d, left_index=True, right_index=True, how='outer')
-
-df_surf = df_surf.interpolate(limit_area='inside', method='index')
-df_surf.index.name = "from_surface"
-df_surf.dropna(how='all').to_csv("T_surf.csv", float_format='%.4f')
-
-# bottom
-for c in df_surf:
-  m = pd.read_csv(c + '/meta.bsv', sep="|", index_col=0).squeeze() # re-read the metadata for each column
-  max_depth = pd.to_numeric(m['Ice thickness [m]'], errors='coerce')
-  if not np.isfinite(max_depth): continue
-  max_depth = max_depth.round().astype(np.int)
-  df_bed.loc[:max_depth, c] = df_surf.loc[:max_depth, c][::-1].values
-  
-df_bed.index.name = "from_bed"
-df_bed.dropna(how='all').to_csv("T_bed.csv", float_format='%.4f')
-
-
-# T_norm
-meta = pd.read_csv('overview.bsv', index_col=0, sep='|')
-T = pd.read_csv('T_surf.csv', index_col=0)
-T_norm = pd.DataFrame(index = np.linspace(0,1,101))
-for site in T.columns:
-    s = T[site].copy(deep=True)
-    thick = pd.to_numeric(meta.loc[site]['Ice thickness [m]'], errors='coerce')
-    s.index = s.index / thick
-    s = s[(s.index >= 0) & (s.index <= 1)]
-
-    s1 = s.reindex(s.index.union(T_norm.index))
-    s1 = s1.interpolate('index', limit_area='inside')
-    T_norm[site] = s1[T_norm.index]
-
-T_norm.index.name = "normalized"
-T_norm.dropna(how='all').to_csv("T_norm.csv", float_format='%.4f')
-#+END_SRC
-
-#+RESULTS:
-
-** Graphics
-
-#+NAME: setup
-#+BEGIN_SRC jupyter-python :results none
-import matplotlib.pyplot as plt
-import matplotlib
-from matplotlib import rc
-import pandas as pd
-
-rc('font', size=10)
-rc('text', usetex=False)
-# matplotlib.pyplot.xkcd()
-
-# plt.close(1)
-fig = plt.figure(1, figsize=(4*2,5*2)) # w,h
-fig.clf()
-fig.set_tight_layout(True)
-ax = fig.add_subplot(111)
-#+END_SRC
-
-*** From surface:
-
-#+BEGIN_SRC jupyter-python
-<<setup>>
-
-df = pd.read_csv("T_surf.csv", index_col=0)
-for c in df.columns:
-    ax.plot(df[c], -df.index, label=c)
-    if size(df[c].dropna()) != 0:
-        ax.text(df[c].dropna().values[-1],
-                -df[c].dropna().index[-1],
-                c)
-
-ax.set_xlabel("T [°C]")
-ax.set_ylabel("Depth below surface [m]")
-plt.savefig('T_surf.png', transparent=False, bbox_inches='tight', dpi=300)
-#+END_SRC
-
-#+RESULTS:
-
-[[./T_surf.png]]
-
-*** From bed
-
-#+BEGIN_SRC jupyter-python
-<<setup>>
-
-df = pd.read_csv("T_bed.csv", index_col=0)
-for c in df.columns:
-    ax.plot(df[c], df.index, label=c)
-    if size(df[c].dropna()) != 0:
-        ax.text(df[c].dropna().values[-1],
-                df[c].dropna().index[-1],
-                c)
-
-ax.set_xlabel("T [°C]")
-ax.set_ylabel("Distance above bed [m]")
-plt.savefig('T_bed.png', transparent=False, bbox_inches='tight', dpi=300)
-#+END_SRC
-
-#+RESULTS:
-
-[[./T_bed.png]]
-
-*** Normalized
-
-#+BEGIN_SRC jupyter-python
-<<setup>>
-
-df = pd.read_csv("T_norm.csv", index_col=0)
-for c in df.columns:
-    ax.plot(df[c], df.index, label=c)
-    if size(df[c].dropna()) != 0:
-        ax.text(df[c].dropna().values[0],
-                df[c].dropna().index[0],
-                c)
-
-ax.set_xlabel("T [°C]")
-ax.set_ylabel("Normalized depth below surface [-]")
-ax.set_ylim([1,0])
-plt.savefig('T_norm.png', transparent=False, bbox_inches='tight', dpi=300)
-#+END_SRC
-
-#+RESULTS:
-
-[[./T_norm.png]]
-
-* Uncertainty
-:PROPERTIES:
-:clearpage: t
-:END:
-
-Most of sources are digitized from graphics and the reported uncertainty is much less than the line-width relative to graph temperature scale. Therefore, we can ignore reported uncertainties. Instead, uncertainty can be estimated from the cases when the same data is presented multiple times, ideally in fundamentally different graphics in different publications, or comparing a digitized graphic to the original non-digitized source if it is available.
-
-** Agassiz
+** Example: Agassiz
 
 The Agassiz boreholes were provided as data. By digitizing graphics from papers (e.g. [[citet:clarke_1987_wind][Clarke (1987))]], we can find a measure of the digitization error.
 
@@ -564,182 +152,3 @@ plt.savefig('./fig/agassiz_diff.png', transparent=False, bbox_inches='tight', dp
 #+CAPTION: Digitization error for Agassiz borehole temperature profiles. Black is A77 data, graphic, and difference (noisy line, top x-axis). Gray and orange are the difference between the [[citet:clarke_1987_wind][Clarke (1987)]] A79 profile from the graphic and the A79A and A79B data profiles, respectively.
 [[./fig/agassiz_diff.png]]
 
-* References
-:PROPERTIES:
-:clearpage: t
-:END:
-\printbibliography[heading=none]
-* LaTeX Header                                            :ignore:
-# #+LaTeX_CLASS_OPTIONS: [article,a4paper,times,11pt,twoside,twocolumn]
-#+LaTeX_CLASS_OPTIONS: [article,a4paper,times,11pt,twoside]
-** References                                             :ignore:
-
-#+LATEX_HEADER_EXTRA:%\usepackage[bibstyle=authoryear,firstinits=true,maxbibnames=99]{biblatex}
-#+LATEX_HEADER_EXTRA: \usepackage[hyperref=true,
-#+LATEX_HEADER_EXTRA:             %sorting=none, 
-#+LATEX_HEADER_EXTRA:             sorting=nyt,
-#+LATEX_HEADER_EXTRA:             %style=numeric, 
-#+LATEX_HEADER_EXTRA:             date=year,
-#+LATEX_HEADER_EXTRA:             style=authoryear,
-#+LATEX_HEADER_EXTRA:             %defernumbers=true, 
-#+LATEX_HEADER_EXTRA:             firstinits=true, 
-#+LATEX_HEADER_EXTRA:             uniquename=false,
-#+LATEX_HEADER_EXTRA:             uniquelist=false,
-#+LATEX_HEADER_EXTRA:             %uniquelist=minyear,
-#+LATEX_HEADER_EXTRA:             maxnames=99, 
-#+LATEX_HEADER_EXTRA:             maxcitenames=1]{biblatex}
-#+LATEX_HEADER_EXTRA:\addbibresource{library.bib}
-# #+LATEX_HEADER_EXTRA:\addbibresource{/home/kdm/Documents/Papers/library.bib}
-# #+LATEX_HEADER_EXTRA:\addbibresource{/home/kdm/Documents/Papers/data.bib}
-# #+LATEX_HEADER_EXTRA:\addbibresource{/home/kdm/Documents/Papers/software.bib}
-#+LATEX_HEADER_EXTRA: \renewbibmacro{in:}{}
-
-# biber <texfile><.NOEXT> --output_format bibtex -O library.bib
-# biber --output_format=bibtex --output_resolve ${fn}.bcf
-
-# http://tex.stackexchange.com/a/5779/360
-#+LATEX_HEADER_EXTRA: % Don't print URL if DOI field exists
-#+LATEX_HEADER_EXTRA: \DeclareFieldFormat{url}{%
-#+LATEX_HEADER_EXTRA:   \iffieldundef{doi}{%
-#+LATEX_HEADER_EXTRA:     \mkbibacro{URL}\addcolon\space\url{#1}%
-#+LATEX_HEADER_EXTRA:   }{%
-#+LATEX_HEADER_EXTRA:   }%
-#+LATEX_HEADER_EXTRA: }
-#+LATEX_HEADER_EXTRA: % Don't print URL if DOI field exists
-#+LATEX_HEADER_EXTRA: \DeclareFieldFormat{urldate}{%
-#+LATEX_HEADER_EXTRA:   \iffieldundef{doi}{%
-#+LATEX_HEADER_EXTRA:     \mkbibparens{\bibstring{urlseen}\space#1}%
-#+LATEX_HEADER_EXTRA:   }{%
-#+LATEX_HEADER_EXTRA:   }%
-#+LATEX_HEADER_EXTRA: }
-
-#+LATEX_HEADER_EXTRA: \renewbibmacro*{journal+issuetitle}{%
-#+LATEX_HEADER_EXTRA: \usebibmacro{journal}%
-#+LATEX_HEADER_EXTRA: \setunit*{\addspace}%
-#+LATEX_HEADER_EXTRA: \iffieldundef{series}
-#+LATEX_HEADER_EXTRA: {}
-#+LATEX_HEADER_EXTRA: {\newunit
-#+LATEX_HEADER_EXTRA: \printfield{series}%
-#+LATEX_HEADER_EXTRA: \setunit{\addspace}}%
-#+LATEX_HEADER_EXTRA: \usebibmacro{issue+date}%
-#+LATEX_HEADER_EXTRA: \setunit{\addcomma\space}%
-#+LATEX_HEADER_EXTRA: \usebibmacro{volume+number+eid}%
-#+LATEX_HEADER_EXTRA: \setunit{\addcolon\space}%
-#+LATEX_HEADER_EXTRA: \usebibmacro{issue}%
-#+LATEX_HEADER_EXTRA: \newunit}
-
-#+LATEX_HEADER_EXTRA: \newbibmacro*{issue+date}{%
-#+LATEX_HEADER_EXTRA: \iffieldundef{issue}
-#+LATEX_HEADER_EXTRA: {. \usebibmacro{date}}
-#+LATEX_HEADER_EXTRA: {\printfield{issue}%
-#+LATEX_HEADER_EXTRA: \setunit*{\addspace}%
-#+LATEX_HEADER_EXTRA: \usebibmacro{date}}%
-#+LATEX_HEADER_EXTRA: \newunit}
-
-#+LATEX_HEADER_EXTRA: \renewbibmacro*{volume+number+eid}{%
-#+LATEX_HEADER_EXTRA: \printfield{volume}%
-#+LATEX_HEADER_EXTRA: \setunit*{\addnbspace}% NEW (optional); there's also #+LATEX_HEADER_EXTRA: \addnbthinspace
-#+LATEX_HEADER_EXTRA: \printfield{number}%
-#+LATEX_HEADER_EXTRA: \setunit{\addcomma\space}%
-#+LATEX_HEADER_EXTRA: \printfield{eid}}
-#+LATEX_HEADER_EXTRA: \DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
-
-#+LATEX_HEADER_EXTRA: \DeclareFieldFormat{pages}{#1}
-
-** Page and Fonts                                         :ignore:
-
-#+LATEX_HEADER_EXTRA: \pdfpagewidth 8.5in
-#+LATEX_HEADER_EXTRA: \pdfpageheight 11in
-#+LATEX_HEADER_EXTRA:  \usepackage{setspace}
-#+LATEX_HEADER_EXTRA:  \usepackage{hyperref} % links (citations, references, URLs, etc.)
-#+LATEX_HEADER_EXTRA:  \usepackage{fixltx2e} % fix some bugs. Require proper coding of equations...
-#+LATEX_HEADER_EXTRA:  \usepackage{enumitem}\setlist{nosep} % shrink space between bullets
-#+LATEX_HEADER_EXTRA:  \usepackage{lmodern}  % better i18n Postscript version of Knuth's cm fonts
-#+LATEX_HEADER_EXTRA:  \usepackage[final,protrusion=true,expansion=true]{microtype} % nice font tweaks
-#+LATEX_HEADER_EXTRA:  \usepackage[small,compact, sf]{titlesec} % reduce space
-#+LATEX_HEADER_EXTRA:  \usepackage[margin=1in]{geometry} % set page margins automatically 
-#+LATEX_HEADER_EXTRA:  \usepackage[parfill]{parskip}  % paragraphs have vert space not indent
-#+LATEX_HEADER_EXTRA:  %\usepackage{paralist} %\begin{compactitem} http://www.howtotex.com/packages/compact-lists-with-paralist
-#+LATEX_HEADER_EXTRA:  \usepackage[T1]{fontenc}
-#+LATEX_HEADER_EXTRA:  \usepackage[sc]{mathpazo} % Palatino font
-#+LATEX_HEADER_EXTRA:  \usepackage{fancyref} % \fref{fig:foo} makes everything pretty...
-#+LATEX_HEADER_EXTRA:  \usepackage{flafter} % make sure figures do not appear before their text:    
-#+LATEX_HEADER_EXTRA:  \usepackage[all]{hypcap} % links from go to top of table/image, not bottom.
-#+LATEX_HEADER_EXTRA:  \usepackage[section]{placeins} % floats get placed in the section
-#+LATEX_HEADER_EXTRA:  \usepackage{siunitx}
-#+LATEX_HEADER_EXTRA:  \usepackage{commath} % \dif, \od, \pd, \md, etc.
-#+LATEX_HEADER_EXTRA:  \usepackage{amsmath} % provides \eqref which adds []'s. 
-#+LATEX_HEADER_EXTRA:  %\numberwithin{equation}{section} % reference equations as [3.42] rather than 42.
-#+LATEX_HEADER_EXTRA:  \usepackage{amsfonts} % I hear these are also good to load
-#+LATEX_HEADER_EXTRA:  \usepackage{amssymb} % I hear these are also good to load
-#+LATEX_HEADER_EXTRA:  \usepackage[all]{onlyamsmath} % don't allow $$, eqnarray, etc.
-#+LATEX_HEADER_EXTRA:  %\usepackage{tocbibind} % add bib to toc
-
-** Code                                                   :ignore:
-# #+LATEX_HEADER_EXTRA:  \usepackage[gobble=auto]{pythontex}
-# #+LATEX_HEADER_EXTRA:  \setpythontexworkingdir{./}
-# #+LATEX_HEADER_EXTRA:  \usepackage{minted}
-# #+LATEX_HEADER_EXTRA:  \usemintedstyle{emacs}
-# #+LATEX_HEADER_EXTRA:  \newminted{common-lisp}{fontsize=\footnotesize}
-#+LATEX_HEADER_EXTRA: \BeforeBeginEnvironment{minted}{\begin{mdframed}}
-#+LATEX_HEADER_EXTRA: \AfterEndEnvironment{minted}{\end{mdframed}}
-** Hyperref                                               :ignore:
-#+LATEX_HEADER_EXTRA:  %\usepackage{datetime}\renewcommand{\dateseparator}{-}
-#+LATEX_HEADER_EXTRA:  \usepackage{xspace} % smart spaces
-#+LATEX_HEADER_EXTRA:  \hypersetup{
-#+LATEX_HEADER_EXTRA:    colorlinks=true,       % links are colored
-#+LATEX_HEADER_EXTRA:    urlcolor=blue,    % color of external links
-#+LATEX_HEADER_EXTRA:    linkcolor=blue,   % color of internal links
-#+LATEX_HEADER_EXTRA:    citecolor=blue,   % color of links to bibliography
-#+LATEX_HEADER_EXTRA:    draft=false, % link even in draft mode
-#+LATEX_HEADER_EXTRA:    bookmarksopen=true, % ?
-#+LATEX_HEADER_EXTRA:    pdfdisplaydoctitle=true}
-#+LATEX_HEADER_EXTRA:  \renewcommand{\textfraction}{0.05}
-#+LATEX_HEADER_EXTRA:  \renewcommand{\topfraction}{0.8}
-#+LATEX_HEADER_EXTRA:  \renewcommand{\bottomfraction}{0.8}
-#+LATEX_HEADER_EXTRA:  \renewcommand{\floatpagefraction}{0.75}
-
-** Figures                                                :ignore:
-#+LATEX_HEADER_EXTRA:  \usepackage{pdfpages}
-#+LATEX_HEADER_EXTRA:  \usepackage[final]{graphicx} % [final] means show figs in draft mode
-#+LATEX_HEADER_EXTRA:  \setkeys{Gin}{draft=false}
-#+LATEX_HEADER_EXTRA:  %\usepackage{wrapfig}
-#+LATEX_HEADER_EXTRA:  %\usepackage[Export]{adjustbox} % http://latex-alive.tumblr.com/post/81481408449
-#+LATEX_HEADER_EXTRA:  %\adjustboxset{max size={\textwidth}{0.7\textheight}}
-#+LATEX_HEADER_EXTRA:  \usepackage{mdframed}
-
-** Draft Mode                                             :ignore:
-# DRAFT
-#+LATEX_HEADER_EXTRA:  \usepackage{ifdraft} % used for conditional stuff
-#+LATEX_HEADER_EXTRA:  % \ifdraft{
-#+LATEX_HEADER_EXTRA:  %   \usepackage{draftwatermark}
-#+LATEX_HEADER_EXTRA:  %   \SetWatermarkText{DRAFT}
-#+LATEX_HEADER_EXTRA:  %   \SetWatermarkLightness{0.95}
-#+LATEX_HEADER_EXTRA:  %   \SetWatermarkScale{2}}{}
-#+LATEX_HEADER_EXTRA:  \ifdraft{\usepackage{lineno}\linenumbers\modulolinenumbers[5]}{}
-#+LATEX_HEADER_EXTRA:  \ifdraft{\doublespacing}{}
-#+LATEX_HEADER_EXTRA:  %\ifdraft{\usepackage{showlabels}}{}
-
-** Header/Footer                                          :ignore:
-# Header/footer
-#+LATEX_HEADER_EXTRA:  \usepackage{lastpage} % used in the footer of fancyheader
-#+LATEX_HEADER_EXTRA:  \usepackage{fancyhdr}
-#+LATEX_HEADER_EXTRA:  \pagestyle{fancyplain}
-#+LATEX_HEADER_EXTRA:  \lhead{}\chead{}\rhead{}
-#+LATEX_HEADER_EXTRA:  \lfoot{}\cfoot{}\rfoot{}
-#+LATEX_HEADER_EXTRA:  \lfoot{K. D. Mankoff} 
-#+LATEX_HEADER_EXTRA:  \rfoot{p. \thepage\ of \pageref*{LastPage}} % * means no link
-#+LATEX_HEADER_EXTRA:  \ifdraft{\chead{DRAFT -- DO NOT DISTRIBUTE}}{}
-#+LATEX_HEADER_EXTRA:  \renewcommand{\headrulewidth}{0.0pt} % no bars but thanks anyway.
-#+LATEX_HEADER_EXTRA:  \renewcommand{\footrulewidth}{0.0pt} 
-** GitInfo                                                :ignore:
-# GitInfo
-#+LATEX_HEADER_EXTRA: \usepackage[mark,missing={master}]{gitinfo2}
-#+LATEX_HEADER_EXTRA: \renewcommand{\gitMark}{\gitBranch\,@\,\gitAbbrevHash{}\gitDirty\,[\gitAuthorDate]}
-
-** COMMENT Embedded file                                          :ignore:
-#+LATEX_HEADER_EXTRA: \usepackage{embedfile}
-#+LATEX_HEADER_EXTRA: \embedfile{\jobname.org}
-
-# #+LATEX_HEADER_EXTRA: \usepackage[main,include]{embedall}
-# #+LATEX_HEADER_EXTRA: \IfFileExists{./\jobname.org}{\embedfile[desc=The original file]{\jobname.org}}{}

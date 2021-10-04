@@ -12,26 +12,23 @@ cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 #+RESULTS: ingest_meta
 #+begin_example
 Borehole ID                      | Devon73
-Place Name                       | Devon Ice Cap
-Geographic Location              | Canadian Arctic North
-Ice Type                         | Ice cap
-Data Reference                   | Paterson, W. S. B., Clarke, G. K. C.: Comparison of theoretical and observed temperature profiles in Devon Island ice cap, Canada , Geophysical Journal International 55(3), Oxford University Press (OUP), 615–632, 12 1978 
+Place name                       | Devon Ice Cap
+Geographic location              | Canadian Arctic North
+Ice type                         | Ice cap
+Data Source                      | Graphic in science source
 Data DOI                         | 
-Science Reference                | Kinnard, C., C. Zdanowicz, D. Fisher et al. 2006. Calibration of an ice-core glaciochemical (sea-salt) record with Sea-ice variability in the Canadian Arctic. Annals of Glaciology. 44: 383-390. 
-Science DOI                      | 10.3189/172756406781811349
+Science Source                   | Paterson, W., R. Koerner, D. Fisher et al. 1977. An oxygen-isotope climatic record from the Devon Island ice cap, Arctic Canada. Nature. 266: 508-511.
+Science DOI                      | 10.1038/266508a0
 Date                             | 1973
 Longitude [°E]                   | -82.14
 Latitude [°N]                    | 75.34
-Location source                  | Colgan, 2021
+Location Source                  | 10.5194/essd-2021-290
 Depth of top measurement [m]     | 9.0
 Depth of bottom measurement [m]  | 299
 Ice thickness [m]                | 299
 Coverage [% of thickness]        | 97
 Ice thickness source             | See data source
-General_Note                     | 
-Temperature_note                 | Digitized from graphic
-Thickness_note                   | 
-Location_note                    | 
+Note                             | 
 #+end_example
 
 ** Temperature

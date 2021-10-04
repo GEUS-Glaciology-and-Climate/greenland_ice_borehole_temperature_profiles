@@ -12,31 +12,30 @@ cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 #+RESULTS: ingest_meta
 #+begin_example
 Borehole ID                      | TD1_88
-Place Name                       | Paakitsoq
-Geographic Location              | Central West Greenland
-Ice Type                         | Ice sheet
-Data Reference                   | Unknown PDF: Shallow88II.pdf
+Place name                       | Paakitsoq
+Geographic location              | Central West Greenland
+Ice type                         | Ice sheet
+Data Source                      | Lüthi email
 Data DOI                         | 
-Science Reference                | Thomsen, H.H., O.B. Olesen, R.J. Braithwaite, and C.E. Bøggild. 1991. Ice drilling and mass balance at Pakitsoq, Jakobshavn, central West Greenland. Rapport Grønlands Geologiske Undersøgelse, 152, 80–84. 
+Science Source                   | Thomsen, H.H., O.B. Olesen, R.J. Braithwaite, and C.E. Bøggild. 1991. Ice drilling and mass balance at Pakitsoq, Jakobshavn, central West Greenland. Rapport Grønlands Geologiske Undersøgelse, 152, 80–84. 
 Science DOI                      | 10.34194/rapggu.v152.8160
 Date                             | 1988-05-19
 Longitude [°E]                   | -50.13
 Latitude [°N]                    | 69.45
-Location source                  | Colgan, 2021
+Location Source                  | 10.5194/essd-2021-290
 Depth of top measurement [m]     | 50.0
 Depth of bottom measurement [m]  | 300
 Ice thickness [m]                | 300
 Coverage [% of thickness]        | 83
 Ice thickness source             | Unknown PDF: Shallow88II.pdf
-General_Note                     | 
-Temperature_note                 | See https://github.com/GEUS-Glaciology-and-Climate/greenland_ice_borehole_temperature_profiles/blob/main/TD1_88/Shallow88II.pdf and https://github.com/GEUS-Glaciology-and-Climate/greenland_ice_borehole_temperature_profiles/blob/main/TD1_88/Thomsen_TD1_TD2_TD3_records.pdf
-Thickness_note                   | 
-Location_note                    | 
+Note                             | 
 #+end_example
 
 ** Temperature
 
-+ See Shallow88II.pdf
++ See:
+  + https://github.com/GEUS-Glaciology-and-Climate/greenland_ice_borehole_temperature_profiles/blob/main/TD1_88/Shallow88II.pdf
+  + https://github.com/GEUS-Glaciology-and-Climate/greenland_ice_borehole_temperature_profiles/blob/main/TD1_88/Thomsen_TD1_TD2_TD3_records.pdf
 
 #+BEGIN_example
 From: Martin Luethi
@@ -61,11 +60,11 @@ I also added some data from profiles I found in EGIG publications.
 
 ** Thickness
 
-+ From PDF
++ From PDFs
  
 ** Location
 
-+ From PDF
++ From PDFs
 
 ** Velocity
 
