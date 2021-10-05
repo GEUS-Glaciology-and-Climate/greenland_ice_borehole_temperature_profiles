@@ -15,4 +15,5 @@ Depth of bottom measurement [m]|704
 Ice thickness [m]|703
 Coverage [% of thickness]|100
 Ice thickness source|See data source
+Velocity [m/yr]|85.6
 Note|Location from Geothermal Database

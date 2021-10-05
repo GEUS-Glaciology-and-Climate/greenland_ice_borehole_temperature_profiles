@@ -15,4 +15,5 @@ Depth of bottom measurement [m]|1044
 Ice thickness [m]|1044
 Coverage [% of thickness]|100
 Ice thickness source|Law (2021)
+Velocity [m/yr]|521.4
 Note|See also: 10.5285/ecf81955-b829-4f91-ae90-b9bc947f8c60

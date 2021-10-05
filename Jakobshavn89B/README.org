@@ -28,6 +28,7 @@ Depth of bottom measurement [m]  | 1560
 Ice thickness [m]                | 2520
 Coverage [% of thickness]        | 62
 Ice thickness source             | Iken, 1993
+Velocity [m/yr]                  | 1873.3
 Note                             | 
 #+end_example
 

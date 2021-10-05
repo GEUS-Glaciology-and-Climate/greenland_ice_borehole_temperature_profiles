@@ -15,4 +15,5 @@ Depth of bottom measurement [m]|672
 Ice thickness [m]|677
 Coverage [% of thickness]|92
 Ice thickness source|10.18739/A24746S04
+Velocity [m/yr]|124.7
 Note|See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.

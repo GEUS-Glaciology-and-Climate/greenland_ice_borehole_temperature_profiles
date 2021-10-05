@@ -15,4 +15,5 @@ Depth of bottom measurement [m]|128
 Ice thickness [m]|128
 Coverage [% of thickness]|98
 Ice thickness source|See data source
+Velocity [m/yr]|4.4
 Note|Ice thickness from data does not match ice thickness from Vinther (2008); Location approximate

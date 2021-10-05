@@ -28,6 +28,7 @@ Depth of bottom measurement [m]  | 728
 Ice thickness [m]                | 815
 Coverage [% of thickness]        | 75
 Ice thickness source             | T. Meierbachtol email
+Velocity [m/yr]                  | 115.5
 Note                             | See data in M1-10 folder; Harrington 2015 name: S5-B
 #+end_example
 

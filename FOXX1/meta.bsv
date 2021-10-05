@@ -15,4 +15,5 @@ Depth of bottom measurement [m]|611
 Ice thickness [m]|631
 Coverage [% of thickness]|96
 Ice thickness source|Martin Luthi
+Velocity [m/yr]|87.9
 Note|

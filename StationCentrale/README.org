@@ -28,6 +28,7 @@ Depth of bottom measurement [m]  | 150
 Ice thickness [m]                | 3037
 Coverage [% of thickness]        | 5
 Ice thickness source             | BedMachine_V3
+Velocity [m/yr]                  | 14.5
 Note                             | 
 #+end_example
 

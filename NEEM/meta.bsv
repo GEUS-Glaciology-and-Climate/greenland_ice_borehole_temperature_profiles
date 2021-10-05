@@ -15,4 +15,5 @@ Depth of bottom measurement [m]|2535
 Ice thickness [m]|2535
 Coverage [% of thickness]|97
 Ice thickness source|Email from Gary Clow
+Velocity [m/yr]|6.0
 Note|

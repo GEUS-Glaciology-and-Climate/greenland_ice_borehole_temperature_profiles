@@ -28,6 +28,7 @@ Depth of bottom measurement [m]  | 1387
 Ice thickness [m]                | 1387
 Coverage [% of thickness]        | 99
 Ice thickness source             | Weertman1968
+Velocity [m/yr]                  | 7.4
 Note                             | 
 #+end_example
 

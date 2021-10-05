@@ -15,4 +15,5 @@ Depth of bottom measurement [m]|90
 Ice thickness [m]|539
 Coverage [% of thickness]|15
 Ice thickness source|BedMachine_V3
+Velocity [m/yr]|63.6
 Note|See also shallow profiles at boreholes I and III

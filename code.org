@@ -31,6 +31,8 @@ df = pd.read_csv(url)\
        .replace('\#DIV/0!', np.nan)\
        .replace('\#VALUE!', np.nan)
 
+df['Velocity [m/yr]'] = df['Velocity [m/yr]'].round(1)
+
 # df.to_excel('database.ods')
 df.to_csv('database.csv')
 print(df.index)
@@ -67,7 +69,7 @@ df = pd.read_csv('database.csv', index_col=0)
 for r in df.index:
     row = df.loc[r]
     row.index.name = 'Borehole ID'
-    row = row.drop(['Measured from: Top, Bottom, Relative'])
+    # row = row.drop(['Measured from: Top, Bottom, Relative'])
     try:
         row.to_csv(row.name + '/meta.bsv', sep='|')
     except:
@@ -124,11 +126,21 @@ db = pd.read_csv('database.csv', header=[0])
 
 db = db[~(db['Borehole ID'] == 'Jakobshavn89C')]
  
-columns = pd.MultiIndex.from_arrays([db['Borehole ID'], db['Date'], db['Longitude [°E]'], db['Latitude [°N]'],
-                                     db['Depth of top measurement [m]'], db['Depth of bottom measurement [m]'],
+columns = pd.MultiIndex.from_arrays([db['Borehole ID'],
+                                     db['Date'],
+                                     db['Longitude [°E]'],
+                                     db['Latitude [°N]'],
+                                     db['Velocity [m/yr]'],
+                                     db['Depth of top measurement [m]'],
+                                     db['Depth of bottom measurement [m]'],
                                      db['Ice thickness [m]']],
-                                    names=['Borehole ID', 'Date', 'Longitude [°E]', 'Latitude [°N]',
-                                           'Depth of top measurement [m]', 'Depth of bottom measurement [m]',
+                                    names=['Borehole ID',
+                                           'Date',
+                                           'Longitude [°E]',
+                                           'Latitude [°N]',
+                                           'Velocity [m/yr]',
+                                           'Depth of top measurement [m]',
+                                           'Depth of bottom measurement [m]',
                                            'Ice thickness [m]'])
 
 for id in db['Borehole ID']:
@@ -172,6 +184,7 @@ Borehole ID                     Agassiz77 Agassiz79a Agassiz79b  Agassiz84 CampC
 Date                                 1977       1979       1979       1984        1966
 Longitude [°E]                   -73.1000   -73.1000   -73.1000   -73.1000    -61.1097
 Latitude [°N]                     80.7000    80.7000    80.7000    80.7000     77.1797
+Velocity [m/yr]                       4.4        4.4        4.4        4.4         7.4
 Depth of top measurement [m]         11.0       12.0       11.0       3.0         9.0 
 Depth of bottom measurement [m]      341        142        141        128         1387
 Ice thickness [m]                     341        142        141        128        1387
@@ -196,7 +209,7 @@ depth [m]
 dfN = pd.DataFrame(index=np.linspace(0,100,101).astype(int))
 dfN.index.name = 'd normalized'
 
-df = pd.read_csv("temperature.csv", index_col=0, header=[0,1,2,3,4,5,6])
+df = pd.read_csv("temperature.csv", index_col=0, header=[0,1,2,3,4,5,6,7])
 df = df.drop('Isunnguata_13km-10', level=0, axis='columns')
 
 # dfN.columns = df.columns
@@ -223,7 +236,7 @@ dfN.to_csv("temperature_dnorm.csv", float_format='%.4f')
 #+END_SRC
 
 #+RESULTS:
-: /home/kdm/local/miniconda3/envs/ds/lib/python3.8/site-packages/pandas/core/reshape/merge.py:643: UserWarning: merging between different levels can give an unintended result (1 levels on the left,6 on the right)
+: /home/kdm/local/miniconda3/envs/ds/lib/python3.8/site-packages/pandas/core/reshape/merge.py:643: UserWarning: merging between different levels can give an unintended result (1 levels on the left,7 on the right)
 :   warnings.warn(msg, UserWarning)
 
 
@@ -295,3 +308,26 @@ plt.savefig('temperature_dnorm.png', transparent=False, bbox_inches='tight', dpi
 
 [[./temperature_dnorm.png]]
 
+
+* Velocity
+
+#+BEGIN_SRC bash
+grass -e -c EPSG:3413 G
+grass ./G/PERMANENT
+
+v.import input=boreholes.kml output=boreholes
+
+r.in.gdal input="NetCDF:/home/kdm/data/ITS_LIVE/CAN_G0120_0000.nc:v" output=v_can
+r.in.gdal input="NetCDF:/home/kdm/data/ITS_LIVE/GRE_G0120_0000.nc:v" output=v_gre
+
+g.region raster=v_can,v_gre -pa
+r.patch input=v_can,v_gre output=v
+
+d.mon wx0
+d.rast v
+d.vect boreholes color=red width=3
+
+v.what.rast map=boreholes type=point raster=v column=v
+db.select sql="select Name,v from boreholes" # Check order is correct
+db.select sql="select v from boreholes" # Paste into DB
+#+END_SRC

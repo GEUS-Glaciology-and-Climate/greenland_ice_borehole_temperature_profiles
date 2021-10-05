@@ -15,4 +15,5 @@ Depth of bottom measurement [m]|237
 Ice thickness [m]|299
 Coverage [% of thickness]|77
 Ice thickness source|See data source
+Velocity [m/yr]|2.8
 Note|"Measuremnet date 1972 or 1973. From Colbeck (1979), ""Five holes (see Fig. 3) were drilled in 1972 and 1973 for the purpose of making temperature measurements and taking ice cores."""

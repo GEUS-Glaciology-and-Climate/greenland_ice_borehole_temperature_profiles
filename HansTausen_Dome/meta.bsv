@@ -15,4 +15,5 @@ Depth of bottom measurement [m]|345
 Ice thickness [m]|345
 Coverage [% of thickness]|97
 Ice thickness source|See data source
+Velocity [m/yr]|3.2
 Note|Only two data points - 10 m and 345 m. Drill date: 10.34194/bullggu.v172.6749 

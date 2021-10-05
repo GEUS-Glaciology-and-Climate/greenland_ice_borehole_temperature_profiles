@@ -15,4 +15,5 @@ Depth of bottom measurement [m]|176
 Ice thickness [m]|176
 Coverage [% of thickness]|94
 Ice thickness source|Data file + WIC email (see also Fisher 1998)
+Velocity [m/yr]|2.0
 Note|
