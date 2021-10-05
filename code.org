@@ -15,7 +15,7 @@
   
 * ODS from Google Sheet
 
-+ We use the Google Sheet spreadsheet to generate a local [[./database.csv]]
++ We use the Google Sheet spreadsheet to generate a local [[./meta.csv]]
 + https://docs.google.com/spreadsheets/d/1QNqnjO7Gocl29Y7X693rCRRZI4dTSq0i58YghWeHy2Q/edit#gid=765194309
 
 #+NAME: sheet2csv
@@ -34,7 +34,7 @@ df = pd.read_csv(url)\
 df['Velocity [m/yr]'] = df['Velocity [m/yr]'].round(1)
 
 # df.to_excel('database.ods')
-df.to_csv('database.csv')
+df.to_csv('meta.csv')
 print(df.index)
 #+END_SRC
 
@@ -64,7 +64,7 @@ Index(['Agassiz77', 'Agassiz79a', 'Agassiz79b', 'Agassiz84', 'CampCentury', 'Cam
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('database.csv', index_col=0)
+df = pd.read_csv('meta.csv', index_col=0)
 
 for r in df.index:
     row = df.loc[r]
@@ -86,7 +86,7 @@ import pandas as pd
 import simplekml
 import cgi
 
-df = pd.read_csv('database.csv', index_col=0)
+df = pd.read_csv('meta.csv', index_col=0)
 
 kml = simplekml.Kml()
 for site in df.index:
@@ -115,7 +115,7 @@ index = np.arange(4E3)
 df = pd.DataFrame(index=index)
 df.index.name = 'd'
 
-db = pd.read_csv('database.csv', header=[0])
+db = pd.read_csv('meta.csv', header=[0])
 # db.columns:
 # Index(['Borehole ID', 'Place name', 'Geographic location', 'Ice type', 'Data Source', 'Data DOI',
 #        'Science Source', 'Science DOI', 'Date', 'Longitude [°E]', 'Latitude [°N]',

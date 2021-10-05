@@ -33,8 +33,8 @@ Other files may exist. These include:
 
 The output of this work is:
 
-+ [[./database.csv]] :: A database of metadata for each borehole.
-+ [[./temperature.csv]] :: A database of temperature profiles on a common scale, all to the depth (first column) of the deepest profile. NaN marks locations without data. -999 marks locations below bedrock (for all but the deepest profile).
++ [[./meta.csv]] :: Metadata for each borehole.
++ [[./temperature.csv]] :: Temperature profiles on a common scale, all to the depth (first column) of the deepest profile. NaN marks locations without data. -999 marks locations below bedrock (for all but the deepest profile).
 + [[./temperature_dnorm.csv]] :: The same data as [[./temperature.csv]] but the first column is normalized depth, from the ice sheet surface (0) to the bed (1).
 
 ** Metadata
@@ -42,7 +42,7 @@ The output of this work is:
 Metadata for each profile includes:
 
 #+BEGIN_SRC bash :results verbatim :exports results
-head -n1 database.csv | tr ',' '\n'
+head -n1 meta.csv | tr ',' '\n'
 #+END_SRC
 
 #+RESULTS:
@@ -64,6 +64,7 @@ Depth of bottom measurement [m]
 Ice thickness [m]
 Coverage [% of thickness]
 Ice thickness source
+Velocity [m/yr]
 Note
 #+end_example
 
