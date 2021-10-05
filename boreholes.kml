@@ -1,0 +1,4135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Placemark id="3">
+            <name>Agassiz77</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Agassiz Ice Cap</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Canadian Arctic North</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice cap</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Zdanowicz email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Clarke, G., D. Fisher and E. Waddington. Wind pumping: A potentially significant heat source in ice sheets , The Physical Basis of Ice Sheet Modelling in Proceedings of the Vancouver Symposium, IAHS , volume 170, 169–180, 1987</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Date">
+                    <value>1977</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-73.1</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>80.7</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Vinther, 2008</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>11.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>341</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>341</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>97</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source </value>
+                </Data>
+                <Data name="Note">
+                    <value>Ice thickness from data does not match ice thickness from Vinther (2008); Location approximate</value>
+                </Data>
+            </ExtendedData>
+            <Point id="2">
+                <coordinates>-73.1,80.7,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="23">
+            <name>Agassiz79a</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Agassiz Ice Cap</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Canadian Arctic North</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice cap</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Zdanowicz email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Clarke, G., D. Fisher and E. Waddington. Wind pumping: A potentially significant heat source in ice sheets , The Physical Basis of Ice Sheet Modelling in Proceedings of the Vancouver Symposium, IAHS , volume 170, 169–180, 1987</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Date">
+                    <value>1979</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-73.1</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>80.7</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Vinther, 2008</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>12.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>142</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>142</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>92</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source </value>
+                </Data>
+                <Data name="Note">
+                    <value>Ice thickness from data does not match ice thickness from Vinther (2008); Location approximate</value>
+                </Data>
+            </ExtendedData>
+            <Point id="22">
+                <coordinates>-73.1,80.7,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="43">
+            <name>Agassiz79b</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Agassiz Ice Cap</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Canadian Arctic North</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice cap</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Zdanowicz email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Clarke, G., D. Fisher and E. Waddington. Wind pumping: A potentially significant heat source in ice sheets , The Physical Basis of Ice Sheet Modelling in Proceedings of the Vancouver Symposium, IAHS , volume 170, 169–180, 1987</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Date">
+                    <value>1979</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-73.1</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>80.7</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Vinther, 2008</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>11.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>141</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>141</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>92</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Note">
+                    <value>Ice thickness from data does not match ice thickness from Vinther (2008); Location approximate</value>
+                </Data>
+            </ExtendedData>
+            <Point id="42">
+                <coordinates>-73.1,80.7,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="63">
+            <name>Agassiz84</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Agassiz Ice Cap</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Canadian Arctic North</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice cap</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Zdanowicz email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Clarke, G., D. Fisher and E. Waddington. Wind pumping: A potentially significant heat source in ice sheets , The Physical Basis of Ice Sheet Modelling in Proceedings of the Vancouver Symposium, IAHS , volume 170, 169–180, 1987</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Date">
+                    <value>1984</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-73.1</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>80.7</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Vinther, 2008</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>3.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>128</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>128</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>98</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Note">
+                    <value>Ice thickness from data does not match ice thickness from Vinther (2008); Location approximate</value>
+                </Data>
+            </ExtendedData>
+            <Point id="62">
+                <coordinates>-73.1,80.7,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="83">
+            <name>CampCentury</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Camp Century</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Northwest Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice cap</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Graphic in science source</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Weertman, J.: Comparison between measured and theoretical temperature profiles of the Camp Century, Greenland, Borehole , Journal of Geophysical Research 73(8), American Geophysical Union (AGU), 2691–2700, 4 1968</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.1029/jb073i008p02691</value>
+                </Data>
+                <Data name="Date">
+                    <value>1966</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-61.1097</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>77.1797</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Colgan, 2021</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>9.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>1387</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>1387</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>99</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Weertman1968</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="82">
+                <coordinates>-61.1097,77.1797,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="103">
+            <name>CampIII_78</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Nunap Kigdlinga</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Table in science source</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Stauffer, B., and H. Oeschger. 1979. Temperaturprofile in bohrloechern am rande des Groenlaendischen Inlandeises. Hydrologie und Glaziologie an der ETH Zurich. Mitteilung Nr. 41.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Date">
+                    <value>1978</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.8</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.722</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>EGIG_CarteNo7</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>10.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>90</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>539</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>15</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>BedMachine_V3</value>
+                </Data>
+                <Data name="Note">
+                    <value>See also shallow profiles at boreholes I and III</value>
+                </Data>
+            </ExtendedData>
+            <Point id="102">
+                <coordinates>-49.8,69.722,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="123">
+            <name>CampVI_50</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Camp VI</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Table in science source</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Heuberger, J.-C. 1954. Expéditions Polaires Françaises: Missions Paul-Emil Victor. Glaciologie Groenland Volume 1: Forages sur l'inlandsis. Hermann &amp; Cle, Éditeurs. Paris.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Date">
+                    <value>1950</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-48.2625</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.6981</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Heuberger, 1954</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>4.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>125</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>1389</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>9</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>BedMachine_V3</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="122">
+                <coordinates>-48.2625,69.6981,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="143">
+            <name>Devon72</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Devon Ice Cap</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Canadian Arctic North</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice cap</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Graphic in science source</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Paterson, W., R. Koerner, D. Fisher et al. 1977. An oxygen-isotope climatic record from the Devon Island ice cap, Arctic Canada. Nature. 266: 508-511.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.1038/266508a0</value>
+                </Data>
+                <Data name="Date">
+                    <value>1972</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-82.3</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>75.3</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>10.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>213</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>300</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>68</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="142">
+                <coordinates>-82.3,75.3,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="163">
+            <name>Devon73</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Devon Ice Cap</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Canadian Arctic North</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice cap</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Graphic in science source</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Paterson, W., R. Koerner, D. Fisher et al. 1977. An oxygen-isotope climatic record from the Devon Island ice cap, Arctic Canada. Nature. 266: 508-511.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.1038/266508a0</value>
+                </Data>
+                <Data name="Date">
+                    <value>1973</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-82.14</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>75.34</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>9.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>299</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>299</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>97</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="162">
+                <coordinates>-82.14,75.34,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="183">
+            <name>Devon98</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Devon Ice Cap</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Canadian Arctic North</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice cap</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Zdanowicz email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Kinnard, C., C. Zdanowicz, D. Fisher et al. 2006. Calibration of an ice-core glaciochemical (sea-salt) record with Sea-ice variability in the Canadian Arctic. Annals of Glaciology. 44: 383-390. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/172756406781811349</value>
+                </Data>
+                <Data name="Date">
+                    <value>2000-04-15</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-82.3</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>75.3</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>13.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>218</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>301</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>68</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="182">
+                <coordinates>-82.3,75.3,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="203">
+            <name>DYE-3</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>DYE-3</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>South Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Graphic in science source</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Gundestrup, N. and B. Hansen. 1984. Bore-Hole Survey at Dye 3, South Greenland. Journal of Glaciology. 30: 282–288. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/S0022143000006109</value>
+                </Data>
+                <Data name="Date">
+                    <value>1983</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-43.8167</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>65.1833</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>152.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>2030</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>2038</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>92</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="202">
+                <coordinates>-43.8167,65.1833,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="223">
+            <name>FladeIsblink06</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Flade Isblink Ice Cap</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Northeast Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice cap</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Dalh-Jensen email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Lemark, A. and D. Dahl-Jensen. 2010. A study of the Flade Isblink ice cap using a simple ice flow model. Master's thesis. Niels Bohr Institute, Copenhagen University.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Date">
+                    <value>2006</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-15.7029</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>81.2926</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>80.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>420</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>540</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>63</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See WIC email</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="222">
+                <coordinates>-15.7029,81.2926,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="243">
+            <name>FOXX1</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>FOXX</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Graphic in science source</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Lüthi, M., C. Ryser, L. Andrews et al. 2015. Heat sources within the Greenland Ice Sheet: dissipation, temperate paleo-firn and cryo-hydrologic warming. The Cryosphere. 9: 245-253. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.5194/tc-9-245-2015</value>
+                </Data>
+                <Data name="Date">
+                    <value>2011-2013 @LUTHI</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.8803</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.4464</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>6.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>611</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>631</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>96</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Martin Luthi</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="242">
+                <coordinates>-49.8803,69.4464,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="263">
+            <name>FOXX2</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>FOXX</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Graphic in science source</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Lüthi, M., C. Ryser, L. Andrews et al. 2015. Heat sources within the Greenland Ice Sheet: dissipation, temperate paleo-firn and cryo-hydrologic warming. The Cryosphere. 9: 245-253. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.5194/tc-9-245-2015</value>
+                </Data>
+                <Data name="Date">
+                    <value>2011-2013</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.8803</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.4464</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>9.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>286</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>631</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>44</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Martin Luthi</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="262">
+                <coordinates>-49.8803,69.4464,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="283">
+            <name>GISP2</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>GISP2</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Clow email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>MacGregor, J., J. Li, J. Paden et al. 2015. Radar attenuation and temperature within the Greenland Ice Sheet. Journal of Geophysical Research. 120: 983-1008. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.1002/2014JF003418</value>
+                </Data>
+                <Data name="Date">
+                    <value>1996-06-02</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-38.4667</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>72.5833</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>73.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>3053</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>3053</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>98</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>https://en.wikipedia.org/wiki/List_of_ice_cores#Greenland</value>
+                </Data>
+                <Data name="Note">
+                    <value>Ice thickness from data does not match ice thickness from Vinther (2008); Location approximate</value>
+                </Data>
+            </ExtendedData>
+            <Point id="282">
+                <coordinates>-38.4667,72.5833,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="303">
+            <name>GRIP</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>GRIP</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Clow email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>MacGregor, J., J. Li, J. Paden et al. 2015. Radar attenuation and temperature within the Greenland Ice Sheet. Journal of Geophysical Research. 120: 983-1008. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.1002/2014JF003418</value>
+                </Data>
+                <Data name="Date">
+                    <value>1998</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-37.64</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>72.58</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Vinther, 2008</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>41.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>3029</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>3029</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>99</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Data from Gary Clow</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="302">
+                <coordinates>-37.64,72.58,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="323">
+            <name>GULL</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>GULL</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Graphic in science source</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Lüthi, M., C. Ryser, L. Andrews et al. 2015. Heat sources within the Greenland Ice Sheet: dissipation, temperate paleo-firn and cryo-hydrologic warming. The Cryosphere. 9: 245-253. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.5194/tc-9-245-2015</value>
+                </Data>
+                <Data name="Date">
+                    <value>2011-2013</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.7142</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.4526</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>4.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>704</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>703</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>100</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Note">
+                    <value>Location from Geothermal Database</value>
+                </Data>
+            </ExtendedData>
+            <Point id="322">
+                <coordinates>-49.7142,69.4526,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="343">
+            <name>HansTausen_Dome</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Hans Tausen Dome</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>North Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice cap</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Zekollari email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Zekollari, Harry, Huybrechts, Philippe, Noël, Brice, van de Berg, Willem Jan, van den Broeke, Michiel R.: Sensitivity, stability and future evolution of the world’s northernmost ice cap, Hans Tausen Iskappe (Greenland) , The Cryosphere 11(2), Copernicus GmbH, 805–825, 3 2017 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.5194/tc-11-805-2017</value>
+                </Data>
+                <Data name="Date">
+                    <value>1995</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-37.47</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>82.51</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>10.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>345</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>345</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>97</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Note">
+                    <value>Only two data points - 10 m and 345 m. Drill date: 10.34194/bullggu.v172.6749 </value>
+                </Data>
+            </ExtendedData>
+            <Point id="342">
+                <coordinates>-37.47,82.51,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="363">
+            <name>HansTausen_Hare</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Hans Tausen Hare</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>North Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice cap</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Zekollari email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Zekollari, Harry, Huybrechts, Philippe, Noël, Brice, van de Berg, Willem Jan, van den Broeke, Michiel R.: Sensitivity, stability and future evolution of the world’s northernmost ice cap, Hans Tausen Iskappe (Greenland) , The Cryosphere 11(2), Copernicus GmbH, 805–825, 3 2017 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.5194/tc-11-805-2017</value>
+                </Data>
+                <Data name="Date">
+                    <value>1995</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-36.67</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>82.84</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>9.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>288</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>289</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>97</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Note">
+                    <value>Drill date: 10.34194/bullggu.v172.6749 </value>
+                </Data>
+            </ExtendedData>
+            <Point id="362">
+                <coordinates>-36.67,82.84,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="383">
+            <name>Isua_10</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isua</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Graphic in science source</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Colebeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/S0022143000014714</value>
+                </Data>
+                <Data name="Date">
+                    <value>1973</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.75</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>65.2093</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>5.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>95</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>97</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>93</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Note">
+                    <value>Measuremnet date 1972 or 1973. From Colbeck (1979), &quot;Five holes (see Fig. 3) were drilled in 1972 and 1973 for the purpose of making temperature measurements and taking ice cores.&quot;</value>
+                </Data>
+            </ExtendedData>
+            <Point id="382">
+                <coordinates>-49.75,65.2093,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="403">
+            <name>Isua_11</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isua</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Graphic in science source</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Colebeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/S0022143000014714</value>
+                </Data>
+                <Data name="Date">
+                    <value>1973</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.751000000000005</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>65.2072</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>25.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>116</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>120</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>76</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Note">
+                    <value>Measuremnet date 1972 or 1973. From Colbeck (1979), &quot;Five holes (see Fig. 3) were drilled in 1972 and 1973 for the purpose of making temperature measurements and taking ice cores.&quot;</value>
+                </Data>
+            </ExtendedData>
+            <Point id="402">
+                <coordinates>-49.751000000000005,65.2072,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423">
+            <name>Isua_12</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isua</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Graphic in science source</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Colebeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/S0022143000014714</value>
+                </Data>
+                <Data name="Date">
+                    <value>1973</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.753</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>65.2039</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>25.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>95</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>100</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>70</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Note">
+                    <value>Measuremnet date 1972 or 1973. From Colbeck (1979), &quot;Five holes (see Fig. 3) were drilled in 1972 and 1973 for the purpose of making temperature measurements and taking ice cores.&quot;</value>
+                </Data>
+            </ExtendedData>
+            <Point id="422">
+                <coordinates>-49.753,65.2039,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="443">
+            <name>Isua_13</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isua</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Graphic in science source</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Colebeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/S0022143000014714</value>
+                </Data>
+                <Data name="Date">
+                    <value>1973</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.7456</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>65.2069</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>6.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>247</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>265</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>91</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Note">
+                    <value>Measuremnet date 1972 or 1973. From Colbeck (1979), &quot;Five holes (see Fig. 3) were drilled in 1972 and 1973 for the purpose of making temperature measurements and taking ice cores.&quot;</value>
+                </Data>
+            </ExtendedData>
+            <Point id="442">
+                <coordinates>-49.7456,65.2069,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="463">
+            <name>Isua_14</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isua</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Graphic in science source</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Colebeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/S0022143000014714</value>
+                </Data>
+                <Data name="Date">
+                    <value>1973</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.7443</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>65.2058</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>6.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>237</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>299</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>77</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Note">
+                    <value>Measuremnet date 1972 or 1973. From Colbeck (1979), &quot;Five holes (see Fig. 3) were drilled in 1972 and 1973 for the purpose of making temperature measurements and taking ice cores.&quot;</value>
+                </Data>
+            </ExtendedData>
+            <Point id="462">
+                <coordinates>-49.7443,65.2058,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="483">
+            <name>Isunnguata_13km-10</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/2015AoG70A941</value>
+                </Data>
+                <Data name="Date">
+                    <value>2010</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-50.02945</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.19158</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>4.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>559</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>MEIERBACHTOL?</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>#VALUE!</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>T. Meierbachtol email</value>
+                </Data>
+                <Data name="Note">
+                    <value>See data in M1-10 folder; Harrington 2015 name: S2</value>
+                </Data>
+            </ExtendedData>
+            <Point id="482">
+                <coordinates>-50.02945,67.19158,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="503">
+            <name>Isunnguata_27km-11A</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/2015AoG70A942</value>
+                </Data>
+                <Data name="Date">
+                    <value>2011</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.71952</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.19518000000001</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>218.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>368</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>458</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>33</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>T. Meierbachtol email</value>
+                </Data>
+                <Data name="Note">
+                    <value>See data in M1-10 folder; Harrington 2015 name: S3-A</value>
+                </Data>
+            </ExtendedData>
+            <Point id="502">
+                <coordinates>-49.71952,67.19518000000001,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="523">
+            <name>Isunnguata_27km-11B</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/2015AoG70A943</value>
+                </Data>
+                <Data name="Date">
+                    <value>2011</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.71913</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.19527</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>27.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>460</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>466</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>93</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>T. Meierbachtol email</value>
+                </Data>
+                <Data name="Note">
+                    <value>See data in M1-10 folder; Harrington 2015 name: S3-B</value>
+                </Data>
+            </ExtendedData>
+            <Point id="522">
+                <coordinates>-49.71913,67.19527,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="543">
+            <name>Isunnguata_27km-11C</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/2015AoG70A944</value>
+                </Data>
+                <Data name="Date">
+                    <value>2011</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.71892</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.19505</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>20.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>459</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>460</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>95</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>T. Meierbachtol email</value>
+                </Data>
+                <Data name="Note">
+                    <value>See data in M1-10 folder; Harrington 2015 name: S3-C</value>
+                </Data>
+            </ExtendedData>
+            <Point id="542">
+                <coordinates>-49.71892,67.19505,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="563">
+            <name>Isunnguata_27km-12A</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/2015AoG70A945</value>
+                </Data>
+                <Data name="Date">
+                    <value>2012</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.71793</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.20421999999999</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>11.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>690</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>696</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>98</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>T. Meierbachtol email</value>
+                </Data>
+                <Data name="Note">
+                    <value>See data in M1-10 folder; Harrington 2015 name: S4-A</value>
+                </Data>
+            </ExtendedData>
+            <Point id="562">
+                <coordinates>-49.71793,67.20421999999999,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="583">
+            <name>Isunnguata_27km-12B</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/2015AoG70A946</value>
+                </Data>
+                <Data name="Date">
+                    <value>2012</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.71778</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.2037</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>18.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>690</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>688</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>98</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>T. Meierbachtol email</value>
+                </Data>
+                <Data name="Note">
+                    <value>See data in M1-10 folder; Harrington 2015 name: S4-B</value>
+                </Data>
+            </ExtendedData>
+            <Point id="582">
+                <coordinates>-49.71778,67.2037,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="603">
+            <name>Isunnguata_27km-12C</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/2015AoG70A947</value>
+                </Data>
+                <Data name="Date">
+                    <value>2012</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.71811</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.20382</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>17.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>688</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>696</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>96</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>T. Meierbachtol email</value>
+                </Data>
+                <Data name="Note">
+                    <value>See data in M1-10 folder; Harrington 2015 name: S4-C</value>
+                </Data>
+            </ExtendedData>
+            <Point id="602">
+                <coordinates>-49.71811,67.20382,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="623">
+            <name>Isunnguata_33km_14N</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Joel Harper. 2017. Ice temperatures measured in a grid of boreholes, Western Greenland, 2014-2016. Arctic Data Center. doi:10.18739/A24746S04.</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Hills, Benjamin H., Joel T. Harper, Neil F. Humphrey, and Toby W. Meierbachtol. &quot;Measured horizontal temperature gradients constrain heat transfer mechanisms in Greenland ice.&quot; Geophysical Research Letters 44, no. 19 (2017): 9778-9785.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.1002/2017GL074917</value>
+                </Data>
+                <Data name="Date">
+                    <value>2015</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.5697</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.18307</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>18.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>628</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>641</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>95</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Note">
+                    <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
+                </Data>
+            </ExtendedData>
+            <Point id="622">
+                <coordinates>-49.5697,67.18307,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="643">
+            <name>Isunnguata_33km_14SA</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Joel Harper. 2017. Ice temperatures measured in a grid of boreholes, Western Greenland, 2014-2016. Arctic Data Center. doi:10.18739/A24746S04.</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Hills, Benjamin H., Joel T. Harper, Neil F. Humphrey, and Toby W. Meierbachtol. &quot;Measured horizontal temperature gradients constrain heat transfer mechanisms in Greenland ice.&quot; Geophysical Research Letters 44, no. 19 (2017): 9778-9785.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.1002/2017GL074917</value>
+                </Data>
+                <Data name="Date">
+                    <value>2015</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.57001</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.18108000000001</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>72.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>672</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>674</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>89</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Note">
+                    <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
+                </Data>
+            </ExtendedData>
+            <Point id="642">
+                <coordinates>-49.57001,67.18108000000001,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="663">
+            <name>Isunnguata_33km_14SB</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Joel Harper. 2017. Ice temperatures measured in a grid of boreholes, Western Greenland, 2014-2016. Arctic Data Center. doi:10.18739/A24746S04.</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Hills, Benjamin H., Joel T. Harper, Neil F. Humphrey, and Toby W. Meierbachtol. &quot;Measured horizontal temperature gradients constrain heat transfer mechanisms in Greenland ice.&quot; Geophysical Research Letters 44, no. 19 (2017): 9778-9785.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.1002/2017GL074917</value>
+                </Data>
+                <Data name="Date">
+                    <value>2015</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.56972</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.18104</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>496.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>676</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>677</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>27</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Note">
+                    <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
+                </Data>
+            </ExtendedData>
+            <Point id="662">
+                <coordinates>-49.56972,67.18104,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="683">
+            <name>Isunnguata_33km_14W</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Joel Harper. 2017. Ice temperatures measured in a grid of boreholes, Western Greenland, 2014-2016. Arctic Data Center. doi:10.18739/A24746S04.</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Hills, Benjamin H., Joel T. Harper, Neil F. Humphrey, and Toby W. Meierbachtol. &quot;Measured horizontal temperature gradients constrain heat transfer mechanisms in Greenland ice.&quot; Geophysical Research Letters 44, no. 19 (2017): 9778-9785.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.1002/2017GL074917</value>
+                </Data>
+                <Data name="Date">
+                    <value>2015</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.57238</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.18209</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>40.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>660</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>661</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>94</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Note">
+                    <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
+                </Data>
+            </ExtendedData>
+            <Point id="682">
+                <coordinates>-49.57238,67.18209,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="703">
+            <name>Isunnguata_33km_15CA</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Joel Harper. 2017. Ice temperatures measured in a grid of boreholes, Western Greenland, 2014-2016. Arctic Data Center. doi:10.18739/A24746S04.</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Hills, Benjamin H., Joel T. Harper, Neil F. Humphrey, and Toby W. Meierbachtol. &quot;Measured horizontal temperature gradients constrain heat transfer mechanisms in Greenland ice.&quot; Geophysical Research Letters 44, no. 19 (2017): 9778-9785.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.1002/2017GL074917</value>
+                </Data>
+                <Data name="Date">
+                    <value>2016</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.5695</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.1821</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>46.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>666</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>671</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>92</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Note">
+                    <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
+                </Data>
+            </ExtendedData>
+            <Point id="702">
+                <coordinates>-49.5695,67.1821,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="723">
+            <name>Isunnguata_33km_15CB</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Joel Harper. 2017. Ice temperatures measured in a grid of boreholes, Western Greenland, 2014-2016. Arctic Data Center. doi:10.18739/A24746S04.</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Hills, Benjamin H., Joel T. Harper, Neil F. Humphrey, and Toby W. Meierbachtol. &quot;Measured horizontal temperature gradients constrain heat transfer mechanisms in Greenland ice.&quot; Geophysical Research Letters 44, no. 19 (2017): 9778-9785.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.1002/2017GL074917</value>
+                </Data>
+                <Data name="Date">
+                    <value>2016</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.56949</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.18200999999999</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>370.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>670</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>675</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>44</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Note">
+                    <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
+                </Data>
+            </ExtendedData>
+            <Point id="722">
+                <coordinates>-49.56949,67.18200999999999,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="743">
+            <name>Isunnguata_33km_15E</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Joel Harper. 2017. Ice temperatures measured in a grid of boreholes, Western Greenland, 2014-2016. Arctic Data Center. doi:10.18739/A24746S04.</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Hills, Benjamin H., Joel T. Harper, Neil F. Humphrey, and Toby W. Meierbachtol. &quot;Measured horizontal temperature gradients constrain heat transfer mechanisms in Greenland ice.&quot; Geophysical Research Letters 44, no. 19 (2017): 9778-9785.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.1002/2017GL074917</value>
+                </Data>
+                <Data name="Date">
+                    <value>2016</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.56403</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.18186999999999</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>40.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>660</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>665</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>93</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Note">
+                    <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
+                </Data>
+            </ExtendedData>
+            <Point id="742">
+                <coordinates>-49.56403,67.18186999999999,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="763">
+            <name>Isunnguata_33km_15N</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Joel Harper. 2017. Ice temperatures measured in a grid of boreholes, Western Greenland, 2014-2016. Arctic Data Center. doi:10.18739/A24746S04.</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Hills, Benjamin H., Joel T. Harper, Neil F. Humphrey, and Toby W. Meierbachtol. &quot;Measured horizontal temperature gradients constrain heat transfer mechanisms in Greenland ice.&quot; Geophysical Research Letters 44, no. 19 (2017): 9778-9785.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.1002/2017GL074917</value>
+                </Data>
+                <Data name="Date">
+                    <value>2016</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.56691</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.18312</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>15.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>635</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>640</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>97</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Note">
+                    <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
+                </Data>
+            </ExtendedData>
+            <Point id="762">
+                <coordinates>-49.56691,67.18312,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="783">
+            <name>Isunnguata_33km_15S</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Joel Harper. 2017. Ice temperatures measured in a grid of boreholes, Western Greenland, 2014-2016. Arctic Data Center. doi:10.18739/A24746S04.</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Hills, Benjamin H., Joel T. Harper, Neil F. Humphrey, and Toby W. Meierbachtol. &quot;Measured horizontal temperature gradients constrain heat transfer mechanisms in Greenland ice.&quot; Geophysical Research Letters 44, no. 19 (2017): 9778-9785.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.1002/2017GL074917</value>
+                </Data>
+                <Data name="Date">
+                    <value>2016</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.56666</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.18094</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>52.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>672</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>677</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>92</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>10.18739/A24746S04</value>
+                </Data>
+                <Data name="Note">
+                    <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
+                </Data>
+            </ExtendedData>
+            <Point id="782">
+                <coordinates>-49.56666,67.18094,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="803">
+            <name>Isunnguata_46km-11A</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/2015AoG70A948</value>
+                </Data>
+                <Data name="Date">
+                    <value>2011</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.2888</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.20143</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>1.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>799</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>821</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>97</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>T. Meierbachtol email</value>
+                </Data>
+                <Data name="Note">
+                    <value>See data in M1-10 folder; Harrington 2015 name: S5-A</value>
+                </Data>
+            </ExtendedData>
+            <Point id="802">
+                <coordinates>-49.2888,67.20143,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="823">
+            <name>Isunnguata_46km-11B</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/2015AoG70A949</value>
+                </Data>
+                <Data name="Date">
+                    <value>2011</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.2891</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.20134</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>114.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>728</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>815</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>75</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>T. Meierbachtol email</value>
+                </Data>
+                <Data name="Note">
+                    <value>See data in M1-10 folder; Harrington 2015 name: S5-B</value>
+                </Data>
+            </ExtendedData>
+            <Point id="822">
+                <coordinates>-49.2891,67.20134,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="843">
+            <name>Isunnguata_M1-10</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/2015AoG70A939</value>
+                </Data>
+                <Data name="Date">
+                    <value>2010</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-50.06427</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.16221</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>10.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>90</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>99</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>81</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>T. Meierbachtol email</value>
+                </Data>
+                <Data name="Note">
+                    <value>See data in M1-10 folder; Harrington 2015 name: S1-A</value>
+                </Data>
+            </ExtendedData>
+            <Point id="842">
+                <coordinates>-50.06427,67.16221,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="863">
+            <name>Isunnguata_M2-10B</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Isunnguata Sermia</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/2015AoG70A940</value>
+                </Data>
+                <Data name="Date">
+                    <value>2010</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-50.06633</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.16704</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Meierbachtol email</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>6.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>131</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>146</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>86</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>T. Meierbachtol email</value>
+                </Data>
+                <Data name="Note">
+                    <value>See data in M1-10 folder; Harrington 2015 name: S1-B</value>
+                </Data>
+            </ExtendedData>
+            <Point id="862">
+                <coordinates>-50.06633,67.16704,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="883">
+            <name>Jakobshavn89A</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Jakobshavn Isbræ</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Iken, A., Echelmeyer, Κ., Harrison, W., Funk, M.: Mechanisms of fast flow in Jakobshavns Isbræ, West Greenland: Part I. Measurements of temperature and water level in deep boreholes , Journal of Glaciology 39(131), Cambridge University Press (CUP), 15–25, 1993 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/S0022143000015689</value>
+                </Data>
+                <Data name="Date">
+                    <value>1989</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-48.763000000000005</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.169</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>2.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>1535</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>1540</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>100</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Iken, 1993</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="882">
+                <coordinates>-48.763000000000005,69.169,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="903">
+            <name>Jakobshavn89B</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Jakobshavn Isbræ</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Iken, A., Echelmeyer, Κ., Harrison, W., Funk, M.: Mechanisms of fast flow in Jakobshavns Isbræ, West Greenland: Part I. Measurements of temperature and water level in deep boreholes , Journal of Glaciology 39(131), Cambridge University Press (CUP), 15–25, 1993 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/S0022143000015689</value>
+                </Data>
+                <Data name="Date">
+                    <value>1989</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-48.77</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.186</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Estimated here.</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>2.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>1560</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>2520</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>62</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Iken, 1993</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="902">
+                <coordinates>-48.77,69.186,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="923">
+            <name>Jakobshavn89C</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Jakobshavn Isbræ</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Iken, A., Echelmeyer, Κ., Harrison, W., Funk, M.: Mechanisms of fast flow in Jakobshavns Isbræ, West Greenland: Part I. Measurements of temperature and water level in deep boreholes , Journal of Glaciology 39(131), Cambridge University Press (CUP), 15–25, 1993 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/S0022143000015689</value>
+                </Data>
+                <Data name="Date">
+                    <value>1989</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-48.777</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.203</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>2.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>700</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>1630</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>43</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Iken, 1993</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="922">
+                <coordinates>-48.777,69.203,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="943">
+            <name>Jakobshavn95D_I1</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Jakobshavn Isbræ</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Lüthi, Martin, Funk, Martin, Iken, Almut, Gogineni, Shivaprasad, Truffer, Martin: Mechanisms of fast flow in Jakobshavns Isbræ, West Greenland: Part III. Measurements of ice deformation, temperature and cross-borehole conductivity in boreholes to the bedrock, Journal of Glaciology 48(162), 369–385, 2002 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/172756502781831322</value>
+                </Data>
+                <Data name="Date">
+                    <value>1995</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-48.6871</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.235</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>344.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>829</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>832</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>58</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See science reference</value>
+                </Data>
+                <Data name="Note">
+                    <value>Location from Geothermal Database</value>
+                </Data>
+            </ExtendedData>
+            <Point id="942">
+                <coordinates>-48.6871,69.235,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="963">
+            <name>Jakobshavn95D_I2</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Jakobshavn Isbræ</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Lüthi, Martin, Funk, Martin, Iken, Almut, Gogineni, Shivaprasad, Truffer, Martin: Mechanisms of fast flow in Jakobshavns Isbræ, West Greenland: Part III. Measurements of ice deformation, temperature and cross-borehole conductivity in boreholes to the bedrock, Journal of Glaciology 48(162), 369–385, 2002 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/172756502781831322</value>
+                </Data>
+                <Data name="Date">
+                    <value>1995</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-48.6871</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.235</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>258.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>832</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>832</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>69</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See science reference</value>
+                </Data>
+                <Data name="Note">
+                    <value>Location from Geothermal Database</value>
+                </Data>
+            </ExtendedData>
+            <Point id="962">
+                <coordinates>-48.6871,69.235,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="983">
+            <name>Jakobshavn95D_T3</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Jakobshavn Isbræ</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Lüthi, Martin, Funk, Martin, Iken, Almut, Gogineni, Shivaprasad, Truffer, Martin: Mechanisms of fast flow in Jakobshavns Isbræ, West Greenland: Part III. Measurements of ice deformation, temperature and cross-borehole conductivity in boreholes to the bedrock, Journal of Glaciology 48(162), 369–385, 2002 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/172756502781831322</value>
+                </Data>
+                <Data name="Date">
+                    <value>1995</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-48.6871</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.235</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>20.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>300</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>832</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>34</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See science reference</value>
+                </Data>
+                <Data name="Note">
+                    <value>Location from Geothermal Database</value>
+                </Data>
+            </ExtendedData>
+            <Point id="982">
+                <coordinates>-48.6871,69.235,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1003">
+            <name>Jakobshavn95D_T4</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Jakobshavn Isbræ</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Lüthi, Martin, Funk, Martin, Iken, Almut, Gogineni, Shivaprasad, Truffer, Martin: Mechanisms of fast flow in Jakobshavns Isbræ, West Greenland: Part III. Measurements of ice deformation, temperature and cross-borehole conductivity in boreholes to the bedrock, Journal of Glaciology 48(162), 369–385, 2002 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/172756502781831322</value>
+                </Data>
+                <Data name="Date">
+                    <value>1995</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-48.6871</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.235</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>450.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>600</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>832</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>18</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See science reference</value>
+                </Data>
+                <Data name="Note">
+                    <value>Location from Geothermal Database</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1002">
+                <coordinates>-48.6871,69.235,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1023">
+            <name>Jakobshavn95D_T5</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Jakobshavn Isbræ</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Lüthi, Martin, Funk, Martin, Iken, Almut, Gogineni, Shivaprasad, Truffer, Martin: Mechanisms of fast flow in Jakobshavns Isbræ, West Greenland: Part III. Measurements of ice deformation, temperature and cross-borehole conductivity in boreholes to the bedrock, Journal of Glaciology 48(162), 369–385, 2002 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/172756502781831322</value>
+                </Data>
+                <Data name="Date">
+                    <value>1995</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-48.6871</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.235</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>650.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>809</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>832</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>19</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See science reference</value>
+                </Data>
+                <Data name="Note">
+                    <value>Location from Geothermal Database</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1022">
+                <coordinates>-48.6871,69.235,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1043">
+            <name>Meighen67</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Meighen Ice Cap</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Canadian Arctic North</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Graphic in science source</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Paterson, W. S. B.: A temperature profile through the Meighen ice cap, Arctic Canada , International Association of Scientific Hydrology 79, 440–449, 1968 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Date">
+                    <value>1965</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-99.1</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>79.9</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>1.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>121</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>121.2</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>99</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Note">
+                    <value>Location from Geothermal Database</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1042">
+                <coordinates>-99.1,79.9,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1063">
+            <name>NEEM</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>NEEM</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Northwest Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Clow email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Rasmussen, S., P. Abbott, T. Blunier et al. 2013. A first chronology for the North Greenland Eemian Ice Drilling (NEEM) ice core. Climate of the Past. 9: 2713-2730.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.5194/cp-9-2713-2013</value>
+                </Data>
+                <Data name="Date">
+                    <value>2011-05-27</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-51.06</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>77.45</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Dahl-Jensen, D., Albert, Mary R., Aldahan, A., Azuma, N., Balslev-Clausen, D., Baumgartner, M., Berggren, A. -M., Bigler, M., Binder, T., Blunier, T., Bourgeois, J. C., Brook, E. J., Buchardt, S. L., Buizert, C., Capron, E., Chappellaz, J., Chung, J., Clausen, H. B., Cvijanovic, I., Davies, S. M., Ditlevsen, P., Eicher, O., Fischer, H., Fisher, D. A., Fleet, L. G., Gfeller, G., Gkinis, V., Gogineni, S., Goto-Azuma, K., Grinsted, A., Gudlaugsdottir, H., Guillevic, M., Hansen, S. B., Hansson, M., Hirabayashi, M., Hong, S., Hur, S. D., Huybrechts, Philippe, Hvidberg, C. S., Iizuka, Y., Jenk, T., Johnsen, S. J., Jones, T. R., Jouzel, J., Karlsson, N. B., Kawamura, K., Keegan, K., Kettner, E., Kipfstuhl, S., Kjær, H. A., Koutnik, M., Kuramoto, T., Koehler, P., Laepple, T., Landais, A., Langen, P. L., Larsen, L. B., Leuenberger, D., Leuenberger, M., Leuschen, C., Li, J., Lipenkov, V., Martinerie, P., Maselli, O. J., Masson-Delmotte, V., McConnell, J. R., Miller, H., Mini, O., Miyamoto, A., Montagnat-Rentier, M., Mulvaney, R., Muscheler, Raimund, Orsi, A. J., Paden, J., Panton, C., Pattyn, F., Petit, J. -R., Pol, K., Popp, T., Possnert, G., Prie, F., Prokopiou, M., Quiquet, A., Rasmussen, S. O., Raynaud, D., Ren, J., Reutenauer, C., Ritz, C., Rockmann, T., Rosen, J. L., Rubino, M., Rybak, O., Samyn, D., Sapart, C. J., Schilt, A., Schmidt, A. M. Z., Schwander, J., Schuepbach, S., Seierstad, I., Severinghaus, J. P., Sheldon, S., Simonsen, S. B., Sjolte, Jesper, Solgaard, A. M., Sowers, T., Sperlich, P., Steen-Larsen, H. C., Steffen, K., Steffensen, J. P., Steinhage, D., Stocker, T. F., Stowasser, C., Sturevik, A. S., Sturges, W. T., Sveinbjornsdottir, A., Svensson, A., Tison, J. -L., Uetake, J., Vallelonga, P., van de Wal, R. S. W., van der Wel, G., Vaughn, B. H., Vinther, B., Waddington, E., Wegner, A., Weikusat, I., White, J. W. C., Wilhelms, F., Winstrup, M., Witrant, E., Wolff, E. W., Xiao, C., Zheng, J.: Eemian interglacial reconstructed from a Greenland folded ice core , Nature 493(7433), Nature Publishing Group, 489–494, 2013 </value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>81.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>2535</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>2535</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>97</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Email from Gary Clow</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1062">
+                <coordinates>-51.06,77.45,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1083">
+            <name>NGRIP</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>NGRIP</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Clow email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Buchardt, S. and D. Dahl-Jensen. 2007. Estimating the basal melt rate at NorthGRIP using a Monte Carlo technique. Annals of Glaciology. 45: 137-142. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/172756407782282435</value>
+                </Data>
+                <Data name="Date">
+                    <value>2003</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-42.32</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>75.1</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Vinther, 2008</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>82.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>2992</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>3085</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>94</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source email</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1082">
+                <coordinates>-42.32,75.1,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1103">
+            <name>Penny96</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Penny Ice Cap</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Canadian Arctic South</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice cap</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Zdanowicz email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Fisher, D., R. Koerner, J. Bourgeois et al. 1998. Penny Ice Cap Cores, Baffin Island, Canada, and the Wisconsinan Foxe Dome Connection: Two States of Hudson Bay Ice Cover. Science. 279: 692-695. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.1126/science.279.5351.692</value>
+                </Data>
+                <Data name="Date">
+                    <value>1996</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-65.2</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>67.3</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>10.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>176</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>176</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>94</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Data file + WIC email (see also Fisher 1998)</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1102">
+                <coordinates>-65.2,67.3,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1123">
+            <name>PrinceWales05</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Prince of Wales Ice Cap</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Canadian Arctic North</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice cap</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Zdanowicz email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Kinnard, C., R. Koerner, C. Zdanowicz et al. 2008. Stratigraphic analysis of an ice core from the Prince of Wales Icefield, Ellesmere Island, Arctic Canada, using digital image analysis: High‐resolution density, past summer warmth reconstruction, and melt effect on ice core solid conductivity. Journal of Geophysical Research. 113: D24120. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.1029/2008JD011083</value>
+                </Data>
+                <Data name="Date">
+                    <value>2005-05-15</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-80.395</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>78.3897</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>10.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>176</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>176</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>94</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>WIC</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1122">
+                <coordinates>-80.395,78.3897,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1143">
+            <name>Renland88</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Renland Ice Cap</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central East Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice cap</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Vinther email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Hansson, M. 1994. The Renland ice core. A Northern Hemisphere record of aerosol composition over 120,000 years. Tellus B. 46: 390-418.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3402/tellusb.v46i5.15813</value>
+                </Data>
+                <Data name="Date">
+                    <value>1988</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-26.768</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>71.306</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Email and Vinther (2008)</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>15.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>300</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>324</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>88</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Vinther, B. M., Clausen, H. B., Fisher, D. A., Koerner, R. M., Johnsen, S. J., Andersen, K. K., Dahl-Jensen, D., Rasmussen, S. O., Steffensen, J. P., Svensson, A. M.: Synchronizing ice cores from the Renland and Agassiz ice caps to the Greenland Ice Core Chronology , Journal of Geophysical Research 113(D8), American Geophysical Union (AGU), 4 2008 </value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1142">
+                <coordinates>-26.768,71.306,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1163">
+            <name>SiteII</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Site II</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Northwest Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Graphic in science source</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Hansen, B. and J. Landauer. 1958. Some results of ice cap drill hole measurements. IASH Publication. 47: 313-317.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Date">
+                    <value>1958-06-25</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-56.07</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>76.98</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>16.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>410</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>1851</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>21</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>BedMachine_V3</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1162">
+                <coordinates>-56.07,76.98,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1183">
+            <name>StationCentrale</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Station Centrale</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Northwest Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Table in science source</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Heuberger, J.-C. 1954. Expéditions Polaires Françaises: Missions Paul-Emil Victor. Glaciologie Groenland Volume 1: Forages sur l'inlandsis. Hermann &amp; Cle, Éditeurs. Paris.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Date">
+                    <value>1950</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-40.63</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>70.92</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>https://en.wikipedia.org/wiki/List_of_ice_cores#Greenland</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>10.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>150</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>3037</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>5</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>BedMachine_V3</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1182">
+                <coordinates>-40.63,70.92,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1203">
+            <name>Store_R30_BH19c</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Store Glacier</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Law email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Law, Robert, Poul Christoffersen, Bryn Hubbard, Samuel H. Doyle, Thomas R. Chudley, Charlotte M. Schoonman, Marion Bougamont et al. &quot;Thermodynamics of a fast-moving Greenlandic outlet glacier revealed by fiber-optic distributed temperature sensing.&quot; Science Advances 7, no. 20 (2021): eabe7136.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.1126/sciadv.abe7136</value>
+                </Data>
+                <Data name="Date">
+                    <value>2019-08-13</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-50.09</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>70.57</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Law, 2021</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>0.09</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>1044</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>1044</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>100</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Law (2021)</value>
+                </Data>
+                <Data name="Note">
+                    <value>See also: 10.5285/ecf81955-b829-4f91-ae90-b9bc947f8c60</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1202">
+                <coordinates>-50.09,70.57,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1223">
+            <name>Store_S30</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Store Glacier</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Doyle, S., B. Hubbard, P. Christoffersen, T. Young, C. Hofstede, M. Bougamont et al. (2018): SAFIRE borehole, AWS and GPS datasets. </value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>10.6084/m9.figshare.5745294.v1</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Doyle, S.H., Hubbard, B., Christoffersen, P., Young, T. J., Hofstede, C., Bougamont, M., Box, J. E. &amp; Hubbard, A. 2018. Physical conditions of fast glacier flow: 1. Measurements from boreholes drilled to the bed of Store Glacier, West Greenland, Journal of Geophysical Research: Earth Surface, DOI: 10.1002/2017JF004529.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.1002/2017JF004529</value>
+                </Data>
+                <Data name="Date">
+                    <value>2014</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.9167</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>70.5167</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>Doyle, 2018</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>102.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>604</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>600</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>84</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Doyle (2018)</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1222">
+                <coordinates>-49.9167,70.5167,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1243">
+            <name>TD1_88</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Paakitsoq</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Thomsen, H.H., O.B. Olesen, R.J. Braithwaite, and C.E. Bøggild. 1991. Ice drilling and mass balance at Pakitsoq, Jakobshavn, central West Greenland. Rapport Grønlands Geologiske Undersøgelse, 152, 80–84. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.34194/rapggu.v152.8160</value>
+                </Data>
+                <Data name="Date">
+                    <value>1988-05-19</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-50.13</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.45</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>50.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>300</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>300</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>83</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Unknown PDF: Shallow88II.pdf</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1242">
+                <coordinates>-50.13,69.45,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1263">
+            <name>TD2_88</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Paakitsoq</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Thomsen, H.H., O.B. Olesen, R.J. Braithwaite, and C.E. Bøggild. 1991. Ice drilling and mass balance at Pakitsoq, Jakobshavn, central West Greenland. Rapport Grønlands Geologiske Undersøgelse, 152, 80–84. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.34194/rapggu.v152.8160</value>
+                </Data>
+                <Data name="Date">
+                    <value>1988-05-19</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-50.1</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.45</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>27.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>202</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>470</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>37</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Unknown PDF: See td1</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1262">
+                <coordinates>-50.1,69.45,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1283">
+            <name>TD3_88</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Paakitsoq</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Thomsen, H.H., O.B. Olesen, R.J. Braithwaite, and C.E. Bøggild. 1991. Ice drilling and mass balance at Pakitsoq, Jakobshavn, central West Greenland. Rapport Grønlands Geologiske Undersøgelse, 152, 80–84. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.34194/rapggu.v152.8160</value>
+                </Data>
+                <Data name="Date">
+                    <value>1988-08-18</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-50.0</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.48</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>20.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>350</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>350</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>94</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Unknown PDF: See td1. Also Phillips (2010)</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1282">
+                <coordinates>-50.0,69.48,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1303">
+            <name>TD4_91a</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Paakitsoq</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Thomsen, H.H., O.B. Olesen, R.J. Braithwaite, and C.E. Bøggild. 1991. Ice drilling and mass balance at Pakitsoq, Jakobshavn, central West Greenland. Rapport Grønlands Geologiske Undersøgelse, 152, 80–84. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.34194/rapggu.v152.8160</value>
+                </Data>
+                <Data name="Date">
+                    <value>1991-11-05</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.68</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.53</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>5.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>495</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>660</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>74</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Estimate from Martin Luthi</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1302">
+                <coordinates>-49.68,69.53,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1323">
+            <name>TD4_91b</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Paakitsoq</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Thomsen, H.H., O.B. Olesen, R.J. Braithwaite, and C.E. Bøggild. 1991. Ice drilling and mass balance at Pakitsoq, Jakobshavn, central West Greenland. Rapport Grønlands Geologiske Undersøgelse, 152, 80–84. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.34194/rapggu.v152.8160</value>
+                </Data>
+                <Data name="Date">
+                    <value>1991-08-28</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.68</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.53</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>3.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>493</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>660</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>74</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Estimate from Martin Luthi</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1322">
+                <coordinates>-49.68,69.53,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1343">
+            <name>TD5_90</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Paakitsoq</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Thomsen, H.H., O.B. Olesen, R.J. Braithwaite, and C.E. Bøggild. 1991. Ice drilling and mass balance at Pakitsoq, Jakobshavn, central West Greenland. Rapport Grønlands Geologiske Undersøgelse, 152, 80–84. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.34194/rapggu.v152.8160</value>
+                </Data>
+                <Data name="Date">
+                    <value>1990-06-09</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.3</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.57</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>5.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>600</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>1223</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>49</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>BedMachine_V3</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1342">
+                <coordinates>-49.3,69.57,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1363">
+            <name>TD5_91</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Paakitsoq</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Thomsen, H.H., O.B. Olesen, R.J. Braithwaite, and C.E. Bøggild. 1991. Ice drilling and mass balance at Pakitsoq, Jakobshavn, central West Greenland. Rapport Grønlands Geologiske Undersøgelse, 152, 80–84. </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.34194/rapggu.v152.8160</value>
+                </Data>
+                <Data name="Date">
+                    <value>1991-05-25</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.3</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.57</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>5.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>600</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>1223</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>49</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>BedMachine_V3</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1362">
+                <coordinates>-49.3,69.57,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1383">
+            <name>Tuto_D-11</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Tuto Ramp</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Northwest Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Graphic in science source</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Davis, RM: Approach roads, Greenland 1960–1964 , Technical Report 133. Corps of Engineers, Cold Regions Research &amp; Engineering Laboratory , 1967 </value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Date">
+                    <value>1962-08-15</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-68.2873</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>76.4113</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.5194/essd-2021-290</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>0.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>48</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>48</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>100</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See data source</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1382">
+                <coordinates>-68.2873,76.4113,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
