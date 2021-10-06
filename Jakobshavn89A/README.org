@@ -34,6 +34,9 @@ Note                             |
 
 ** Temperature
 
++ Top measurement at 2 m reported as 8 °C. Removed from [[./data.csv]]
++ See https://github.com/GEUS-Glaciology-and-Climate/greenland_ice_borehole_temperature_profiles/issues/22#issuecomment-899444421
+
 ** Thickness
 
 ** Location
@@ -49,7 +52,6 @@ cat data.csv | sort -t, -g -k1
 
 #+RESULTS: ingest_data
 |    d |      t |
-|    2 |      8 |
 |   20 |   -4.1 |
 |  100 |  -9.05 |
 |  392 | -16.45 |
