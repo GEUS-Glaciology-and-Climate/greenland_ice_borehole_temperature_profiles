@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
-    <Document id="1">
-        <Placemark id="3">
+    <Document id="2945">
+        <Placemark id="2947">
             <name>Agassiz77</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -59,11 +59,11 @@
                     <value>Ice thickness from data does not match ice thickness from Vinther (2008); Location approximate</value>
                 </Data>
             </ExtendedData>
-            <Point id="2">
+            <Point id="2946">
                 <coordinates>-73.1,80.7,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="24">
+        <Placemark id="2968">
             <name>Agassiz79a</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -121,11 +121,11 @@
                     <value>Ice thickness from data does not match ice thickness from Vinther (2008); Location approximate</value>
                 </Data>
             </ExtendedData>
-            <Point id="23">
+            <Point id="2967">
                 <coordinates>-73.1,80.7,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="45">
+        <Placemark id="2989">
             <name>Agassiz79b</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -183,11 +183,11 @@
                     <value>Ice thickness from data does not match ice thickness from Vinther (2008); Location approximate</value>
                 </Data>
             </ExtendedData>
-            <Point id="44">
+            <Point id="2988">
                 <coordinates>-73.1,80.7,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="66">
+        <Placemark id="3010">
             <name>Agassiz84</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -245,11 +245,11 @@
                     <value>Ice thickness from data does not match ice thickness from Vinther (2008); Location approximate</value>
                 </Data>
             </ExtendedData>
-            <Point id="65">
+            <Point id="3009">
                 <coordinates>-73.1,80.7,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="87">
+        <Placemark id="3031">
             <name>CampCentury</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -307,11 +307,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="86">
+            <Point id="3030">
                 <coordinates>-61.1097,77.1797,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="108">
+        <Placemark id="3052">
             <name>CampIII_78</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -369,11 +369,11 @@
                     <value>See also shallow profiles at boreholes I and III</value>
                 </Data>
             </ExtendedData>
-            <Point id="107">
+            <Point id="3051">
                 <coordinates>-49.8,69.722,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="129">
+        <Placemark id="3073">
             <name>CampVI_50</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -431,11 +431,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="128">
+            <Point id="3072">
                 <coordinates>-48.2625,69.6981,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="150">
+        <Placemark id="3094">
             <name>Devon72</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -493,11 +493,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="149">
+            <Point id="3093">
                 <coordinates>-82.3,75.3,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="171">
+        <Placemark id="3115">
             <name>Devon73</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -555,11 +555,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="170">
+            <Point id="3114">
                 <coordinates>-82.14,75.34,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="192">
+        <Placemark id="3136">
             <name>Devon98</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -617,11 +617,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="191">
+            <Point id="3135">
                 <coordinates>-82.3,75.3,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="213">
+        <Placemark id="3157">
             <name>DYE-3</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -679,11 +679,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="212">
+            <Point id="3156">
                 <coordinates>-43.8167,65.1833,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="234">
+        <Placemark id="3178">
             <name>FladeIsblink06</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -741,11 +741,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="233">
+            <Point id="3177">
                 <coordinates>-15.7029,81.2926,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="255">
+        <Placemark id="3199">
             <name>FOXX1</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -803,11 +803,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="254">
+            <Point id="3198">
                 <coordinates>-49.8803,69.4464,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="276">
+        <Placemark id="3220">
             <name>FOXX2</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -865,11 +865,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="275">
+            <Point id="3219">
                 <coordinates>-49.8803,69.4464,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="297">
+        <Placemark id="3241">
             <name>GISP2</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -927,11 +927,11 @@
                     <value>Ice thickness from data does not match ice thickness from Vinther (2008); Location approximate</value>
                 </Data>
             </ExtendedData>
-            <Point id="296">
+            <Point id="3240">
                 <coordinates>-38.4667,72.5833,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="318">
+        <Placemark id="3262">
             <name>GRIP</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -989,11 +989,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="317">
+            <Point id="3261">
                 <coordinates>-37.64,72.58,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="339">
+        <Placemark id="3283">
             <name>GULL</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1051,11 +1051,11 @@
                     <value>Location from Geothermal Database</value>
                 </Data>
             </ExtendedData>
-            <Point id="338">
+            <Point id="3282">
                 <coordinates>-49.7142,69.4526,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="360">
+        <Placemark id="3304">
             <name>HansTausen_Dome</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1113,11 +1113,11 @@
                     <value>Only two data points - 10 m and 345 m. Drill date: 10.34194/bullggu.v172.6749 </value>
                 </Data>
             </ExtendedData>
-            <Point id="359">
+            <Point id="3303">
                 <coordinates>-37.47,82.51,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="381">
+        <Placemark id="3325">
             <name>HansTausen_Hare</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1175,11 +1175,11 @@
                     <value>Drill date: 10.34194/bullggu.v172.6749 </value>
                 </Data>
             </ExtendedData>
-            <Point id="380">
+            <Point id="3324">
                 <coordinates>-36.67,82.84,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="402">
+        <Placemark id="3346">
             <name>Isua_10</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1237,11 +1237,11 @@
                     <value>Measuremnet date 1972 or 1973. From Colbeck (1979), &quot;Five holes (see Fig. 3) were drilled in 1972 and 1973 for the purpose of making temperature measurements and taking ice cores.&quot;</value>
                 </Data>
             </ExtendedData>
-            <Point id="401">
+            <Point id="3345">
                 <coordinates>-49.75,65.2093,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="423">
+        <Placemark id="3367">
             <name>Isua_11</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1299,11 +1299,11 @@
                     <value>Measuremnet date 1972 or 1973. From Colbeck (1979), &quot;Five holes (see Fig. 3) were drilled in 1972 and 1973 for the purpose of making temperature measurements and taking ice cores.&quot;</value>
                 </Data>
             </ExtendedData>
-            <Point id="422">
+            <Point id="3366">
                 <coordinates>-49.751000000000005,65.2072,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="444">
+        <Placemark id="3388">
             <name>Isua_12</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1361,11 +1361,11 @@
                     <value>Measuremnet date 1972 or 1973. From Colbeck (1979), &quot;Five holes (see Fig. 3) were drilled in 1972 and 1973 for the purpose of making temperature measurements and taking ice cores.&quot;</value>
                 </Data>
             </ExtendedData>
-            <Point id="443">
+            <Point id="3387">
                 <coordinates>-49.753,65.2039,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="465">
+        <Placemark id="3409">
             <name>Isua_13</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1423,11 +1423,11 @@
                     <value>Measuremnet date 1972 or 1973. From Colbeck (1979), &quot;Five holes (see Fig. 3) were drilled in 1972 and 1973 for the purpose of making temperature measurements and taking ice cores.&quot;</value>
                 </Data>
             </ExtendedData>
-            <Point id="464">
+            <Point id="3408">
                 <coordinates>-49.7456,65.2069,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="486">
+        <Placemark id="3430">
             <name>Isua_14</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1485,11 +1485,11 @@
                     <value>Measuremnet date 1972 or 1973. From Colbeck (1979), &quot;Five holes (see Fig. 3) were drilled in 1972 and 1973 for the purpose of making temperature measurements and taking ice cores.&quot;</value>
                 </Data>
             </ExtendedData>
-            <Point id="485">
+            <Point id="3429">
                 <coordinates>-49.7443,65.2058,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="507">
+        <Placemark id="3451">
             <name>Isunnguata_13km-10</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1532,13 +1532,13 @@
                     <value>559</value>
                 </Data>
                 <Data name="Ice thickness [m]">
-                    <value>MEIERBACHTOL?</value>
+                    <value>704 MEIERBACHTOL?</value>
                 </Data>
                 <Data name="Coverage [% of thickness]">
                     <value>#VALUE!</value>
                 </Data>
                 <Data name="Ice thickness source">
-                    <value>T. Meierbachtol email</value>
+                    <value>BedMachine v4</value>
                 </Data>
                 <Data name="Velocity [m/yr]">
                     <value>121.3</value>
@@ -1547,11 +1547,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S2</value>
                 </Data>
             </ExtendedData>
-            <Point id="506">
+            <Point id="3450">
                 <coordinates>-50.02945,67.19158,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="528">
+        <Placemark id="3472">
             <name>Isunnguata_27km-11A</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1609,11 +1609,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S3-A</value>
                 </Data>
             </ExtendedData>
-            <Point id="527">
+            <Point id="3471">
                 <coordinates>-49.71952,67.19518000000001,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="549">
+        <Placemark id="3493">
             <name>Isunnguata_27km-11B</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1671,11 +1671,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S3-B</value>
                 </Data>
             </ExtendedData>
-            <Point id="548">
+            <Point id="3492">
                 <coordinates>-49.71913,67.19527,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="570">
+        <Placemark id="3514">
             <name>Isunnguata_27km-11C</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1733,11 +1733,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S3-C</value>
                 </Data>
             </ExtendedData>
-            <Point id="569">
+            <Point id="3513">
                 <coordinates>-49.71892,67.19505,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="591">
+        <Placemark id="3535">
             <name>Isunnguata_27km-12A</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1795,11 +1795,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S4-A</value>
                 </Data>
             </ExtendedData>
-            <Point id="590">
+            <Point id="3534">
                 <coordinates>-49.71793,67.20421999999999,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="612">
+        <Placemark id="3556">
             <name>Isunnguata_27km-12B</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1857,11 +1857,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S4-B</value>
                 </Data>
             </ExtendedData>
-            <Point id="611">
+            <Point id="3555">
                 <coordinates>-49.71778,67.2037,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="633">
+        <Placemark id="3577">
             <name>Isunnguata_27km-12C</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1919,11 +1919,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S4-C</value>
                 </Data>
             </ExtendedData>
-            <Point id="632">
+            <Point id="3576">
                 <coordinates>-49.71811,67.20382,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="654">
+        <Placemark id="3598">
             <name>Isunnguata_33km_14N</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1981,11 +1981,11 @@
                     <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
                 </Data>
             </ExtendedData>
-            <Point id="653">
+            <Point id="3597">
                 <coordinates>-49.5697,67.18307,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="675">
+        <Placemark id="3619">
             <name>Isunnguata_33km_14SA</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2043,11 +2043,11 @@
                     <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
                 </Data>
             </ExtendedData>
-            <Point id="674">
+            <Point id="3618">
                 <coordinates>-49.57001,67.18108000000001,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="696">
+        <Placemark id="3640">
             <name>Isunnguata_33km_14SB</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2105,11 +2105,11 @@
                     <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
                 </Data>
             </ExtendedData>
-            <Point id="695">
+            <Point id="3639">
                 <coordinates>-49.56972,67.18104,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="717">
+        <Placemark id="3661">
             <name>Isunnguata_33km_14W</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2167,11 +2167,11 @@
                     <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
                 </Data>
             </ExtendedData>
-            <Point id="716">
+            <Point id="3660">
                 <coordinates>-49.57238,67.18209,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="738">
+        <Placemark id="3682">
             <name>Isunnguata_33km_15CA</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2229,11 +2229,11 @@
                     <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
                 </Data>
             </ExtendedData>
-            <Point id="737">
+            <Point id="3681">
                 <coordinates>-49.5695,67.1821,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="759">
+        <Placemark id="3703">
             <name>Isunnguata_33km_15CB</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2291,11 +2291,11 @@
                     <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
                 </Data>
             </ExtendedData>
-            <Point id="758">
+            <Point id="3702">
                 <coordinates>-49.56949,67.18200999999999,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="780">
+        <Placemark id="3724">
             <name>Isunnguata_33km_15E</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2353,11 +2353,11 @@
                     <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
                 </Data>
             </ExtendedData>
-            <Point id="779">
+            <Point id="3723">
                 <coordinates>-49.56403,67.18186999999999,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="801">
+        <Placemark id="3745">
             <name>Isunnguata_33km_15N</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2415,11 +2415,11 @@
                     <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
                 </Data>
             </ExtendedData>
-            <Point id="800">
+            <Point id="3744">
                 <coordinates>-49.56691,67.18312,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="822">
+        <Placemark id="3766">
             <name>Isunnguata_33km_15S</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2477,11 +2477,11 @@
                     <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
                 </Data>
             </ExtendedData>
-            <Point id="821">
+            <Point id="3765">
                 <coordinates>-49.56666,67.18094,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="843">
+        <Placemark id="3787">
             <name>Isunnguata_46km-11A</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2539,11 +2539,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S5-A</value>
                 </Data>
             </ExtendedData>
-            <Point id="842">
+            <Point id="3786">
                 <coordinates>-49.2888,67.20143,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="864">
+        <Placemark id="3808">
             <name>Isunnguata_46km-11B</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2601,11 +2601,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S5-B</value>
                 </Data>
             </ExtendedData>
-            <Point id="863">
+            <Point id="3807">
                 <coordinates>-49.2891,67.20134,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="885">
+        <Placemark id="3829">
             <name>Isunnguata_M1-10</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2663,11 +2663,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S1-A</value>
                 </Data>
             </ExtendedData>
-            <Point id="884">
+            <Point id="3828">
                 <coordinates>-50.06427,67.16221,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="906">
+        <Placemark id="3850">
             <name>Isunnguata_M2-10B</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2725,11 +2725,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S1-B</value>
                 </Data>
             </ExtendedData>
-            <Point id="905">
+            <Point id="3849">
                 <coordinates>-50.06633,67.16704,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="927">
+        <Placemark id="3871">
             <name>Jakobshavn89A</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2787,11 +2787,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="926">
+            <Point id="3870">
                 <coordinates>-48.763000000000005,69.169,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="948">
+        <Placemark id="3892">
             <name>Jakobshavn89B</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2849,11 +2849,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="947">
+            <Point id="3891">
                 <coordinates>-48.77,69.186,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="969">
+        <Placemark id="3913">
             <name>Jakobshavn89C</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2911,11 +2911,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="968">
+            <Point id="3912">
                 <coordinates>-48.777,69.203,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="990">
+        <Placemark id="3934">
             <name>Jakobshavn95D_I1</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2973,11 +2973,11 @@
                     <value>Location from Geothermal Database</value>
                 </Data>
             </ExtendedData>
-            <Point id="989">
+            <Point id="3933">
                 <coordinates>-48.6871,69.235,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1011">
+        <Placemark id="3955">
             <name>Jakobshavn95D_I2</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3035,11 +3035,11 @@
                     <value>Location from Geothermal Database</value>
                 </Data>
             </ExtendedData>
-            <Point id="1010">
+            <Point id="3954">
                 <coordinates>-48.6871,69.235,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1032">
+        <Placemark id="3976">
             <name>Jakobshavn95D_T3</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3097,11 +3097,11 @@
                     <value>Location from Geothermal Database</value>
                 </Data>
             </ExtendedData>
-            <Point id="1031">
+            <Point id="3975">
                 <coordinates>-48.6871,69.235,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1053">
+        <Placemark id="3997">
             <name>Jakobshavn95D_T4</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3159,11 +3159,11 @@
                     <value>Location from Geothermal Database</value>
                 </Data>
             </ExtendedData>
-            <Point id="1052">
+            <Point id="3996">
                 <coordinates>-48.6871,69.235,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1074">
+        <Placemark id="4018">
             <name>Jakobshavn95D_T5</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3221,11 +3221,11 @@
                     <value>Location from Geothermal Database</value>
                 </Data>
             </ExtendedData>
-            <Point id="1073">
+            <Point id="4017">
                 <coordinates>-48.6871,69.235,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1095">
+        <Placemark id="4039">
             <name>Meighen67</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3283,11 +3283,11 @@
                     <value>Location from Geothermal Database</value>
                 </Data>
             </ExtendedData>
-            <Point id="1094">
+            <Point id="4038">
                 <coordinates>-99.1,79.9,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1116">
+        <Placemark id="4060">
             <name>NEEM</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3345,11 +3345,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1115">
+            <Point id="4059">
                 <coordinates>-51.06,77.45,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1137">
+        <Placemark id="4081">
             <name>NGRIP</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3407,11 +3407,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1136">
+            <Point id="4080">
                 <coordinates>-42.32,75.1,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1158">
+        <Placemark id="4102">
             <name>Penny96</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3469,11 +3469,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1157">
+            <Point id="4101">
                 <coordinates>-65.2,67.3,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1179">
+        <Placemark id="4123">
             <name>PrinceWales05</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3531,11 +3531,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1178">
+            <Point id="4122">
                 <coordinates>-80.395,78.3897,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1200">
+        <Placemark id="4144">
             <name>Renland88</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3593,11 +3593,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1199">
+            <Point id="4143">
                 <coordinates>-26.768,71.306,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1221">
+        <Placemark id="4165">
             <name>SiteII</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3655,11 +3655,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1220">
+            <Point id="4164">
                 <coordinates>-56.07,76.98,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1242">
+        <Placemark id="4186">
             <name>StationCentrale</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3717,11 +3717,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1241">
+            <Point id="4185">
                 <coordinates>-40.63,70.92,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1263">
+        <Placemark id="4207">
             <name>Store_R30_BH19c</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3779,11 +3779,11 @@
                     <value>See also: 10.5285/ecf81955-b829-4f91-ae90-b9bc947f8c60</value>
                 </Data>
             </ExtendedData>
-            <Point id="1262">
+            <Point id="4206">
                 <coordinates>-50.09,70.57,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1284">
+        <Placemark id="4228">
             <name>Store_S30</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3841,11 +3841,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1283">
+            <Point id="4227">
                 <coordinates>-49.9167,70.5167,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1305">
+        <Placemark id="4249">
             <name>TD1_88</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3903,11 +3903,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1304">
+            <Point id="4248">
                 <coordinates>-50.13,69.45,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1326">
+        <Placemark id="4270">
             <name>TD2_88</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3965,11 +3965,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1325">
+            <Point id="4269">
                 <coordinates>-50.1,69.45,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1347">
+        <Placemark id="4291">
             <name>TD3_88</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4027,11 +4027,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1346">
+            <Point id="4290">
                 <coordinates>-50.0,69.48,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1368">
+        <Placemark id="4312">
             <name>TD4_91a</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4089,11 +4089,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1367">
+            <Point id="4311">
                 <coordinates>-49.68,69.53,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1389">
+        <Placemark id="4333">
             <name>TD4_91b</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4151,11 +4151,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1388">
+            <Point id="4332">
                 <coordinates>-49.68,69.53,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1410">
+        <Placemark id="4354">
             <name>TD5_90</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4213,11 +4213,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1409">
+            <Point id="4353">
                 <coordinates>-49.3,69.57,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1431">
+        <Placemark id="4375">
             <name>TD5_91</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4275,11 +4275,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1430">
+            <Point id="4374">
                 <coordinates>-49.3,69.57,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1452">
+        <Placemark id="4396">
             <name>Tuto_D-11</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4337,7 +4337,7 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1451">
+            <Point id="4395">
                 <coordinates>-68.2873,76.4113,0.0</coordinates>
             </Point>
         </Placemark>

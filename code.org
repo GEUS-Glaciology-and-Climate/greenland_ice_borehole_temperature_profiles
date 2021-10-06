@@ -169,12 +169,14 @@ for id in db['Borehole ID']:
     continue
   df[id][thick:] = -999
 
-# add extra header rows
-df.columns = columns
-
 maxdepth = df.replace(-999,np.nan).dropna(how='all').index.max()
 df = df[df.index <= maxdepth]
 df.to_csv("temperature.csv", float_format='%.4f')
+
+# add extra header rows
+df.columns = columns
+df.to_csv("temperature_meta.csv", float_format='%.4f')
+
 print(df[df.columns[0:5]].head(10))
 #+END_SRC
 
@@ -209,8 +211,7 @@ depth [m]
 dfN = pd.DataFrame(index=np.linspace(0,100,101).astype(int))
 dfN.index.name = 'd normalized'
 
-df = pd.read_csv("temperature.csv", index_col=0, header=[0,1,2,3,4,5,6,7])
-df = df.drop('Isunnguata_13km-10', level=0, axis='columns')
+df = pd.read_csv("temperature_meta.csv", index_col=0, header=[0,1,2,3,4,5,6,7])
 
 # dfN.columns = df.columns
 
@@ -223,14 +224,18 @@ for i,c in enumerate(id):
     #     print(i,c)
     #     continue
     profile = df[c][0:thick[i]]
+    # do not round, rather, interpolate to 1 % resolution
     profile['dNorm'] = np.round(profile.index/thick[i]*100).astype(int)
     profile = profile.groupby('dNorm').mean()
     profile.index.name = 'd normalized'
     dfN = dfN.merge(profile, left_index=True, right_index=True, how='outer')
-    
+
+# Add pchip to fill in gaps
 dfN.index = dfN.index / 100
 dfN.columns = df.columns
-dfN.head()
+dfN.to_csv("temperature_dnorm_meta.csv", float_format='%.4f')
+
+dfN.columns = df.columns.get_level_values(0)
 dfN.to_csv("temperature_dnorm.csv", float_format='%.4f')
 
 #+END_SRC

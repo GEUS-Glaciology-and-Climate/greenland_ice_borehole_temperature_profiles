@@ -17,25 +17,25 @@ temperature.csv: */README.org README.org
 	@echo Building temperature.csv
 	$(call org-babel,code.org,meta2temperatureCSV)
 
-*/README.org: database.csv
+*/README.org: meta.csv
 	@echo Ingesting meta.bsv: $(@D)
 	$(call org-babel,$(@D)/README.org,ingest_meta)
 	@echo Ingesting data.csv: $(@D)
 	$(call org-babel,$(@D)/README.org,ingest_data)
 
-database.csv: README.org
+meta.csv: README.org
 	@echo Converting Google Sheet to local file
 	$(call org-babel,code.org,sheet2csv)
 	@echo Building meta.bsv files in subfolders
 	$(call org-babel,code.org,csv2metabsv)
 
-boreholes.kml: database.csv
+boreholes.kml: meta.csv
 	@echo Converting Google Sheet to local file
 	$(call org-babel,code.org,kml)
 
 clean:
 	@echo [clean]
-	@rm -rf */meta.bsv boreholes.kml database.csv README.pdf temperature.csv
+	@rm -rf */meta.bsv boreholes.kml meta.csv README.pdf temperature.csv
 
 FORCE: # dummy target
 
