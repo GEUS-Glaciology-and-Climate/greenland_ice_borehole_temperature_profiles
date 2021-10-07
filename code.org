@@ -208,41 +208,36 @@ depth [m]
 ** Convert temperature.csv to temperature_dnorm.csv
 
 #+BEGIN_SRC jupyter-python
-dfN = pd.DataFrame(index=np.linspace(0,100,101).astype(int))
+index = np.linspace(0,10000,10001)
+dfN = pd.DataFrame(index=index)
 dfN.index.name = 'd normalized'
 
-df = pd.read_csv("temperature_meta.csv", index_col=0, header=[0,1,2,3,4,5,6,7])
+df = pd.read_csv("temperature.csv", index_col=0)
+meta = pd.read_csv("meta.csv", index_col=0)
 
-# dfN.columns = df.columns
-
-thick = pd.Series(pd.to_numeric(df.columns.get_level_values('Ice thickness [m]'), errors='coerce')).replace(np.nan,0).astype(int).values
-
-id = df.columns.get_level_values('Borehole ID')
-
-for i,c in enumerate(id):
-    # if thick[i] == 0:
-    #     print(i,c)
-    #     continue
-    profile = df[c][0:thick[i]]
+for c in df.columns:
+    thick = pd.Series(pd.to_numeric(meta.loc[c]['Ice thickness [m]'], errors='coerce'))\
+              .replace(np.nan,0)\
+              .astype(int).values[0]
+    profile = pd.DataFrame(df[c][0:thick])
     # do not round, rather, interpolate to 1 % resolution
-    profile['dNorm'] = np.round(profile.index/thick[i]*100).astype(int)
+    profile['dNorm'] = np.round(profile.index/thick*10000)
     profile = profile.groupby('dNorm').mean()
     profile.index.name = 'd normalized'
     dfN = dfN.merge(profile, left_index=True, right_index=True, how='outer')
 
-# Add pchip to fill in gaps
-dfN.index = dfN.index / 100
-dfN.columns = df.columns
-dfN.to_csv("temperature_dnorm_meta.csv", float_format='%.4f')
-
-dfN.columns = df.columns.get_level_values(0)
+dfN = dfN.interpolate(limit_area='inside', method='pchip')
+dfN = dfN[::100]
+dfN.index = dfN.index/10000
 dfN.to_csv("temperature_dnorm.csv", float_format='%.4f')
+
+dfC = pd.read_csv("temperature_meta.csv", index_col=0, header=[0,1,2,3,4,5,6,7])
+dfN.columns = dfC.columns
+dfN.to_csv("temperature_dnorm_meta.csv", float_format='%.4f')
 
 #+END_SRC
 
 #+RESULTS:
-: /home/kdm/local/miniconda3/envs/ds/lib/python3.8/site-packages/pandas/core/reshape/merge.py:643: UserWarning: merging between different levels can give an unintended result (1 levels on the left,7 on the right)
-:   warnings.warn(msg, UserWarning)
 
 
 * Graphics
