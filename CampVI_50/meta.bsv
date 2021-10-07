@@ -1,5 +1,5 @@
 Borehole ID|CampVI_50
-Place name|Camp VI
+Place name|Sermeq Avannerleq
 Geographic location|Central West Greenland
 Ice type|Ice sheet
 Data Source|Table in science source

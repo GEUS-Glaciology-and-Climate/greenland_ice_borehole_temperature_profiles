@@ -1,5 +1,5 @@
 Borehole ID|GULL
-Place name|GULL
+Place name|Sermeq Avannerleq
 Geographic location|Central West Greenland
 Ice type|Ice sheet
 Data Source|Graphic in science source

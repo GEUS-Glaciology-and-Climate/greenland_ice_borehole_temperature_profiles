@@ -12,7 +12,7 @@ cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 #+RESULTS: ingest_meta
 #+begin_example
 Borehole ID                      | FOXX1
-Place name                       | FOXX
+Place name                       | Sermeq Avannerleq
 Geographic location              | Central West Greenland
 Ice type                         | Ice sheet
 Data Source                      | Graphic in science source

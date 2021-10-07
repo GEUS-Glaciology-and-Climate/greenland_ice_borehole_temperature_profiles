@@ -1,5 +1,5 @@
 Borehole ID|FOXX2
-Place name|FOXX
+Place name|Sermeq Avannerleq
 Geographic location|Central West Greenland
 Ice type|Ice sheet
 Data Source|Graphic in science source
