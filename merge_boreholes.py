@@ -92,4 +92,7 @@ for m_dir in m_dirs:
 df = pd.concat(bhs).reset_index()
 df.to_csv("merged_data.csv.gz")
 
-sns.lineplot(data=df, x="Temperature [Celsius]", y="Depth [m]")
+# Plot each borehole.
+for bh in df["Borehole ID"].unique():
+    g = sns.lineplot(data=df[df["Borehole ID"] == bh], x="Temperature [Celsius]", y="Depth [m]")
+    g.axes.invert_yaxis()
