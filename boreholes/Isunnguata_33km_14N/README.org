@@ -1,0 +1,151 @@
+* Isunnguata_33km_14N
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                      | Isunnguata_33km_14N
+Place name                       | Isunnguata Sermia
+Geographic location              | Central West Greenland
+Ice type                         | Ice sheet
+Data Source                      | Joel Harper. 2017. Ice temperatures measured in a grid of boreholes, Western Greenland, 2014-2016. Arctic Data Center. doi:10.18739/A24746S04.
+Data DOI                         | 10.18739/A24746S04
+Science Source                   | "Hills, Benjamin H., Joel T. Harper, Neil F. Humphrey, and Toby W. Meierbachtol. ""Measured horizontal temperature gradients constrain heat transfer mechanisms in Greenland ice."" Geophysical Research Letters 44, no. 19 (2017): 9778-9785."
+Science DOI                      | 10.1002/2017GL074917
+Date                             | 2015
+Longitude [°E]                   | -49.5697
+Latitude [°N]                    | 67.18307
+Location Source                  | 10.18739/A24746S04
+Depth of top measurement [m]     | 18.0
+Depth of bottom measurement [m]  | 628
+Ice thickness [m]                | 641
+Coverage [% of thickness]        | 95
+Ice thickness source             | 10.18739/A24746S04
+Note                             | See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.
+#+end_example
+
+
+** Temperature
+
+** Thickness
+
+** Location
+
+** Velocity
+
+** Notes
+
+#+BEGIN_EXAMPLE
+From: Joel Harper
+To: Ken Mankoff, Benjamin Hills
+Cc: William Colgan, Anja Løkkegaard, Toby Meierbachtol
+Subject: RE: Ice borehole temperatures
+Date: Tue 10 Aug 2021 08:29:11 AM PDT
+Attachments:
+ [1]Wright_et_al-2016-Journal_of_Geophysical_Research__Earth_Surface.pdf(4.6M)
+
+[W]e abandoned the 'Site' naming convention used in the original
+Harrington [2015] paper in favor of a 'km from terminus/yr'... e.g.,
+46km-11 = 46km from the Isunnguata Sermia terminus, site established
+in 2011 (see figure 2 [ed: Wright (2016)]). If the hole was drilled in
+2011 for example, a particular dataset may have been collected in any
+subsequent year since the instrumentation typically runs for up to a
+few years. Site 33 km was established with several boreholes in 2014,
+but we returned and drilled additional holes at this site in 2015
+and 2016.
+#+END_EXAMPLE
+
+** Data                                                 :noexport:
+
++ [[./harper_iceTemperature_2015-2016.csv]] from https://arcticdata.io/catalog/view/doi:10.18739/A24746S04
+
+The code below generates all of the [[./data.csv]] files for the =hills_2017_*= data, from the master ArcticData CSV file
+
+#+BEGIN_SRC jupyter-python :results none
+import numpy as np
+import pandas as pd
+
+df = pd.read_csv('./harper_iceTemperature_2015-2016.csv')
+df['dateDrilled'] = pd.to_datetime(df['dateDrilled'])
+boreholes = df['borehole'].unique()
+
+for b in boreholes:
+    bh = df[df['borehole'] == b]
+    depth = bh['depth_m'].max()
+    bh['d'] = np.abs(depth - bh['height_m'])
+    bh['t'] = bh['temperature_2016_celsius']
+    if '14' in b:
+        bh['t'] = bh['temperature_2015_celsius']
+        
+    bh = bh.reindex(index=bh.index[::-1])
+    bh = bh.drop(columns=['borehole', 'yearDrilled', 'dateDrilled', 'latitude_WGS84', 'longitude_WGS84', 'Elevation_m'])
+
+    lut = {'GL14-North':'14n',
+           'GL14-South-A':'14sa',
+           'GL14-South-B':'14sb',
+           'GL14-West':'14w',
+           '15-C-A':'15ca',
+           '15-C-B':'15cb',
+           '15-E-B':'15e',
+           '15-N':'15n',
+           '15-S':'15s'}
+
+    folder = '../hills_2017_'+lut[b]
+    bh[['d','t']].dropna().to_csv(folder+'/data.csv', index=False)
+#+END_SRC
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k1
+#+END_SRC
+
+#+RESULTS: ingest_data
+|   d |      t |
+|  18 |  -4.63 |
+|  38 |  -5.06 |
+|  58 |   -5.5 |
+|  78 |  -6.25 |
+|  98 |  -6.94 |
+| 118 |  -7.44 |
+| 138 |  -7.81 |
+| 158 |  -8.19 |
+| 178 |  -8.69 |
+| 198 |  -9.06 |
+| 218 |  -9.38 |
+| 238 |  -9.75 |
+| 258 |  -9.94 |
+| 278 | -10.19 |
+| 298 | -10.31 |
+| 318 | -10.31 |
+| 338 | -10.25 |
+| 358 | -10.13 |
+| 378 |  -9.88 |
+| 398 |   -9.5 |
+| 418 |   -9.0 |
+| 438 |  -8.44 |
+| 458 |  -7.81 |
+| 478 |  -7.19 |
+| 488 |  -6.81 |
+| 498 |  -6.38 |
+| 508 |   -6.0 |
+| 518 |  -5.63 |
+| 528 |  -5.13 |
+| 538 |  -4.63 |
+| 548 |  -4.13 |
+| 558 |  -3.56 |
+| 568 |  -3.19 |
+| 578 |  -2.63 |
+| 588 |  -2.13 |
+| 598 |  -1.69 |
+| 608 |  -1.19 |
+| 618 |  -0.81 |
+| 628 |  -0.44 |
+
+

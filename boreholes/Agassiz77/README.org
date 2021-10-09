@@ -1,0 +1,154 @@
+* Agassiz77
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:END:
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                      | Agassiz77
+Place name                       | Agassiz Ice Cap
+Geographic location              | Canadian Arctic North
+Ice type                         | Ice cap
+Data Source                      | Zdanowicz email
+Data DOI                         | 
+Science Source                   | Clarke, G., D. Fisher and E. Waddington. Wind pumping: A potentially significant heat source in ice sheets , The Physical Basis of Ice Sheet Modelling in Proceedings of the Vancouver Symposium, IAHS , volume 170, 169–180, 1987
+Science DOI                      | 
+Date                             | 1977
+Longitude [°E]                   | -73.1
+Latitude [°N]                    | 80.7
+Location Source                  | Vinther, 2008
+Depth of top measurement [m]     | 11.0
+Depth of bottom measurement [m]  | 341
+Ice thickness [m]                | 341
+Coverage [% of thickness]        | 97
+Ice thickness source             | See data source 
+Note                             | Ice thickness from data does not match ice thickness from Vinther (2008); Location approximate
+#+end_example
+
+** Temperature
+
++ Data provided by 3rd party in XLSX format, converted to CSV.
++ WIC Email: [[mu4e:msgid:AM0PR04MB6129DE88C9253A951702EE06A2F30@AM0PR04MB6129.eurprd04.prod.outlook.com][Agassiz x4]]
++ See also [[citet:clarke_1987_wind][Clarke (1987)]] Figure 2. [The Physical Basis of Ice Sheet Modelling (Proceedings of the Vancouver Symposium, August 1987). IAHS Publ. no. 170].
+
+#+BEGIN_example
+From: William Colgan
+To: Ken Mankoff
+Subject: Agassiz x4
+Date: Wed 02 Dec 2020 04:54:17 AM PST
+Attachments: [1]Agassiz borehole T profiles.xlsx(19.6K)
+
+Here are 4x Agassiz Ice Cap temperature profiles. All to bedrock, and
+all from within 2 km of the same 80.70N and 73.10W coordinate in the
+file.
+
+Fra: Christian Zdanowicz
+Sendt: 2. december 2020 13:27
+Til: William Colgan <wic@geus.dk>
+Emne: RE: Prince of Wales - ice temperature?
+
+The Agassiz T profiles are from the 1977, 1979 and 1984 boreholes, all
+down to bedrock. I do not have more precise information on the
+measurements or on the location of the boreholes than what was
+published (see other attached papers).
+
+David Fisher deserves the credit for all these data, I did not
+generate them. You can use his Univ. of Ottawa affiliation: Department
+of Earth and Environmental Sciences, University of Ottawa, Ottawa,
+Canada, K1N 6N5.
+#+END_example
+
+** Thickness
+
+From email (above) stating that profile goes to bedrock.
+
+** Location
+
+Provided in email. Note: "within 2 km of".
+
+** Velocity
+
+Unknown
+
+** Data                                                 :noexport:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv| sort -t, -n -k1
+#+END_SRC
+
+#+RESULTS: ingest_data
+|      d |      t |
+|  10.91 | -24.16 |
+|  15.91 | -24.35 |
+|  20.91 | -24.33 |
+|  25.91 | -24.19 |
+|  30.91 | -24.19 |
+|  35.91 | -24.08 |
+|  40.91 | -24.03 |
+|  45.91 | -23.92 |
+|  50.91 | -23.85 |
+|  55.91 |  -23.8 |
+|  60.91 | -23.72 |
+|  65.91 | -23.68 |
+|  70.91 | -23.61 |
+|  75.91 | -23.54 |
+|  80.91 | -23.47 |
+|  85.91 | -23.39 |
+|  90.91 | -23.32 |
+|  95.91 | -23.23 |
+| 100.91 | -23.14 |
+| 105.91 | -23.05 |
+| 110.91 | -22.97 |
+| 115.91 | -22.85 |
+| 120.91 | -22.76 |
+| 125.91 | -22.68 |
+| 130.91 | -22.56 |
+| 135.91 | -22.44 |
+| 140.91 | -22.33 |
+| 145.91 | -22.24 |
+| 150.91 | -22.11 |
+| 155.91 | -21.98 |
+| 160.91 | -21.86 |
+| 165.91 | -21.76 |
+| 170.91 | -21.61 |
+| 175.91 | -21.49 |
+| 180.91 | -21.35 |
+| 185.91 | -21.22 |
+| 190.91 | -21.09 |
+| 195.91 | -20.95 |
+| 200.91 | -20.83 |
+| 205.91 | -20.69 |
+| 210.91 | -20.55 |
+| 215.91 | -20.42 |
+| 220.91 | -20.27 |
+| 225.91 | -20.13 |
+| 230.91 | -19.99 |
+| 235.91 | -19.82 |
+| 240.91 | -19.69 |
+| 245.91 | -19.55 |
+| 250.91 | -19.39 |
+| 255.91 | -19.24 |
+| 260.91 | -19.09 |
+| 265.91 | -18.94 |
+| 270.91 |  -18.8 |
+| 275.91 | -18.64 |
+| 280.91 |  -18.5 |
+| 285.91 | -18.42 |
+| 290.91 | -18.17 |
+| 295.91 |  -17.9 |
+| 300.91 | -17.84 |
+| 305.91 | -17.69 |
+| 310.91 | -17.54 |
+| 315.91 | -17.37 |
+| 320.91 | -17.22 |
+| 325.91 | -17.06 |
+| 330.91 | -16.92 |
+| 335.91 | -16.83 |
+| 340.91 | -16.74 |
+

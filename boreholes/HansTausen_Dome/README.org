@@ -1,0 +1,58 @@
+* HansTausen_Dome
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                      | HansTausen_Dome
+Place name                       | Hans Tausen Dome
+Geographic location              | North Greenland
+Ice type                         | Ice cap
+Data Source                      | Zekollari email
+Data DOI                         | 
+Science Source                   | Zekollari, Harry, Huybrechts, Philippe, Noël, Brice, van de Berg, Willem Jan, van den Broeke, Michiel R.: Sensitivity, stability and future evolution of the world’s northernmost ice cap, Hans Tausen Iskappe (Greenland) , The Cryosphere 11(2), Copernicus GmbH, 805–825, 3 2017 
+Science DOI                      | 10.5194/tc-11-805-2017
+Date                             | 1995
+Longitude [°E]                   | -37.47
+Latitude [°N]                    | 82.51
+Location Source                  | 10.5194/essd-2021-290
+Depth of top measurement [m]     | 10.0
+Depth of bottom measurement [m]  | 345
+Ice thickness [m]                | 345
+Coverage [% of thickness]        | 97
+Ice thickness source             | See data source
+Note                             | Only two data points - 10 m and 345 m. Drill date: 10.34194/bullggu.v172.6749 
+#+end_example
+
+** Temperature
+
++ From H. Zekollari email (see Hans Tausen Hare folder)
++ WARNING: Only two data points measured in profile
+
+** Thickness
+
++ From [[citet:zekollari_2017][Zekollari (2017)]] text.
+ 
+** Location
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k1
+#+END_SRC
+
+#+RESULTS: ingest_data
+|   d |   t |
+|  10 | -21 |
+| 345 | -16 |
+

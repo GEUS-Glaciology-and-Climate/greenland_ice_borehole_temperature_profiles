@@ -31,18 +31,20 @@ Other files may exist. These include:
 
 ** Outputs
 
-The output of this work is:
+The output of this work is in the [[./data/]] sub-folder:
 
-+ [[./meta.csv]] :: Metadata for each borehole.
-+ [[./temperature.csv]] :: Temperature profiles on a common scale, all to the depth (first column) of the deepest profile. NaN marks locations without data. -999 marks locations below bedrock (for all but the deepest profile).
-+ [[./temperature_dnorm.csv]] :: The same data as [[./temperature.csv]] but the first column is normalized depth, from the ice sheet surface (0) to the bed (1).
++ [[./data/meta.csv]] :: Metadata for each borehole.
++ [[./data/temperature.csv]] :: Temperature profiles on a common scale, all to the depth (first column) of the deepest profile. NaN marks locations without data. -999 marks locations below bedrock (for all but the deepest profile).
++ [[./data/temperature_dnorm.csv]] :: The same data as [[./temperature.csv]] but the first column is normalized depth, from the ice sheet surface (0) to the bed (1).
+
+Files with =_meta= in the filename contain the same data as files without =_meta=, but include multiple header rows with extra data
 
 ** Metadata
 
 Metadata for each profile includes:
 
 #+BEGIN_SRC bash :results verbatim :exports results
-head -n1 meta.csv | tr ',' '\n'
+head -n1 ./data/meta.csv | tr ',' '\n'
 #+END_SRC
 
 #+RESULTS:
@@ -72,10 +74,10 @@ Note
 * Graphics
 
 #+CAPTION: Temperature profiles from the surface
-[[./temperature.png]]
+[[./fig/temperature.png]]
 
 #+CAPTION: Temperature profiles on a normalized depth scale
-[[./temperature_dnorm.png]]
+[[./fig/temperature_dnorm.png]]
 
 * INPROGRESS Uncertainty
 

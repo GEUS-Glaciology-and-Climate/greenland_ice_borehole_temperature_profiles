@@ -1,0 +1,75 @@
+* Isunnguata_33km_14SB
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                      | Isunnguata_33km_14SB
+Place name                       | Isunnguata Sermia
+Geographic location              | Central West Greenland
+Ice type                         | Ice sheet
+Data Source                      | Joel Harper. 2017. Ice temperatures measured in a grid of boreholes, Western Greenland, 2014-2016. Arctic Data Center. doi:10.18739/A24746S04.
+Data DOI                         | 10.18739/A24746S04
+Science Source                   | "Hills, Benjamin H., Joel T. Harper, Neil F. Humphrey, and Toby W. Meierbachtol. ""Measured horizontal temperature gradients constrain heat transfer mechanisms in Greenland ice."" Geophysical Research Letters 44, no. 19 (2017): 9778-9785."
+Science DOI                      | 10.1002/2017GL074917
+Date                             | 2015
+Longitude [°E]                   | -49.56972
+Latitude [°N]                    | 67.18104
+Location Source                  | 10.18739/A24746S04
+Depth of top measurement [m]     | 496.0
+Depth of bottom measurement [m]  | 676
+Ice thickness [m]                | 677
+Coverage [% of thickness]        | 27
+Ice thickness source             | 10.18739/A24746S04
+Note                             | See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.
+#+end_example
+
+
+** Temperature
+
+** Thickness
+
+** Location
+
+** Velocity
+
+** Notes
+
+See 14n for more information
+
+** Data                                                 :noexport:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k1
+#+END_SRC
+
+#+RESULTS: ingest_data
+|   d |     t |
+| 496 | -6.44 |
+| 516 | -5.69 |
+| 526 | -5.44 |
+| 536 | -5.13 |
+| 546 | -4.75 |
+| 556 | -4.44 |
+| 566 | -4.06 |
+| 576 | -3.56 |
+| 586 | -3.13 |
+| 596 | -2.81 |
+| 606 | -2.44 |
+| 616 |  -2.0 |
+| 626 | -1.63 |
+| 636 | -1.25 |
+| 646 | -0.88 |
+| 656 | -0.63 |
+| 666 | -0.31 |
+| 676 | -0.06 |
+
+

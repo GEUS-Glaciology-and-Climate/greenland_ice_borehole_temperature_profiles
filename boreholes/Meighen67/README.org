@@ -1,0 +1,105 @@
+* Meighen67
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                      | Meighen67
+Place name                       | Meighen Ice Cap
+Geographic location              | Canadian Arctic North
+Ice type                         | Ice sheet
+Data Source                      | Graphic in science source
+Data DOI                         | 
+Science Source                   | Paterson, W. S. B.: A temperature profile through the Meighen ice cap, Arctic Canada , International Association of Scientific Hydrology 79, 440–449, 1968 
+Science DOI                      | 
+Date                             | 1965
+Longitude [°E]                   | -99.1
+Latitude [°N]                    | 79.9
+Location Source                  | See data source
+Depth of top measurement [m]     | 1.0
+Depth of bottom measurement [m]  | 121
+Ice thickness [m]                | 121.2
+Coverage [% of thickness]        | 99
+Ice thickness source             | See data source
+Note                             | Location from Geothermal Database
+#+end_example
+
+** Temperature
+
++ Table (no graphic) from [[citet:paterson_1968][Paterson (1968)]] Table 1.
++ Result is average of 1966 and 1967 columns.
+  
+** Thickness
+
++ From [[citet:paterson_1968][Paterson (1968)]].
+ 
+** Location
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+BEGIN_SRC python :exports none
+import numpy as np
+import pandas as pd
+df = pd.read_csv("Meighen_1966_67.csv",
+                 names=['depth',1965,1966,1967],
+                 index_col=0,
+                 comment="#",usecols=((0,2,3)))
+df = df.mean(axis=1).round(3)
+df.name = 't'
+df.index.name = 'd'
+df.to_csv("data.csv")
+#+END_SRC
+#+RESULTS:
+: None
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k1
+#+END_SRC
+
+#+RESULTS: ingest_data
+|      d |       t |
+|   1.32 | -22.416 |
+|   2.24 | -23.122 |
+|   3.15 | -22.729 |
+|   4.06 | -22.032 |
+|   4.57 | -20.043 |
+|   4.72 | -21.359 |
+|   5.18 |  -19.77 |
+|   5.33 | -20.791 |
+|    6.1 | -19.666 |
+|   7.62 | -18.688 |
+|   9.14 | -17.921 |
+|  10.67 | -17.441 |
+|  12.19 | -17.166 |
+|  13.72 | -17.164 |
+|  15.24 | -17.068 |
+|  16.76 | -17.084 |
+|  18.29 |  -17.16 |
+|  19.81 |  -17.11 |
+|  21.34 | -17.116 |
+|  22.87 | -17.102 |
+|  24.38 | -17.088 |
+|  30.48 | -17.029 |
+|   38.1 | -16.958 |
+|  45.72 | -16.912 |
+|  53.34 |  -16.86 |
+|  60.96 | -16.808 |
+|  68.58 | -16.731 |
+|   76.2 | -16.665 |
+|  83.82 | -16.574 |
+|  91.44 | -16.484 |
+|  99.06 | -16.374 |
+| 106.68 | -16.236 |
+|  114.3 |  -16.11 |
+| 121.16 |  -15.96 |
+

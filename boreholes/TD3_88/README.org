@@ -1,0 +1,64 @@
+* TD3_88
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                      | TD3_88
+Place name                       | Paakitsoq
+Geographic location              | Central West Greenland
+Ice type                         | Ice sheet
+Data Source                      | Lüthi email
+Data DOI                         | 
+Science Source                   | Thomsen, H.H., O.B. Olesen, R.J. Braithwaite, and C.E. Bøggild. 1991. Ice drilling and mass balance at Pakitsoq, Jakobshavn, central West Greenland. Rapport Grønlands Geologiske Undersøgelse, 152, 80–84. 
+Science DOI                      | 10.34194/rapggu.v152.8160
+Date                             | 1988-08-18
+Longitude [°E]                   | -50.0
+Latitude [°N]                    | 69.48
+Location Source                  | 10.5194/essd-2021-290
+Depth of top measurement [m]     | 20.0
+Depth of bottom measurement [m]  | 350
+Ice thickness [m]                | 350
+Coverage [% of thickness]        | 94
+Ice thickness source             | Unknown PDF: See td1. Also Phillips (2010)
+Note                             | 
+#+end_example
+
+** Temperature
+
++ See notes in TD1_88
++ Also see [[citet:phillips_2010][Phillips (2010)]] Figure 4.
+
+** Thickness
+
+** Location
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv
+#+END_SRC
+
+#+RESULTS: ingest_data
+|   d |    t |
+|  20 | -2.1 |
+|  25 | -1.5 |
+|  30 | -1.2 |
+|  50 |    0 |
+| 150 | -0.1 |
+| 200 | -0.5 |
+| 250 | -0.1 |
+| 300 | -0.4 |
+| 345 | -0.7 |
+| 350 | -0.2 |
+

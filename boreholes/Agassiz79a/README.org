@@ -1,0 +1,116 @@
+* Agassiz79a
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                      | Agassiz79a
+Place name                       | Agassiz Ice Cap
+Geographic location              | Canadian Arctic North
+Ice type                         | Ice cap
+Data Source                      | Zdanowicz email
+Data DOI                         | 
+Science Source                   | Clarke, G., D. Fisher and E. Waddington. Wind pumping: A potentially significant heat source in ice sheets , The Physical Basis of Ice Sheet Modelling in Proceedings of the Vancouver Symposium, IAHS , volume 170, 169–180, 1987
+Science DOI                      | 
+Date                             | 1979
+Longitude [°E]                   | -73.1
+Latitude [°N]                    | 80.7
+Location Source                  | Vinther, 2008
+Depth of top measurement [m]     | 12.0
+Depth of bottom measurement [m]  | 142
+Ice thickness [m]                | 142
+Coverage [% of thickness]        | 92
+Ice thickness source             | See data source 
+Note                             | Ice thickness from data does not match ice thickness from Vinther (2008); Location approximate
+#+end_example
+
+** Temperature
+
++ Data provided by 3rd party in XLSX format, converted to CSV.
++ WIC Email: [[mu4e:msgid:AM0PR04MB6129DE88C9253A951702EE06A2F30@AM0PR04MB6129.eurprd04.prod.outlook.com][Agassiz x4]]
++ See also [[citet:clarke_1987_wind][Clarke (1987)]] Figure 2. [The Physical Basis of Ice Sheet Modelling (Proceedings of the Vancouver Symposium, August 1987). IAHS Publ. no. 170].
+
+#+BEGIN_example
+From: William Colgan
+To: Ken Mankoff
+Subject: Agassiz x4
+Date: Wed 02 Dec 2020 04:54:17 AM PST
+Attachments: [1]Agassiz borehole T profiles.xlsx(19.6K)
+
+Here are 4x Agassiz Ice Cap temperature profiles. All to bedrock, and
+all from within 2 km of the same 80.70N and 73.10W coordinate in the
+file.
+
+Fra: Christian Zdanowicz
+Sendt: 2. december 2020 13:27
+Til: William Colgan <wic@geus.dk>
+Emne: RE: Prince of Wales - ice temperature?
+
+The Agassiz T profiles are from the 1977, 1979 and 1984 boreholes, all
+down to bedrock. I do not have more precise information on the
+measurements or on the location of the boreholes than what was
+published (see other attached papers).
+
+David Fisher deserves the credit for all these data, I did not
+generate them. You can use his Univ. of Ottawa affiliation: Department
+of Earth and Environmental Sciences, University of Ottawa, Ottawa,
+Canada, K1N 6N5.
+#+END_example
+
+** Thickness
+
+From email (above) stating that profile goes to bedrock.
+
+** Location
+
+Provided in email. Note: "within 2 km of".
+
+** Velocity
+
+Unknown
+
+** Data                                                 :noexport:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv| sort -t, -n -k1
+#+END_SRC
+
+#+RESULTS: ingest_data
+|      d |      t |
+|  11.94 | -22.35 |
+|  16.94 |  -22.3 |
+|  21.94 | -22.16 |
+|  26.94 |  -22.0 |
+|  31.94 | -21.85 |
+|  36.94 | -21.75 |
+|  41.94 | -21.61 |
+|  46.94 | -21.48 |
+|  51.94 | -21.37 |
+|  56.94 | -21.27 |
+|  61.94 | -21.15 |
+|  66.94 | -21.03 |
+|  71.94 | -20.91 |
+|  76.94 | -20.79 |
+|  81.94 | -20.64 |
+|  86.94 | -20.53 |
+|  91.94 | -20.41 |
+|  96.94 | -20.29 |
+| 101.94 | -20.13 |
+| 106.94 | -20.01 |
+| 111.94 | -19.85 |
+| 116.94 | -19.71 |
+| 121.94 | -19.57 |
+| 126.94 | -19.42 |
+| 131.94 | -19.28 |
+| 136.94 | -19.12 |
+| 141.94 | -19.04 |
+
+

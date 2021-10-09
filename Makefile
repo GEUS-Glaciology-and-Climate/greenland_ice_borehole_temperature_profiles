@@ -13,29 +13,33 @@ org-babel = emacsclient --eval "(progn			\
 
 # Usage: $(call org-babel,README.org,csv2bs)
 
-temperature.csv: */README.org README.org
+BOREHOLES := boreholes/*
+_DUMMY := $(shell for b in $(ls boreholes); do touch $b/*/meta.bsv; done)
+
+all: FORCE $(DUMMY)
+	make data/temperature.csv
+	make data/boreholes.kml
+
+data/temperature.csv: boreholes/*
 	@echo Building temperature.csv
-	$(call org-babel,code.org,meta2temperatureCSV)
+	python ./src/temperature_csvs.py
 
-*/README.org: meta.csv
-	@echo Ingesting meta.bsv: $(@D)
-	$(call org-babel,$(@D)/README.org,ingest_meta)
-	@echo Ingesting data.csv: $(@D)
-	$(call org-babel,$(@D)/README.org,ingest_data)
+boreholes/*: data/meta.csv
+	@echo Building $@/meta.bsv
+	python ./src/csv2meta_bsv.py $@
+	@echo Updating $<
+	$(call org-babel,$@/README.org,ingest_meta)
+	$(call org-babel,$@/README.org,ingest_data)
 
-meta.csv: README.org
-	@echo Converting Google Sheet to local file
-	$(call org-babel,code.org,sheet2csv)
-	@echo Building meta.bsv files in subfolders
-	$(call org-babel,code.org,csv2metabsv)
+data/meta.csv:
+	python ./src/googlesheet2csv.py
 
-boreholes.kml: meta.csv
-	@echo Converting Google Sheet to local file
-	$(call org-babel,code.org,kml)
+data/boreholes.kml: data/meta.csv
+	@echo Building KML of borehole locations
+	python ./src/borehole_kml.py
 
 clean:
 	@echo [clean]
-	@rm -rf */meta.bsv boreholes.kml meta.csv README.pdf temperature.csv
+	@rm -rf boreholes/*/meta.bsv data/*
 
 FORCE: # dummy target
-

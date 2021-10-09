@@ -1,0 +1,83 @@
+* CampVI_50
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                      | CampVI_50
+Place name                       | Sermeq Avannerleq
+Geographic location              | Central West Greenland
+Ice type                         | Ice sheet
+Data Source                      | Table in science source
+Data DOI                         | 
+Science Source                   | Heuberger, J.-C. 1954. Expéditions Polaires Françaises: Missions Paul-Emil Victor. Glaciologie Groenland Volume 1: Forages sur l'inlandsis. Hermann & Cle, Éditeurs. Paris.
+Science DOI                      | 
+Date                             | 1950
+Longitude [°E]                   | -48.2625
+Latitude [°N]                    | 69.6981
+Location Source                  | Heuberger, 1954
+Depth of top measurement [m]     | 4.0
+Depth of bottom measurement [m]  | 125
+Ice thickness [m]                | 1389
+Coverage [% of thickness]        | 9
+Ice thickness source             | BedMachine_V3
+Note                             | 
+#+end_example
+
+** Temperature
+
++ Table 31.1 in https://github.com/GEUS-Glaciology-and-Climate/greenland_ice_borehole_temperature_profiles/files/7082104/heuberger_1954.pdf
+
+** Thickness
+
+** Location
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k1
+#+END_SRC
+
+#+RESULTS: ingest_data
+|   d |      t |
+|   4 | -12.85 |
+|   5 | -12.78 |
+|   6 | -12.65 |
+|   7 | -12.62 |
+|   8 | -12.45 |
+|   9 | -12.32 |
+|  10 | -12.28 |
+|  11 |  -12.3 |
+|  12 | -12.28 |
+|  13 | -12.32 |
+|  14 | -12.38 |
+|  15 | -12.45 |
+|  20 |  -12.9 |
+|  30 | -13.42 |
+|  40 |  -13.9 |
+|  50 | -14.32 |
+|  55 | -14.52 |
+|  60 | -14.72 |
+|  62 | -14.81 |
+|  65 | -14.88 |
+|  70 | -15.05 |
+|  80 | -15.35 |
+|  85 | -15.48 |
+|  90 | -15.65 |
+| 100 | -15.85 |
+| 105 |  -16.0 |
+| 110 |  -16.1 |
+| 115 | -16.22 |
+| 120 | -16.32 |
+| 123 |  -16.4 |
+| 125 | -16.42 |

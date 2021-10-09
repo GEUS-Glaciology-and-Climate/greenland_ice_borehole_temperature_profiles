@@ -1,0 +1,89 @@
+* Store_R30_BH19c
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                      | Store_R30_BH19c
+Place name                       | Store Glacier
+Geographic location              | Central West Greenland
+Ice type                         | Ice sheet
+Data Source                      | Law email
+Data DOI                         | 
+Science Source                   | "Law, Robert, Poul Christoffersen, Bryn Hubbard, Samuel H. Doyle, Thomas R. Chudley, Charlotte M. Schoonman, Marion Bougamont et al. ""Thermodynamics of a fast-moving Greenlandic outlet glacier revealed by fiber-optic distributed temperature sensing."" Science Advances 7, no. 20 (2021): eabe7136."
+Science DOI                      | 10.1126/sciadv.abe7136
+Date                             | 2019-08-13
+Longitude [°E]                   | -50.09
+Latitude [°N]                    | 70.57
+Location Source                  | Law, 2021
+Depth of top measurement [m]     | 0.09
+Depth of bottom measurement [m]  | 1044
+Ice thickness [m]                | 1044
+Coverage [% of thickness]        | 100
+Ice thickness source             | Law (2021)
+Note                             | See also: 10.5285/ecf81955-b829-4f91-ae90-b9bc947f8c60
+#+end_example
+
+
+** Temperature
+
+** Thickness
+
++ From Law (2021), "...from a 1043-m borehole drilled to the base of Sermeq Kujalleq (Store Glacier), Greenland."
+ 
+** Location
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+BEGIN_SRC jupyter-python :exports none
+import pandas as pd
+df = pd.read_csv('Law_et_al_2020_DTS_record.csv', index_col=1)
+df.index.name = 'd'
+df.columns = ['t']
+df = df.sort_index()
+df = df[df.index > 0]
+df.to_csv('data.csv')
+#+END_SRC
+
+#+RESULTS:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k1 | head
+echo "...,..."
+cat data.csv | sort -t, -n -k1 | tail
+#+END_SRC
+
+#+RESULTS: ingest_data
+|                   d |                   t |
+| 0.09343314618671067 | -1.3533302617437186 |
+| 0.20782960001606432 | -1.5069737567555392 |
+|  0.3222260538454179 | -1.6612968448934164 |
+|  0.4366225076747994 | -1.8104061889684808 |
+|   0.551018961504153 | -1.9668903444085737 |
+|  0.6654154153335067 | -2.1261047601055485 |
+|  0.7798118691628602 | -2.2791515148865864 |
+|  0.8942083229922139 | -2.4429442339252154 |
+|  1.0086047768215678 |  -2.609874980169397 |
+|                 ... |                 ... |
+|  1043.2746956161004 | -0.8004999553691023 |
+|  1043.3890920699298 | -0.7973843544427149 |
+|  1043.5034885237594 | -0.7926713492762388 |
+|  1043.6178849775886 | -0.7821971398821747 |
+|   1043.732281431418 | -0.7670053433286168 |
+|  1043.8466778852476 | -0.7501475062385825 |
+|  1043.9610743390767 |  -0.732110370041184 |
+|   1044.075470792906 | -0.7134662909486057 |
+|  1044.1898672467357 | -0.7000406962388818 |
+|  1044.3042637005647 | -0.6865649453688796 |
+
+

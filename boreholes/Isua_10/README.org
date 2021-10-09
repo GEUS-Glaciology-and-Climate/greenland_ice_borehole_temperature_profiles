@@ -1,0 +1,88 @@
+* Isua_10
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                      | Isua_10
+Place name                       | Isua
+Geographic location              | Central West Greenland
+Ice type                         | Ice sheet
+Data Source                      | Graphic in science source
+Data DOI                         | 
+Science Source                   | Colebeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. 
+Science DOI                      | 10.3189/S0022143000014714
+Date                             | 1973
+Longitude [°E]                   | -49.75
+Latitude [°N]                    | 65.2093
+Location Source                  | 10.5194/essd-2021-290
+Depth of top measurement [m]     | 5.0
+Depth of bottom measurement [m]  | 95
+Ice thickness [m]                | 97
+Coverage [% of thickness]        | 93
+Ice thickness source             | See data source
+Note                             | "Measuremnet date 1972 or 1973. From Colbeck (1979), ""Five holes (see Fig. 3) were drilled in 1972 and 1973 for the purpose of making temperature measurements and taking ice cores."""
+#+end_example
+
+** Temperature
+
++ Temperature profiles from [[citet:colbeck_1979][Colbeck (1979)]] Figure 5.
+
+[[./isua_10.png]]
+
+** Thickness
+
++ Thickness from [[citet:colbeck_1979][Colbeck (1979)]] Table 1.
+ 
+** Location
+
++ Locations of boreholes from email from WIC: [[mu4e:msgid:AM0PR04MB6129F131ECD9123E72752945A2CC0@AM0PR04MB6129.eurprd04.prod.outlook.com][Isua Site -- SW Greenland]]
+
+#+BEGIN_example
+From: William Colgan
+To: Ken Mankoff
+Subject: Isua Site -- SW Greenland
+Date: Wed 09 Dec 2020 06:58:05 AM PST
+Attachments: [1]image002.jpg(147.6K),
+ [2]Colbeck1979_fig3_rectif.tfw(122),
+ [3]Colbeck1979_fig3_rectif.tif(6.4M),
+ [4]Colbeck1979_fig3_rectif.tif.aux.xml(7.9K),
+ [5]Colbeck1979_fig3_rectif.tif.ovr(2.1M),
+ [6]Colbert1979_core_sites_10-14.cpg(9),
+ [7]Colbert1979_core_sites_10-14.dbf(766),
+ [8]Colbert1979_core_sites_10-14.prj(568),
+ [9]Colbert1979_core_sites_10-14.sbn(256),
+ [10]Colbert1979_core_sites_10-14.sbx(171),
+ [11]Colbert1979_core_sites_10-14.shp(325),
+ [12]Colbert1979_core_sites_10-14.shx(191)
+#+END_example
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k2
+#+END_SRC
+
+#+RESULTS: ingest_data
+|                   t |                  d |
+|  -3.788722333645066 |  5.278508598964146 |
+| -3.3971481072513705 | 15.234773567496578 |
+|  -3.289402842409286 |  25.22840118233412 |
+| -3.1107663575621674 |  35.29166807510151 |
+|  -2.918966875490603 |  45.04018890553973 |
+|   -2.94015795127191 | 54.958895611817844 |
+| -2.7033707131938396 |   64.9010762320049 |
+| -2.5310780535806163 |  74.83738837371477 |
+|  -2.320247095807371 |   84.9667734573257 |
+|  -2.328380806976823 |  94.69710200448449 |
+

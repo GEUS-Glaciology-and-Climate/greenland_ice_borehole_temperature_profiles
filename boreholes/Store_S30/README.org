@@ -1,0 +1,78 @@
+* Store_S30
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                      | Store_S30
+Place name                       | Store Glacier
+Geographic location              | Central West Greenland
+Ice type                         | Ice sheet
+Data Source                      | Doyle, S., B. Hubbard, P. Christoffersen, T. Young, C. Hofstede, M. Bougamont et al. (2018): SAFIRE borehole, AWS and GPS datasets. 
+Data DOI                         | 10.6084/m9.figshare.5745294.v1
+Science Source                   | Doyle, S.H., Hubbard, B., Christoffersen, P., Young, T. J., Hofstede, C., Bougamont, M., Box, J. E. & Hubbard, A. 2018. Physical conditions of fast glacier flow: 1. Measurements from boreholes drilled to the bed of Store Glacier, West Greenland, Journal of Geophysical Research: Earth Surface, DOI: 10.1002/2017JF004529.
+Science DOI                      | 10.1002/2017JF004529
+Date                             | 2014
+Longitude [°E]                   | -49.9167
+Latitude [°N]                    | 70.5167
+Location Source                  | Doyle, 2018
+Depth of top measurement [m]     | 102.0
+Depth of bottom measurement [m]  | 604
+Ice thickness [m]                | 600
+Coverage [% of thickness]        | 84
+Ice thickness source             | Doyle (2018)
+Note                             | 
+#+end_example
+
+
+** Temperature
+
+** Thickness
+
+From Doyle (2018), "Ice thickness at S30 was determined to be ∼600 m"
+
+** Location
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+BEGIN_SRC jupyter-python :exports none
+import pandas as pd
+
+url = 'https://figshare.com/ndownloader/files/10115730'
+df = pd.read_csv(url, skiprows=11, usecols=(1,2), index_col=0).rename(columns={'T_final':'t'})
+df.index.name = 'd'
+df.to_csv('data.csv', float_format='%.3f')
+#+END_SRC
+
+#+RESULTS:
+
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k1
+#+END_SRC
+
+#+RESULTS: ingest_data
+|       d |       t |
+| 101.735 |  -14.48 |
+| 201.595 | -17.949 |
+| 302.005 | -21.202 |
+| 401.865 | -18.805 |
+| 451.835 | -18.959 |
+| 501.935 | -14.123 |
+| 551.605 |  -5.913 |
+| 591.545 |  -1.154 |
+| 596.525 |  -0.778 |
+| 600.505 |  -0.704 |
+| 604.271 |  -0.629 |
+
+

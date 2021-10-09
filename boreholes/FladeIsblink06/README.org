@@ -1,0 +1,130 @@
+* FladeIsblink06
+:PROPERTIES:
+:header-args:jupyter-python+: :session ds :kernel ds
+:clearpage: t
+:END:
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                      | FladeIsblink06
+Place name                       | Flade Isblink Ice Cap
+Geographic location              | Northeast Greenland
+Ice type                         | Ice cap
+Data Source                      | Dalh-Jensen email
+Data DOI                         | 
+Science Source                   | Lemark, A. and D. Dahl-Jensen. 2010. A study of the Flade Isblink ice cap using a simple ice flow model. Master's thesis. Niels Bohr Institute, Copenhagen University.
+Science DOI                      | 
+Date                             | 2006
+Longitude [°E]                   | -15.7029
+Latitude [°N]                    | 81.2926
+Location Source                  | 10.5194/essd-2021-290
+Depth of top measurement [m]     | 80.0
+Depth of bottom measurement [m]  | 420
+Ice thickness [m]                | 540
+Coverage [% of thickness]        | 63
+Ice thickness source             | W. Colgan email
+Note                             | 
+#+end_example
+
+** Temperature
+
++ Provided by Dorthe Dahl-Jensen (personal comm.). See above.
++ Link to email: [[mu4e:msgid:AM0PR04MB61299127D5D5EF0A7269A855A2DF0@AM0PR04MB6129.eurprd04.prod.outlook.com][VS: Greenland geothermal?]]
++ It appears temperature was measured at some locations 2x, perhaps while lowering and raising a thermometer?
+
+#+begin_example
+From: William Colgan
+To: Ken Mankoff
+Subject: VS: Greenland geothermal?
+Date: Tue 22 Dec 2020 11:06:16 AM PST
+
+  1.  Total depth: 540 m (borehole on reached 425m).
+  2.  Temperature data below
+  3.  Location: 81.2926 N -15.7029 E
+
+Fra: Dorthe Dahl-Jensen
+Sendt: 22. december 2020 16:17
+Til: William Colgan; Bo Vinther
+Emne: Re: Greenland geothermal?
+
+Also for Flade Isblink (ref: Dahl-Jensen, personal com)
+
+80      -16.664
+90      -16.845
+100     -16.994
+110     -17.116
+120     -17.214
+130     -17.28
+140     -17.335
+150     -17.353
+160     -17.356
+420     -14.146
+410     -14.277
+400     -14.44
+380     -14.737
+360     -15.035
+340     -15.333
+320     -15.626
+300     -15.93
+280     -16.222
+260     -16.505
+240     -16.777
+220     -17.013
+200     -17.214
+180     -17.364
+160     -17.434
+140     -17.385
+120     -17.277
+#+end_example
+
+** Thickness
+
+From WIC email
+
+** Location
+
+From WIC email
+
+** Velocity
+
+** Data                                                 :noexport:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k1
+#+END_SRC
+
+#+RESULTS: ingest_data
+|   d |       t |
+|  80 | -16.664 |
+|  90 | -16.845 |
+| 100 | -16.994 |
+| 110 | -17.116 |
+| 120 | -17.214 |
+| 120 | -17.277 |
+| 130 |  -17.28 |
+| 140 | -17.335 |
+| 140 | -17.385 |
+| 150 | -17.353 |
+| 160 | -17.356 |
+| 160 | -17.434 |
+| 180 | -17.364 |
+| 200 | -17.214 |
+| 220 | -17.013 |
+| 240 | -16.777 |
+| 260 | -16.505 |
+| 280 | -16.222 |
+| 300 |  -15.93 |
+| 320 | -15.626 |
+| 340 | -15.333 |
+| 360 | -15.035 |
+| 380 | -14.737 |
+| 400 |  -14.44 |
+| 410 | -14.277 |
+| 420 | -14.146 |
+
