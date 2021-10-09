@@ -72,10 +72,6 @@ From email (above) stating that profile goes to bedrock.
 
 Provided in email. Note: "within 2 km of".
 
-** Velocity
-
-Unknown
-
 ** Data                                                 :noexport:
 
 #+NAME: ingest_data

@@ -64,8 +64,6 @@ Attachments: [1]image002.jpg(147.6K),
  [12]Colbert1979_core_sites_10-14.shx(191)
 #+END_example
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+NAME: ingest_data

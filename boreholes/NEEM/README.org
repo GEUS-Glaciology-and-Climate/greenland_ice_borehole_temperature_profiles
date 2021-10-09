@@ -63,8 +63,6 @@ effects or for the thermal disturbance caused by drilling.
 
 + From [[citet:dahl-jensen_2013][Dahl-Jensen (2013)]].
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+BEGIN_SRC python :results none

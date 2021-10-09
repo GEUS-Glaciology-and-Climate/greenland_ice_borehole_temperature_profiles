@@ -78,8 +78,6 @@ that, instead of “6800 ft”.
 
 Email from WIC (see above)
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+NAME: ingest_data

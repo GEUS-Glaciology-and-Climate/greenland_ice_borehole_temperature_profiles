@@ -37,8 +37,6 @@ Note                             | Location from Geothermal Database
 
 ** Location
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+BEGIN_SRC jupyter-python

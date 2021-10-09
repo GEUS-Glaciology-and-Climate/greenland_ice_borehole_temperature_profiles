@@ -1,8 +1,4 @@
 * Template
-:PROPERTIES:
-:header-args:jupyter-python+: :session ds :kernel ds
-:clearpage: t
-:END:
 
 #+NAME: ingest_meta
 #+BEGIN_SRC bash :results verbatim :exports results
@@ -14,28 +10,16 @@ cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 
 ** Temperature
 
-+ Notes on source
-+ Comments on data
-+ Links to [[citet:ref][Paper (YYY)] ] and Figure
-
-#+BEGIN_example
-Email?
-#+END_example
-
-[[./figure.png] ]
-
++ Any notes on source or data
++ Links to key papers
 
 ** Thickness
 
-+ Notes
++ Notes on thickness
  
 ** Location
 
-+ Notes
-
-** Velocity
-
-+ Notes
++ Notes on location
 
 ** Data                                                 :noexport:
 

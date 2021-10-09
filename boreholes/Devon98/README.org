@@ -75,8 +75,6 @@ maybe it agrees with the 72 and 73 boreholes.
 
 + Reported in email
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+NAME: ingest_data

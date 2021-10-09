@@ -55,11 +55,9 @@ for the effects of borehole fluid convection.
 
 ** Thickness
 
-+ From [[citet:cuffey_1992][Cuffey (1992)]] referring to Hodge et al., 1990. TODO: Update with BedMachine
++ See also [[citet:cuffey_1992][Cuffey (1992)]] referring to Hodge et al., 1990.
  
 ** Location
-
-** Velocity
 
 ** Data                                                 :noexport:
 

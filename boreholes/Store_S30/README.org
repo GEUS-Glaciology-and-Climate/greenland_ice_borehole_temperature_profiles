@@ -40,8 +40,6 @@ From Doyle (2018), "Ice thickness at S30 was determined to be ∼600 m"
 
 ** Location
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+BEGIN_SRC jupyter-python :exports none

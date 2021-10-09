@@ -41,22 +41,7 @@ Note                             | Location from Geothermal Database; Date: Data
 
 ** Thickness
 
-+ From [[citet:ryser_2014_caterpillar][Ryser (2014)]].
-
 ** Location
-
-+ From [[citet:ryser_2014_caterpillar][Ryser (2014)]].
-
-** Velocity
-
-+ From [[citet:ryser_2014_caterpillar][Ryser (2014)]].
-
-#+BEGIN_QUOTE
-Measured surface velocities of about 100 m a−1 are
-modulated by seasonal velocity variations; winter
-velocities of 70 to 80 m a−1 eventually double during
-speedup events in summer. 
-#+END_QUOTE
 
 ** Data                                                 :noexport:
 

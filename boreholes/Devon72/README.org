@@ -47,10 +47,6 @@ Can probably be extracted from [[Paterson (1978)]] Figure 1
 
 [[./paterson_1978_fig1.png]]
 
-** Velocity
-
-Unknown
-
 ** Data                                                 :noexport:
 
 #+NAME: ingest_data

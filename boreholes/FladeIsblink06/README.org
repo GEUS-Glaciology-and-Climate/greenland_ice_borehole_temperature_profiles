@@ -90,8 +90,6 @@ From WIC email
 
 From WIC email
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+NAME: ingest_data

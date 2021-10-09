@@ -57,8 +57,6 @@ Borehole  I     -50.0998925   69.7197675
 Borehole  II    -50.0916577,69.7175758
 #+END_QUOTE
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+NAME: ingest_data

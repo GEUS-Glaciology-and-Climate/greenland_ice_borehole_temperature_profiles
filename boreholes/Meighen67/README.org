@@ -42,8 +42,6 @@ Note                             | Location from Geothermal Database
  
 ** Location
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+BEGIN_SRC python :exports none

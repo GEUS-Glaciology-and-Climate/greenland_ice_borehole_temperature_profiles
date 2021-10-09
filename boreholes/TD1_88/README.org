@@ -66,8 +66,6 @@ I also added some data from profiles I found in EGIG publications.
 
 + From PDFs
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+NAME: ingest_data

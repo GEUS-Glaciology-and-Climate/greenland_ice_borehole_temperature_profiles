@@ -41,8 +41,6 @@ Note                             |
 
 ** Location
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+NAME: ingest_data

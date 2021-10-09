@@ -41,8 +41,6 @@ Note                             | Drill date: 10.34194/bullggu.v172.6749
  
 ** Location
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+NAME: ingest_data

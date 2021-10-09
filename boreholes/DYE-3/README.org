@@ -49,8 +49,6 @@ Reported in [[citet:gundestrup_1984][Gundestrup (1984)]] from graphic.
 
 Reported in [[citet:gundestrup_1984][Gundestrup (1984)]].
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+NAME: ingest_data

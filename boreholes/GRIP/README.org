@@ -57,8 +57,6 @@ quite prominent below 2100 m.
  
 ** Location
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+BEGIN_SRC python :results none

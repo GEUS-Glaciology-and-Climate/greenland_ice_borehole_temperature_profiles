@@ -47,10 +47,6 @@ Note                             |
 
 + Location comes from WIC digitizing some map and emailing me coordinates.
 
-** Velocity
-
-+ From WIC email
-
 ** Data                                                 :noexport:
 
 #+BEGIN_SRC python :exports none :results none

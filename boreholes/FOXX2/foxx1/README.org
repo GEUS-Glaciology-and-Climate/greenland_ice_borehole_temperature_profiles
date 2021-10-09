@@ -42,8 +42,6 @@ According to text and graphic (see black horizontal bar), temperature profile go
 
 ** Location
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+NAME: ingest_data

@@ -37,8 +37,6 @@ Note                             | See data in M1-10 folder; Harrington 2015 nam
 
 ** Location
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+NAME: ingest_data

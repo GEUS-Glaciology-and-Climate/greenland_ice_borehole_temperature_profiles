@@ -8,6 +8,17 @@
 #+EXCLUDE_TAGS: noexport
 #+ARCHIVE: ::* Archive
 
+* Table of contents                               :toc_2:noexport:
+- [[#introduction][Introduction]]
+- [[#database-format][Database format]]
+  - [[#inputs][Inputs]]
+  - [[#outputs][Outputs]]
+  - [[#metadata][Metadata]]
+- [[#how-to-contribute][How to contribute]]
+- [[#graphics][Graphics]]
+- [[#inprogress-uncertainty][INPROGRESS Uncertainty]]
+  - [[#example-agassiz][Example: Agassiz]]
+
 * Introduction
 
 This is a collection of all Greenland ice borehole temperature profiles we have been able to find. Secondary data, useful to use the temperature profile, is also included when available.
@@ -70,6 +81,10 @@ Velocity [m/yr]
 Note
 #+end_example
 
+
+* How to contribute
+
++ See [[./template/README.org]]
 
 * Graphics
 

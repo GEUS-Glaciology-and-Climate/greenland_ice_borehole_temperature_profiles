@@ -50,10 +50,6 @@ Note                             |
 
 + From [[citet:vinther_2008][Vinther (2008)]]
 
-** Velocity
-
-+ Likely small because drilling location near ice cap dome.
-
 ** Data                                                 :noexport:
 
 #+NAME: ingest_data

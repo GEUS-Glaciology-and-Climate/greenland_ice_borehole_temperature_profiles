@@ -60,8 +60,6 @@ cells are apparent in the log below 1750 m.
 
 ** Location
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+BEGIN_SRC python :results none

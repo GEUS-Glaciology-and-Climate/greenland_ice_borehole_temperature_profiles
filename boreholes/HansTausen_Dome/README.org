@@ -42,8 +42,6 @@ Note                             | Only two data points - 10 m and 345 m. Drill 
  
 ** Location
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+NAME: ingest_data

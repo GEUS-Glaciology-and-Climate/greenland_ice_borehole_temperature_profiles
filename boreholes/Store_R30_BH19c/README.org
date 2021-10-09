@@ -40,8 +40,6 @@ Note                             | See also: 10.5285/ecf81955-b829-4f91-ae90-b9b
  
 ** Location
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+BEGIN_SRC jupyter-python :exports none

@@ -83,8 +83,6 @@ to equilibrate with the ambient temperature.
 
 + Email from WIC: [[mu4e:msgid:AM0PR04MB61293648564AB69ACA6A02CBA2F30@AM0PR04MB6129.eurprd04.prod.outlook.com][VS: Prince of Wales - ice temperature?]]
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+NAME: ingest_data

@@ -42,8 +42,6 @@ Note                             |
 
 + Same as TD5_90. Unknown if same borehole.
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+NAME: ingest_data

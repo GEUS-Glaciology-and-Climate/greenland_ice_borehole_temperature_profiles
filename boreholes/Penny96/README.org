@@ -73,8 +73,6 @@ of Ottawa, Ottawa, Canada, K1N 6N5.
 
 + From WIC email
 
-** Velocity
-
 ** Data                                                 :noexport:
 
 #+NAME: ingest_data
