@@ -19,6 +19,7 @@ _DUMMY := $(shell for b in $(ls boreholes); do touch $b/*/meta.bsv; done)
 all: FORCE $(DUMMY)
 	make data/temperature.csv
 	make data/boreholes.kml
+	make figs
 
 data/temperature.csv: boreholes/*
 	@echo Building temperature.csv
@@ -37,6 +38,12 @@ data/meta.csv:
 data/boreholes.kml: data/meta.csv
 	@echo Building KML of borehole locations
 	python ./src/borehole_kml.py
+
+figs: fig/temperature.png fig/temperature_dnorm.png
+
+fig/temperature.png fig/temperature_dnorm.png: data/temperature.csv data/temperature_dnorm.csv
+	@echo Generating figures
+	python ./src/figs.py
 
 clean:
 	@echo [clean]

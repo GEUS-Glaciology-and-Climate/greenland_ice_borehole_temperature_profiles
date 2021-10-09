@@ -22,11 +22,11 @@ for c in df.columns:
     if np.size(df[c].dropna()) != 0:
         ax.text(df[c].dropna().values[-1],
                 -df[c].dropna().index[-1],
-                c[0])
+                c)
 
 ax.set_xlabel('T [°C]')
 ax.set_ylabel('Depth below surface [m]')
-plt.savefig('./data/temperature.png', transparent=False, bbox_inches='tight', dpi=300)
+plt.savefig('./fig/temperature.png', transparent=False, bbox_inches='tight', dpi=300)
 
 
 
@@ -41,9 +41,9 @@ for c in df.columns:
     if np.size(df[c].dropna()) != 0:
         ax.text(df[c].dropna().values[0],
                 df[c].dropna().index[0],
-                c[0])
+                c)
 
 ax.set_xlabel('T [°C]')
 ax.set_ylabel('Normalized depth below surface [-]')
 ax.set_ylim([1,0])
-plt.savefig('./data/temperature_dnorm.png', transparent=False, bbox_inches='tight', dpi=300)
+plt.savefig('./fig/temperature_dnorm.png', transparent=False, bbox_inches='tight', dpi=300)
