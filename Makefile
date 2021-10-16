@@ -11,12 +11,11 @@ org-babel = emacsclient --eval "(progn			\
 	(org-babel-execute-src-block)			\
 	(save-buffer))"
 
-# Usage: $(call org-babel,README.org,csv2bs)
+# Usage: $(call org-babel,<file.org>,<named_babel_block>)
 
 BOREHOLES := boreholes/*
-_DUMMY := $(shell for b in $(ls boreholes); do touch $b/*/meta.bsv; done)
 
-all: FORCE $(DUMMY)
+all: FORCE
 	make data/temperature.csv
 	make data/boreholes.kml
 	make figs
