@@ -722,40 +722,40 @@
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
-                    <value>Graphic in science source</value>
+                    <value>Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... &amp; Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.</value>
                 </Data>
                 <Data name="Data DOI">
-                    <value>nan</value>
+                    <value>10.3189/2014JoG13J196</value>
                 </Data>
                 <Data name="Science Source">
-                    <value>Lüthi, M., C. Ryser, L. Andrews et al. 2015. Heat sources within the Greenland Ice Sheet: dissipation, temperate paleo-firn and cryo-hydrologic warming. The Cryosphere. 9: 245-253. </value>
+                    <value>Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... &amp; Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.</value>
                 </Data>
                 <Data name="Science DOI">
-                    <value>10.5194/tc-9-245-2015</value>
+                    <value>10.3189/2014JoG13J196</value>
                 </Data>
                 <Data name="Date">
                     <value>2012</value>
                 </Data>
                 <Data name="Longitude [°E]">
-                    <value>-49.8803</value>
+                    <value>-49.8851</value>
                 </Data>
                 <Data name="Latitude [°N]">
-                    <value>69.4464</value>
+                    <value>69.4459</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>10.5194/essd-2021-290</value>
+                    <value>10.3189/2014JoG13J196</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>411.0</value>
                 </Data>
                 <Data name="Depth of bottom measurement [m]">
-                    <value>611</value>
+                    <value>606</value>
                 </Data>
                 <Data name="Ice thickness [m]">
                     <value>624</value>
                 </Data>
                 <Data name="Coverage [% of thickness]">
-                    <value>32</value>
+                    <value>31</value>
                 </Data>
                 <Data name="Ice thickness source">
                     <value>Ryser, 2014 (Table 2)</value>
@@ -765,7 +765,7 @@
                 </Data>
             </ExtendedData>
             <Point id="242">
-                <coordinates>-49.8803,69.4464,0.0</coordinates>
+                <coordinates>-49.8851,69.4459,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="263">
@@ -781,50 +781,50 @@
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
-                    <value>Graphic in science source</value>
+                    <value>Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... &amp; Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.</value>
                 </Data>
                 <Data name="Data DOI">
-                    <value>nan</value>
+                    <value>10.3189/2014JoG13J196</value>
                 </Data>
                 <Data name="Science Source">
-                    <value>Lüthi, M., C. Ryser, L. Andrews et al. 2015. Heat sources within the Greenland Ice Sheet: dissipation, temperate paleo-firn and cryo-hydrologic warming. The Cryosphere. 9: 245-253. </value>
+                    <value>Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... &amp; Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.</value>
                 </Data>
                 <Data name="Science DOI">
-                    <value>10.5194/tc-9-245-2015</value>
+                    <value>10.3189/2014JoG13J196</value>
                 </Data>
                 <Data name="Date">
                     <value>2012</value>
                 </Data>
                 <Data name="Longitude [°E]">
-                    <value>-49.8803</value>
+                    <value>-49.8851</value>
                 </Data>
                 <Data name="Latitude [°N]">
-                    <value>69.4464</value>
+                    <value>69.4459</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>10.5194/essd-2021-290</value>
+                    <value>10.3189/2014JoG13J196</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
-                    <value>9.0</value>
+                    <value>262.0</value>
                 </Data>
                 <Data name="Depth of bottom measurement [m]">
-                    <value>286</value>
+                    <value>612</value>
                 </Data>
                 <Data name="Ice thickness [m]">
-                    <value>631</value>
+                    <value>614</value>
                 </Data>
                 <Data name="Coverage [% of thickness]">
-                    <value>44</value>
+                    <value>57</value>
                 </Data>
                 <Data name="Ice thickness source">
-                    <value>M. Lüthi email</value>
+                    <value>Ryser, 2014 (Table 2)</value>
                 </Data>
                 <Data name="Note">
                     <value>Date: Data was collected in 2011 and 2012 and the data extracted from the cooling curves</value>
                 </Data>
             </ExtendedData>
             <Point id="262">
-                <coordinates>-49.8803,69.4464,0.0</coordinates>
+                <coordinates>-49.8851,69.4459,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="283">
@@ -958,50 +958,50 @@
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
-                    <value>Graphic in science source</value>
+                    <value>Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... &amp; Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.</value>
                 </Data>
                 <Data name="Data DOI">
-                    <value>nan</value>
+                    <value>10.3189/2014JoG13J196</value>
                 </Data>
                 <Data name="Science Source">
-                    <value>Lüthi, M., C. Ryser, L. Andrews et al. 2015. Heat sources within the Greenland Ice Sheet: dissipation, temperate paleo-firn and cryo-hydrologic warming. The Cryosphere. 9: 245-253. </value>
+                    <value>Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... &amp; Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.</value>
                 </Data>
                 <Data name="Science DOI">
-                    <value>10.5194/tc-9-245-2015</value>
+                    <value>10.3189/2014JoG13J196</value>
                 </Data>
                 <Data name="Date">
                     <value>2012</value>
                 </Data>
                 <Data name="Longitude [°E]">
-                    <value>-49.7142</value>
+                    <value>-49.7182</value>
                 </Data>
                 <Data name="Latitude [°N]">
-                    <value>69.4526</value>
+                    <value>69.4524</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>10.5194/essd-2021-290</value>
+                    <value>10.3189/2014JoG13J196</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>4.0</value>
                 </Data>
                 <Data name="Depth of bottom measurement [m]">
-                    <value>704</value>
+                    <value>705</value>
                 </Data>
                 <Data name="Ice thickness [m]">
-                    <value>703</value>
+                    <value>705</value>
                 </Data>
                 <Data name="Coverage [% of thickness]">
-                    <value>100</value>
+                    <value>99</value>
                 </Data>
                 <Data name="Ice thickness source">
-                    <value>See data source</value>
+                    <value>Ryser, 2014 (Table 3). 705/707 for thickness</value>
                 </Data>
                 <Data name="Note">
-                    <value>Location from Geothermal Database; Date: Data was collected in 2011 and 2012 and the data extracted from the cooling curves</value>
+                    <value>Only using 'string1' near bottom. Date: Data was collected in 2011 and 2012 and the data extracted from the cooling curves</value>
                 </Data>
             </ExtendedData>
             <Point id="322">
-                <coordinates>-49.7142,69.4526,0.0</coordinates>
+                <coordinates>-49.7182,69.4524,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="343">
@@ -1082,10 +1082,10 @@
                     <value>nan</value>
                 </Data>
                 <Data name="Science Source">
-                    <value>Zekollari, Harry, Huybrechts, Philippe, Noël, Brice, van de Berg, Willem Jan, van den Broeke, Michiel R.: Sensitivity, stability and future evolution of the world’s northernmost ice cap, Hans Tausen Iskappe (Greenland) , The Cryosphere 11(2), Copernicus GmbH, 805–825, 3 2017 </value>
+                    <value>Thomsen, H., Reeh, N., Olesen, O., &amp; Jonsson, P. (1996). Glacier and climate research on Hans Tausen Iskappe, North Greenland – 1995 glacier basin activities and preliminary results. Bulletin Grønlands Geologiske Undersøgelse, 172, 78–84. https://doi.org/10.34194/bullggu.v172.6749</value>
                 </Data>
                 <Data name="Science DOI">
-                    <value>10.5194/tc-11-805-2017</value>
+                    <value>10.34194/bullggu.v172.6749</value>
                 </Data>
                 <Data name="Date">
                     <value>1995</value>
@@ -2802,13 +2802,13 @@
                     <value>1995</value>
                 </Data>
                 <Data name="Longitude [°E]">
-                    <value>-48.6871</value>
+                    <value>-48.6869</value>
                 </Data>
                 <Data name="Latitude [°N]">
                     <value>69.235</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>10.5194/essd-2021-290</value>
+                    <value>10.3189/172756502781831322</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>344.0</value>
@@ -2826,11 +2826,11 @@
                     <value>See science reference</value>
                 </Data>
                 <Data name="Note">
-                    <value>Location from Geothermal Database</value>
+                    <value>nan</value>
                 </Data>
             </ExtendedData>
             <Point id="942">
-                <coordinates>-48.6871,69.235,0.0</coordinates>
+                <coordinates>-48.6869,69.235,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="963">
@@ -2861,13 +2861,13 @@
                     <value>1995</value>
                 </Data>
                 <Data name="Longitude [°E]">
-                    <value>-48.6871</value>
+                    <value>-48.6869</value>
                 </Data>
                 <Data name="Latitude [°N]">
                     <value>69.235</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>10.5194/essd-2021-290</value>
+                    <value>10.3189/172756502781831322</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>258.0</value>
@@ -2885,11 +2885,11 @@
                     <value>See science reference</value>
                 </Data>
                 <Data name="Note">
-                    <value>Location from Geothermal Database</value>
+                    <value>nan</value>
                 </Data>
             </ExtendedData>
             <Point id="962">
-                <coordinates>-48.6871,69.235,0.0</coordinates>
+                <coordinates>-48.6869,69.235,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="983">
@@ -2920,13 +2920,13 @@
                     <value>1995</value>
                 </Data>
                 <Data name="Longitude [°E]">
-                    <value>-48.6871</value>
+                    <value>-48.6869</value>
                 </Data>
                 <Data name="Latitude [°N]">
                     <value>69.235</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>10.5194/essd-2021-290</value>
+                    <value>10.3189/172756502781831322</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>20.0</value>
@@ -2944,11 +2944,11 @@
                     <value>See science reference</value>
                 </Data>
                 <Data name="Note">
-                    <value>Location from Geothermal Database</value>
+                    <value>nan</value>
                 </Data>
             </ExtendedData>
             <Point id="982">
-                <coordinates>-48.6871,69.235,0.0</coordinates>
+                <coordinates>-48.6869,69.235,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="1003">
@@ -2979,13 +2979,13 @@
                     <value>1995</value>
                 </Data>
                 <Data name="Longitude [°E]">
-                    <value>-48.6871</value>
+                    <value>-48.6869</value>
                 </Data>
                 <Data name="Latitude [°N]">
                     <value>69.235</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>10.5194/essd-2021-290</value>
+                    <value>10.3189/172756502781831322</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>450.0</value>
@@ -3003,11 +3003,11 @@
                     <value>See science reference</value>
                 </Data>
                 <Data name="Note">
-                    <value>Location from Geothermal Database</value>
+                    <value>nan</value>
                 </Data>
             </ExtendedData>
             <Point id="1002">
-                <coordinates>-48.6871,69.235,0.0</coordinates>
+                <coordinates>-48.6869,69.235,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="1023">
@@ -3038,13 +3038,13 @@
                     <value>1995</value>
                 </Data>
                 <Data name="Longitude [°E]">
-                    <value>-48.6871</value>
+                    <value>-48.6869</value>
                 </Data>
                 <Data name="Latitude [°N]">
                     <value>69.235</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>10.5194/essd-2021-290</value>
+                    <value>10.3189/172756502781831322</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>650.0</value>
@@ -3062,11 +3062,11 @@
                     <value>See science reference</value>
                 </Data>
                 <Data name="Note">
-                    <value>Location from Geothermal Database</value>
+                    <value>nan</value>
                 </Data>
             </ExtendedData>
             <Point id="1022">
-                <coordinates>-48.6871,69.235,0.0</coordinates>
+                <coordinates>-48.6869,69.235,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="1043">
@@ -3542,7 +3542,7 @@
             </Point>
         </Placemark>
         <Placemark id="1203">
-            <name>Store_R29_BH18c</name>
+            <name>Store_R29</name>
             <ExtendedData>
                 <Data name="Place name">
                     <value>Store Glacier</value>
@@ -3557,7 +3557,7 @@
                     <value>Hubbard, Bryn; Christoffersen, Poul; Doyle, Samuel; Chudley, Thomas; Schoonman, Charlotte; Law, Robert; et al. (2020): Supporting data for 'Borehole-based characterization of deep crevasses at a Greenlandic outlet glacier' published in AGU Advances. figshare. Dataset. https://doi.org/10.6084/m9.figshare.13400072.v1</value>
                 </Data>
                 <Data name="Data DOI">
-                    <value>10.6084/m9.figshare.13400072.v1</value>
+                    <value>10.6084/m9.figshare.13400072.v2</value>
                 </Data>
                 <Data name="Science Source">
                     <value>Hubbard, B., Christoffersen, P., Doyle, S. H., Chudley, T. R., Bougamont, M. H., Law, R., &amp; Schoonman, C. (2020). Borehole-based characterization of deep crevasses at a Greenlandic outlet glacier.</value>
@@ -3578,7 +3578,7 @@
                     <value>S. Doyle email</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
-                    <value>25.0</value>
+                    <value>27.0</value>
                 </Data>
                 <Data name="Depth of bottom measurement [m]">
                     <value>949</value>
@@ -3593,7 +3593,7 @@
                     <value>See science reference</value>
                 </Data>
                 <Data name="Note">
-                    <value>Note: Borehole 18c temperatures were actually measured in immediately adjacent Boreholes 18b and 18d.</value>
+                    <value>Note: Temperature measured in immediately adjacent Boreholes 18b and 18d.</value>
                 </Data>
             </ExtendedData>
             <Point id="1202">
@@ -3711,7 +3711,7 @@
                     <value>Doyle (2018)</value>
                 </Data>
                 <Data name="Note">
-                    <value>WARNING: Data is final recorded temperature rather than estimated undisturbed ice temperature</value>
+                    <value>nan</value>
                 </Data>
             </ExtendedData>
             <Point id="1242">

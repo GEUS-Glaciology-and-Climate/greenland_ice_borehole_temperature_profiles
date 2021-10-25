@@ -4,8 +4,8 @@ Geographic location|North Greenland
 Ice type|Ice cap
 Data Source|Zekollari email
 Data DOI|
-Science Source|Zekollari, Harry, Huybrechts, Philippe, Noël, Brice, van de Berg, Willem Jan, van den Broeke, Michiel R.: Sensitivity, stability and future evolution of the world’s northernmost ice cap, Hans Tausen Iskappe (Greenland) , The Cryosphere 11(2), Copernicus GmbH, 805–825, 3 2017 
-Science DOI|10.5194/tc-11-805-2017
+Science Source|Thomsen, H., Reeh, N., Olesen, O., & Jonsson, P. (1996). Glacier and climate research on Hans Tausen Iskappe, North Greenland – 1995 glacier basin activities and preliminary results. Bulletin Grønlands Geologiske Undersøgelse, 172, 78–84. https://doi.org/10.34194/bullggu.v172.6749
+Science DOI|10.34194/bullggu.v172.6749
 Date|1995
 Longitude [°E]|-36.67
 Latitude [°N]|82.84
