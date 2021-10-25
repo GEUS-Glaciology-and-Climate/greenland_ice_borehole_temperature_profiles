@@ -9,6 +9,8 @@ df = pd.read_csv(url)\
        .replace('\#DIV/0!', np.nan)\
        .replace('\#VALUE!', np.nan)
 
+df['Ice thickness [m]'] = df['Ice thickness [m]'].astype(int)
+
 # df['Velocity [m/yr]'] = df['Velocity [m/yr]'].round(1)
 
 df.to_csv('./data/meta.csv')

@@ -28,7 +28,7 @@ Depth of bottom measurement [m]  | 1044
 Ice thickness [m]                | 1044
 Coverage [% of thickness]        | 100
 Ice thickness source             | Law (2021)
-Note                             | See also: 10.5285/ecf81955-b829-4f91-ae90-b9bc947f8c60
+Note                             | See also: 10.5285/ecf81955-b829-4f91-ae90-b9bc947f8c60 (Note, both fibre optic DTS and thermistor data are presented in Law et al. (2021))
 #+end_example
 
 

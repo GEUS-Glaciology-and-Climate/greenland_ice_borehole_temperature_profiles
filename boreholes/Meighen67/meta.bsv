@@ -12,7 +12,7 @@ Latitude [°N]|79.9
 Location Source|See data source
 Depth of top measurement [m]|1.0
 Depth of bottom measurement [m]|121
-Ice thickness [m]|121.2
+Ice thickness [m]|121
 Coverage [% of thickness]|99
 Ice thickness source|See data source
 Note|Location from Geothermal Database

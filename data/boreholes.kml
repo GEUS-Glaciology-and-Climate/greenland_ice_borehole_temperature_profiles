@@ -846,7 +846,7 @@
                     <value>nan</value>
                 </Data>
                 <Data name="Science Source">
-                    <value>MacGregor, J., J. Li, J. Paden et al. 2015. Radar attenuation and temperature within the Greenland Ice Sheet. Journal of Geophysical Research. 120: 983-1008. </value>
+                    <value>Cuffey, K. M., Clow, G. D., Alley, R. B., Stuiver, M., Waddington, E. D., &amp; Saltus, R. W. (1995). Large arctic temperature change at the Wisconsin-Holocene glacial transition. Science, 270(5235), 455-458.</value>
                 </Data>
                 <Data name="Science DOI">
                     <value>10.1002/2014JF003418</value>
@@ -879,7 +879,7 @@
                     <value>https://en.wikipedia.org/wiki/List_of_ice_cores#Greenland</value>
                 </Data>
                 <Data name="Note">
-                    <value>Ice thickness from data does not match ice thickness from Vinther (2008); Location approximate</value>
+                    <value>Ice thickness from data does not match ice thickness from Vinther (2008); Location approximate; See also Table 1 of MacGregor, J., J. Li, J. Paden et al. 2015. Radar attenuation and temperature within the Greenland Ice Sheet. Journal of Geophysical Research. 120: 983-1008. </value>
                 </Data>
             </ExtendedData>
             <Point id="282">
@@ -905,7 +905,7 @@
                     <value>nan</value>
                 </Data>
                 <Data name="Science Source">
-                    <value>MacGregor, J., J. Li, J. Paden et al. 2015. Radar attenuation and temperature within the Greenland Ice Sheet. Journal of Geophysical Research. 120: 983-1008. </value>
+                    <value>Dahl-Jensen, D., Mosegaard, K., Gundestrup, N., Clow, G. D., Johnsen, S. J., Hansen, A. W., &amp; Balling, N. (1998). Past temperatures directly from the Greenland ice sheet. Science, 282(5387), 268-271.</value>
                 </Data>
                 <Data name="Science DOI">
                     <value>10.1002/2014JF003418</value>
@@ -938,7 +938,7 @@
                     <value>G. Clow email</value>
                 </Data>
                 <Data name="Note">
-                    <value>nan</value>
+                    <value>See also Table 1 of MacGregor, J., J. Li, J. Paden et al. 2015. Radar attenuation and temperature within the Greenland Ice Sheet. Journal of Geophysical Research. 120: 983-1008. </value>
                 </Data>
             </ExtendedData>
             <Point id="302">
@@ -1460,10 +1460,10 @@
                     <value>559</value>
                 </Data>
                 <Data name="Ice thickness [m]">
-                    <value>704 MEIERBACHTOL?</value>
+                    <value>704</value>
                 </Data>
                 <Data name="Coverage [% of thickness]">
-                    <value>#VALUE!</value>
+                    <value>79</value>
                 </Data>
                 <Data name="Ice thickness source">
                     <value>BedMachine v4</value>
@@ -3112,7 +3112,7 @@
                     <value>121</value>
                 </Data>
                 <Data name="Ice thickness [m]">
-                    <value>121.2</value>
+                    <value>121</value>
                 </Data>
                 <Data name="Coverage [% of thickness]">
                     <value>99</value>
@@ -3542,6 +3542,65 @@
             </Point>
         </Placemark>
         <Placemark id="1203">
+            <name>Store_R29_BH18c</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Store Glacier</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Ice type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Hubbard, Bryn; Christoffersen, Poul; Doyle, Samuel; Chudley, Thomas; Schoonman, Charlotte; Law, Robert; et al. (2020): Supporting data for 'Borehole-based characterization of deep crevasses at a Greenlandic outlet glacier' published in AGU Advances. figshare. Dataset. https://doi.org/10.6084/m9.figshare.13400072.v1</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>10.6084/m9.figshare.13400072.v1</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Hubbard, B., Christoffersen, P., Doyle, S. H., Chudley, T. R., Bougamont, M. H., Law, R., &amp; Schoonman, C. (2020). Borehole-based characterization of deep crevasses at a Greenlandic outlet glacier.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.1029/2020AV000291</value>
+                </Data>
+                <Data name="Date">
+                    <value>2018-08</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-50.05894</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>70.56359</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>S. Doyle email</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>25.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>949</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>949</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>97</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>See science reference</value>
+                </Data>
+                <Data name="Note">
+                    <value>Note: Borehole 18c temperatures were actually measured in immediately adjacent Boreholes 18b and 18d.</value>
+                </Data>
+            </ExtendedData>
+            <Point id="1202">
+                <coordinates>-50.05894,70.56359,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1223">
             <name>Store_R30_BH19c</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3593,14 +3652,14 @@
                     <value>Law (2021)</value>
                 </Data>
                 <Data name="Note">
-                    <value>See also: 10.5285/ecf81955-b829-4f91-ae90-b9bc947f8c60</value>
+                    <value>See also: 10.5285/ecf81955-b829-4f91-ae90-b9bc947f8c60 (Note, both fibre optic DTS and thermistor data are presented in Law et al. (2021))</value>
                 </Data>
             </ExtendedData>
-            <Point id="1202">
+            <Point id="1222">
                 <coordinates>-50.09,70.57,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1223">
+        <Placemark id="1243">
             <name>Store_S30</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3643,23 +3702,23 @@
                     <value>604</value>
                 </Data>
                 <Data name="Ice thickness [m]">
-                    <value>600</value>
+                    <value>606</value>
                 </Data>
                 <Data name="Coverage [% of thickness]">
-                    <value>84</value>
+                    <value>83</value>
                 </Data>
                 <Data name="Ice thickness source">
                     <value>Doyle (2018)</value>
                 </Data>
                 <Data name="Note">
-                    <value>nan</value>
+                    <value>WARNING: Data is final recorded temperature rather than estimated undisturbed ice temperature</value>
                 </Data>
             </ExtendedData>
-            <Point id="1222">
+            <Point id="1242">
                 <coordinates>-49.9167,70.5167,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1243">
+        <Placemark id="1263">
             <name>TD1_88</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3714,11 +3773,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1242">
+            <Point id="1262">
                 <coordinates>-50.13,69.45,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1263">
+        <Placemark id="1283">
             <name>TD2_88</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3773,11 +3832,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1262">
+            <Point id="1282">
                 <coordinates>-50.1,69.45,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1283">
+        <Placemark id="1303">
             <name>TD3_88</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3832,11 +3891,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1282">
+            <Point id="1302">
                 <coordinates>-50.0,69.48,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1303">
+        <Placemark id="1323">
             <name>TD4_91a</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3891,11 +3950,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1302">
+            <Point id="1322">
                 <coordinates>-49.68,69.53,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1323">
+        <Placemark id="1343">
             <name>TD4_91b</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3950,11 +4009,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1322">
+            <Point id="1342">
                 <coordinates>-49.68,69.53,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1343">
+        <Placemark id="1363">
             <name>TD5_90</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4009,11 +4068,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1342">
+            <Point id="1362">
                 <coordinates>-49.3,69.57,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1363">
+        <Placemark id="1383">
             <name>TD5_91</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4068,11 +4127,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1362">
+            <Point id="1382">
                 <coordinates>-49.3,69.57,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1383">
+        <Placemark id="1403">
             <name>Tuto_D-11</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4127,7 +4186,7 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1382">
+            <Point id="1402">
                 <coordinates>-68.2873,76.4113,0.0</coordinates>
             </Point>
         </Placemark>

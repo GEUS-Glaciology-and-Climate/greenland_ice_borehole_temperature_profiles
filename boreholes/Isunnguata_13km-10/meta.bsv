@@ -12,7 +12,7 @@ Latitude [°N]|67.19158
 Location Source|T. Meierbachtol email
 Depth of top measurement [m]|4.0
 Depth of bottom measurement [m]|559
-Ice thickness [m]|704 MEIERBACHTOL?
-Coverage [% of thickness]|#VALUE!
+Ice thickness [m]|704
+Coverage [% of thickness]|79
 Ice thickness source|BedMachine v4
 Note|See data in M1-10 folder; Harrington 2015 name: S2

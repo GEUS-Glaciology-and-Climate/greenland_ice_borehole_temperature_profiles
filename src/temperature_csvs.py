@@ -14,7 +14,8 @@ thick = {}
 
 for b in boreholes:
   if b == 'Jakobshavn89C': continue
-  
+
+  print("Borehole: ", b)
   m = pd.read_csv('./boreholes/' + b + '/meta.bsv', sep="|", index_col=0).squeeze()
 
   # save thickness at each borehole to 1) set to -999 or 2) compute normalized depth
