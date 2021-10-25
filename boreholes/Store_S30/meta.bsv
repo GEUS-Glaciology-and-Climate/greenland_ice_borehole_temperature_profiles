@@ -15,4 +15,4 @@ Depth of bottom measurement [m]|604
 Ice thickness [m]|606
 Coverage [% of thickness]|83
 Ice thickness source|Doyle (2018)
-Note|WARNING: Data is final recorded temperature rather than estimated undisturbed ice temperature
+Note|

@@ -28,7 +28,7 @@ Depth of bottom measurement [m]  | 604
 Ice thickness [m]                | 606
 Coverage [% of thickness]        | 83
 Ice thickness source             | Doyle (2018)
-Note                             | WARNING: Data is final recorded temperature rather than estimated undisturbed ice temperature
+Note                             | 
 #+end_example
 
 
@@ -46,7 +46,7 @@ From Doyle (2018), "Ice thickness at S30 was determined to be ∼600 m"
 import pandas as pd
 
 url = 'https://figshare.com/ndownloader/files/10115730'
-df = pd.read_csv(url, skiprows=11, usecols=(1,2), index_col=0).rename(columns={'T_final':'t'})
+df = pd.read_csv(url, skiprows=11, usecols=(1,3), index_col=0).rename(columns={'T_0':'t'})
 df.index.name = 'd'
 df.to_csv('data.csv', float_format='%.3f')
 #+END_SRC
@@ -61,16 +61,16 @@ cat data.csv | sort -t, -n -k1
 
 #+RESULTS: ingest_data
 |       d |       t |
-| 101.735 |  -14.48 |
-| 201.595 | -17.949 |
-| 302.005 | -21.202 |
-| 401.865 | -18.805 |
-| 451.835 | -18.959 |
-| 501.935 | -14.123 |
-| 551.605 |  -5.913 |
-| 591.545 |  -1.154 |
-| 596.525 |  -0.778 |
-| 600.505 |  -0.704 |
-| 604.271 |  -0.629 |
+| 101.735 |  -14.64 |
+| 201.595 | -18.033 |
+| 302.005 | -21.251 |
+| 401.865 | -18.872 |
+| 451.835 | -19.017 |
+| 501.935 | -14.165 |
+| 551.605 |  -5.978 |
+| 591.545 |  -1.199 |
+| 596.525 |  -0.857 |
+| 600.505 |  -0.757 |
+| 604.271 |  -0.635 |
 
 
