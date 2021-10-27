@@ -13,8 +13,6 @@ boreholes = [_.split('/')[2] for _ in glob.glob('./boreholes/*')]
 thick = {}
 
 for b in boreholes:
-  if b == 'Jakobshavn89C': continue
-
   print("Borehole: ", b)
   m = pd.read_csv('./boreholes/' + b + '/meta.bsv', sep="|", index_col=0).squeeze()
 

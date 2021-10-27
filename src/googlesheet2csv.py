@@ -5,7 +5,8 @@ url =  "https://docs.google.com/spreadsheets/d/1QNqnjO7Gocl29Y7X693rCRRZI4dTSq0i
 
 df = pd.read_csv(url)\
        .set_index('Borehole ID')\
-       .drop(columns=['Needs?','High Strain','SMB Regime','Basal State'])\
+       .drop(['Needs?','High Strain','SMB Regime','Basal State'], axis='columns')\
+       .drop(['Jakobshavn89C'], axis='index')\
        .replace('\#DIV/0!', np.nan)\
        .replace('\#VALUE!', np.nan)
 
