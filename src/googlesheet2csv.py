@@ -8,7 +8,8 @@ df = pd.read_csv(url)\
        .drop(['Needs?','High Strain','SMB Regime','Basal State'], axis='columns')\
        .drop(['Jakobshavn89C'], axis='index')\
        .replace('\#DIV/0!', np.nan)\
-       .replace('\#VALUE!', np.nan)
+       .replace('\#VALUE!', np.nan)\
+       .sort_index()
 
 df['Ice thickness [m]'] = df['Ice thickness [m]'].astype(int)
 

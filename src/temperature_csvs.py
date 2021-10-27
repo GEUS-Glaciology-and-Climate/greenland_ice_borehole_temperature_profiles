@@ -9,6 +9,7 @@ df = pd.DataFrame(index=index)
 df.index.name = 'd'
 
 boreholes = [_.split('/')[2] for _ in glob.glob('./boreholes/*')]
+boreholes = sorted(boreholes)
 
 thick = {}
 
