@@ -16,8 +16,6 @@
   - [[#metadata][Metadata]]
 - [[#how-to-contribute][How to contribute]]
 - [[#graphics][Graphics]]
-- [[#inprogress-uncertainty][INPROGRESS Uncertainty]]
-  - [[#example-agassiz][Example: Agassiz]]
 
 * Introduction
 
@@ -84,7 +82,7 @@ Note
 
 * How to contribute
 
-+ See [[./template/README.org]]
++ If you have an ice temperature profile, open an [[https://github.com/GEUS-Glaciology-and-Climate/greenland_ice_borehole_temperature_profiles/issues][issue]] and let us know.
 
 * Graphics
 
@@ -93,80 +91,4 @@ Note
 
 #+CAPTION: Temperature profiles on a normalized depth scale
 [[./fig/temperature_dnorm.png]]
-
-* INPROGRESS Uncertainty
-
-NOTE: Work in progress
-
-+ Each graphic-digitization will have its own uncertainty, as a function of the x and y axis to pixel ratio.
-
-+ Can estimate vertical uncertainty from graphics where points are supposed to be on 10 m marks (see removed duplicate EGIG profiles)
-
-+ Can estimate T uncertainty by line width, multiple people digitizing same graphic, same person digitizing graphic multiple times, or digitizing graphics when the 'raw' data is also provided.
-
-** Example: Agassiz
-
-The Agassiz boreholes were provided as data. By digitizing graphics from papers (e.g. [[citet:clarke_1987_wind][Clarke (1987))]], we can find a measure of the digitization error.
-
-#+BEGIN_SRC jupyter-python :kernel ds :session borehole
-import pandas as pd
-
-from matplotlib import rc
-rc('font', size=12)
-rc('text', usetex=False)
-fig = plt.figure(1, figsize=(5,8)) # w,h
-fig.clf()
-fig.set_tight_layout(True)
-ax = fig.add_subplot(111)
-
-
-
-d77 = pd.read_csv('./agassiz77/data.csv').set_index('d') # data
-g77 = pd.read_csv('./agassiz77/clarke_1987_fig2.csv', usecols=(0,1), skiprows=2, header=None, names=['t','d']).set_index('d') # graphic
-m = d77.merge(g77, left_index=True, right_index=True, how='outer', suffixes=['_d','_g']) # merged
-m = m.interpolate(limit_area='inside', method='index')
-
-ax.plot(m['t_d'], m.index, label='data', color='k')
-ax.plot(m['t_g'], m.index, label='graphic', color='k', linestyle='--')
-ax.set_ylim(ax.get_ylim()[::-1])
-ax.legend(loc=3)
-
-ax2 = ax.twiny()
-ax2.plot(m['t_d'] - m['t_g'], m.index, color='k')
-# ax2.legend()
-
-
-
-d79a = pd.read_csv('./agassiz79a/data.csv').set_index('d') # data
-g79 = pd.read_csv('./agassiz77/clarke_1987_fig2.csv', usecols=(2,3), skiprows=2, header=None, names=['t','d']).set_index('d') # graphic
-m = d79a.merge(g79, left_index=True, right_index=True, how='outer', suffixes=['_d','_g']) # merged
-m = m.loc[m.index.dropna()]
-m = m.interpolate(limit_area='inside', method='index')
-ax.plot(m['t_d'], m.index, label='data', color='gray')
-ax.plot(m['t_g'], m.index, label='graphic', color='gray', linestyle='--')
-ax2.plot(m['t_d'] - m['t_g'], m.index, color='gray')
-
-
-d79b = pd.read_csv('./agassiz79b/data.csv').set_index('d') # data
-g79 = pd.read_csv('./agassiz77/clarke_1987_fig2.csv', usecols=(2,3), skiprows=2, header=None, names=['t','d']).set_index('d') # graphic
-m = d79b.merge(g79, left_index=True, right_index=True, how='outer', suffixes=['_d','_g']) # merged
-m = m.loc[m.index.dropna()]
-m = m.interpolate(limit_area='inside', method='index')
-ax.plot(m['t_d'], m.index, label='data', color='orange')
-ax.plot(m['t_g'], m.index, label='graphic', color='orange', linestyle='--')
-ax2.plot(m['t_d'] - m['t_g'], m.index, color='orange')
-
-ax.set_ylabel('Depth [m]')
-ax.set_xlabel('Temperature [°C]')
-ax2.set_xlabel('Δ Temperature [°C]')
-
-plt.savefig('./fig/agassiz_diff.png', transparent=False, bbox_inches='tight', dpi=150)
-#+END_SRC
-
-#+RESULTS:
-
-#+NAME: fig:err_agassiz
-#+ATTR_LATEX: :width 0.5\textwidth :placement [!h]
-#+CAPTION: Digitization error for Agassiz borehole temperature profiles. Black is A77 data, graphic, and difference (noisy line, top x-axis). Gray and orange are the difference between the [[citet:clarke_1987_wind][Clarke (1987)]] A79 profile from the graphic and the A79A and A79B data profiles, respectively.
-[[./fig/agassiz_diff.png]]
 
