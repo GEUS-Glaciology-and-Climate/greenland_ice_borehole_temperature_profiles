@@ -8,7 +8,7 @@ Science Source|"Hills, Benjamin H., Joel T. Harper, Neil F. Humphrey, and Toby W
 Science DOI|10.1002/2017GL074917
 Date|2015
 Longitude [°E]|-49.57001
-Latitude [°N]|67.18108000000001
+Latitude [°N]|67.18108
 Location Source|10.18739/A24746S04
 Depth of top measurement [m]|72.0
 Depth of bottom measurement [m]|672

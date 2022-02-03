@@ -1209,7 +1209,7 @@
                     <value>1973</value>
                 </Data>
                 <Data name="Longitude [°E]">
-                    <value>-49.751000000000005</value>
+                    <value>-49.751</value>
                 </Data>
                 <Data name="Latitude [°N]">
                     <value>65.2072</value>
@@ -1237,7 +1237,7 @@
                 </Data>
             </ExtendedData>
             <Point id="402">
-                <coordinates>-49.751000000000005,65.2072,0.0</coordinates>
+                <coordinates>-49.751,65.2072,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="423">
@@ -1507,7 +1507,7 @@
                     <value>-49.71952</value>
                 </Data>
                 <Data name="Latitude [°N]">
-                    <value>67.19518000000001</value>
+                    <value>67.19518</value>
                 </Data>
                 <Data name="Location Source">
                     <value>T. Meierbachtol email</value>
@@ -1532,7 +1532,7 @@
                 </Data>
             </ExtendedData>
             <Point id="502">
-                <coordinates>-49.71952,67.19518000000001,0.0</coordinates>
+                <coordinates>-49.71952,67.19518,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="523">
@@ -1684,7 +1684,7 @@
                     <value>-49.71793</value>
                 </Data>
                 <Data name="Latitude [°N]">
-                    <value>67.20421999999999</value>
+                    <value>67.20422</value>
                 </Data>
                 <Data name="Location Source">
                     <value>T. Meierbachtol email</value>
@@ -1709,7 +1709,7 @@
                 </Data>
             </ExtendedData>
             <Point id="562">
-                <coordinates>-49.71793,67.20421999999999,0.0</coordinates>
+                <coordinates>-49.71793,67.20422,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="583">
@@ -1920,7 +1920,7 @@
                     <value>-49.57001</value>
                 </Data>
                 <Data name="Latitude [°N]">
-                    <value>67.18108000000001</value>
+                    <value>67.18108</value>
                 </Data>
                 <Data name="Location Source">
                     <value>10.18739/A24746S04</value>
@@ -1945,7 +1945,7 @@
                 </Data>
             </ExtendedData>
             <Point id="642">
-                <coordinates>-49.57001,67.18108000000001,0.0</coordinates>
+                <coordinates>-49.57001,67.18108,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="663">
@@ -2156,7 +2156,7 @@
                     <value>-49.56949</value>
                 </Data>
                 <Data name="Latitude [°N]">
-                    <value>67.18200999999999</value>
+                    <value>67.18201</value>
                 </Data>
                 <Data name="Location Source">
                     <value>10.18739/A24746S04</value>
@@ -2181,7 +2181,7 @@
                 </Data>
             </ExtendedData>
             <Point id="722">
-                <coordinates>-49.56949,67.18200999999999,0.0</coordinates>
+                <coordinates>-49.56949,67.18201,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="743">
@@ -2215,7 +2215,7 @@
                     <value>-49.56403</value>
                 </Data>
                 <Data name="Latitude [°N]">
-                    <value>67.18186999999999</value>
+                    <value>67.18187</value>
                 </Data>
                 <Data name="Location Source">
                     <value>10.18739/A24746S04</value>
@@ -2240,7 +2240,7 @@
                 </Data>
             </ExtendedData>
             <Point id="742">
-                <coordinates>-49.56403,67.18186999999999,0.0</coordinates>
+                <coordinates>-49.56403,67.18187,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="763">
@@ -2625,7 +2625,7 @@
                     <value>1989</value>
                 </Data>
                 <Data name="Longitude [°E]">
-                    <value>-48.763000000000005</value>
+                    <value>-48.763</value>
                 </Data>
                 <Data name="Latitude [°N]">
                     <value>69.169</value>
@@ -2653,7 +2653,7 @@
                 </Data>
             </ExtendedData>
             <Point id="882">
-                <coordinates>-48.763000000000005,69.169,0.0</coordinates>
+                <coordinates>-48.763,69.169,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="903">
