@@ -1,0 +1,64 @@
+* Laika_75c
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                      | Laika_75c
+Place name                       | Laika Ice Cap
+Geographic location              | Canadian Arctic North
+Ice type                         | Ice cap
+Data Source                      | Graphic in science source
+Data DOI                         | 
+Science Source                   | Blatter, Heinz, Kappenberger, Giovanni: Mass Balance and Thermal Regime of Laika Ice Cap, Coburg Island, N.W.T., Canada , Journal of Glaciology 34(116), International Glaciological Society, 102–110, 1988
+Science DOI                      | 10.3189/s0022143000009126
+Date                             | 1975-08
+Longitude [°E]                   | -79.1445
+Latitude [°N]                    | 75.8953
+Location Source                  | 10.3189/s0022143000009126
+Depth of top measurement [m]     | 10.0
+Depth of bottom measurement [m]  | 76
+Ice thickness [m]                | 105
+Coverage [% of thickness]        | 63
+Ice thickness source             | See science reference
+Note                             | Temperature, location, and thickness digitized by M. Jacquemart
+#+end_example
+
+
+** Temperature
+
+See Laika_75a
+
+** Thickness
+
+See Laika_75a
+
+** Location
+
+See Laika_75a
+
+** Data                                                 :noexport:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k2
+#+END_SRC
+
+#+RESULTS: ingest_data
+|           t |         d |
+|  -4.2748957 | 10.484469 |
+|  -2.8886268 | 15.862129 |
+|  -1.8837293 | 20.816042 |
+|  -1.7183627 | 27.529015 |
+|  -1.3310962 | 33.915802 |
+|  -1.1672411 | 39.099792 |
+|  -0.9701312 | 45.809853 |
+|  -0.7739283 | 51.602524 |
+|  -0.4821936 | 57.692253 |
+|   -0.412661 |  63.80237 |
+| -0.17836629 |  76.01386 |
+
+
