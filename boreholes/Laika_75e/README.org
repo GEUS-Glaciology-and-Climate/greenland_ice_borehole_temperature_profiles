@@ -21,8 +21,8 @@ Latitude [°N]                    | 75.8817
 Location Source                  | 10.3189/s0022143000009126
 Depth of top measurement [m]     | 9.0
 Depth of bottom measurement [m]  | 39
-Ice thickness [m]                | 48
-Coverage [% of thickness]        | 63
+Ice thickness [m]                | 50
+Coverage [% of thickness]        | 60
 Ice thickness source             | See science reference
 Note                             | Temperature, location, and thickness digitized by M. Jacquemart
 #+end_example

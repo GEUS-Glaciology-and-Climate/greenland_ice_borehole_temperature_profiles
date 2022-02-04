@@ -9,7 +9,7 @@ Science DOI|10.3189/s0022143000021079
 Date|1975-07-02
 Longitude [°E]|-72.1213
 Latitude [°N]|69.5815068
-Location Source|See Science Source
+Location Source|Location digitized by M. Jacquemart from Classen (1977) and modern aerial images
 Depth of top measurement [m]|10.0
 Depth of bottom measurement [m]|122
 Ice thickness [m]|192

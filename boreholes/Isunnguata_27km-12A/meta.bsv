@@ -8,7 +8,7 @@ Science Source|Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperat
 Science DOI|10.3189/2015AoG70A945
 Date|2012
 Longitude [°E]|-49.71793
-Latitude [°N]|67.20421999999999
+Latitude [°N]|67.20422
 Location Source|T. Meierbachtol email
 Depth of top measurement [m]|11.0
 Depth of bottom measurement [m]|690

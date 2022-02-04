@@ -7,7 +7,7 @@ Data DOI|
 Science Source|Colebeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. 
 Science DOI|10.3189/S0022143000014714
 Date|1973
-Longitude [°E]|-49.751000000000005
+Longitude [°E]|-49.751
 Latitude [°N]|65.2072
 Location Source|10.5194/essd-2021-290
 Depth of top measurement [m]|25.0

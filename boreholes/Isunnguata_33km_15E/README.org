@@ -21,7 +21,7 @@ Science Source                   | "Hills, Benjamin H., Joel T. Harper, Neil F. 
 Science DOI                      | 10.1002/2017GL074917
 Date                             | 2016
 Longitude [°E]                   | -49.56403
-Latitude [°N]                    | 67.18186999999999
+Latitude [°N]                    | 67.18187
 Location Source                  | 10.18739/A24746S04
 Depth of top measurement [m]     | 40.0
 Depth of bottom measurement [m]  | 660

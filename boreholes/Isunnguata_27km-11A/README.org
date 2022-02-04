@@ -21,7 +21,7 @@ Science Source                   | Harrington, Joel A., Humphrey, Neil F., Harpe
 Science DOI                      | 10.3189/2015AoG70A942
 Date                             | 2011
 Longitude [°E]                   | -49.71952
-Latitude [°N]                    | 67.19518000000001
+Latitude [°N]                    | 67.19518
 Location Source                  | T. Meierbachtol email
 Depth of top measurement [m]     | 218.0
 Depth of bottom measurement [m]  | 368
