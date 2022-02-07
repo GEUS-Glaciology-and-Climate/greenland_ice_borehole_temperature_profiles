@@ -31,7 +31,7 @@ Each profile is placed in a folder, where the folder has the same name as the =B
 
 + README.org :: Overview of data.
 + meta.bsv :: Metadata, in bar (|) separated value format.
-+ data.csv :: Temperature profile, in CSV format. May be =t,d= or =d,t=.
++ data.csv :: Temperature profile, in CSV format in =d,t= order.
 
 Other files may exist. These include:
 + =PNG= and =tar= files, where the =PNG= file is a graphic from a publication, and the =tar= file is the =WebPlotDigitizer= archive that contains the digitization process.
