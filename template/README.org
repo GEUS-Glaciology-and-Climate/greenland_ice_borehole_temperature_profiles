@@ -29,6 +29,6 @@ cat data.csv | sort -t, -n -k1
 #+END_SRC
 
 #+RESULTS: ingest_data
-| t | d OR d | t |
+| d | t |
 
 
