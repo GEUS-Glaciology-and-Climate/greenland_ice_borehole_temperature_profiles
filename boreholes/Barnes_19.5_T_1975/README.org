@@ -1,0 +1,62 @@
+* Barns_19.5_T_1975
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                      | Barnes_19.5_T_1975
+Place name                       | Barnes Ice Cap
+Geographic location              | Canadian Arctic South
+Ice type                         | Ice cap
+Data Source                      | Table in science source
+Data DOI                         | 
+Science Source                   | Classen, D. F.: Temperature profiles for the Barnes Ice Cap surge zone , Journal of Glaciology 18(80), International Glaciological Society, 391–405, 1977
+Science DOI                      | 10.3189/s0022143000021079
+Date                             | 1975-07-02
+Longitude [°E]                   | -72.1213
+Latitude [°N]                    | 69.5815068
+Location Source                  | Location digitized by M. Jacquemart from Classen (1977) and modern aerial images
+Depth of top measurement [m]     | 10.0
+Depth of bottom measurement [m]  | 122
+Ice thickness [m]                | 192
+Coverage [% of thickness]        | 58
+Ice thickness source             | See science source
+Note                             | Location digitized by M. Jacquemart
+#+end_example
+
+
+** Temperature
+
+** Thickness
+
+** Location
+
+** Data                                                 :noexport:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k1
+#+END_SRC
+
+#+RESULTS: ingest_data
+|   d |     t |
+|  10 | -9.95 |
+|  17 | -7.91 |
+|  20 | -7.32 |
+|  30 | -6.06 |
+|  40 |  -5.1 |
+|  50 | -4.27 |
+|  60 | -3.57 |
+|  62 |  -3.5 |
+|  70 | -2.97 |
+|  72 |  -2.9 |
+|  82 | -2.44 |
+|  92 | -1.98 |
+| 102 |  -1.6 |
+| 112 | -1.37 |
+| 122 | -0.92 |
+
+
