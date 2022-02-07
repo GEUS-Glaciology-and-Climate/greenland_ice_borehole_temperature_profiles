@@ -271,7 +271,7 @@
                     <value>69.63971832</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>See Science Source</value>
+                    <value>Location digitized by M. Jacquemart from Classen (1977) and modern aerial images</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>140.0</value>
@@ -330,7 +330,7 @@
                     <value>69.5815068</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>See Science Source</value>
+                    <value>Location digitized by M. Jacquemart from Classen (1977) and modern aerial images</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>10.0</value>
@@ -389,7 +389,7 @@
                     <value>69.54665509</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>See Science Source</value>
+                    <value>Location digitized by M. Jacquemart from Classen (1977) and modern aerial images</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>28.0</value>
@@ -448,7 +448,7 @@
                     <value>69.81379</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>Location digitized by M. Jacquemart from Gilbert (2016) and Hooke (1980)</value>
+                    <value>Location digitized by M. Jacquemart from Gilbert (2016)</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>0.0</value>
@@ -463,10 +463,10 @@
                     <value>100</value>
                 </Data>
                 <Data name="Ice thickness source">
-                    <value>Hooke, Roger LeB., Alexander, E. Calvin, Gustafson, Robert J.: Temperature profiles in the Barnes Ice Cap, Baffin Island, Canada, and heat flux from the subglacial terrane , Canadian Journal of Earth Sciences 17(9), Canadian Science Publishing, 1174–1188, sep 1980</value>
+                    <value>See science source</value>
                 </Data>
                 <Data name="Note">
-                    <value>Date is &quot;Date completed&quot; from Hooke (1980) Table 1 Column 2 + Days to final measurement (Column 3); Location digitized by M. Jacquemart</value>
+                    <value>Date is &quot;Date completed&quot; from Hooke (1980) Table 1 Column 2 + Days to final measurement (Column 3); Temperature and location digitized by M. Jacquemart from Gilbert (2016)</value>
                 </Data>
             </ExtendedData>
             <Point id="142">
@@ -507,7 +507,7 @@
                     <value>69.80686</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>Location digitized by M. Jacquemart from Gilbert (2016) and Hooke (1980)</value>
+                    <value>Location digitized by M. Jacquemart from Gilbert (2016)</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>1.0</value>
@@ -522,10 +522,10 @@
                     <value>70</value>
                 </Data>
                 <Data name="Ice thickness source">
-                    <value>Hooke, Roger LeB., Alexander, E. Calvin, Gustafson, Robert J.: Temperature profiles in the Barnes Ice Cap, Baffin Island, Canada, and heat flux from the subglacial terrane , Canadian Journal of Earth Sciences 17(9), Canadian Science Publishing, 1174–1188, sep 1980</value>
+                    <value>See science source</value>
                 </Data>
                 <Data name="Note">
-                    <value>Date is &quot;Date completed&quot; from Hooke (1980) Table 1 Column 2 + Days to final measurement (Column 3); Location digitized by M. Jacquemart</value>
+                    <value>Date is &quot;Date completed&quot; from Hooke (1980) Table 1 Column 2 + Days to final measurement (Column 3); Temperature and location digitized by M. Jacquemart from Gilbert (2016)</value>
                 </Data>
             </ExtendedData>
             <Point id="162">
@@ -566,7 +566,7 @@
                     <value>69.71965</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>Location digitized by M. Jacquemart from Gilbert (2016) and Hooke (1980)</value>
+                    <value>Location digitized by M. Jacquemart from Gilbert (2016)</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>0.0</value>
@@ -581,10 +581,10 @@
                     <value>76</value>
                 </Data>
                 <Data name="Ice thickness source">
-                    <value>Hooke, Roger LeB., Alexander, E. Calvin, Gustafson, Robert J.: Temperature profiles in the Barnes Ice Cap, Baffin Island, Canada, and heat flux from the subglacial terrane , Canadian Journal of Earth Sciences 17(9), Canadian Science Publishing, 1174–1188, sep 1980</value>
+                    <value>See science source</value>
                 </Data>
                 <Data name="Note">
-                    <value>Date is &quot;Date completed&quot; from Hooke (1980) Table 1 Column 2 + Days to final measurement (Column 3); Location digitized by M. Jacquemart</value>
+                    <value>Date is &quot;Date completed&quot; from Hooke (1980) Table 1 Column 2 + Days to final measurement (Column 3); Temperature and location digitized by M. Jacquemart from Gilbert (2016)</value>
                 </Data>
             </ExtendedData>
             <Point id="182">
@@ -625,7 +625,7 @@
                     <value>69.78899</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>Location digitized by M. Jacquemart from Gilbert (2016) and Hooke (1980)</value>
+                    <value>Location digitized by M. Jacquemart from Gilbert (2016)</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>0.0</value>
@@ -640,10 +640,10 @@
                     <value>91</value>
                 </Data>
                 <Data name="Ice thickness source">
-                    <value>Hooke, Roger LeB., Alexander, E. Calvin, Gustafson, Robert J.: Temperature profiles in the Barnes Ice Cap, Baffin Island, Canada, and heat flux from the subglacial terrane , Canadian Journal of Earth Sciences 17(9), Canadian Science Publishing, 1174–1188, sep 1980</value>
+                    <value>See science source</value>
                 </Data>
                 <Data name="Note">
-                    <value>Date is &quot;Date completed&quot; from Hooke (1980) Table 1 Column 2 + Days to final measurement (Column 3); Location digitized by M. Jacquemart</value>
+                    <value>Date is &quot;Date completed&quot; from Hooke (1980) Table 1 Column 2 + Days to final measurement (Column 3); Temperature and location digitized by M. Jacquemart from Gilbert (2016)</value>
                 </Data>
             </ExtendedData>
             <Point id="202">
@@ -684,7 +684,7 @@
                     <value>69.74945</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>Location digitized by M. Jacquemart from Gilbert (2016) and Hooke (1980)</value>
+                    <value>Location digitized by M. Jacquemart from Gilbert (2016)</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>0.0</value>
@@ -699,10 +699,10 @@
                     <value>88</value>
                 </Data>
                 <Data name="Ice thickness source">
-                    <value>Hooke, Roger LeB., Alexander, E. Calvin, Gustafson, Robert J.: Temperature profiles in the Barnes Ice Cap, Baffin Island, Canada, and heat flux from the subglacial terrane , Canadian Journal of Earth Sciences 17(9), Canadian Science Publishing, 1174–1188, sep 1980</value>
+                    <value>See science source</value>
                 </Data>
                 <Data name="Note">
-                    <value>Date is &quot;Date completed&quot; from Hooke (1980) Table 1 Column 2 + Days to final measurement (Column 3); Location digitized by M. Jacquemart</value>
+                    <value>Date is &quot;Date completed&quot; from Hooke (1980) Table 1 Column 2 + Days to final measurement (Column 3); Temperature and location digitized by M. Jacquemart from Gilbert (2016)</value>
                 </Data>
             </ExtendedData>
             <Point id="222">
@@ -743,7 +743,7 @@
                     <value>69.78211</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>Location digitized by M. Jacquemart from Gilbert (2016) and Hooke (1980)</value>
+                    <value>Location digitized by M. Jacquemart from Gilbert (2016)</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>0.0</value>
@@ -758,10 +758,10 @@
                     <value>66</value>
                 </Data>
                 <Data name="Ice thickness source">
-                    <value>Hooke, Roger LeB., Alexander, E. Calvin, Gustafson, Robert J.: Temperature profiles in the Barnes Ice Cap, Baffin Island, Canada, and heat flux from the subglacial terrane , Canadian Journal of Earth Sciences 17(9), Canadian Science Publishing, 1174–1188, sep 1980</value>
+                    <value>See science source</value>
                 </Data>
                 <Data name="Note">
-                    <value>Date is &quot;Date completed&quot; from Hooke (1980) Table 1 Column 2 + Days to final measurement (Column 3); Location digitized by M. Jacquemart</value>
+                    <value>Date is &quot;Date completed&quot; from Hooke (1980) Table 1 Column 2 + Days to final measurement (Column 3); Temperature and location digitized by M. Jacquemart from Gilbert (2016)</value>
                 </Data>
             </ExtendedData>
             <Point id="242">
@@ -802,7 +802,7 @@
                     <value>69.79795</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>Location digitized by M. Jacquemart from Gilbert (2016) and Hooke (1980)</value>
+                    <value>Location digitized by M. Jacquemart from Gilbert (2016)</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>0.0</value>
@@ -817,10 +817,10 @@
                     <value>41</value>
                 </Data>
                 <Data name="Ice thickness source">
-                    <value>Hooke, Roger LeB., Alexander, E. Calvin, Gustafson, Robert J.: Temperature profiles in the Barnes Ice Cap, Baffin Island, Canada, and heat flux from the subglacial terrane , Canadian Journal of Earth Sciences 17(9), Canadian Science Publishing, 1174–1188, sep 1980</value>
+                    <value>See science source</value>
                 </Data>
                 <Data name="Note">
-                    <value>Date is &quot;Date completed&quot; from Hooke (1980) Table 1 Column 2 + Days to final measurement (Column 3); Location digitized by M. Jacquemart</value>
+                    <value>Date is &quot;Date completed&quot; from Hooke (1980) Table 1 Column 2 + Days to final measurement (Column 3); Temperature and location digitized by M. Jacquemart from Gilbert (2016)</value>
                 </Data>
             </ExtendedData>
             <Point id="262">
@@ -3643,10 +3643,10 @@
                     <value>61</value>
                 </Data>
                 <Data name="Ice thickness [m]">
-                    <value>61</value>
+                    <value>72</value>
                 </Data>
                 <Data name="Coverage [% of thickness]">
-                    <value>84</value>
+                    <value>71</value>
                 </Data>
                 <Data name="Ice thickness source">
                     <value>See science reference</value>
@@ -3761,10 +3761,10 @@
                     <value>76</value>
                 </Data>
                 <Data name="Ice thickness [m]">
-                    <value>105</value>
+                    <value>108</value>
                 </Data>
                 <Data name="Coverage [% of thickness]">
-                    <value>63</value>
+                    <value>61</value>
                 </Data>
                 <Data name="Ice thickness source">
                     <value>See science reference</value>
@@ -3879,10 +3879,10 @@
                     <value>39</value>
                 </Data>
                 <Data name="Ice thickness [m]">
-                    <value>48</value>
+                    <value>50</value>
                 </Data>
                 <Data name="Coverage [% of thickness]">
-                    <value>63</value>
+                    <value>60</value>
                 </Data>
                 <Data name="Ice thickness source">
                     <value>See science reference</value>
