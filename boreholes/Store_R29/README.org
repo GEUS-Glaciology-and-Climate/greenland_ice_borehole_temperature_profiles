@@ -14,7 +14,7 @@ cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 Borehole ID                      | Store_R29
 Place name                       | Store Glacier
 Geographic location              | Central West Greenland
-Ice type                         | Ice sheet
+Site type                        | Ice sheet
 Data Source                      | Hubbard, Bryn; Christoffersen, Poul; Doyle, Samuel; Chudley, Thomas; Schoonman, Charlotte; Law, Robert; et al. (2020): Supporting data for 'Borehole-based characterization of deep crevasses at a Greenlandic outlet glacier' published in AGU Advances. figshare. Dataset. https://doi.org/10.6084/m9.figshare.13400072.v1
 Data DOI                         | 10.6084/m9.figshare.13400072.v2
 Science Source                   | Hubbard, B., Christoffersen, P., Doyle, S. H., Chudley, T. R., Bougamont, M. H., Law, R., & Schoonman, C. (2020). Borehole-based characterization of deep crevasses at a Greenlandic outlet glacier.

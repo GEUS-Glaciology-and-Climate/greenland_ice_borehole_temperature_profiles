@@ -10,7 +10,7 @@ cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 Borehole ID                      | Barnes_T0975_1976
 Place name                       | Barnes Ice Cap
 Geographic location              | Canadian Arctic South
-Ice type                         | Ice cap
+Site type                        | Ice cap
 Data Source                      | Graphic in science source
 Data DOI                         | 
 Science Source                   | Hooke, Roger LeB., Alexander, E. Calvin, Gustafson, Robert J.: Temperature profiles in the Barnes Ice Cap, Baffin Island, Canada, and heat flux from the subglacial terrane , Canadian Journal of Earth Sciences 17(9), Canadian Science Publishing, 1174–1188, sep 1980

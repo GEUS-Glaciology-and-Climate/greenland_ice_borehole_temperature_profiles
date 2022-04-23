@@ -1,7 +1,7 @@
 Borehole ID|Isua_14
 Place name|Isua
 Geographic location|Central West Greenland
-Ice type|Ice sheet
+Site type|Ice sheet
 Data Source|Graphic in science source
 Data DOI|
 Science Source|Colebeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. 

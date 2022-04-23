@@ -1,7 +1,7 @@
 Borehole ID|GRIP
 Place name|GRIP
 Geographic location|Central Greenland
-Ice type|Ice sheet
+Site type|Ice sheet
 Data Source|Clow email
 Data DOI|
 Science Source|Dahl-Jensen, D., Mosegaard, K., Gundestrup, N., Clow, G. D., Johnsen, S. J., Hansen, A. W., & Balling, N. (1998). Past temperatures directly from the Greenland ice sheet. Science, 282(5387), 268-271.

@@ -1,7 +1,7 @@
 Borehole ID|NGRIP
 Place name|NGRIP
 Geographic location|Central Greenland
-Ice type|Ice sheet
+Site type|Ice sheet
 Data Source|Clow email
 Data DOI|
 Science Source|Buchardt, S. and D. Dahl-Jensen. 2007. Estimating the basal melt rate at NorthGRIP using a Monte Carlo technique. Annals of Glaciology. 45: 137-142. 

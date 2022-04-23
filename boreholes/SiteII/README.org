@@ -14,7 +14,7 @@ cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 Borehole ID                      | SiteII
 Place name                       | Site II
 Geographic location              | Northwest Greenland
-Ice type                         | Ice sheet
+Site type                        | Ice sheet
 Data Source                      | Graphic in science source
 Data DOI                         | 
 Science Source                   | Hansen, B. and J. Landauer. 1958. Some results of ice cap drill hole measurements. IASH Publication. 47: 313-317.

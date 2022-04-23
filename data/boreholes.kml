@@ -10,7 +10,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic North</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -69,7 +69,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic North</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -128,7 +128,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic North</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -187,7 +187,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic North</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -246,7 +246,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic South</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -305,7 +305,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic South</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -364,7 +364,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic South</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -423,7 +423,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic South</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -482,7 +482,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic South</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -541,7 +541,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic South</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -600,7 +600,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic South</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -659,7 +659,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic South</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -718,7 +718,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic South</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -777,7 +777,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic South</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -836,7 +836,7 @@
                 <Data name="Geographic location">
                     <value>Northwest Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -895,7 +895,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -954,7 +954,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -1013,7 +1013,7 @@
                 <Data name="Geographic location">
                     <value>South Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -1072,7 +1072,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic North</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -1131,7 +1131,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic North</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -1190,7 +1190,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic North</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -1249,7 +1249,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -1308,7 +1308,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -1367,7 +1367,7 @@
                 <Data name="Geographic location">
                     <value>Northeast Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -1426,7 +1426,7 @@
                 <Data name="Geographic location">
                     <value>Central Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -1485,7 +1485,7 @@
                 <Data name="Geographic location">
                     <value>Central Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -1544,7 +1544,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -1603,7 +1603,7 @@
                 <Data name="Geographic location">
                     <value>North Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -1662,7 +1662,7 @@
                 <Data name="Geographic location">
                     <value>North Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -1721,7 +1721,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -1780,7 +1780,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -1839,7 +1839,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -1898,7 +1898,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -1957,7 +1957,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -2016,7 +2016,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -2075,7 +2075,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -2134,7 +2134,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -2193,7 +2193,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -2252,7 +2252,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -2311,7 +2311,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -2370,7 +2370,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -2429,7 +2429,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -2488,7 +2488,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -2547,7 +2547,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -2606,7 +2606,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -2665,7 +2665,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -2724,7 +2724,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -2783,7 +2783,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -2842,7 +2842,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -2901,7 +2901,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -2960,7 +2960,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -3019,7 +3019,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -3078,7 +3078,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -3137,7 +3137,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -3196,7 +3196,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -3255,7 +3255,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -3314,7 +3314,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -3373,7 +3373,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -3432,7 +3432,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -3491,7 +3491,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -3550,7 +3550,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -3609,7 +3609,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic North</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -3668,7 +3668,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic North</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -3727,7 +3727,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic North</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -3786,7 +3786,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic North</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -3845,7 +3845,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic North</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -3904,7 +3904,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic North</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -3963,7 +3963,7 @@
                 <Data name="Geographic location">
                     <value>Northwest Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -4022,7 +4022,7 @@
                 <Data name="Geographic location">
                     <value>Central Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -4081,7 +4081,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic South</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -4140,7 +4140,7 @@
                 <Data name="Geographic location">
                     <value>Canadian Arctic North</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -4199,7 +4199,7 @@
                 <Data name="Geographic location">
                     <value>Central East Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
@@ -4258,7 +4258,7 @@
                 <Data name="Geographic location">
                     <value>Northwest Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -4317,7 +4317,7 @@
                 <Data name="Geographic location">
                     <value>Northwest Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -4376,7 +4376,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -4435,7 +4435,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -4494,7 +4494,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -4553,7 +4553,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -4612,7 +4612,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -4671,7 +4671,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -4730,7 +4730,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -4789,7 +4789,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -4848,7 +4848,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -4907,7 +4907,7 @@
                 <Data name="Geographic location">
                     <value>Central West Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
@@ -4966,7 +4966,7 @@
                 <Data name="Geographic location">
                     <value>Northwest Greenland</value>
                 </Data>
-                <Data name="Ice type">
+                <Data name="Site type">
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">

@@ -1,7 +1,7 @@
 Borehole ID|CampIII_78
 Place name|Nunap Kigdlinga
 Geographic location|Central West Greenland
-Ice type|Ice sheet
+Site type|Ice sheet
 Data Source|Table in science source
 Data DOI|
 Science Source|Stauffer, B., and H. Oeschger. 1979. Temperaturprofile in bohrloechern am rande des Groenlaendischen Inlandeises. Hydrologie und Glaziologie an der ETH Zurich. Mitteilung Nr. 41.

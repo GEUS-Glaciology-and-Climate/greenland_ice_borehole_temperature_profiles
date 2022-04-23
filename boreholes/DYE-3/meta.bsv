@@ -1,7 +1,7 @@
 Borehole ID|DYE-3
 Place name|DYE-3
 Geographic location|South Greenland
-Ice type|Ice sheet
+Site type|Ice sheet
 Data Source|Graphic in science source
 Data DOI|
 Science Source|Gundestrup, N. and B. Hansen. 1984. Bore-Hole Survey at Dye 3, South Greenland. Journal of Glaciology. 30: 282–288. 

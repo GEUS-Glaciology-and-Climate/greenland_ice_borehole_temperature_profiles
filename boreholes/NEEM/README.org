@@ -14,7 +14,7 @@ cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 Borehole ID                      | NEEM
 Place name                       | NEEM
 Geographic location              | Northwest Greenland
-Ice type                         | Ice sheet
+Site type                        | Ice sheet
 Data Source                      | Clow email
 Data DOI                         | 
 Science Source                   | Rasmussen, S., P. Abbott, T. Blunier et al. 2013. A first chronology for the North Greenland Eemian Ice Drilling (NEEM) ice core. Climate of the Past. 9: 2713-2730.

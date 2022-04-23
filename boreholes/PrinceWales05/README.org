@@ -14,7 +14,7 @@ cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 Borehole ID                      | PrinceWales05
 Place name                       | Prince of Wales Ice Cap
 Geographic location              | Canadian Arctic North
-Ice type                         | Ice cap
+Site type                        | Ice cap
 Data Source                      | Zdanowicz email
 Data DOI                         | 
 Science Source                   | Kinnard, C., R. Koerner, C. Zdanowicz et al. 2008. Stratigraphic analysis of an ice core from the Prince of Wales Icefield, Ellesmere Island, Arctic Canada, using digital image analysis: High‐resolution density, past summer warmth reconstruction, and melt effect on ice core solid conductivity. Journal of Geophysical Research. 113: D24120. 

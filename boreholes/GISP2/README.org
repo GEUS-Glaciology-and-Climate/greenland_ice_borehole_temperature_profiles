@@ -14,7 +14,7 @@ cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 Borehole ID                      | GISP2
 Place name                       | GISP2
 Geographic location              | Central Greenland
-Ice type                         | Ice sheet
+Site type                        | Ice sheet
 Data Source                      | Clow email
 Data DOI                         | 
 Science Source                   | Cuffey, K. M., Clow, G. D., Alley, R. B., Stuiver, M., Waddington, E. D., & Saltus, R. W. (1995). Large arctic temperature change at the Wisconsin-Holocene glacial transition. Science, 270(5235), 455-458.

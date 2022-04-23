@@ -1,7 +1,7 @@
 Borehole ID|Renland88
 Place name|Renland Ice Cap
 Geographic location|Central East Greenland
-Ice type|Ice cap
+Site type|Ice cap
 Data Source|Vinther email
 Data DOI|
 Science Source|Hansson, M. 1994. The Renland ice core. A Northern Hemisphere record of aerosol composition over 120,000 years. Tellus B. 46: 390-418.

@@ -1,7 +1,7 @@
 Borehole ID|Tuto_D-11
 Place name|Tuto Ramp
 Geographic location|Northwest Greenland
-Ice type|Ice sheet
+Site type|Ice sheet
 Data Source|Graphic in science source
 Data DOI|
 Science Source|Davis, RM: Approach roads, Greenland 1960–1964 , Technical Report 133. Corps of Engineers, Cold Regions Research & Engineering Laboratory , 1967 

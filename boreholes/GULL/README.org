@@ -14,7 +14,7 @@ cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 Borehole ID                      | GULL
 Place name                       | Sermeq Avannerleq
 Geographic location              | Central West Greenland
-Ice type                         | Ice sheet
+Site type                        | Ice sheet
 Data Source                      | Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... & Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.
 Data DOI                         | 10.3189/2014JoG13J196
 Science Source                   | Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... & Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.

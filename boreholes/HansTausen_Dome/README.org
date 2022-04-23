@@ -14,7 +14,7 @@ cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 Borehole ID                      | HansTausen_Dome
 Place name                       | Hans Tausen Dome
 Geographic location              | North Greenland
-Ice type                         | Ice cap
+Site type                        | Ice cap
 Data Source                      | Zekollari email
 Data DOI                         | 
 Science Source                   | Zekollari, Harry, Huybrechts, Philippe, Noël, Brice, van de Berg, Willem Jan, van den Broeke, Michiel R.: Sensitivity, stability and future evolution of the world’s northernmost ice cap, Hans Tausen Iskappe (Greenland) , The Cryosphere 11(2), Copernicus GmbH, 805–825, 3 2017 

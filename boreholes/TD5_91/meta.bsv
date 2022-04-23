@@ -1,7 +1,7 @@
 Borehole ID|TD5_91
 Place name|Paakitsoq
 Geographic location|Central West Greenland
-Ice type|Ice sheet
+Site type|Ice sheet
 Data Source|Lüthi email
 Data DOI|
 Science Source|Thomsen, H.H., O.B. Olesen, R.J. Braithwaite, and C.E. Bøggild. 1991. Ice drilling and mass balance at Pakitsoq, Jakobshavn, central West Greenland. Rapport Grønlands Geologiske Undersøgelse, 152, 80–84. 

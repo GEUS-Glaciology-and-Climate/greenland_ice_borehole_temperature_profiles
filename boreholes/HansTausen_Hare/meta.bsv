@@ -1,7 +1,7 @@
 Borehole ID|HansTausen_Hare
 Place name|Hans Tausen Hare
 Geographic location|North Greenland
-Ice type|Ice cap
+Site type|Ice cap
 Data Source|Zekollari email
 Data DOI|
 Science Source|Thomsen, H., Reeh, N., Olesen, O., & Jonsson, P. (1996). Glacier and climate research on Hans Tausen Iskappe, North Greenland – 1995 glacier basin activities and preliminary results. Bulletin Grønlands Geologiske Undersøgelse, 172, 78–84. https://doi.org/10.34194/bullggu.v172.6749

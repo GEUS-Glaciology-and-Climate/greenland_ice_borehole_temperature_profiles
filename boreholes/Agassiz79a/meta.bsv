@@ -1,7 +1,7 @@
 Borehole ID|Agassiz79a
 Place name|Agassiz Ice Cap
 Geographic location|Canadian Arctic North
-Ice type|Ice cap
+Site type|Ice cap
 Data Source|Zdanowicz email
 Data DOI|
 Science Source|Clarke, G., D. Fisher and E. Waddington. Wind pumping: A potentially significant heat source in ice sheets , The Physical Basis of Ice Sheet Modelling in Proceedings of the Vancouver Symposium, IAHS , volume 170, 169–180, 1987

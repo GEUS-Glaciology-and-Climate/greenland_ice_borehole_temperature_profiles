@@ -14,7 +14,7 @@ cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 Borehole ID                      | Penny96
 Place name                       | Penny Ice Cap
 Geographic location              | Canadian Arctic South
-Ice type                         | Ice cap
+Site type                        | Ice cap
 Data Source                      | Zdanowicz email
 Data DOI                         | 
 Science Source                   | Fisher, D., R. Koerner, J. Bourgeois et al. 1998. Penny Ice Cap Cores, Baffin Island, Canada, and the Wisconsinan Foxe Dome Connection: Two States of Hudson Bay Ice Cover. Science. 279: 692-695. 

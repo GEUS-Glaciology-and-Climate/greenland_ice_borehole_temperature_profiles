@@ -1,7 +1,7 @@
 Borehole ID|CampCentury
 Place name|Camp Century
 Geographic location|Northwest Greenland
-Ice type|Ice sheet
+Site type|Ice sheet
 Data Source|Graphic in science source
 Data DOI|
 Science Source|Gundestrup, N. S., Dahl-Jensen, D., Hansen, B. L., & Kelty, J. (1993). Bore-hole survey at Camp Century, 1989. Cold regions science and technology, 21(2), 187-193.

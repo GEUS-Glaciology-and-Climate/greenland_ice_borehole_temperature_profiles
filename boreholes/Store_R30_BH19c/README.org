@@ -14,7 +14,7 @@ cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 Borehole ID                      | Store_R30_BH19c
 Place name                       | Store Glacier
 Geographic location              | Central West Greenland
-Ice type                         | Ice sheet
+Site type                        | Ice sheet
 Data Source                      | Law email
 Data DOI                         | 
 Science Source                   | "Law, Robert, Poul Christoffersen, Bryn Hubbard, Samuel H. Doyle, Thomas R. Chudley, Charlotte M. Schoonman, Marion Bougamont et al. ""Thermodynamics of a fast-moving Greenlandic outlet glacier revealed by fiber-optic distributed temperature sensing."" Science Advances 7, no. 20 (2021): eabe7136."

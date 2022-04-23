@@ -1,7 +1,7 @@
 Borehole ID|FladeIsblink06
 Place name|Flade Isblink Ice Cap
 Geographic location|Northeast Greenland
-Ice type|Ice cap
+Site type|Ice cap
 Data Source|Dalh-Jensen email
 Data DOI|
 Science Source|Lemark, A. and D. Dahl-Jensen. 2010. A study of the Flade Isblink ice cap using a simple ice flow model. Master's thesis. Niels Bohr Institute, Copenhagen University.

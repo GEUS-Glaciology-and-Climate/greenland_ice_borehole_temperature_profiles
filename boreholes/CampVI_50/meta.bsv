@@ -1,7 +1,7 @@
 Borehole ID|CampVI_50
 Place name|Sermeq Avannerleq
 Geographic location|Central West Greenland
-Ice type|Ice sheet
+Site type|Ice sheet
 Data Source|Table in science source
 Data DOI|
 Science Source|Heuberger, J.-C. 1954. Expéditions Polaires Françaises: Missions Paul-Emil Victor. Glaciologie Groenland Volume 1: Forages sur l'inlandsis. Hermann & Cle, Éditeurs. Paris.

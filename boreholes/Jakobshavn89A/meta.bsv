@@ -1,7 +1,7 @@
 Borehole ID|Jakobshavn89A
 Place name|Jakobshavn Isbræ
 Geographic location|Central West Greenland
-Ice type|Ice sheet
+Site type|Ice sheet
 Data Source|Lüthi email
 Data DOI|
 Science Source|Iken, A., Echelmeyer, Κ., Harrison, W., Funk, M.: Mechanisms of fast flow in Jakobshavns Isbræ, West Greenland: Part I. Measurements of temperature and water level in deep boreholes , Journal of Glaciology 39(131), Cambridge University Press (CUP), 15–25, 1993 

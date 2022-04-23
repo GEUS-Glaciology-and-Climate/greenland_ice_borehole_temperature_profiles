@@ -1,7 +1,7 @@
 Borehole ID|Devon98
 Place name|Devon Ice Cap
 Geographic location|Canadian Arctic North
-Ice type|Ice cap
+Site type|Ice cap
 Data Source|Zdanowicz email
 Data DOI|
 Science Source|Kinnard, C., C. Zdanowicz, D. Fisher et al. 2006. Calibration of an ice-core glaciochemical (sea-salt) record with Sea-ice variability in the Canadian Arctic. Annals of Glaciology. 44: 383-390. 

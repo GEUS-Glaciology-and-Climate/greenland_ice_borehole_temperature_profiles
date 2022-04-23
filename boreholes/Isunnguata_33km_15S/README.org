@@ -14,7 +14,7 @@ cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 Borehole ID                      | Isunnguata_33km_15S
 Place name                       | Isunnguata Sermia
 Geographic location              | Central West Greenland
-Ice type                         | Ice sheet
+Site type                        | Ice sheet
 Data Source                      | Joel Harper. 2017. Ice temperatures measured in a grid of boreholes, Western Greenland, 2014-2016. Arctic Data Center. doi:10.18739/A24746S04.
 Data DOI                         | 10.18739/A24746S04
 Science Source                   | "Hills, Benjamin H., Joel T. Harper, Neil F. Humphrey, and Toby W. Meierbachtol. ""Measured horizontal temperature gradients constrain heat transfer mechanisms in Greenland ice."" Geophysical Research Letters 44, no. 19 (2017): 9778-9785."

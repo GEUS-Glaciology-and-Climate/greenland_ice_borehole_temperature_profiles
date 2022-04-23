@@ -1,7 +1,7 @@
 Borehole ID|Devon72
 Place name|Devon Ice Cap
 Geographic location|Canadian Arctic North
-Ice type|Ice cap
+Site type|Ice cap
 Data Source|Graphic in science source
 Data DOI|
 Science Source|Paterson, W., R. Koerner, D. Fisher et al. 1977. An oxygen-isotope climatic record from the Devon Island ice cap, Arctic Canada. Nature. 266: 508-511.
