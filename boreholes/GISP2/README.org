@@ -53,6 +53,12 @@ fully turbulent below ~2300 m. No corrections have been applied to account
 for the effects of borehole fluid convection.
 #+END_example
 
+And also,
+
+#+BEGIN_EXAMPLE
+A complete temperature log was acquired in the GISP2-D (deep) borehole during 1994, 1995, and 1996 seasons in order to establish the magnitude of the thermal drilling disturbance. Several other boreholes (GISP2-G, NGRIP-2, NGRIP-S2, NEEM-D) were logged at least twice during the field season in which the logging winch was present. With the exception of GISP2-D, most of these logs were acquired as verification logs within a few days of the initial log.
+#+END_EXAMPLE
+
 ** Thickness
 
 + See also [[citet:cuffey_1992][Cuffey (1992)]] referring to Hodge et al., 1990.
