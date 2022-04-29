@@ -914,13 +914,13 @@
                     <value>1978</value>
                 </Data>
                 <Data name="Longitude [°E]">
-                    <value>-49.8</value>
+                    <value>-50.133</value>
                 </Data>
                 <Data name="Latitude [°N]">
-                    <value>69.722</value>
+                    <value>69.717</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>EGIG_CarteNo7</value>
+                    <value>MacKinnon, 1980</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>10.0</value>
@@ -929,20 +929,20 @@
                     <value>90</value>
                 </Data>
                 <Data name="Ice thickness [m]">
-                    <value>539</value>
+                    <value>90</value>
                 </Data>
                 <Data name="Coverage [% of thickness]">
-                    <value>15</value>
+                    <value>89</value>
                 </Data>
                 <Data name="Ice thickness source">
-                    <value>BedMachine_V3</value>
+                    <value>MacKinnon, 1980</value>
                 </Data>
                 <Data name="Note">
                     <value>See also shallow profiles at boreholes I and III</value>
                 </Data>
             </ExtendedData>
             <Point id="302">
-                <coordinates>-49.8,69.722,0.0</coordinates>
+                <coordinates>-50.133,69.717,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="323">

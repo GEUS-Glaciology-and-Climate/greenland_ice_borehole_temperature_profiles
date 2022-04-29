@@ -20,14 +20,14 @@ Data DOI                         |
 Science Source                   | Stauffer, B., and H. Oeschger. 1979. Temperaturprofile in bohrloechern am rande des Groenlaendischen Inlandeises. Hydrologie und Glaziologie an der ETH Zurich. Mitteilung Nr. 41.
 Science DOI                      | 
 Date                             | 1978
-Longitude [°E]                   | -49.8
-Latitude [°N]                    | 69.722
-Location Source                  | EGIG_CarteNo7
+Longitude [°E]                   | -50.133
+Latitude [°N]                    | 69.717
+Location Source                  | MacKinnon, 1980
 Depth of top measurement [m]     | 10.0
 Depth of bottom measurement [m]  | 90
-Ice thickness [m]                | 539
-Coverage [% of thickness]        | 15
-Ice thickness source             | BedMachine_V3
+Ice thickness [m]                | 90
+Coverage [% of thickness]        | 89
+Ice thickness source             | MacKinnon, 1980
 Note                             | See also shallow profiles at boreholes I and III
 #+end_example
 
@@ -40,21 +40,18 @@ Note                             | See also shallow profiles at boreholes I and 
 
 ** Location
 
+There appears to be multiple historical sites for Camp III - it may have moved. Here we use the location as reported in MacKinnon (1980):
+
 #+BEGIN_QUOTE
-From: Martin Luethi
-To: Ken Mankoff
-Cc: William Colgan
-Subject: Re: VS: SV: SV: database entry details
-Date: Fri 22 Jan 2021 05:53:55 AM PST
-Attachments: [1]Stauffer&Oeschger1979.pdf(2.0M)
-
-Attached is the Stauffer Paper. The site is Nunap Kigdlinga (Camp III of
-the EGIG route), close to the ice margin. I do not know the exact
-coordinate, but they are very close  (within 50 m, with matching their
-map to drone air photo) of 
-
-Borehole  I     -50.0998925   69.7197675
-Borehole  II    -50.0916577,69.7175758
+@book{mackinnon1980ice,
+  title={Ice Cores},
+  author={MacKinnon, P.K. and United States. Environmental Data and
+          Information Service and World Data Center A for Glaciology},
+  series={Glaciological data},
+  url={https://books.google.com/books?id=iigcAQAAIAAJ},
+  year={1980},
+  publisher={World Data Center A for Glaciology [Snow and Ice],
+             Institute of Arctic and Alpine Research, University of Colorado}}
 #+END_QUOTE
 
 ** Data                                                 :noexport:
