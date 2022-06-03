@@ -23,6 +23,8 @@ all: FORCE
 data/temperature.csv: boreholes/*
 	@echo Building temperature.csv
 	python ./src/temperature_csvs.py
+	python ./src/merge_boreholes.py
+
 
 boreholes/*: data/meta.csv
 	@echo Building $@/meta.bsv
