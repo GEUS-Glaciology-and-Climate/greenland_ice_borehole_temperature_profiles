@@ -1,4 +1,4 @@
-* GULL
+* GULL1_thermistor2
 :PROPERTIES:
 :header-args:jupyter-python+: :session ds :kernel ds
 :clearpage: t
@@ -11,27 +11,29 @@ cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 
 #+RESULTS: ingest_meta
 #+begin_example
-Borehole ID                      | GULL
+Borehole ID                      | GULL1_thermistor2
 Place name                       | Sermeq Avannerleq
 Geographic location              | Central West Greenland
 Site type                        | Ice sheet
-Data Source                      | Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... & Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.
-Data DOI                         | 10.3189/2014JoG13J196
+Data Source                      | Lüthi email
+Data DOI                         | 
 Science Source                   | Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... & Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.
 Science DOI                      | 10.3189/2014JoG13J196
-Date                             | 2012
+Date                             | 2011-07-25
 Longitude [°E]                   | -49.7182
 Latitude [°N]                    | 69.4524
 Location Source                  | 10.3189/2014JoG13J196
-Depth of top measurement [m]     | 4.0
-Depth of bottom measurement [m]  | 705
+Depth of top measurement [m]     | 12.0
+Depth of bottom measurement [m]  | 300
 Ice thickness [m]                | 705
-Coverage [% of thickness]        | 99
+Coverage [% of thickness]        | 41
 Ice thickness source             | Ryser, 2014 (Table 3). 705/707 for thickness
-Note                             | Only using 'string1' near bottom. Date: Data was collected in 2011 and 2012 and the data extracted from the cooling curves
+Note                             | See FOXX1/temperature_foxx_gull_streamlined.org
 #+end_example
 
 ** Temperature
+
+See FOXX1/temperature_foxx_gull_streamlined.org
 
 ** Thickness
 
@@ -45,26 +47,14 @@ cat data.csv | sort -t, -n -k1
 #+END_SRC
 
 #+RESULTS: ingest_data
-|   d |      t |
-| 255 |  -7.75 |
-| 307 | -11.27 |
-| 355 | -11.95 |
-| 407 | -14.13 |
-| 455 | -13.57 |
-| 497 | -12.74 |
-| 515 | -11.69 |
-| 537 | -10.11 |
-| 555 |  -8.49 |
-| 577 |  -6.55 |
-| 595 |  -4.74 |
-| 622 |  -2.73 |
-| 645 |  -1.52 |
-| 667 |  -0.83 |
-| 676 |   -0.6 |
-| 687 |  -0.56 |
-| 690 |  -0.49 |
-| 697 |  -0.54 |
-| 699 |  -0.42 |
-| 702 |  -0.47 |
-| 705 |  -0.39 |
+|   d |         t |
+|  12 |  -1.44675 |
+|  48 |  -1.03728 |
+|  84 |  -0.84861 |
+| 120 |  -1.76445 |
+| 156 |  -2.88491 |
+| 192 |   -4.5268 |
+| 228 |  -6.42528 |
+| 264 |  -8.39668 |
+| 300 | -10.17722 |
 

@@ -1,4 +1,4 @@
-* FOXX1
+* GULL1_inclinometer
 :PROPERTIES:
 :header-args:jupyter-python+: :session ds :kernel ds
 :clearpage: t
@@ -11,7 +11,7 @@ cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
 
 #+RESULTS: ingest_meta
 #+begin_example
-Borehole ID                      | FOXX1
+Borehole ID                      | GULL1_inclinometer
 Place name                       | Sermeq Avannerleq
 Geographic location              | Central West Greenland
 Site type                        | Ice sheet
@@ -19,21 +19,21 @@ Data Source                      | Lüthi email
 Data DOI                         | 
 Science Source                   | Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... & Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.
 Science DOI                      | 10.3189/2014JoG13J196
-Date                             | 2011-07-01
-Longitude [°E]                   | -49.8851
-Latitude [°N]                    | 69.4459
+Date                             | 2011-07-25
+Longitude [°E]                   | -49.7182
+Latitude [°N]                    | 69.4524
 Location Source                  | 10.3189/2014JoG13J196
-Depth of top measurement [m]     | 10.0
-Depth of bottom measurement [m]  | 50
-Ice thickness [m]                | 624
-Coverage [% of thickness]        | 6
-Ice thickness source             | Ryser, 2014 (Table 2)
+Depth of top measurement [m]     | 355.0
+Depth of bottom measurement [m]  | 702
+Ice thickness [m]                | 705
+Coverage [% of thickness]        | 49
+Ice thickness source             | Ryser, 2014 (Table 3). 705/707 for thickness
 Note                             | See FOXX1/temperature_foxx_gull_streamlined.org
 #+end_example
 
 ** Temperature
 
-See [[./temperature_foxx_gull_streamlined.org]]
+See FOXX1/temperature_foxx_gull_streamlined.org
 
 ** Thickness
 
@@ -47,14 +47,15 @@ cat data.csv | sort -t, -n -k1
 #+END_SRC
 
 #+RESULTS: ingest_data
-|  d |        t |
-| 10 | -2.71335 |
-| 15 | -4.22793 |
-| 20 | -3.59798 |
-| 25 | -3.10579 |
-| 30 | -2.88696 |
-| 35 | -2.81042 |
-| 40 | -2.68365 |
-| 45 | -2.72481 |
-| 50 | -2.76125 |
+|   d |         t |
+| 355 | -11.95864 |
+| 455 | -13.57581 |
+| 515 | -11.69059 |
+| 555 |  -8.48676 |
+| 595 |  -4.75267 |
+| 645 |  -1.52683 |
+| 676 |  -0.58884 |
+| 690 |  -0.48855 |
+| 699 |  -0.41792 |
+| 702 |  -0.55513 |
 
