@@ -33,18 +33,10 @@ Note                             | Data from Gundestrup (1993) seems higher fide
 
 ** Temperature
 
-+ Digitized from [[citet:weertman_1968][Weertman (1968)]] Figure 1
-+ Note: Temperature depth scale is from bottom.
++ Digitized from [[citet:gundestrup_1993][Gundestrup (1993)]] Figure 3
 + Note (from Liam Colgan): [[citet:weertman_1968][Weertman (1986)]] shows ~ -12 °C at the bed in 1966, but a small ensemble of radar analyses now show liquid bed returns since 2010.
 
-
-[[./weertman_1968_fig1.png]]
-
-** Thickness
-
-Unknown source - check with WIC
-
-** Location
+[[./gundestrup_1993_fig3.png]]
 
 ** Data                                                 :noexport:
 
