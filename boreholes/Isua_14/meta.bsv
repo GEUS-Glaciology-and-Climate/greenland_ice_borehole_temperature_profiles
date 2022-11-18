@@ -4,7 +4,7 @@ Geographic location|Central West Greenland
 Site type|Ice sheet
 Data Source|Graphic in science source
 Data DOI|
-Science Source|Colebeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. 
+Science Source|Colbeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. 
 Science DOI|10.3189/S0022143000014714
 Date|1973
 Longitude [°E]|-49.7443

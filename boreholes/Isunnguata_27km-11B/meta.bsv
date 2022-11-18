@@ -5,7 +5,7 @@ Site type|Ice sheet
 Data Source|Joel Harper and Toby Meierbachtol. 2021. Western Greenland Ice Sheet ice temperature profiles, 2010-2012. Arctic Data Center
 Data DOI|10.18739/A2QV3C51Q
 Science Source|Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 
-Science DOI|10.3189/2015AoG70A943
+Science DOI|10.3189/2015AoG70A945
 Date|2011
 Longitude [°E]|-49.71913
 Latitude [°N]|67.19527
