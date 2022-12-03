@@ -39,6 +39,7 @@ data/meta.csv:
 data/boreholes.kml: data/meta.csv
 	@echo Building KML of borehole locations
 	python ./src/borehole_kml.py
+	ogr2ogr -t_srs EPSG:3413 data/boreholes.gpkg data/boreholes.kml
 
 figs: fig/temperature.png fig/temperature_dnorm.png
 
