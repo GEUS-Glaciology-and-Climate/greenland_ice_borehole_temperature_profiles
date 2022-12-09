@@ -828,6 +828,183 @@
             </Point>
         </Placemark>
         <Placemark id="283">
+            <name>Bowdoin_BH1</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Bowdoin Glacier</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Northwest Greenland</value>
+                </Data>
+                <Data name="Site type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Seguinot, Funk, Bauder, Wyder, Senn, &amp; Sugiyama. (2020). Bowdoin Glacier borehole temperature data [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3695961</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>10.5281/zenodo.3695961</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Seguinot J, Funk M, Bauder A, Wyder T, Senn C and Sugiyama S (2020) Englacial Warming Indicates Deep Crevassing in Bowdoin Glacier, Greenland. Front. Earth Sci. 8:65. doi: 10.3389/feart.2020.00065</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3389/feart.2020.00065</value>
+                </Data>
+                <Data name="Date">
+                    <value>2014-10-01</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-68.58</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>77.68</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.3189/2015JoG14J127 </value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>123.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>265</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>272</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>52</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>10.3389/feart.2020.00065</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="282">
+                <coordinates>-68.58,77.68,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="303">
+            <name>Bowdoin_BH2</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Bowdoin Glacier</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Northwest Greenland</value>
+                </Data>
+                <Data name="Site type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Seguinot, Funk, Bauder, Wyder, Senn, &amp; Sugiyama. (2020). Bowdoin Glacier borehole temperature data [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3695961</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>10.5281/zenodo.3695961</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Seguinot J, Funk M, Bauder A, Wyder T, Senn C and Sugiyama S (2020) Englacial Warming Indicates Deep Crevassing in Bowdoin Glacier, Greenland. Front. Earth Sci. 8:65. doi: 10.3389/feart.2020.00065</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3389/feart.2020.00065</value>
+                </Data>
+                <Data name="Date">
+                    <value>2014-10-01</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-68.58</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>77.68</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.3189/2015JoG14J127 </value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>9.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>262</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>262</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>97</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>10.3389/feart.2020.00065</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="302">
+                <coordinates>-68.58,77.68,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="323">
+            <name>Bowdoin_BH3</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Bowdoin Glacier</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Northwest Greenland</value>
+                </Data>
+                <Data name="Site type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Seguinot, Funk, Bauder, Wyder, Senn, &amp; Sugiyama. (2020). Bowdoin Glacier borehole temperature data [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3695961</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>10.5281/zenodo.3695961</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Seguinot J, Funk M, Bauder A, Wyder T, Senn C and Sugiyama S (2020) Englacial Warming Indicates Deep Crevassing in Bowdoin Glacier, Greenland. Front. Earth Sci. 8:65. doi: 10.3389/feart.2020.00065</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3389/feart.2020.00065</value>
+                </Data>
+                <Data name="Date">
+                    <value>2015-01-01</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-68.58</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>77.68</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.3189/2015JoG14J127 </value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>11.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>247</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>252</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>94</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>10.3389/feart.2020.00065</value>
+                </Data>
+                <Data name="Note">
+                    <value>nan</value>
+                </Data>
+            </ExtendedData>
+            <Point id="322">
+                <coordinates>-68.58,77.68,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="343">
             <name>CampCentury</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -882,11 +1059,11 @@
                     <value>Data from Gundestrup (1993) seems higher fidelity than Weertman (1968). See https://github.com/GEUS-Glaciology-and-Climate/greenland_ice_borehole_temperature_profiles/issues/38</value>
                 </Data>
             </ExtendedData>
-            <Point id="282">
+            <Point id="342">
                 <coordinates>-61.1097,77.1797,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="303">
+        <Placemark id="363">
             <name>CampIII_78</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -941,11 +1118,11 @@
                     <value>See also shallow profiles at boreholes I and III</value>
                 </Data>
             </ExtendedData>
-            <Point id="302">
+            <Point id="362">
                 <coordinates>-50.133,69.717,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="323">
+        <Placemark id="383">
             <name>CampVI_50</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1000,11 +1177,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="322">
+            <Point id="382">
                 <coordinates>-48.2625,69.6981,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="343">
+        <Placemark id="403">
             <name>DYE-3</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1059,11 +1236,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="342">
+            <Point id="402">
                 <coordinates>-43.8167,65.1833,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="363">
+        <Placemark id="423">
             <name>Devon72</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1118,11 +1295,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="362">
+            <Point id="422">
                 <coordinates>-82.3,75.3,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="383">
+        <Placemark id="443">
             <name>Devon73</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1177,11 +1354,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="382">
+            <Point id="442">
                 <coordinates>-82.14,75.34,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="403">
+        <Placemark id="463">
             <name>Devon98</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1236,11 +1413,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="402">
+            <Point id="462">
                 <coordinates>-82.3,75.3,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="423">
+        <Placemark id="483">
             <name>FOXX1</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1253,10 +1430,10 @@
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
-                    <value>Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... &amp; Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.</value>
+                    <value>Lüthi email</value>
                 </Data>
                 <Data name="Data DOI">
-                    <value>10.3189/2014JoG13J196</value>
+                    <value>nan</value>
                 </Data>
                 <Data name="Science Source">
                     <value>Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... &amp; Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.</value>
@@ -1265,7 +1442,125 @@
                     <value>10.3189/2014JoG13J196</value>
                 </Data>
                 <Data name="Date">
-                    <value>2012</value>
+                    <value>2011-07-01</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.8851</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.4459</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.3189/2014JoG13J196</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>10.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>50</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>624</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>6</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Ryser, 2014 (Table 2)</value>
+                </Data>
+                <Data name="Note">
+                    <value>See FOXX1/temperature_foxx_gull_streamlined.org</value>
+                </Data>
+            </ExtendedData>
+            <Point id="482">
+                <coordinates>-49.8851,69.4459,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="503">
+            <name>FOXX2</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Sermeq Avannerleq</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Site type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... &amp; Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/2014JoG13J196</value>
+                </Data>
+                <Data name="Date">
+                    <value>2011-07-02</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.8851</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.4459</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.3189/2014JoG13J196</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>70.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>286</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>614</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>35</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Ryser, 2014 (Table 2)</value>
+                </Data>
+                <Data name="Note">
+                    <value>See FOXX1/temperature_foxx_gull_streamlined.org</value>
+                </Data>
+            </ExtendedData>
+            <Point id="502">
+                <coordinates>-49.8851,69.4459,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="523">
+            <name>FOXX4</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Sermeq Avannerleq</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Site type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... &amp; Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/2014JoG13J196</value>
+                </Data>
+                <Data name="Date">
+                    <value>2011-07-06</value>
                 </Data>
                 <Data name="Longitude [°E]">
                     <value>-49.8851</value>
@@ -1283,24 +1578,24 @@
                     <value>606</value>
                 </Data>
                 <Data name="Ice thickness [m]">
-                    <value>624</value>
+                    <value>614</value>
                 </Data>
                 <Data name="Coverage [% of thickness]">
-                    <value>31</value>
+                    <value>32</value>
                 </Data>
                 <Data name="Ice thickness source">
                     <value>Ryser, 2014 (Table 2)</value>
                 </Data>
                 <Data name="Note">
-                    <value>Date: Data was collected in 2011 and 2012 and the data extracted from the cooling curves</value>
+                    <value>See FOXX1/temperature_foxx_gull_streamlined.org</value>
                 </Data>
             </ExtendedData>
-            <Point id="422">
+            <Point id="522">
                 <coordinates>-49.8851,69.4459,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="443">
-            <name>FOXX2</name>
+        <Placemark id="543">
+            <name>FOXX6_inclinometer</name>
             <ExtendedData>
                 <Data name="Place name">
                     <value>Sermeq Avannerleq</value>
@@ -1312,10 +1607,10 @@
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
-                    <value>Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... &amp; Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.</value>
+                    <value>Lüthi email</value>
                 </Data>
                 <Data name="Data DOI">
-                    <value>10.3189/2014JoG13J196</value>
+                    <value>nan</value>
                 </Data>
                 <Data name="Science Source">
                     <value>Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... &amp; Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.</value>
@@ -1324,7 +1619,7 @@
                     <value>10.3189/2014JoG13J196</value>
                 </Data>
                 <Data name="Date">
-                    <value>2012</value>
+                    <value>2011-07-11</value>
                 </Data>
                 <Data name="Longitude [°E]">
                     <value>-49.8851</value>
@@ -1351,14 +1646,132 @@
                     <value>Ryser, 2014 (Table 2)</value>
                 </Data>
                 <Data name="Note">
-                    <value>Date: Data was collected in 2011 and 2012 and the data extracted from the cooling curves</value>
+                    <value>See FOXX1/temperature_foxx_gull_streamlined.org</value>
                 </Data>
             </ExtendedData>
-            <Point id="442">
+            <Point id="542">
                 <coordinates>-49.8851,69.4459,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="463">
+        <Placemark id="563">
+            <name>FOXX6_thermistor1</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Sermeq Avannerleq</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Site type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... &amp; Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/2014JoG13J196</value>
+                </Data>
+                <Data name="Date">
+                    <value>2011-07-11</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.8851</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.4459</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.3189/2014JoG13J196</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>10.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>50</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>614</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>7</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Ryser, 2014 (Table 2)</value>
+                </Data>
+                <Data name="Note">
+                    <value>See FOXX1/temperature_foxx_gull_streamlined.org</value>
+                </Data>
+            </ExtendedData>
+            <Point id="562">
+                <coordinates>-49.8851,69.4459,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="583">
+            <name>FOXX6_thermistor2</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Sermeq Avannerleq</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Site type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... &amp; Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/2014JoG13J196</value>
+                </Data>
+                <Data name="Date">
+                    <value>2011-07-11</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.8851</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.4459</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.3189/2014JoG13J196</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>70.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>342</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>614</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>44</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Ryser, 2014 (Table 2)</value>
+                </Data>
+                <Data name="Note">
+                    <value>See FOXX1/temperature_foxx_gull_streamlined.org</value>
+                </Data>
+            </ExtendedData>
+            <Point id="582">
+                <coordinates>-49.8851,69.4459,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="603">
             <name>FladeIsblink06</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1413,11 +1826,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="462">
+            <Point id="602">
                 <coordinates>-15.7029,81.2926,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="483">
+        <Placemark id="623">
             <name>GISP2</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1472,11 +1885,11 @@
                     <value>Ice thickness from data does not match ice thickness from Vinther (2008); Location approximate; See also Table 1 of MacGregor, J., J. Li, J. Paden et al. 2015. Radar attenuation and temperature within the Greenland Ice Sheet. Journal of Geophysical Research. 120: 983-1008. </value>
                 </Data>
             </ExtendedData>
-            <Point id="482">
+            <Point id="622">
                 <coordinates>-38.4667,72.5833,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="503">
+        <Placemark id="643">
             <name>GRIP</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1531,12 +1944,12 @@
                     <value>See also Table 1 of MacGregor, J., J. Li, J. Paden et al. 2015. Radar attenuation and temperature within the Greenland Ice Sheet. Journal of Geophysical Research. 120: 983-1008. </value>
                 </Data>
             </ExtendedData>
-            <Point id="502">
+            <Point id="642">
                 <coordinates>-37.64,72.58,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="523">
-            <name>GULL</name>
+        <Placemark id="663">
+            <name>GULL1_inclinometer</name>
             <ExtendedData>
                 <Data name="Place name">
                     <value>Sermeq Avannerleq</value>
@@ -1548,10 +1961,10 @@
                     <value>Ice sheet</value>
                 </Data>
                 <Data name="Data Source">
-                    <value>Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... &amp; Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.</value>
+                    <value>Lüthi email</value>
                 </Data>
                 <Data name="Data DOI">
-                    <value>10.3189/2014JoG13J196</value>
+                    <value>nan</value>
                 </Data>
                 <Data name="Science Source">
                     <value>Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... &amp; Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.</value>
@@ -1560,7 +1973,7 @@
                     <value>10.3189/2014JoG13J196</value>
                 </Data>
                 <Data name="Date">
-                    <value>2012</value>
+                    <value>2011-07-25</value>
                 </Data>
                 <Data name="Longitude [°E]">
                     <value>-49.7182</value>
@@ -1572,29 +1985,206 @@
                     <value>10.3189/2014JoG13J196</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
-                    <value>4.0</value>
+                    <value>355.0</value>
                 </Data>
                 <Data name="Depth of bottom measurement [m]">
-                    <value>705</value>
+                    <value>702</value>
                 </Data>
                 <Data name="Ice thickness [m]">
                     <value>705</value>
                 </Data>
                 <Data name="Coverage [% of thickness]">
-                    <value>99</value>
+                    <value>49</value>
                 </Data>
                 <Data name="Ice thickness source">
                     <value>Ryser, 2014 (Table 3). 705/707 for thickness</value>
                 </Data>
                 <Data name="Note">
-                    <value>Only using 'string1' near bottom. Date: Data was collected in 2011 and 2012 and the data extracted from the cooling curves</value>
+                    <value>See FOXX1/temperature_foxx_gull_streamlined.org</value>
                 </Data>
             </ExtendedData>
-            <Point id="522">
+            <Point id="662">
                 <coordinates>-49.7182,69.4524,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="543">
+        <Placemark id="683">
+            <name>GULL1_thermistor1</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Sermeq Avannerleq</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Site type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... &amp; Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/2014JoG13J196</value>
+                </Data>
+                <Data name="Date">
+                    <value>2011-07-25</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.7182</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.4524</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.3189/2014JoG13J196</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>10.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>50</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>705</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>6</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Ryser, 2014 (Table 3). 705/707 for thickness</value>
+                </Data>
+                <Data name="Note">
+                    <value>See FOXX1/temperature_foxx_gull_streamlined.org</value>
+                </Data>
+            </ExtendedData>
+            <Point id="682">
+                <coordinates>-49.7182,69.4524,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="703">
+            <name>GULL1_thermistor2</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Sermeq Avannerleq</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Site type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... &amp; Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/2014JoG13J196</value>
+                </Data>
+                <Data name="Date">
+                    <value>2011-07-25</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.7182</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.4524</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.3189/2014JoG13J196</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>12.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>300</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>705</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>41</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Ryser, 2014 (Table 3). 705/707 for thickness</value>
+                </Data>
+                <Data name="Note">
+                    <value>See FOXX1/temperature_foxx_gull_streamlined.org</value>
+                </Data>
+            </ExtendedData>
+            <Point id="702">
+                <coordinates>-49.7182,69.4524,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="723">
+            <name>GULL5</name>
+            <ExtendedData>
+                <Data name="Place name">
+                    <value>Sermeq Avannerleq</value>
+                </Data>
+                <Data name="Geographic location">
+                    <value>Central West Greenland</value>
+                </Data>
+                <Data name="Site type">
+                    <value>Ice sheet</value>
+                </Data>
+                <Data name="Data Source">
+                    <value>Lüthi email</value>
+                </Data>
+                <Data name="Data DOI">
+                    <value>nan</value>
+                </Data>
+                <Data name="Science Source">
+                    <value>Ryser, C., Lüthi, M. P., Andrews, L. C., Hoffman, M. J., Catania, G. A., Hawley, R. L., ... &amp; Kristensen, S. S. (2014). Sustained high basal motion of the Greenland ice sheet revealed by borehole deformation. Journal of Glaciology, 60(222), 647-660.</value>
+                </Data>
+                <Data name="Science DOI">
+                    <value>10.3189/2014JoG13J196</value>
+                </Data>
+                <Data name="Date">
+                    <value>2011-07-29</value>
+                </Data>
+                <Data name="Longitude [°E]">
+                    <value>-49.7182</value>
+                </Data>
+                <Data name="Latitude [°N]">
+                    <value>69.4524</value>
+                </Data>
+                <Data name="Location Source">
+                    <value>10.3189/2014JoG13J196</value>
+                </Data>
+                <Data name="Depth of top measurement [m]">
+                    <value>307.0</value>
+                </Data>
+                <Data name="Depth of bottom measurement [m]">
+                    <value>707</value>
+                </Data>
+                <Data name="Ice thickness [m]">
+                    <value>707</value>
+                </Data>
+                <Data name="Coverage [% of thickness]">
+                    <value>57</value>
+                </Data>
+                <Data name="Ice thickness source">
+                    <value>Ryser, 2014 (Table 3). 705/707 for thickness</value>
+                </Data>
+                <Data name="Note">
+                    <value>See FOXX1/temperature_foxx_gull_streamlined.org</value>
+                </Data>
+            </ExtendedData>
+            <Point id="722">
+                <coordinates>-49.7182,69.4524,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="743">
             <name>HansTausen_Dome</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1649,11 +2239,11 @@
                     <value>Only two data points - 10 m and 345 m. Drill date: 10.34194/bullggu.v172.6749 </value>
                 </Data>
             </ExtendedData>
-            <Point id="542">
+            <Point id="742">
                 <coordinates>-37.47,82.51,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="563">
+        <Placemark id="763">
             <name>HansTausen_Hare</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1708,11 +2298,11 @@
                     <value>Drill date: 10.34194/bullggu.v172.6749 </value>
                 </Data>
             </ExtendedData>
-            <Point id="562">
+            <Point id="762">
                 <coordinates>-36.67,82.84,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="583">
+        <Placemark id="783">
             <name>Isua_10</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1731,7 +2321,7 @@
                     <value>nan</value>
                 </Data>
                 <Data name="Science Source">
-                    <value>Colebeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. </value>
+                    <value>Colbeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. </value>
                 </Data>
                 <Data name="Science DOI">
                     <value>10.3189/S0022143000014714</value>
@@ -1767,11 +2357,11 @@
                     <value>Measuremnet date 1972 or 1973. From Colbeck (1979), &quot;Five holes (see Fig. 3) were drilled in 1972 and 1973 for the purpose of making temperature measurements and taking ice cores.&quot;</value>
                 </Data>
             </ExtendedData>
-            <Point id="582">
+            <Point id="782">
                 <coordinates>-49.75,65.2093,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="603">
+        <Placemark id="803">
             <name>Isua_11</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1790,7 +2380,7 @@
                     <value>nan</value>
                 </Data>
                 <Data name="Science Source">
-                    <value>Colebeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. </value>
+                    <value>Colbeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. </value>
                 </Data>
                 <Data name="Science DOI">
                     <value>10.3189/S0022143000014714</value>
@@ -1826,11 +2416,11 @@
                     <value>Measuremnet date 1972 or 1973. From Colbeck (1979), &quot;Five holes (see Fig. 3) were drilled in 1972 and 1973 for the purpose of making temperature measurements and taking ice cores.&quot;</value>
                 </Data>
             </ExtendedData>
-            <Point id="602">
+            <Point id="802">
                 <coordinates>-49.751,65.2072,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="623">
+        <Placemark id="823">
             <name>Isua_12</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1849,7 +2439,7 @@
                     <value>nan</value>
                 </Data>
                 <Data name="Science Source">
-                    <value>Colebeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. </value>
+                    <value>Colbeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. </value>
                 </Data>
                 <Data name="Science DOI">
                     <value>10.3189/S0022143000014714</value>
@@ -1885,11 +2475,11 @@
                     <value>Measuremnet date 1972 or 1973. From Colbeck (1979), &quot;Five holes (see Fig. 3) were drilled in 1972 and 1973 for the purpose of making temperature measurements and taking ice cores.&quot;</value>
                 </Data>
             </ExtendedData>
-            <Point id="622">
+            <Point id="822">
                 <coordinates>-49.753,65.2039,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="643">
+        <Placemark id="843">
             <name>Isua_13</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1908,7 +2498,7 @@
                     <value>nan</value>
                 </Data>
                 <Data name="Science Source">
-                    <value>Colebeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. </value>
+                    <value>Colbeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. </value>
                 </Data>
                 <Data name="Science DOI">
                     <value>10.3189/S0022143000014714</value>
@@ -1944,11 +2534,11 @@
                     <value>Measuremnet date 1972 or 1973. From Colbeck (1979), &quot;Five holes (see Fig. 3) were drilled in 1972 and 1973 for the purpose of making temperature measurements and taking ice cores.&quot;</value>
                 </Data>
             </ExtendedData>
-            <Point id="642">
+            <Point id="842">
                 <coordinates>-49.7456,65.2069,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="663">
+        <Placemark id="863">
             <name>Isua_14</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -1967,7 +2557,7 @@
                     <value>nan</value>
                 </Data>
                 <Data name="Science Source">
-                    <value>Colebeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. </value>
+                    <value>Colbeck, S. and A. Gow. 1979. The margin of the Greenland Ice Sheet at Isua. Journal of Glaciology. 24: 155-165. </value>
                 </Data>
                 <Data name="Science DOI">
                     <value>10.3189/S0022143000014714</value>
@@ -2003,11 +2593,11 @@
                     <value>Measuremnet date 1972 or 1973. From Colbeck (1979), &quot;Five holes (see Fig. 3) were drilled in 1972 and 1973 for the purpose of making temperature measurements and taking ice cores.&quot;</value>
                 </Data>
             </ExtendedData>
-            <Point id="662">
+            <Point id="862">
                 <coordinates>-49.7443,65.2058,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="683">
+        <Placemark id="883">
             <name>Isunnguata_13km-10</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2029,7 +2619,7 @@
                     <value>Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 </value>
                 </Data>
                 <Data name="Science DOI">
-                    <value>10.3189/2015AoG70A941</value>
+                    <value>10.3189/2015AoG70A945</value>
                 </Data>
                 <Data name="Date">
                     <value>2010</value>
@@ -2062,11 +2652,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S2</value>
                 </Data>
             </ExtendedData>
-            <Point id="682">
+            <Point id="882">
                 <coordinates>-50.02945,67.19158,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="703">
+        <Placemark id="903">
             <name>Isunnguata_27km-11A</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2088,7 +2678,7 @@
                     <value>Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 </value>
                 </Data>
                 <Data name="Science DOI">
-                    <value>10.3189/2015AoG70A942</value>
+                    <value>10.3189/2015AoG70A945</value>
                 </Data>
                 <Data name="Date">
                     <value>2011</value>
@@ -2121,11 +2711,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S3-A</value>
                 </Data>
             </ExtendedData>
-            <Point id="702">
+            <Point id="902">
                 <coordinates>-49.71952,67.19518,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="723">
+        <Placemark id="923">
             <name>Isunnguata_27km-11B</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2147,7 +2737,7 @@
                     <value>Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 </value>
                 </Data>
                 <Data name="Science DOI">
-                    <value>10.3189/2015AoG70A943</value>
+                    <value>10.3189/2015AoG70A945</value>
                 </Data>
                 <Data name="Date">
                     <value>2011</value>
@@ -2180,11 +2770,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S3-B</value>
                 </Data>
             </ExtendedData>
-            <Point id="722">
+            <Point id="922">
                 <coordinates>-49.71913,67.19527,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="743">
+        <Placemark id="943">
             <name>Isunnguata_27km-11C</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2206,7 +2796,7 @@
                     <value>Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 </value>
                 </Data>
                 <Data name="Science DOI">
-                    <value>10.3189/2015AoG70A944</value>
+                    <value>10.3189/2015AoG70A945</value>
                 </Data>
                 <Data name="Date">
                     <value>2011</value>
@@ -2239,11 +2829,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S3-C</value>
                 </Data>
             </ExtendedData>
-            <Point id="742">
+            <Point id="942">
                 <coordinates>-49.71892,67.19505,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="763">
+        <Placemark id="963">
             <name>Isunnguata_27km-12A</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2298,11 +2888,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S4-A</value>
                 </Data>
             </ExtendedData>
-            <Point id="762">
+            <Point id="962">
                 <coordinates>-49.71793,67.20422,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="783">
+        <Placemark id="983">
             <name>Isunnguata_27km-12B</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2357,11 +2947,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S4-B</value>
                 </Data>
             </ExtendedData>
-            <Point id="782">
+            <Point id="982">
                 <coordinates>-49.71778,67.2037,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="803">
+        <Placemark id="1003">
             <name>Isunnguata_27km-12C</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2383,7 +2973,7 @@
                     <value>Harrington, Joel A., Humphrey, Neil F., Harper, Joel T.: Temperature distribution and thermal anomalies along a flowline of the Greenland ice sheet , Annals of Glaciology 56(70), 98–104, 2015 </value>
                 </Data>
                 <Data name="Science DOI">
-                    <value>10.3189/2015AoG70A947</value>
+                    <value>10.3189/2015AoG70A945</value>
                 </Data>
                 <Data name="Date">
                     <value>2012</value>
@@ -2416,11 +3006,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S4-C</value>
                 </Data>
             </ExtendedData>
-            <Point id="802">
+            <Point id="1002">
                 <coordinates>-49.71811,67.20382,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="823">
+        <Placemark id="1023">
             <name>Isunnguata_33km_14N</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2475,11 +3065,11 @@
                     <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
                 </Data>
             </ExtendedData>
-            <Point id="822">
+            <Point id="1022">
                 <coordinates>-49.5697,67.18307,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="843">
+        <Placemark id="1043">
             <name>Isunnguata_33km_14SA</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2534,11 +3124,11 @@
                     <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
                 </Data>
             </ExtendedData>
-            <Point id="842">
+            <Point id="1042">
                 <coordinates>-49.57001,67.18108,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="863">
+        <Placemark id="1063">
             <name>Isunnguata_33km_14SB</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2593,11 +3183,11 @@
                     <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
                 </Data>
             </ExtendedData>
-            <Point id="862">
+            <Point id="1062">
                 <coordinates>-49.56972,67.18104,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="883">
+        <Placemark id="1083">
             <name>Isunnguata_33km_14W</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2652,11 +3242,11 @@
                     <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
                 </Data>
             </ExtendedData>
-            <Point id="882">
+            <Point id="1082">
                 <coordinates>-49.57238,67.18209,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="903">
+        <Placemark id="1103">
             <name>Isunnguata_33km_15CA</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2711,11 +3301,11 @@
                     <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
                 </Data>
             </ExtendedData>
-            <Point id="902">
+            <Point id="1102">
                 <coordinates>-49.5695,67.1821,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="923">
+        <Placemark id="1123">
             <name>Isunnguata_33km_15CB</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2770,11 +3360,11 @@
                     <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
                 </Data>
             </ExtendedData>
-            <Point id="922">
+            <Point id="1122">
                 <coordinates>-49.56949,67.18201,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="943">
+        <Placemark id="1143">
             <name>Isunnguata_33km_15E</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2829,11 +3419,11 @@
                     <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
                 </Data>
             </ExtendedData>
-            <Point id="942">
+            <Point id="1142">
                 <coordinates>-49.56403,67.18187,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="963">
+        <Placemark id="1163">
             <name>Isunnguata_33km_15N</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2888,11 +3478,11 @@
                     <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
                 </Data>
             </ExtendedData>
-            <Point id="962">
+            <Point id="1162">
                 <coordinates>-49.56691,67.18312,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="983">
+        <Placemark id="1183">
             <name>Isunnguata_33km_15S</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -2947,11 +3537,11 @@
                     <value>See also McDowell, I. E., Humphrey, N. F., Harper, J. T., and Meierbachtol, T. W.: The cooling signature of basal crevasses in a hard-bedded region of the Greenland Ice Sheet, The Cryosphere, 15, 897–907, https://doi.org/10.5194/tc-15-897-2021, 2021.</value>
                 </Data>
             </ExtendedData>
-            <Point id="982">
+            <Point id="1182">
                 <coordinates>-49.56666,67.18094,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1003">
+        <Placemark id="1203">
             <name>Isunnguata_46km-11A</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3006,11 +3596,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S5-A</value>
                 </Data>
             </ExtendedData>
-            <Point id="1002">
+            <Point id="1202">
                 <coordinates>-49.2888,67.20143,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1023">
+        <Placemark id="1223">
             <name>Isunnguata_46km-11B</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3065,11 +3655,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S5-B</value>
                 </Data>
             </ExtendedData>
-            <Point id="1022">
+            <Point id="1222">
                 <coordinates>-49.2891,67.20134,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1043">
+        <Placemark id="1243">
             <name>Isunnguata_M1-10</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3124,11 +3714,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S1-A</value>
                 </Data>
             </ExtendedData>
-            <Point id="1042">
+            <Point id="1242">
                 <coordinates>-50.06427,67.16221,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1063">
+        <Placemark id="1263">
             <name>Isunnguata_M2-10B</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3183,11 +3773,11 @@
                     <value>See data in M1-10 folder; Harrington 2015 name: S1-B</value>
                 </Data>
             </ExtendedData>
-            <Point id="1062">
+            <Point id="1262">
                 <coordinates>-50.06633,67.16704,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1083">
+        <Placemark id="1283">
             <name>Jakobshavn89A</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3242,11 +3832,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1082">
+            <Point id="1282">
                 <coordinates>-48.763,69.169,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1103">
+        <Placemark id="1303">
             <name>Jakobshavn89B</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3301,11 +3891,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1102">
+            <Point id="1302">
                 <coordinates>-48.77,69.186,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1123">
+        <Placemark id="1323">
             <name>Jakobshavn95D_I1</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3360,11 +3950,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1122">
+            <Point id="1322">
                 <coordinates>-48.6869,69.235,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1143">
+        <Placemark id="1343">
             <name>Jakobshavn95D_I2</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3419,11 +4009,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1142">
+            <Point id="1342">
                 <coordinates>-48.6869,69.235,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1163">
+        <Placemark id="1363">
             <name>Jakobshavn95D_T3</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3478,11 +4068,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1162">
+            <Point id="1362">
                 <coordinates>-48.6869,69.235,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1183">
+        <Placemark id="1383">
             <name>Jakobshavn95D_T4</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3537,11 +4127,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1182">
+            <Point id="1382">
                 <coordinates>-48.6869,69.235,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1203">
+        <Placemark id="1403">
             <name>Jakobshavn95D_T5</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3596,11 +4186,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1202">
+            <Point id="1402">
                 <coordinates>-48.6869,69.235,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1223">
+        <Placemark id="1423">
             <name>Laika_75a</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3655,11 +4245,11 @@
                     <value>Temperature, location, and thickness digitized by M. Jacquemart</value>
                 </Data>
             </ExtendedData>
-            <Point id="1222">
+            <Point id="1422">
                 <coordinates>-79.1119,75.8979,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1243">
+        <Placemark id="1443">
             <name>Laika_75b</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3714,11 +4304,11 @@
                     <value>Temperature, location, and thickness digitized by M. Jacquemart</value>
                 </Data>
             </ExtendedData>
-            <Point id="1242">
+            <Point id="1442">
                 <coordinates>-79.1291,75.8968,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1263">
+        <Placemark id="1463">
             <name>Laika_75c</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3773,11 +4363,11 @@
                     <value>Temperature, location, and thickness digitized by M. Jacquemart</value>
                 </Data>
             </ExtendedData>
-            <Point id="1262">
+            <Point id="1462">
                 <coordinates>-79.1445,75.8953,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1283">
+        <Placemark id="1483">
             <name>Laika_75d</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3832,11 +4422,11 @@
                     <value>Temperature, location, and thickness digitized by M. Jacquemart</value>
                 </Data>
             </ExtendedData>
-            <Point id="1282">
+            <Point id="1482">
                 <coordinates>-79.1633,75.8896,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1303">
+        <Placemark id="1503">
             <name>Laika_75e</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3891,11 +4481,11 @@
                     <value>Temperature, location, and thickness digitized by M. Jacquemart</value>
                 </Data>
             </ExtendedData>
-            <Point id="1302">
+            <Point id="1502">
                 <coordinates>-79.1801,75.8817,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1323">
+        <Placemark id="1523">
             <name>Meighen67</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -3950,11 +4540,11 @@
                     <value>Location from Geothermal Database</value>
                 </Data>
             </ExtendedData>
-            <Point id="1322">
+            <Point id="1522">
                 <coordinates>-99.1,79.9,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1343">
+        <Placemark id="1543">
             <name>NEEM</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4009,11 +4599,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1342">
+            <Point id="1542">
                 <coordinates>-51.06,77.45,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1363">
+        <Placemark id="1563">
             <name>NGRIP</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4068,11 +4658,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1362">
+            <Point id="1562">
                 <coordinates>-42.32,75.1,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1383">
+        <Placemark id="1583">
             <name>Penny96</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4127,11 +4717,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1382">
+            <Point id="1582">
                 <coordinates>-65.2,67.3,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1403">
+        <Placemark id="1603">
             <name>PrinceWales05</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4186,11 +4776,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1402">
+            <Point id="1602">
                 <coordinates>-80.395,78.3897,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1423">
+        <Placemark id="1623">
             <name>Renland88</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4245,11 +4835,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1422">
+            <Point id="1622">
                 <coordinates>-26.768,71.306,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1443">
+        <Placemark id="1643">
             <name>SiteII</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4304,11 +4894,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1442">
+            <Point id="1642">
                 <coordinates>-56.07,76.98,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1463">
+        <Placemark id="1663">
             <name>StationCentrale</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4363,11 +4953,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1462">
+            <Point id="1662">
                 <coordinates>-40.63,70.92,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1483">
+        <Placemark id="1683">
             <name>Store_R29</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4422,11 +5012,11 @@
                     <value>Note: Temperature measured in immediately adjacent Boreholes 18b and 18d.</value>
                 </Data>
             </ExtendedData>
-            <Point id="1482">
+            <Point id="1682">
                 <coordinates>-50.05894,70.56359,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1503">
+        <Placemark id="1703">
             <name>Store_R30_BH19c</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4481,11 +5071,11 @@
                     <value>See also: 10.5285/ecf81955-b829-4f91-ae90-b9bc947f8c60 (Note, both fibre optic DTS and thermistor data are presented in Law et al. (2021))</value>
                 </Data>
             </ExtendedData>
-            <Point id="1502">
+            <Point id="1702">
                 <coordinates>-50.09,70.57,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1523">
+        <Placemark id="1723">
             <name>Store_S30</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4540,11 +5130,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1522">
+            <Point id="1722">
                 <coordinates>-49.9167,70.5167,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1543">
+        <Placemark id="1743">
             <name>TD1_88</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4599,11 +5189,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1542">
+            <Point id="1742">
                 <coordinates>-50.13,69.45,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1563">
+        <Placemark id="1763">
             <name>TD2_88</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4658,11 +5248,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1562">
+            <Point id="1762">
                 <coordinates>-50.1,69.45,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1583">
+        <Placemark id="1783">
             <name>TD3_88</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4717,11 +5307,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1582">
+            <Point id="1782">
                 <coordinates>-50.0,69.48,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1603">
+        <Placemark id="1803">
             <name>TD4_91a</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4776,11 +5366,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1602">
+            <Point id="1802">
                 <coordinates>-49.68,69.53,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1623">
+        <Placemark id="1823">
             <name>TD4_91b</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4835,11 +5425,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1622">
+            <Point id="1822">
                 <coordinates>-49.68,69.53,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1643">
+        <Placemark id="1843">
             <name>TD5_90</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4894,11 +5484,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1642">
+            <Point id="1842">
                 <coordinates>-49.3,69.57,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1663">
+        <Placemark id="1863">
             <name>TD5_91</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -4953,11 +5543,11 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1662">
+            <Point id="1862">
                 <coordinates>-49.3,69.57,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1683">
+        <Placemark id="1883">
             <name>Tuto_D-11</name>
             <ExtendedData>
                 <Data name="Place name">
@@ -5012,7 +5602,7 @@
                     <value>nan</value>
                 </Data>
             </ExtendedData>
-            <Point id="1682">
+            <Point id="1882">
                 <coordinates>-68.2873,76.4113,0.0</coordinates>
             </Point>
         </Placemark>
