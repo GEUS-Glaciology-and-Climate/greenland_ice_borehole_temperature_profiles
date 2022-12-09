@@ -1,0 +1,59 @@
+* Bowdoin_BH3
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+#+RESULTS: ingest_meta
+#+begin_example
+Borehole ID                      | Bowdoin_BH3
+Place name                       | Bowdoin Glacier
+Geographic location              | Northwest Greenland
+Site type                        | Ice sheet
+Data Source                      | Seguinot, Funk, Bauder, Wyder, Senn, & Sugiyama. (2020). Bowdoin Glacier borehole temperature data [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3695961
+Data DOI                         | 10.5281/zenodo.3695961
+Science Source                   | Seguinot J, Funk M, Bauder A, Wyder T, Senn C and Sugiyama S (2020) Englacial Warming Indicates Deep Crevassing in Bowdoin Glacier, Greenland. Front. Earth Sci. 8:65. doi: 10.3389/feart.2020.00065
+Science DOI                      | 10.3389/feart.2020.00065
+Date                             | 2015-01-01
+Longitude [°E]                   | -68.58
+Latitude [°N]                    | 77.68
+Location Source                  | 10.3189/2015JoG14J127 
+Depth of top measurement [m]     | 11.0
+Depth of bottom measurement [m]  | 247
+Ice thickness [m]                | 252
+Coverage [% of thickness]        | 94
+Ice thickness source             | 10.3389/feart.2020.00065
+Note                             | 
+#+end_example
+
+** Temperature
+
++ See https://github.com/GEUS-Glaciology-and-Climate/greenland_ice_borehole_temperature_profiles/issues/46
+
+** Thickness
+
+** Location
+
++ Location approximate and site in motion. Using Study Site from http://doi.org/10.3189/2015JoG14J127
+
+** Data                                                 :noexport:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k1
+#+END_SRC
+
+#+RESULTS: ingest_data
+|                  d |                    t |
+|              10.71 |   -4.571982447635388 |
+|              30.71 |  -1.2617083577571935 |
+|              50.71 |  -1.3347131961320535 |
+|              70.71 |   -2.354646957601054 |
+|              90.71 |  -3.3616264482996074 |
+| 143.45930567523058 |   -4.102706682757757 |
+| 192.56760463562992 |  -2.4926986633874804 |
+| 232.26181213768209 |  -0.5787235550180022 |
+|             246.89 | -0.19267452001339938 |
+
+
