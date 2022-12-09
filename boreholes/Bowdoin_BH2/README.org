@@ -1,0 +1,43 @@
+* Bowdoin_BH2
+
+#+NAME: ingest_meta
+#+BEGIN_SRC bash :results verbatim :exports results
+cat meta.bsv | sed 's/|/@| /' | column -s"@" -t
+#+END_SRC
+
+** Temperature
+
++ See https://github.com/GEUS-Glaciology-and-Climate/greenland_ice_borehole_temperature_profiles/issues/46
+
+** Thickness
+
+** Location
+
++ Location approximate and site in motion. Using Study Site from http://doi.org/10.3189/2015JoG14J127
+
+** Data                                                 :noexport:
+
+#+NAME: ingest_data
+#+BEGIN_SRC bash :exports results
+cat data.csv | sort -t, -n -k1
+#+END_SRC
+
+#+RESULTS: ingest_data
+|                 d |                    t |
+| 8.559999999999999 |   -7.218972026171953 |
+|             28.56 |   -2.472746204050607 |
+|             48.56 |   -3.741665343915274 |
+| 68.55999999999999 |   -5.077302573388848 |
+| 88.55999999999999 |   -5.763261277974561 |
+|            108.56 |   -5.980415083369564 |
+|            118.56 |   -5.919788599597749 |
+|            138.56 |    -5.93513192733191 |
+|            158.56 |   -5.823162745014667 |
+|            178.56 |   -5.257657113698826 |
+|            198.56 |   -4.615924572957764 |
+|            218.56 |   -3.427487258510253 |
+|            238.56 |  -2.0278599740498353 |
+|            258.56 |  -0.7203667125076594 |
+|             262.0 | -0.22643182429437758 |
+
+
