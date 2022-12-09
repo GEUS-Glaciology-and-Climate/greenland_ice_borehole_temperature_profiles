@@ -16,6 +16,7 @@ org-babel = emacsclient --eval "(progn			\
 BOREHOLES := boreholes/*
 
 all: FORCE
+	python ./src/csv2meta_bsv.py
 	make data/temperature.csv
 	make data/boreholes.kml
 	make figs
@@ -25,16 +26,10 @@ data/temperature.csv: boreholes/*
 	python ./src/temperature_csvs.py
 	python ./src/merge_boreholes.py
 
-
-boreholes/*: data/meta.csv
-	@echo Building $@/meta.bsv
-	python ./src/csv2meta_bsv.py $@
+boreholes/*: FORCE
 	@echo Updating $<
 	$(call org-babel,$@/README.org,ingest_meta)
 	$(call org-babel,$@/README.org,ingest_data)
-
-data/meta.csv:
-	python ./src/googlesheet2csv.py
 
 data/boreholes.kml: data/meta.csv
 	@echo Building KML of borehole locations
@@ -49,6 +44,7 @@ fig/temperature.png fig/temperature_dnorm.png: data/temperature.csv data/tempera
 
 clean:
 	@echo [clean]
-	@rm -rf boreholes/*/meta.bsv data/*
+	@rm -rf boreholes/*/meta.bsv
+	(cd data/; rm boreholes* merged* temperature*)
 
 FORCE: # dummy target
