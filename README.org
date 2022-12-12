@@ -10,6 +10,10 @@
 
 * Table of contents                               :toc_2:noexport:
 - [[#introduction][Introduction]]
+- [[#citation][Citation]]
+  - [[#publication][Publication]]
+  - [[#data][Data]]
+- [[#data-access][Data access]]
 - [[#database-format][Database format]]
   - [[#inputs][Inputs]]
   - [[#outputs][Outputs]]
@@ -20,6 +24,45 @@
 * Introduction
 
 This is a collection of all Greenland ice borehole temperature profiles we have been able to find. Secondary data, useful to use the temperature profile, is also included when available.
+
+* Citation
+
+** Publication
+
+#+BEGIN_EXAMPLE
+@article{lokkegaard_2022,
+  author    = {Anja L{\o}kkegaard and Kenneth D. Mankoff and Christian Zdanowicz and Gary D. Clow
+                  and Martin P. L\"{u}thi and Samuel Doyle and Henrik Thomsen and David Fisher and
+                  Joel Harper and Andy Aschwanden and Bo M. Vinther and Dorthe Dahl-Jensen and Harry
+                  Zekollari and Toby Meierbachtol and Ian McDowell and Neil Humphrey and Anne
+                  Solgaard and Nanna B. Karlsson and Shfaqat Abbas Khan and Benjamin Hills and
+                  Robert Law and Bryn Hubbard and Poul Christoffersen and Myl{\`{e}}ne Jacquemart
+                  and Robert S. Fausto and William T. Colgan},
+  title     = {{G}reenland and {C}anadian {A}rctic ice temperature profiles},
+  journal   = {The Cryosphere [Discussions]},
+  year 	    = 2022,
+  doi 	    = {10.5194/tc-2022-138}}
+#+END_EXAMPLE
+
+** Data
+
+#+BEGIN_EXAMPLE
+@misc{mankoff_2022,
+  author    = {Mankoff, Ken and Løkkegaard, Anja and Colgan, William and Thomsen, Henrik and Clow,
+                  Gary and Fisher, David and Zdanowicz, Christian and L\"{u}thi, Martin P. and
+                  Vinther, Bo and MacGregor, Joseph A. and McDowell, Ian and Zekollari, Harry and
+                  Meierbachtol, Toby and Doyle, Samuel and Law, Robert and Hills, Benjamin and
+                  Harper, Joel and Humphrey, Niel and Hubbard, Bryn and Christoffersen, Poul and
+                  Jacquemart, Mylène, and Seguinot, Julien},
+  title     = {{G}reenland and {C}anadian {A}rctic ice temperature profiles database},
+  year 	    = 2022,
+  doi 	    = {10.22008/FK2/3BVF9V},
+  publisher = {GEUS Dataverse}}
+#+END_EXAMPLE
+    
+* Data access
+
++ See the GEUS Dataverse at https://doi.org/10.22008/FK2/3BVF9V
 
 * Database format
 
