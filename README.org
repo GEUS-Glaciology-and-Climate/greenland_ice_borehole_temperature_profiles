@@ -87,7 +87,7 @@ The output of this work is in the [[./data/]] sub-folder:
 
 + [[./data/meta.csv]] :: Metadata for each borehole.
 + [[./data/temperature.csv]] :: Temperature profiles on a common scale, all to the depth (first column) of the deepest profile. NaN marks locations without data. -999 marks locations below bedrock (for all but the deepest profile).
-+ [[./data/temperature_dnorm.csv]] :: The same data as [[./temperature.csv]] but the first column is normalized depth, from the ice sheet surface (0) to the bed (1).
++ [[./data/temperature_dnorm.csv]] :: The same data as [[./data/temperature.csv]] but the first column is normalized depth, from the ice sheet surface (0) to the bed (1).
 
 ** Metadata
 
