@@ -855,13 +855,13 @@
                     <value>2014-10-01</value>
                 </Data>
                 <Data name="Longitude [°E]">
-                    <value>-68.58</value>
+                    <value>-68.5565598058807</value>
                 </Data>
                 <Data name="Latitude [°N]">
-                    <value>77.68</value>
+                    <value>77.69072896854759</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>10.3189/2015JoG14J127 </value>
+                    <value>10.3389/feart.2020.00065</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>123.0</value>
@@ -883,7 +883,7 @@
                 </Data>
             </ExtendedData>
             <Point id="282">
-                <coordinates>-68.58,77.68,0.0</coordinates>
+                <coordinates>-68.5565598058807,77.69072896854759,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="303">
@@ -914,13 +914,13 @@
                     <value>2014-10-01</value>
                 </Data>
                 <Data name="Longitude [°E]">
-                    <value>-68.58</value>
+                    <value>-68.55649538258352</value>
                 </Data>
                 <Data name="Latitude [°N]">
-                    <value>77.68</value>
+                    <value>77.69079167070811</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>10.3189/2015JoG14J127 </value>
+                    <value>10.3389/feart.2020.00065</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>9.0</value>
@@ -942,7 +942,7 @@
                 </Data>
             </ExtendedData>
             <Point id="302">
-                <coordinates>-68.58,77.68,0.0</coordinates>
+                <coordinates>-68.55649538258352,77.69079167070811,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="323">
@@ -973,13 +973,13 @@
                     <value>2015-01-01</value>
                 </Data>
                 <Data name="Longitude [°E]">
-                    <value>-68.58</value>
+                    <value>-68.5610846216063</value>
                 </Data>
                 <Data name="Latitude [°N]">
-                    <value>77.68</value>
+                    <value>77.6887192529418</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>10.3189/2015JoG14J127 </value>
+                    <value>10.3389/feart.2020.00065</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
                     <value>11.0</value>
@@ -1001,7 +1001,7 @@
                 </Data>
             </ExtendedData>
             <Point id="322">
-                <coordinates>-68.58,77.68,0.0</coordinates>
+                <coordinates>-68.5610846216063,77.6887192529418,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="343">
