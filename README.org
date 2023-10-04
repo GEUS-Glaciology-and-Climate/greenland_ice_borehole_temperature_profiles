@@ -30,18 +30,24 @@ This is a collection of all Greenland ice borehole temperature profiles we have 
 ** Publication
 
 #+BEGIN_EXAMPLE
-@article{lokkegaard_2022,
-  author    = {Anja L{\o}kkegaard and Kenneth D. Mankoff and Christian Zdanowicz and Gary D. Clow
-                  and Martin P. L\"{u}thi and Samuel Doyle and Henrik Thomsen and David Fisher and
-                  Joel Harper and Andy Aschwanden and Bo M. Vinther and Dorthe Dahl-Jensen and Harry
-                  Zekollari and Toby Meierbachtol and Ian McDowell and Neil Humphrey and Anne
-                  Solgaard and Nanna B. Karlsson and Shfaqat Abbas Khan and Benjamin Hills and
-                  Robert Law and Bryn Hubbard and Poul Christoffersen and Myl{\`{e}}ne Jacquemart
-                  and Robert S. Fausto and William T. Colgan},
-  title     = {{G}reenland and {C}anadian {A}rctic ice temperature profiles},
-  journal   = {The Cryosphere [Discussions]},
-  year 	    = 2022,
-  doi 	    = {10.5194/tc-2022-138}}
+@article{loekkegaard_2023,
+  author    = {L{\o}kkegaard, Anja and Mankoff, Kenneth D. and Zdanowicz, Christian and Clow,
+                  Gary D. and L\"uthi, Martin P. and Doyle, Samuel H. and Thomsen, Henrik H. and
+                  Fisher, David and Harper, Joel and Aschwanden, Andy and Vinther, Bo M. and
+                  Dahl-Jensen, Dorthe and Zekollari, Harry and Meierbachtol, Toby and McDowell, Ian
+                  and Humphrey, Neil and Solgaard, Anne and Karlsson, Nanna. B and Khan, Shfaqat A.
+                  and Hills, Benjamin and Law, Robert and Hubbard, Bryn and Christoffersen, Poul and
+                  Jacquemart, Myl\`ene and Seguinot, Julien and Fausto, Robert S. and Colgan,
+                  William T.},
+  title	    = {{G}reenland and {C}anadian {A}rctic ice temperature profiles database},
+  journal   = {The Cryosphere},
+  year	    = 2023,
+  volume    = 17,
+  number    = 9,
+  pages	    = {3829--3845},
+  doi	    = {10.5194/tc-17-3829-2023},
+  publisher = {Copernicus {GmbH}}
+}
 #+END_EXAMPLE
 
 ** Data
