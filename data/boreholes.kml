@@ -2197,7 +2197,7 @@
                     <value>Ice cap</value>
                 </Data>
                 <Data name="Data Source">
-                    <value>Zekollari email</value>
+                    <value>E. Zwelty, Issue #50, and Reeh, Niels, ed. Report on Activities and Results 1993-1995 for Hans Tavsen Ice Cap Project: Glacier and Climate Change Research, North Greenland. 1995. Fig. 6.</value>
                 </Data>
                 <Data name="Data DOI">
                     <value>nan</value>
@@ -2218,25 +2218,25 @@
                     <value>82.51</value>
                 </Data>
                 <Data name="Location Source">
-                    <value>10.5194/essd-2021-290</value>
+                    <value>10.5194/essd-14-2209-2022</value>
                 </Data>
                 <Data name="Depth of top measurement [m]">
-                    <value>10.0</value>
+                    <value>12.0</value>
                 </Data>
                 <Data name="Depth of bottom measurement [m]">
-                    <value>345</value>
+                    <value>341</value>
                 </Data>
                 <Data name="Ice thickness [m]">
                     <value>345</value>
                 </Data>
                 <Data name="Coverage [% of thickness]">
-                    <value>97</value>
+                    <value>95</value>
                 </Data>
                 <Data name="Ice thickness source">
                     <value>See data source</value>
                 </Data>
                 <Data name="Note">
-                    <value>Only two data points - 10 m and 345 m. Drill date: 10.34194/bullggu.v172.6749 </value>
+                    <value>Drill date: 10.34194/bullggu.v172.6749 </value>
                 </Data>
             </ExtendedData>
             <Point id="742">
