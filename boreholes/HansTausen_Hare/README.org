@@ -22,7 +22,7 @@ Science DOI                      | 10.34194/bullggu.v172.6749
 Date                             | 1995
 Longitude [°E]                   | -36.67
 Latitude [°N]                    | 82.84
-Location Source                  | 10.5194/essd-2021-290
+Location Source                  | 10.5194/essd-14-2209-2022
 Depth of top measurement [m]     | 9.0
 Depth of bottom measurement [m]  | 288
 Ice thickness [m]                | 289

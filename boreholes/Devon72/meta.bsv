@@ -9,7 +9,7 @@ Science DOI|10.1038/266508a0
 Date|1972
 Longitude [°E]|-82.3
 Latitude [°N]|75.3
-Location Source|10.5194/essd-2021-290
+Location Source|10.5194/essd-14-2209-2022
 Depth of top measurement [m]|10.0
 Depth of bottom measurement [m]|213
 Ice thickness [m]|300
