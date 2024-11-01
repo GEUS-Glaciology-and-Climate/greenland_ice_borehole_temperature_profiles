@@ -58,7 +58,7 @@ This is a collection of all Greenland ice borehole temperature profiles we have 
                   Gary and Fisher, David and Zdanowicz, Christian and L\"{u}thi, Martin P. and
                   Vinther, Bo and MacGregor, Joseph A. and McDowell, Ian and Zekollari, Harry and
                   Meierbachtol, Toby and Doyle, Samuel and Law, Robert and Hills, Benjamin and
-                  Harper, Joel and Humphrey, Niel and Hubbard, Bryn and Christoffersen, Poul and
+                  Harper, Joel and Humphrey, Neil and Hubbard, Bryn and Christoffersen, Poul and
                   Jacquemart, Mylène, and Seguinot, Julien},
   title     = {{G}reenland and {C}anadian {A}rctic ice temperature profiles database},
   year 	    = 2022,
